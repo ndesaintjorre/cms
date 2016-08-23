@@ -1,2 +1,2 @@
-# cms
-Example of a Content Management System
+# dms
+Example of a Document Management System
