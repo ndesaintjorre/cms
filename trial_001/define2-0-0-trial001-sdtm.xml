@@ -1354,7 +1354,7 @@
         <ItemRef ItemOID="IT.DM.ARMCD" OrderNumber="14" Mandatory="Yes"/>
         <ItemRef ItemOID="IT.DM.ARM" OrderNumber="15" Mandatory="Yes"/>
         <ItemRef ItemOID="IT.DM.COUNTRY" OrderNumber="16" Mandatory="Yes"/>
-        <def:leaf ID="LF.DM" xlink:href="dm.xpt">
+        <def:leaf ID="LF.DM" xlink:href="DM_from_SAS.xml">
           <def:title>dm.xpt</def:title>
         </def:leaf>
       </ItemGroupDef>
