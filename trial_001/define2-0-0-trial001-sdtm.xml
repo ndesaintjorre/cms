@@ -57,15 +57,15 @@
   <!-- illustration purposes only.                 -->
   <!-- ******************************************  -->
   
-  <Study OID="MyStudy">
+  <Study OID="Study123456">
     <GlobalVariables>
-      <StudyName>MYSTUDY</StudyName>
-      <StudyDescription>This is my Study</StudyDescription>
-      <ProtocolName>MYSTUDY_20140403</ProtocolName>
+      <StudyName>STUDY123456</StudyName>
+      <StudyDescription>This is the Study 123456</StudyDescription>
+      <ProtocolName>STUDY_123456</ProtocolName>
     </GlobalVariables>
-    <MetaDataVersion OID="MDV.MYSTUDY_ID.SDTMIG.3.1.2.SDTM.1.2"
-      Name="Study MYSTUDY, Data Definitions"
-      Description="Study MyStudy, Data Definitions"
+    <MetaDataVersion OID="MDV.STUDY_123456_ID.SDTMIG.3.1.2.SDTM.1.2"
+      Name="Study 123456, Data Definitions"
+      Description="Study 123456, Data Definitions"
       def:DefineVersion="2.0.0"
       def:StandardName="SDTM-IG"
       def:StandardVersion="3.1.2">
