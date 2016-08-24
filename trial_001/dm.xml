@@ -17,7 +17,7 @@
       <ETHNIC> NOT HISPANIC OR LATINO </ETHNIC>
       <ARMCD> WONDER10 </ARMCD>
       <ARM> Miracle Drug 10 mg </ARM>
-      <COUNTRY> USA </COUNTRY>
+      <COUNTRY> FRANCE </COUNTRY>
    </DM>
    <DM>
       <STUDYID> CDISC01 </STUDYID>
@@ -60,7 +60,7 @@
       <DOMAIN> DM </DOMAIN>
       <USUBJID> CDISC01.200002 </USUBJID>
       <SUBJID> 200002 </SUBJID>
-      <RFSTDTC> 2003-10-10 </RFSTDTC>
+      <RFSTDTC> 2003-10-11 </RFSTDTC>
       <RFENDTC> 2004-03-28 </RFENDTC>
       <SITEID> 200 </SITEID>
       <BRTHDTC> 1933-07-22 </BRTHDTC>
@@ -81,8 +81,8 @@
       <RFSTDTC Missing=" " />
       <RFENDTC Missing=" " />
       <SITEID> 200 </SITEID>
-      <BRTHDTC> 1937-02-22 </BRTHDTC>
-      <AGE> 66 </AGE>
+      <BRTHDTC> 1936-02-22 </BRTHDTC>
+      <AGE> 67 </AGE>
       <AGEU> YEARS </AGEU>
       <SEX> F </SEX>
       <RACE> WHITE </RACE>
