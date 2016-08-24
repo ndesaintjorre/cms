@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="windows-1252" ?>
+<?xml-stylesheet type="text/xsl" href="./dm.xsl"?>
 <TABLE>
    <DM>
       <STUDYID> CDISC01 </STUDYID>
