@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<TABLE>
+   <DM>
+      <STUDYID> CDISC01 </STUDYID>
+      <DOMAIN> DM </DOMAIN>
+      <USUBJID> CDISC01.100008 </USUBJID>
+      <SUBJID> 100008 </SUBJID>
+      <RFSTDTC> 2003-04-29 </RFSTDTC>
+      <RFENDTC> 2003-10-12 </RFENDTC>
+      <SITEID> 100 </SITEID>
+      <BRTHDTC> 1930-08-05 </BRTHDTC>
+      <AGE> 72 </AGE>
+      <AGEU> YEARS </AGEU>
+      <SEX> M </SEX>
+      <RACE> OTHER </RACE>
+      <ETHNIC> NOT HISPANIC OR LATINO </ETHNIC>
+      <ARMCD> WONDER10 </ARMCD>
+      <ARM> Miracle Drug 10 mg </ARM>
+      <COUNTRY> USA </COUNTRY>
+   </DM>
+   <DM>
+      <STUDYID> CDISC01 </STUDYID>
+      <DOMAIN> DM </DOMAIN>
+      <USUBJID> CDISC01.100014 </USUBJID>
+      <SUBJID> 100014 </SUBJID>
+      <RFSTDTC> 2003-10-15 </RFSTDTC>
+      <RFENDTC> 2004-03-29 </RFENDTC>
+      <SITEID> 100 </SITEID>
+      <BRTHDTC> 1936-11-01 </BRTHDTC>
+      <AGE> 66 </AGE>
+      <AGEU> YEARS </AGEU>
+      <SEX> F </SEX>
+      <RACE> WHITE </RACE>
+      <ETHNIC> NOT HISPANIC OR LATINO </ETHNIC>
+      <ARMCD> WONDER20 </ARMCD>
+      <ARM> Miracle Drug 20 mg </ARM>
+      <COUNTRY> USA </COUNTRY>
+   </DM>
+   <DM>
+      <STUDYID> CDISC01 </STUDYID>
+      <DOMAIN> DM </DOMAIN>
+      <USUBJID> CDISC01.200001 </USUBJID>
+      <SUBJID> 200001 </SUBJID>
+      <RFSTDTC> 2003-09-30 </RFSTDTC>
+      <RFENDTC> 2004-02-02 </RFENDTC>
+      <SITEID> 200 </SITEID>
+      <BRTHDTC> 1923-09-03 </BRTHDTC>
+      <AGE> 80 </AGE>
+      <AGEU> YEARS </AGEU>
+      <SEX> F </SEX>
+      <RACE> MULTIPLE </RACE>
+      <ETHNIC> NOT HISPANIC OR LATINO </ETHNIC>
+      <ARMCD> PLACEBO </ARMCD>
+      <ARM> Placebo </ARM>
+      <COUNTRY> USA </COUNTRY>
+   </DM>
+   <DM>
+      <STUDYID> CDISC01 </STUDYID>
+      <DOMAIN> DM </DOMAIN>
+      <USUBJID> CDISC01.200002 </USUBJID>
+      <SUBJID> 200002 </SUBJID>
+      <RFSTDTC> 2003-10-10 </RFSTDTC>
+      <RFENDTC> 2004-03-28 </RFENDTC>
+      <SITEID> 200 </SITEID>
+      <BRTHDTC> 1933-07-22 </BRTHDTC>
+      <AGE> 70 </AGE>
+      <AGEU> YEARS </AGEU>
+      <SEX> F </SEX>
+      <RACE> BLACK OR AFRICAN AMERICAN </RACE>
+      <ETHNIC> NOT HISPANIC OR LATINO </ETHNIC>
+      <ARMCD> WONDER10 </ARMCD>
+      <ARM> Miracle Drug 10 mg </ARM>
+      <COUNTRY> USA </COUNTRY>
+   </DM>
+   <DM>
+      <STUDYID> CDISC01 </STUDYID>
+      <DOMAIN> DM </DOMAIN>
+      <USUBJID> CDISC01.200005 </USUBJID>
+      <SUBJID> 200005 </SUBJID>
+      <RFSTDTC Missing=" " />
+      <RFENDTC Missing=" " />
+      <SITEID> 200 </SITEID>
+      <BRTHDTC> 1937-02-22 </BRTHDTC>
+      <AGE> 66 </AGE>
+      <AGEU> YEARS </AGEU>
+      <SEX> F </SEX>
+      <RACE> WHITE </RACE>
+      <ETHNIC> NOT HISPANIC OR LATINO </ETHNIC>
+      <ARMCD> SCRNFAIL </ARMCD>
+      <ARM> Screen Failure </ARM>
+      <COUNTRY> USA </COUNTRY>
+   </DM>
+</TABLE>
