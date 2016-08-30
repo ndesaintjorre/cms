@@ -1,27 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../xsl/controlledterminology1-0-0.xsl"?>
 <ODM xmlns="http://www.cdisc.org/ns/odm/v1.3"
      xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
      xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC"
      xs:schemaLocation="http://www.nci.nih.gov/EVS/CDISC ../schema/controlledterminology1-0-0.xsd"
      FileType="Snapshot"
-     FileOID="CDISC_CT.CDASH.2011-04-08"
+     FileOID="CDISC_CT.CDASH.2011-07-22"
      Granularity="Metadata"
-     CreationDateTime="2011-04-07T14:50:50"
-     AsOfDateTime="2011-04-08T00:00:00"
+     CreationDateTime="2011-07-18T13:46:13"
+     AsOfDateTime="2011-07-22T00:00:00"
      ODMVersion="1.3.1"
      Originator="CDISC XML Technologies Team (SAS 9.02.02M3P04132010)"
      SourceSystem="NCI Thesaurus"
-     SourceSystemVersion="2011-04-08">
-  <Study OID="CDISC_CT.CDASH.2011-04-08">
+     SourceSystemVersion="2011-07-22">
+  <Study OID="CDISC_CT.CDASH.2011-07-22">
     <GlobalVariables>
       <StudyName>CDISC CDASH ControlledTerminology</StudyName>
-      <StudyDescription>CDISC CDASH Controlled Terminology, 2011-04-08</StudyDescription>
+      <StudyDescription>CDISC CDASH Controlled Terminology, 2011-07-22</StudyDescription>
       <ProtocolName>CDISC CDASH Controlled Terminology</ProtocolName>
     </GlobalVariables>
-    <MetaDataVersion OID="CDISC_CT_MetaDataVersion.CDASH.2011-04-08"
+    <MetaDataVersion OID="CDISC_CT_MetaDataVersion.CDASH.2011-07-22"
                      Name="CDISC CDASH Controlled Terminology"
-                     Description="CDISC CDASH Controlled Terminology, 2011-04-08">
+                     Description="CDISC CDASH Controlled Terminology, 2011-07-22">
       <CodeList OID="CL.C78417.CMDOSU" Name="Concomitant Medication Dose Units" DataType="text" nciodm:ExtCodeID="C78417" nciodm:CodeListExtensible="Yes">
         <Description>
           <TranslatedText xml:lang="en">A terminology subset of the CDISC SDTM Unit codelist created for CDASH Concomitant Medication Dose Units codelist. (NCI)</TranslatedText>
@@ -45,13 +44,13 @@
         </EnumeratedItem>
         <EnumeratedItem CodedValue="g" nciodm:ExtCodeID="C48155">
           <nciodm:CDISCSynonym>Gram</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>A metric unit of mass equal to one one thousandth of a kilogram.(NCI)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>A metric unit of mass equal to one one thousandth of a kilogram. (NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Gram</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="IU" nciodm:ExtCodeID="C48579">
           <nciodm:CDISCSynonym>International Unit</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>The unitage assigned by the WHO (World Health Organization) to International Biological Standards - substances, classed as biological according to the criteria provided by WHO Expert Committee on Biological Standardization (e.g. hormones, enzymes, and vaccines), to enable the results of biological and immunological assay procedures to be expressed in the same way throughout the world. The definition of an international unit is generally arbitrary and technical, and has to be officially approved by the International Conference for Unification of Formulae.(NCI)</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>International Unit of Biological Activity</nciodm:PreferredTerm>
+          <nciodm:PreferredTerm>International Unit</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="TABLET" nciodm:ExtCodeID="C48542">
           <nciodm:CDISCSynonym>Tablet Dosing Unit</nciodm:CDISCSynonym>
@@ -332,7 +331,7 @@
         </EnumeratedItem>
         <EnumeratedItem CodedValue="BEATS/MIN" nciodm:ExtCodeID="C49673">
           <nciodm:CDISCSynonym>Beats per Minute</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>The number of heartbeats measured per minute time.(NCI)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>The number of heartbeats measured per minute time. (NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Beats per Minute</nciodm:PreferredTerm>
         </EnumeratedItem>
         <nciodm:CDISCSubmissionValue>EGORRESU</nciodm:CDISCSubmissionValue>
