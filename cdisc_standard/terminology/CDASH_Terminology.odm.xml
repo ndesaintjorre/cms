@@ -4,23 +4,23 @@
      xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC"
      xs:schemaLocation="http://www.nci.nih.gov/EVS/CDISC ../schema/controlledterminology1-0-0.xsd"
      FileType="Snapshot"
-     FileOID="CDISC_CT.CDASH.2012-06-29"
+     FileOID="CDISC_CT.CDASH.2012-12-21"
      Granularity="Metadata"
-     CreationDateTime="2012-06-28T12:50:24"
-     AsOfDateTime="2012-06-29T00:00:00"
+     CreationDateTime="2012-12-18T15:58:24"
+     AsOfDateTime="2012-12-21T00:00:00"
      ODMVersion="1.3.1"
-     Originator="CDISC XML Technologies Team (SAS 9.03.01M2P05162012)"
+     Originator="CDISC XML Technologies Team (SAS 9.03.01M2P08152012)"
      SourceSystem="NCI Thesaurus"
-     SourceSystemVersion="2012-06-29">
-  <Study OID="CDISC_CT.CDASH.2012-06-29">
+     SourceSystemVersion="2012-12-21">
+  <Study OID="CDISC_CT.CDASH.2012-12-21">
     <GlobalVariables>
       <StudyName>CDISC CDASH Controlled Terminology</StudyName>
-      <StudyDescription>CDISC CDASH Controlled Terminology, 2012-06-29</StudyDescription>
+      <StudyDescription>CDISC CDASH Controlled Terminology, 2012-12-21</StudyDescription>
       <ProtocolName>CDISC CDASH Controlled Terminology</ProtocolName>
     </GlobalVariables>
-    <MetaDataVersion OID="CDISC_CT_MetaDataVersion.CDASH.2012-06-29"
+    <MetaDataVersion OID="CDISC_CT_MetaDataVersion.CDASH.2012-12-21"
                      Name="CDISC CDASH Controlled Terminology"
-                     Description="CDISC CDASH Controlled Terminology, 2012-06-29">
+                     Description="CDISC CDASH Controlled Terminology, 2012-12-21">
       <CodeList OID="CL.C78417.CMDOSU" Name="Concomitant Medication Dose Units" DataType="text" nciodm:ExtCodeID="C78417" nciodm:CodeListExtensible="Yes">
         <Description>
           <TranslatedText xml:lang="en">A terminology subset of the CDISC SDTM Unit codelist created for CDASH Concomitant Medication Dose Units codelist. (NCI)</TranslatedText>
@@ -191,6 +191,7 @@
         </Description>
         <EnumeratedItem CodedValue="ORAL" nciodm:ExtCodeID="C38288">
           <nciodm:CDISCSynonym>PO</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Intraoral Route of Administration</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>Administration to or by way of the mouth.(FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Oral Route of Drug administration</nciodm:PreferredTerm>
         </EnumeratedItem>
@@ -229,6 +230,7 @@
           <nciodm:PreferredTerm>Intraperitoneal Route of Drug Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="NASAL" nciodm:ExtCodeID="C38284">
+          <nciodm:CDISCSynonym>Intranasal Route of Administration</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>Administration to the nose; administered by way of the nose.(FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Nasal Route of Drug Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
@@ -441,6 +443,7 @@
         </Description>
         <EnumeratedItem CodedValue="ORAL" nciodm:ExtCodeID="C38288">
           <nciodm:CDISCSynonym>PO</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Intraoral Route of Administration</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>Administration to or by way of the mouth.(FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Oral Route of Drug administration</nciodm:PreferredTerm>
         </EnumeratedItem>
@@ -479,6 +482,7 @@
           <nciodm:PreferredTerm>Intraperitoneal Route of Drug Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="NASAL" nciodm:ExtCodeID="C38284">
+          <nciodm:CDISCSynonym>Intranasal Route of Administration</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>Administration to the nose; administered by way of the nose.(FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Nasal Route of Drug Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
