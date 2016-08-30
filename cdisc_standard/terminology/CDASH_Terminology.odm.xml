@@ -4,23 +4,23 @@
      xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC"
      xs:schemaLocation="http://www.nci.nih.gov/EVS/CDISC ../schema/controlledterminology1-0-0.xsd"
      FileType="Snapshot"
-     FileOID="CDISC_CT.CDASH.2013-06-28"
+     FileOID="CDISC_CT.CDASH.2013-10-04"
      Granularity="Metadata"
-     CreationDateTime="2013-06-24T12:06:54"
-     AsOfDateTime="2013-06-28T00:00:00"
+     CreationDateTime="2013-09-26T14:59:10"
+     AsOfDateTime="2013-10-04T00:00:00"
      ODMVersion="1.3.1"
-     Originator="CDISC XML Technologies Team (SAS 9.03.01M2P08152012)"
+     Originator="CDISC XML Technologies Team (SAS 9.04.01M0P06192013)"
      SourceSystem="NCI Thesaurus"
-     SourceSystemVersion="2013-06-28">
-  <Study OID="CDISC_CT.CDASH.2013-06-28">
+     SourceSystemVersion="2013-10-04">
+  <Study OID="CDISC_CT.CDASH.2013-10-04">
     <GlobalVariables>
       <StudyName>CDISC CDASH Controlled Terminology</StudyName>
-      <StudyDescription>CDISC CDASH Controlled Terminology, 2013-06-28</StudyDescription>
+      <StudyDescription>CDISC CDASH Controlled Terminology, 2013-10-04</StudyDescription>
       <ProtocolName>CDISC CDASH Controlled Terminology</ProtocolName>
     </GlobalVariables>
-    <MetaDataVersion OID="CDISC_CT_MetaDataVersion.CDASH.2013-06-28"
+    <MetaDataVersion OID="CDISC_CT_MetaDataVersion.CDASH.2013-10-04"
                      Name="CDISC CDASH Controlled Terminology"
-                     Description="CDISC CDASH Controlled Terminology, 2013-06-28">
+                     Description="CDISC CDASH Controlled Terminology, 2013-10-04">
       <CodeList OID="CL.C78417.CMDOSU" Name="Concomitant Medication Dose Units" DataType="text" nciodm:ExtCodeID="C78417" nciodm:CodeListExtensible="Yes">
         <Description>
           <TranslatedText xml:lang="en">A terminology subset of the CDISC SDTM Unit codelist created for CDASH Concomitant Medication Dose Units codelist. (NCI)</TranslatedText>
@@ -33,7 +33,7 @@
         <EnumeratedItem CodedValue="ug" nciodm:ExtCodeID="C48152">
           <nciodm:CDISCSynonym>Microgram</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>mcg</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>A unit of mass equal to one millionth of a gram or one thousandth of a milligram.(NCI)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>The unit of mass equal to one millionth of a gram or one thousandth of a milligram.(NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Microgram</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="mL" nciodm:ExtCodeID="C28254">
@@ -94,7 +94,7 @@
         </EnumeratedItem>
         <EnumeratedItem CodedValue="SUPPOSITORY" nciodm:ExtCodeID="C42993">
           <nciodm:CDISCSynonym>supp</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>A solid body of various weights and shapes, adapted for introduction into the rectal orifice of the human body; they usually melt, soften, or dissolve at body temperature.</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>A solid body of various weights and shapes, adapted for introduction into the rectal, vaginal, or urethral orifice of the human body; they usually melt, soften, or dissolve at body temperature.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Suppository Dosage Form</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="AEROSOL" nciodm:ExtCodeID="C42887">
@@ -140,8 +140,8 @@
           <TranslatedText xml:lang="en">A terminology subset of the CDISC SDTM Frequency codelist created for CDASH Concomitant Medication Dosing Frequency per Interval codelist. (NCI)</TranslatedText>
         </Description>
         <EnumeratedItem CodedValue="BID" nciodm:ExtCodeID="C64496">
-          <nciodm:CDISCSynonym>Twice per day</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>BD</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Twice per Day</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>Two times per day, at unspecified times. (NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Twice Daily</nciodm:PreferredTerm>
         </EnumeratedItem>
@@ -192,55 +192,56 @@
         <EnumeratedItem CodedValue="ORAL" nciodm:ExtCodeID="C38288">
           <nciodm:CDISCSynonym>PO</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>Intraoral Route of Administration</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>Administration to or by way of the mouth.(FDA)</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>Oral Route of Drug administration</nciodm:PreferredTerm>
+          <nciodm:CDISCDefinition>Administration to or by way of the mouth. (FDA)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Oral Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="TOPICAL" nciodm:ExtCodeID="C38304">
           <nciodm:CDISCSynonym>TOP</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>Administration to a particular spot on the outer surface of the body. The E2B term TRANSMAMMARY is a subset of the term TOPICAL.(FDA)</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>Topical Route of Drug Administration</nciodm:PreferredTerm>
+          <nciodm:PreferredTerm>Topical Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="SUBCUTANEOUS" nciodm:ExtCodeID="C38299">
           <nciodm:CDISCSynonym>SC</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>Administration beneath the skin; hypodermic. Synonymous with the term SUBDERMAL.(FDA)</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>Subcutaneous Route of Drug Administration</nciodm:PreferredTerm>
+          <nciodm:CDISCSynonym>Subdermal Route of Administration</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Administration beneath the skin; hypodermic. Synonymous with the term SUBDERMAL. (FDA)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Subcutaneous Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="TRANSDERMAL" nciodm:ExtCodeID="C38305">
-          <nciodm:CDISCDefinition>Administration through the dermal layer of the skin to the systemic circulation by diffusion.(FDA)</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>Transdermal Route of Drug Administration</nciodm:PreferredTerm>
+          <nciodm:CDISCDefinition>Administration through the dermal layer of the skin to the systemic circulation by diffusion. (FDA)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Transdermal Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRAOCULAR" nciodm:ExtCodeID="C38255">
-          <nciodm:CDISCDefinition>Administration within the eye.(FDA)</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>Intraocular Route of Drug Administration</nciodm:PreferredTerm>
+          <nciodm:CDISCDefinition>Administration within the eye. (FDA)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Intraocular Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRAMUSCULAR" nciodm:ExtCodeID="C28161">
           <nciodm:CDISCDefinition>Administration within a muscle.(FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Intramuscular Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="RESPIRATORY (INHALATION)" nciodm:ExtCodeID="C38216">
-          <nciodm:CDISCDefinition>Administration within the respiratory tract by inhaling orally or nasally for local or systemic effect.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration within the respiratory tract by inhaling orally or nasally for local or systemic effect. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Inhalation Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRALESIONAL" nciodm:ExtCodeID="C38250">
           <nciodm:CDISCDefinition>Administration within or introduced directly into a localized lesion.(FDA)</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>Intralesional Route of Drug Administration</nciodm:PreferredTerm>
+          <nciodm:PreferredTerm>Intralesional Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRAPERITONEAL" nciodm:ExtCodeID="C38258">
-          <nciodm:CDISCDefinition>Administration within the peritoneal cavity.(FDA)</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>Intraperitoneal Route of Drug Administration</nciodm:PreferredTerm>
+          <nciodm:CDISCDefinition>Administration within the peritoneal cavity. (FDA)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Intraperitoneal Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="NASAL" nciodm:ExtCodeID="C38284">
           <nciodm:CDISCSynonym>Intranasal Route of Administration</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>Administration to the nose; administered by way of the nose.(FDA)</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>Nasal Route of Drug Administration</nciodm:PreferredTerm>
+          <nciodm:CDISCDefinition>Administration to the nose; administered by way of the nose. (FDA)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Nasal Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="VAGINAL" nciodm:ExtCodeID="C38313">
-          <nciodm:CDISCDefinition>Administration into the vagina.(FDA)</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>Vaginal Route of Drug Administration</nciodm:PreferredTerm>
+          <nciodm:CDISCDefinition>Administration into the vagina. (FDA)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Vaginal Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="RECTAL" nciodm:ExtCodeID="C38295">
           <nciodm:CDISCDefinition>Administration to the rectum.(FDA)</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>Rectal Route of Drug Administration</nciodm:PreferredTerm>
+          <nciodm:PreferredTerm>Rectal Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <nciodm:CDISCSubmissionValue>CMROUTE</nciodm:CDISCSubmissionValue>
         <nciodm:CDISCSynonym>Concomitant Medication Route of Administration</nciodm:CDISCSynonym>
@@ -370,7 +371,7 @@
         <EnumeratedItem CodedValue="ug" nciodm:ExtCodeID="C48152">
           <nciodm:CDISCSynonym>Microgram</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>mcg</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>A unit of mass equal to one millionth of a gram or one thousandth of a milligram.(NCI)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>The unit of mass equal to one millionth of a gram or one thousandth of a milligram.(NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Microgram</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="mg" nciodm:ExtCodeID="C28253">
@@ -444,55 +445,56 @@
         <EnumeratedItem CodedValue="ORAL" nciodm:ExtCodeID="C38288">
           <nciodm:CDISCSynonym>PO</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>Intraoral Route of Administration</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>Administration to or by way of the mouth.(FDA)</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>Oral Route of Drug administration</nciodm:PreferredTerm>
+          <nciodm:CDISCDefinition>Administration to or by way of the mouth. (FDA)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Oral Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="TOPICAL" nciodm:ExtCodeID="C38304">
           <nciodm:CDISCSynonym>TOP</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>Administration to a particular spot on the outer surface of the body. The E2B term TRANSMAMMARY is a subset of the term TOPICAL.(FDA)</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>Topical Route of Drug Administration</nciodm:PreferredTerm>
+          <nciodm:PreferredTerm>Topical Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="SUBCUTANEOUS" nciodm:ExtCodeID="C38299">
           <nciodm:CDISCSynonym>SC</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>Administration beneath the skin; hypodermic. Synonymous with the term SUBDERMAL.(FDA)</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>Subcutaneous Route of Drug Administration</nciodm:PreferredTerm>
+          <nciodm:CDISCSynonym>Subdermal Route of Administration</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Administration beneath the skin; hypodermic. Synonymous with the term SUBDERMAL. (FDA)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Subcutaneous Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="TRANSDERMAL" nciodm:ExtCodeID="C38305">
-          <nciodm:CDISCDefinition>Administration through the dermal layer of the skin to the systemic circulation by diffusion.(FDA)</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>Transdermal Route of Drug Administration</nciodm:PreferredTerm>
+          <nciodm:CDISCDefinition>Administration through the dermal layer of the skin to the systemic circulation by diffusion. (FDA)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Transdermal Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRAOCULAR" nciodm:ExtCodeID="C38255">
-          <nciodm:CDISCDefinition>Administration within the eye.(FDA)</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>Intraocular Route of Drug Administration</nciodm:PreferredTerm>
+          <nciodm:CDISCDefinition>Administration within the eye. (FDA)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Intraocular Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRAMUSCULAR" nciodm:ExtCodeID="C28161">
           <nciodm:CDISCDefinition>Administration within a muscle.(FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Intramuscular Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="RESPIRATORY (INHALATION)" nciodm:ExtCodeID="C38216">
-          <nciodm:CDISCDefinition>Administration within the respiratory tract by inhaling orally or nasally for local or systemic effect.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration within the respiratory tract by inhaling orally or nasally for local or systemic effect. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Inhalation Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRALESIONAL" nciodm:ExtCodeID="C38250">
           <nciodm:CDISCDefinition>Administration within or introduced directly into a localized lesion.(FDA)</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>Intralesional Route of Drug Administration</nciodm:PreferredTerm>
+          <nciodm:PreferredTerm>Intralesional Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRAPERITONEAL" nciodm:ExtCodeID="C38258">
-          <nciodm:CDISCDefinition>Administration within the peritoneal cavity.(FDA)</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>Intraperitoneal Route of Drug Administration</nciodm:PreferredTerm>
+          <nciodm:CDISCDefinition>Administration within the peritoneal cavity. (FDA)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Intraperitoneal Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="NASAL" nciodm:ExtCodeID="C38284">
           <nciodm:CDISCSynonym>Intranasal Route of Administration</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>Administration to the nose; administered by way of the nose.(FDA)</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>Nasal Route of Drug Administration</nciodm:PreferredTerm>
+          <nciodm:CDISCDefinition>Administration to the nose; administered by way of the nose. (FDA)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Nasal Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="VAGINAL" nciodm:ExtCodeID="C38313">
-          <nciodm:CDISCDefinition>Administration into the vagina.(FDA)</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>Vaginal Route of Drug Administration</nciodm:PreferredTerm>
+          <nciodm:CDISCDefinition>Administration into the vagina. (FDA)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Vaginal Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="RECTAL" nciodm:ExtCodeID="C38295">
           <nciodm:CDISCDefinition>Administration to the rectum.(FDA)</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>Rectal Route of Drug Administration</nciodm:PreferredTerm>
+          <nciodm:PreferredTerm>Rectal Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <nciodm:CDISCSubmissionValue>EXROUTE</nciodm:CDISCSubmissionValue>
         <nciodm:CDISCSynonym>Exposure Route of Administration</nciodm:CDISCSynonym>
@@ -519,7 +521,7 @@
         </EnumeratedItem>
         <EnumeratedItem CodedValue="SUPPOSITORY" nciodm:ExtCodeID="C42993">
           <nciodm:CDISCSynonym>supp</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>A solid body of various weights and shapes, adapted for introduction into the rectal orifice of the human body; they usually melt, soften, or dissolve at body temperature.</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>A solid body of various weights and shapes, adapted for introduction into the rectal, vaginal, or urethral orifice of the human body; they usually melt, soften, or dissolve at body temperature.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Suppository Dosage Form</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="AEROSOL" nciodm:ExtCodeID="C42887">
@@ -597,7 +599,7 @@
         <EnumeratedItem CodedValue="ug" nciodm:ExtCodeID="C48152">
           <nciodm:CDISCSynonym>Microgram</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>mcg</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>A unit of mass equal to one millionth of a gram or one thousandth of a milligram.(NCI)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>The unit of mass equal to one millionth of a gram or one thousandth of a milligram.(NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Microgram</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="mg" nciodm:ExtCodeID="C28253">
@@ -675,7 +677,7 @@
         <EnumeratedItem CodedValue="ug" nciodm:ExtCodeID="C48152">
           <nciodm:CDISCSynonym>Microgram</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>mcg</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>A unit of mass equal to one millionth of a gram or one thousandth of a milligram.(NCI)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>The unit of mass equal to one millionth of a gram or one thousandth of a milligram.(NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Microgram</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="mg" nciodm:ExtCodeID="C28253">
