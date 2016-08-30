@@ -4,23 +4,23 @@
      xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC"
      xs:schemaLocation="http://www.nci.nih.gov/EVS/CDISC ../schema/controlledterminology1-0-0.xsd"
      FileType="Snapshot"
-     FileOID="CDISC_CT.CDASH.2011-07-22"
+     FileOID="CDISC_CT.CDASH.2011-12-09"
      Granularity="Metadata"
-     CreationDateTime="2011-07-18T13:46:13"
-     AsOfDateTime="2011-07-22T00:00:00"
+     CreationDateTime="2011-12-06T07:27:12"
+     AsOfDateTime="2011-12-09T00:00:00"
      ODMVersion="1.3.1"
-     Originator="CDISC XML Technologies Team (SAS 9.02.02M3P04132010)"
+     Originator="CDISC XML Technologies Team (SAS 9.03.01B0P02232011)"
      SourceSystem="NCI Thesaurus"
-     SourceSystemVersion="2011-07-22">
-  <Study OID="CDISC_CT.CDASH.2011-07-22">
+     SourceSystemVersion="2011-12-09">
+  <Study OID="CDISC_CT.CDASH.2011-12-09">
     <GlobalVariables>
       <StudyName>CDISC CDASH ControlledTerminology</StudyName>
-      <StudyDescription>CDISC CDASH Controlled Terminology, 2011-07-22</StudyDescription>
+      <StudyDescription>CDISC CDASH Controlled Terminology, 2011-12-09</StudyDescription>
       <ProtocolName>CDISC CDASH Controlled Terminology</ProtocolName>
     </GlobalVariables>
-    <MetaDataVersion OID="CDISC_CT_MetaDataVersion.CDASH.2011-07-22"
+    <MetaDataVersion OID="CDISC_CT_MetaDataVersion.CDASH.2011-12-09"
                      Name="CDISC CDASH Controlled Terminology"
-                     Description="CDISC CDASH Controlled Terminology, 2011-07-22">
+                     Description="CDISC CDASH Controlled Terminology, 2011-12-09">
       <CodeList OID="CL.C78417.CMDOSU" Name="Concomitant Medication Dose Units" DataType="text" nciodm:ExtCodeID="C78417" nciodm:CodeListExtensible="Yes">
         <Description>
           <TranslatedText xml:lang="en">A terminology subset of the CDISC SDTM Unit codelist created for CDASH Concomitant Medication Dose Units codelist. (NCI)</TranslatedText>
@@ -70,7 +70,7 @@
           <nciodm:PreferredTerm>Puff Dosing Unit</nciodm:PreferredTerm>
         </EnumeratedItem>
         <nciodm:CDISCSubmissionValue>CMDOSU</nciodm:CDISCSubmissionValue>
-        <nciodm:CDISCSynonym>Dose Units</nciodm:CDISCSynonym>
+        <nciodm:CDISCSynonym>Concomitant Medication Dose Units</nciodm:CDISCSynonym>
         <nciodm:PreferredTerm>CDISC CDASH Concomitant Medication Dose Units Terminology</nciodm:PreferredTerm>
       </CodeList>
       <CodeList OID="CL.C78418.CMDOSFRM" Name="Concomitant Medication Dose Form" DataType="text" nciodm:ExtCodeID="C78418" nciodm:CodeListExtensible="Yes">
@@ -132,7 +132,7 @@
           <nciodm:PreferredTerm>Powder Dosage Form</nciodm:PreferredTerm>
         </EnumeratedItem>
         <nciodm:CDISCSubmissionValue>CMDOSFRM</nciodm:CDISCSubmissionValue>
-        <nciodm:CDISCSynonym>Dose Form</nciodm:CDISCSynonym>
+        <nciodm:CDISCSynonym>Concomitant Medication Dose Form</nciodm:CDISCSynonym>
         <nciodm:PreferredTerm>CDISC CDASH Concomitant Medication Dose Form Terminology</nciodm:PreferredTerm>
       </CodeList>
       <CodeList OID="CL.C78419.CMDOSFRQ" Name="Concomitant Medication Dosing Frequency per Interval" DataType="text" nciodm:ExtCodeID="C78419" nciodm:CodeListExtensible="Yes">
@@ -182,7 +182,7 @@
           <nciodm:PreferredTerm>Daily</nciodm:PreferredTerm>
         </EnumeratedItem>
         <nciodm:CDISCSubmissionValue>CMDOSFRQ</nciodm:CDISCSubmissionValue>
-        <nciodm:CDISCSynonym>Dosing Frequency per Interval</nciodm:CDISCSynonym>
+        <nciodm:CDISCSynonym>Concomitant Medication Dosing Frequency per Interval</nciodm:CDISCSynonym>
         <nciodm:PreferredTerm>CDISC CDASH Concomitant Medication Dosing Frequency per Interval Terminology</nciodm:PreferredTerm>
       </CodeList>
       <CodeList OID="CL.C78420.CMROUTE" Name="Concomitant Medication Route of Administration" DataType="text" nciodm:ExtCodeID="C78420" nciodm:CodeListExtensible="Yes">
@@ -241,7 +241,7 @@
           <nciodm:PreferredTerm>Rectal Route of Drug Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <nciodm:CDISCSubmissionValue>CMROUTE</nciodm:CDISCSubmissionValue>
-        <nciodm:CDISCSynonym>Route of Administration</nciodm:CDISCSynonym>
+        <nciodm:CDISCSynonym>Concomitant Medication Route of Administration</nciodm:CDISCSynonym>
         <nciodm:PreferredTerm>CDISC CDASH Concomitant Medication Route of Administration Terminology</nciodm:PreferredTerm>
       </CodeList>
       <CodeList OID="CL.C78421.DAORRESU" Name="Unit of Drug Dispensed or Returned" DataType="text" nciodm:ExtCodeID="C78421" nciodm:CodeListExtensible="Yes">
