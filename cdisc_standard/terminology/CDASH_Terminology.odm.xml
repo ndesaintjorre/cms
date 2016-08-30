@@ -4,23 +4,23 @@
      xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC"
      xs:schemaLocation="http://www.nci.nih.gov/EVS/CDISC ../schema/controlledterminology1-0-0.xsd"
      FileType="Snapshot"
-     FileOID="CDISC_CT.CDASH.2012-12-21"
+     FileOID="CDISC_CT.CDASH.2013-06-28"
      Granularity="Metadata"
-     CreationDateTime="2012-12-18T15:58:24"
-     AsOfDateTime="2012-12-21T00:00:00"
+     CreationDateTime="2013-06-24T12:06:54"
+     AsOfDateTime="2013-06-28T00:00:00"
      ODMVersion="1.3.1"
      Originator="CDISC XML Technologies Team (SAS 9.03.01M2P08152012)"
      SourceSystem="NCI Thesaurus"
-     SourceSystemVersion="2012-12-21">
-  <Study OID="CDISC_CT.CDASH.2012-12-21">
+     SourceSystemVersion="2013-06-28">
+  <Study OID="CDISC_CT.CDASH.2013-06-28">
     <GlobalVariables>
       <StudyName>CDISC CDASH Controlled Terminology</StudyName>
-      <StudyDescription>CDISC CDASH Controlled Terminology, 2012-12-21</StudyDescription>
+      <StudyDescription>CDISC CDASH Controlled Terminology, 2013-06-28</StudyDescription>
       <ProtocolName>CDISC CDASH Controlled Terminology</ProtocolName>
     </GlobalVariables>
-    <MetaDataVersion OID="CDISC_CT_MetaDataVersion.CDASH.2012-12-21"
+    <MetaDataVersion OID="CDISC_CT_MetaDataVersion.CDASH.2013-06-28"
                      Name="CDISC CDASH Controlled Terminology"
-                     Description="CDISC CDASH Controlled Terminology, 2012-12-21">
+                     Description="CDISC CDASH Controlled Terminology, 2013-06-28">
       <CodeList OID="CL.C78417.CMDOSU" Name="Concomitant Medication Dose Units" DataType="text" nciodm:ExtCodeID="C78417" nciodm:CodeListExtensible="Yes">
         <Description>
           <TranslatedText xml:lang="en">A terminology subset of the CDISC SDTM Unit codelist created for CDASH Concomitant Medication Dose Units codelist. (NCI)</TranslatedText>
@@ -89,17 +89,17 @@
         </EnumeratedItem>
         <EnumeratedItem CodedValue="OINTMENT" nciodm:ExtCodeID="C42966">
           <nciodm:CDISCSynonym>oint</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>A suspension or emulsion, semisolid (1) dosage form, usually containing &lt; 20% water and volatiles (2) and &gt; 50% hydrocarbons, waxes, or polyols as the vehicle. This dosage form is generally for external application to the skin or mucous membranes. Note 1: A semisolid is not pourable; it does not flow or conform to its container at room temperature. It does not flow at low shear stress and generally exhibits plastic flow behavior. Note 2: Percent water and volatiles are measured by a loss on drying test in which the sample is heated at 105 degrees C until constant weight is achieved. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>A suspension or emulsion, semisolid (1) dosage form, usually containing &lt; 20% water and volatiles (2) and &gt; 50% hydrocarbons, waxes, or polyols as the vehicle. This dosage form is generally for external application to the skin or mucous membranes. Note 1: A semisolid is not pourable; it does not flow or conform to its container at room temperature. It does not flow at low shear stress and generally exhibits plastic flow behavior. Note 2: Percent water and volatiles are measured by a loss on drying test in which the sample is heated at 105 degrees C until constant weight is achieved.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Ointment Dosage Form</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="SUPPOSITORY" nciodm:ExtCodeID="C42993">
           <nciodm:CDISCSynonym>supp</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>A solid body of various weights and shapes, adapted for introduction into the rectal orifice of the human body; they usually melt, soften, or dissolve at body temperature. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>A solid body of various weights and shapes, adapted for introduction into the rectal orifice of the human body; they usually melt, soften, or dissolve at body temperature.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Suppository Dosage Form</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="AEROSOL" nciodm:ExtCodeID="C42887">
           <nciodm:CDISCSynonym>aer</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>A product that is packaged under pressure and contains therapeutically active ingredients that are released upon activation of an appropriate valve system; it is intended for topical application to the skin as well as local application into the nose (nasal aerosols), mouth (lingual aerosols), or lungs (inhalation aerosols). (NCI)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>A product that is packaged under pressure and contains therapeutically active ingredients that are released upon activation of an appropriate valve system; it is intended for topical application to the skin as well as local application into the nose (nasal aerosols), mouth (lingual aerosols), or lungs (inhalation aerosols).</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Aerosol Dosage Form</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="SPRAY" nciodm:ExtCodeID="C42989">
@@ -112,7 +112,7 @@
           <nciodm:PreferredTerm>Suspension Dosage Form</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="PATCH" nciodm:ExtCodeID="C42968">
-          <nciodm:CDISCDefinition>A drug delivery system that often contains an adhesive backing that is usually applied to an external site on the body. Its ingredients either passively diffuse from, or are actively transported from, some portion of the patch. Depending upon the patch, the ingredients are either delivered to the outer surface of the body or into the body. A patch is sometimes synonymous with the terms Extended Release Film and System. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>A drug delivery system that often contains an adhesive backing that is usually applied to an external site on the body. Its ingredients either passively diffuse from, or are actively transported from, some portion of the patch. Depending upon the patch, the ingredients are either delivered to the outer surface of the body or into the body. A patch is sometimes synonymous with the terms Extended Release Film and System.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Patch Dosage Form</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="GAS" nciodm:ExtCodeID="C42933">
@@ -120,7 +120,7 @@
           <nciodm:PreferredTerm>Gas Dosage Form</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="GEL" nciodm:ExtCodeID="C42934">
-          <nciodm:CDISCDefinition>A semisolid (1) dosage form that contains a gelling agent to provide stiffness to a solution or a colloidal dispersion (2). A gel may contain suspended particles. Note 1: A semisolid is not pourable; it does not flow or conform to its container at room temperature. It does not flow at low shear stress and generally exhibits plastic flow behavior. Note 2: A colloidal dispersion is a system in which particles of colloidal dimension (i.e., typically between 1 nm and 1 micrometer) are distributed uniformly throughout a liquid. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>A semisolid (1) dosage form that contains a gelling agent to provide stiffness to a solution or a colloidal dispersion (2). A gel may contain suspended particles. Note 1: A semisolid is not pourable; it does not flow or conform to its container at room temperature. It does not flow at low shear stress and generally exhibits plastic flow behavior. Note 2: A colloidal dispersion is a system in which particles of colloidal dimension (i.e., typically between 1 nm and 1 micrometer) are distributed uniformly throughout a liquid.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Gel Dosage Form</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="CREAM" nciodm:ExtCodeID="C28944">
@@ -514,17 +514,17 @@
         </EnumeratedItem>
         <EnumeratedItem CodedValue="OINTMENT" nciodm:ExtCodeID="C42966">
           <nciodm:CDISCSynonym>oint</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>A suspension or emulsion, semisolid (1) dosage form, usually containing &lt; 20% water and volatiles (2) and &gt; 50% hydrocarbons, waxes, or polyols as the vehicle. This dosage form is generally for external application to the skin or mucous membranes. Note 1: A semisolid is not pourable; it does not flow or conform to its container at room temperature. It does not flow at low shear stress and generally exhibits plastic flow behavior. Note 2: Percent water and volatiles are measured by a loss on drying test in which the sample is heated at 105 degrees C until constant weight is achieved. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>A suspension or emulsion, semisolid (1) dosage form, usually containing &lt; 20% water and volatiles (2) and &gt; 50% hydrocarbons, waxes, or polyols as the vehicle. This dosage form is generally for external application to the skin or mucous membranes. Note 1: A semisolid is not pourable; it does not flow or conform to its container at room temperature. It does not flow at low shear stress and generally exhibits plastic flow behavior. Note 2: Percent water and volatiles are measured by a loss on drying test in which the sample is heated at 105 degrees C until constant weight is achieved.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Ointment Dosage Form</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="SUPPOSITORY" nciodm:ExtCodeID="C42993">
           <nciodm:CDISCSynonym>supp</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>A solid body of various weights and shapes, adapted for introduction into the rectal orifice of the human body; they usually melt, soften, or dissolve at body temperature. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>A solid body of various weights and shapes, adapted for introduction into the rectal orifice of the human body; they usually melt, soften, or dissolve at body temperature.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Suppository Dosage Form</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="AEROSOL" nciodm:ExtCodeID="C42887">
           <nciodm:CDISCSynonym>aer</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>A product that is packaged under pressure and contains therapeutically active ingredients that are released upon activation of an appropriate valve system; it is intended for topical application to the skin as well as local application into the nose (nasal aerosols), mouth (lingual aerosols), or lungs (inhalation aerosols). (NCI)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>A product that is packaged under pressure and contains therapeutically active ingredients that are released upon activation of an appropriate valve system; it is intended for topical application to the skin as well as local application into the nose (nasal aerosols), mouth (lingual aerosols), or lungs (inhalation aerosols).</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Aerosol Dosage Form</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="SPRAY" nciodm:ExtCodeID="C42989">
@@ -537,7 +537,7 @@
           <nciodm:PreferredTerm>Suspension Dosage Form</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="PATCH" nciodm:ExtCodeID="C42968">
-          <nciodm:CDISCDefinition>A drug delivery system that often contains an adhesive backing that is usually applied to an external site on the body. Its ingredients either passively diffuse from, or are actively transported from, some portion of the patch. Depending upon the patch, the ingredients are either delivered to the outer surface of the body or into the body. A patch is sometimes synonymous with the terms Extended Release Film and System. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>A drug delivery system that often contains an adhesive backing that is usually applied to an external site on the body. Its ingredients either passively diffuse from, or are actively transported from, some portion of the patch. Depending upon the patch, the ingredients are either delivered to the outer surface of the body or into the body. A patch is sometimes synonymous with the terms Extended Release Film and System.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Patch Dosage Form</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="GAS" nciodm:ExtCodeID="C42933">
@@ -545,7 +545,7 @@
           <nciodm:PreferredTerm>Gas Dosage Form</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="GEL" nciodm:ExtCodeID="C42934">
-          <nciodm:CDISCDefinition>A semisolid (1) dosage form that contains a gelling agent to provide stiffness to a solution or a colloidal dispersion (2). A gel may contain suspended particles. Note 1: A semisolid is not pourable; it does not flow or conform to its container at room temperature. It does not flow at low shear stress and generally exhibits plastic flow behavior. Note 2: A colloidal dispersion is a system in which particles of colloidal dimension (i.e., typically between 1 nm and 1 micrometer) are distributed uniformly throughout a liquid. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>A semisolid (1) dosage form that contains a gelling agent to provide stiffness to a solution or a colloidal dispersion (2). A gel may contain suspended particles. Note 1: A semisolid is not pourable; it does not flow or conform to its container at room temperature. It does not flow at low shear stress and generally exhibits plastic flow behavior. Note 2: A colloidal dispersion is a system in which particles of colloidal dimension (i.e., typically between 1 nm and 1 micrometer) are distributed uniformly throughout a liquid.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Gel Dosage Form</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="CREAM" nciodm:ExtCodeID="C28944">
