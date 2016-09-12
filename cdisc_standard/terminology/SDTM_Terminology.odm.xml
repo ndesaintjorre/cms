@@ -4,23 +4,23 @@
      xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC"
      xs:schemaLocation="http://www.nci.nih.gov/EVS/CDISC ../schema/controlledterminology1-0-0.xsd"
      FileType="Snapshot"
-     FileOID="CDISC_CT.SDTM.2011-12-09"
+     FileOID="CDISC_CT.SDTM.2012-03-23"
      Granularity="Metadata"
-     CreationDateTime="2011-12-06T07:27:10"
-     AsOfDateTime="2011-12-09T00:00:00"
+     CreationDateTime="2012-03-22T09:50:14"
+     AsOfDateTime="2012-03-23T00:00:00"
      ODMVersion="1.3.1"
-     Originator="CDISC XML Technologies Team (SAS 9.03.01B0P02232011)"
+     Originator="CDISC XML Technologies Team (SAS 9.03.01M1P11022011)"
      SourceSystem="NCI Thesaurus"
-     SourceSystemVersion="2011-12-09">
-  <Study OID="CDISC_CT.SDTM.2011-12-09">
+     SourceSystemVersion="2012-03-23">
+  <Study OID="CDISC_CT.SDTM.2012-03-23">
     <GlobalVariables>
       <StudyName>CDISC SDTM ControlledTerminology</StudyName>
-      <StudyDescription>CDISC SDTM Controlled Terminology, 2011-12-09</StudyDescription>
+      <StudyDescription>CDISC SDTM Controlled Terminology, 2012-03-23</StudyDescription>
       <ProtocolName>CDISC SDTM Controlled Terminology</ProtocolName>
     </GlobalVariables>
-    <MetaDataVersion OID="CDISC_CT_MetaDataVersion.SDTM.2011-12-09"
+    <MetaDataVersion OID="CDISC_CT_MetaDataVersion.SDTM.2012-03-23"
                      Name="CDISC SDTM Controlled Terminology"
-                     Description="CDISC SDTM Controlled Terminology, 2011-12-09">
+                     Description="CDISC SDTM Controlled Terminology, 2012-03-23">
       <CodeList OID="CL.C66767.ACN" Name="Action Taken with Study Treatment" DataType="text" nciodm:ExtCodeID="C66767" nciodm:CodeListExtensible="No">
         <Description>
           <TranslatedText xml:lang="en">Action Taken with Study Treatment</TranslatedText>
@@ -2116,7 +2116,7 @@
           <nciodm:CDISCDefinition>An emulsion, liquid (1) dosage form. This dosage form is generally for external application to the skin (2). Note 1: A liquid is pourable; it flows and conforms to its container at room temperature. It displays Newtonian or pseudoplastic flow behavior. Note 2: Previously the definition of a lotion was: The term lotion has been used to categorize many topical suspensions, solutions, and emulsions intended for application to the skin. The current definition of a lotion is restricted to an emulsion. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Lotion Dosage Form</nciodm:PreferredTerm>
         </EnumeratedItem>
-        <EnumeratedItem CodedValue="LOTION. AUGMENTED" nciodm:ExtCodeID="C60957">
+        <EnumeratedItem CodedValue="LOTION, AUGMENTED" nciodm:ExtCodeID="C60957">
           <nciodm:CDISCDefinition>A lotion dosage form that enhances drug delivery. Augmentation does not refer to the strength of the drug in the dosage form. NOTE: CDER has decided to refrain from expanding the use of this dosage form due to difficulties in setting specific criteria that must be met to be considered augmented. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Augmented Lotion Dosage Form</nciodm:PreferredTerm>
         </EnumeratedItem>
@@ -3705,16 +3705,6 @@
           <nciodm:CDISCDefinition>The investigational product under study.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Protocol Agent</nciodm:PreferredTerm>
         </EnumeratedItem>
-        <EnumeratedItem CodedValue="RANDRAT" nciodm:ExtCodeID="C92431">
-          <nciodm:CDISCSynonym>Ratio for Randomization</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>The relative proportion of trial subjects between treatment or control groups.</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>Randomization Ratio</nciodm:PreferredTerm>
-        </EnumeratedItem>
-        <EnumeratedItem CodedValue="RANDSTR" nciodm:ExtCodeID="C16153">
-          <nciodm:CDISCSynonym>Stratification for Randomization</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>Selected pre-treatment factors by which patients are segregated to assure balance of these factors before randomization to the intervention arms of a clinical protocol.</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>Stratification Factors</nciodm:PreferredTerm>
-        </EnumeratedItem>
         <EnumeratedItem CodedValue="ACTSUB" nciodm:ExtCodeID="C98703">
           <nciodm:CDISCSynonym>Actual Number of Subjects</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>Actual number of subjects enrolled; may include subjects who were not randomized.</nciodm:CDISCDefinition>
@@ -3963,16 +3953,6 @@
           <nciodm:CDISCDefinition>The investigational product under study.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Protocol Agent</nciodm:PreferredTerm>
         </EnumeratedItem>
-        <EnumeratedItem CodedValue="Ratio for Randomization" nciodm:ExtCodeID="C92431">
-          <nciodm:CDISCSynonym>Ratio for Randomization</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>The relative proportion of trial subjects between treatment or control groups.</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>Randomization Ratio</nciodm:PreferredTerm>
-        </EnumeratedItem>
-        <EnumeratedItem CodedValue="Stratification for Randomization" nciodm:ExtCodeID="C16153">
-          <nciodm:CDISCSynonym>Stratification for Randomization</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>Selected pre-treatment factors by which patients are segregated to assure balance of these factors before randomization to the intervention arms of a clinical protocol.</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>Stratification Factors</nciodm:PreferredTerm>
-        </EnumeratedItem>
         <EnumeratedItem CodedValue="Actual Number of Subjects" nciodm:ExtCodeID="C98703">
           <nciodm:CDISCSynonym>Actual Number of Subjects</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>Actual number of subjects enrolled; may include subjects who were not randomized.</nciodm:CDISCDefinition>
@@ -4110,7 +4090,7 @@
           <nciodm:PreferredTerm>Pharmacokinetic Study</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="SAFETY" nciodm:ExtCodeID="C49667">
-          <nciodm:CDISCDefinition>A studythat assessesthemedical risks to a subject. Safety is usually assessed by examining a wide range of clinical parameters, includingadverse events, vital signs, physical exam, laboratory tests.</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>A study that assesses the medical risks to a subject. Safety is usually assessed by examining a wide range of clinical parameters, including adverse events, vital signs, physical exam, laboratory tests.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Safety Study</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="FOOD EFFECT" nciodm:ExtCodeID="C98729">
@@ -4298,6 +4278,31 @@
           <nciodm:CDISCDefinition>A measurement of the thickness of a pinch of skin on the triceps. (NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Triceps Skinfold Thickness</nciodm:PreferredTerm>
         </EnumeratedItem>
+        <EnumeratedItem CodedValue="FARMCIR" nciodm:ExtCodeID="C100946">
+          <nciodm:CDISCSynonym>Forearm Circumference</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The distance around an individual's forearm.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Forearm Circumference</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HIPCIR" nciodm:ExtCodeID="C100947">
+          <nciodm:CDISCSynonym>Hip Circumference</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The distance around an individual's pelvic area or hips.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hip Circumference</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LBM" nciodm:ExtCodeID="C71258">
+          <nciodm:CDISCSynonym>Lean Body Mass</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The weight of all organs and tissue in an individual less the weight of the individual's body fat.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Lean Body Mass</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PULSEPR" nciodm:ExtCodeID="C100945">
+          <nciodm:CDISCSynonym>Pulse Pressure</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The change in systolic to diastolic pressure which produces a pulse.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Pulse Pressure</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="WSTCIR" nciodm:ExtCodeID="C100948">
+          <nciodm:CDISCSynonym>Waist Circumference</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The distance around an individual's midsection or waist.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Waist Circumference</nciodm:PreferredTerm>
+        </EnumeratedItem>
         <nciodm:CDISCSubmissionValue>VSTESTCD</nciodm:CDISCSubmissionValue>
         <nciodm:CDISCSynonym>Vital Signs Test Code</nciodm:CDISCSynonym>
         <nciodm:PreferredTerm>CDISC SDTM Vital Sign Terminology by Code</nciodm:PreferredTerm>
@@ -4396,6 +4401,31 @@
           <nciodm:CDISCSynonym>Triceps Skinfold Thickness</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>A measurement of the thickness of a pinch of skin on the triceps. (NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Triceps Skinfold Thickness</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Forearm Circumference" nciodm:ExtCodeID="C100946">
+          <nciodm:CDISCSynonym>Forearm Circumference</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The distance around an individual's forearm.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Forearm Circumference</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Hip Circumference" nciodm:ExtCodeID="C100947">
+          <nciodm:CDISCSynonym>Hip Circumference</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The distance around an individual's pelvic area or hips.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hip Circumference</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Lean Body Mass" nciodm:ExtCodeID="C71258">
+          <nciodm:CDISCSynonym>Lean Body Mass</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The weight of all organs and tissue in an individual less the weight of the individual's body fat.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Lean Body Mass</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Pulse Pressure" nciodm:ExtCodeID="C100945">
+          <nciodm:CDISCSynonym>Pulse Pressure</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The change in systolic to diastolic pressure which produces a pulse.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Pulse Pressure</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Waist Circumference" nciodm:ExtCodeID="C100948">
+          <nciodm:CDISCSynonym>Waist Circumference</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The distance around an individual's midsection or waist.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Waist Circumference</nciodm:PreferredTerm>
         </EnumeratedItem>
         <nciodm:CDISCSubmissionValue>VSTEST</nciodm:CDISCSubmissionValue>
         <nciodm:CDISCSynonym>Vital Signs Test Name</nciodm:CDISCSynonym>
@@ -6672,6 +6702,8 @@
         <EnumeratedItem CodedValue="ANTHRM" nciodm:ExtCodeID="C81958">
           <nciodm:CDISCSynonym>Antithrombin</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>Antithrombin III</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Antithrombin Activity</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Antithrombin III Activity</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>A measurement of the antithrombin activity in a biological specimen.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Antithrombin Measurement</nciodm:PreferredTerm>
         </EnumeratedItem>
@@ -6822,8 +6854,6 @@
         </EnumeratedItem>
         <EnumeratedItem CodedValue="CTOT" nciodm:ExtCodeID="C80160">
           <nciodm:CDISCSynonym>Complement Total</nciodm:CDISCSynonym>
-          <nciodm:CDISCSynonym>CH50</nciodm:CDISCSynonym>
-          <nciodm:CDISCSynonym>Total Hemolytic Complement</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>A measurement of the total complement in a biological specimen.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Complement Measurement</nciodm:PreferredTerm>
         </EnumeratedItem>
@@ -7779,11 +7809,13 @@
           <nciodm:PreferredTerm>Protein to Osmolality Ratio Measurement</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="SJSSAAB" nciodm:ExtCodeID="C92236">
+          <nciodm:CDISCSynonym>Ro Antibody</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>Sjogrens SS-A Antibody</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>A measurement of the Sjogrens SS-A antibody in a biological specimen.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Sjogren's SS-A Antibody Measurement</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="SJSSBAB" nciodm:ExtCodeID="C92237">
+          <nciodm:CDISCSynonym>La Antibody</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>Sjogrens SS-B Antibody</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>A measurement of the Sjogrens SS-B antibody in a biological specimen.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Sjogren's SS-B Antibody Measurement</nciodm:PreferredTerm>
@@ -8192,7 +8224,7 @@
           <nciodm:CDISCDefinition>A measurement of the maximum amount of oxygen that can be combined chemically with hemoglobin in a volume of blood.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Oxygen Capacity Measurement</nciodm:PreferredTerm>
         </EnumeratedItem>
-        <EnumeratedItem CodedValue="OXYSAT" nciodm:ExtCodeID="C96615">
+        <EnumeratedItem CodedValue="OXYSAT" nciodm:ExtCodeID="C68032">
           <nciodm:CDISCSynonym>Oxygen Saturation</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>A measurement of the oxygen-hemoglobin saturation of a volume of blood.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Oxygen Saturation Measurement</nciodm:PreferredTerm>
@@ -8521,6 +8553,316 @@
           <nciodm:CDISCSynonym>Varicella Zoster Virus IgM Antibody</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>A measurement of the Varicella Zoster virus IgM antibodies in a biological specimen.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Varicella Zoster Virus IgM Antibody Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="DHPG" nciodm:ExtCodeID="C101017">
+          <nciodm:CDISCSynonym>3,4-Dihydroxyphenylglycol</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>3.4 Dihydroxyphenylglycol</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the catecholamine metabolite, 3,4-Dihydroxyphenylglycol in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>3,4-Dihydroxyphenylglycol Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="APROTCRS" nciodm:ExtCodeID="C100471">
+          <nciodm:CDISCSynonym>Activated Protein C Resistance</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Factor V Leiden Screen</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the resistance in the anticoagulation response to activated protein C in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Activated Protein C Resistance Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="APTTSPTT" nciodm:ExtCodeID="C100421">
+          <nciodm:CDISCSynonym>Activated PTT/Standard PTT</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Activated Partial Thromboplastin Time/Standard Thromboplastin Time</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A relative measurement (ratio or percentage) of the subject's activated partial thromboplastin time to a standard or control partial thromboplastin time.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Activated PTT to Standard PTT Ratio Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AAP" nciodm:ExtCodeID="C100430">
+          <nciodm:CDISCSynonym>Alanine Aminopeptidase</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the alanine aminopeptidase in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Alanine Aminopeptidase Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="A1AGLP" nciodm:ExtCodeID="C100429">
+          <nciodm:CDISCSynonym>Alpha-1 Acid Glycoprotein</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the alpha-1 acid glycoprotein in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Alpha-1 Acid Glycoprotein Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="A1MICG" nciodm:ExtCodeID="C100461">
+          <nciodm:CDISCSynonym>Alpha-1 Microglobulin</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Protein HC</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the alpha-1 microglobulin in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Alpha-1 Microglobulin Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="A1MCREAT" nciodm:ExtCodeID="C100462">
+          <nciodm:CDISCSynonym>Alpha-1 Microglobulin/Creatinine</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A relative measurement (ratio or percentage) of the alpha-1 microglobulin to creatinine in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Alpha-1 Microglobulin to Creatinine Ratio Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="APOC2" nciodm:ExtCodeID="C100427">
+          <nciodm:CDISCSynonym>Apolipoprotein C2</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Apolipoprotein CII</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the apolipoprotein C2 in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Apolipoprotein C2 Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="APOJ" nciodm:ExtCodeID="C100428">
+          <nciodm:CDISCSynonym>Apolipoprotein J</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Clusterin</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the apolipoprotein J in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Apolipoprotein J Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BETACRTN" nciodm:ExtCodeID="C100472">
+          <nciodm:CDISCSynonym>Beta Carotene</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>b-Carotene</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Beta Carotin</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the beta carotene in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Beta Carotene Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BTP" nciodm:ExtCodeID="C100426">
+          <nciodm:CDISCSynonym>Beta-Trace Protein</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the beta-trace protein in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Beta-Trace Protein Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CDT" nciodm:ExtCodeID="C101016">
+          <nciodm:CDISCSynonym>Carbohydrate-Deficient Transferrin</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of transferrin with a reduced number of carbohydrate moieties in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Carbohydrate-Deficient Transferrin Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CRLPLSMN" nciodm:ExtCodeID="C100432">
+          <nciodm:CDISCSynonym>Ceruloplasmin</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Caeruloplasmin</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of ceruloplasmin in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Ceruloplasmin Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CH50" nciodm:ExtCodeID="C100423">
+          <nciodm:CDISCSynonym>Complement CH50</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Total Hemolytic Complement</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>CH50</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the complement required to lyse 50 percent of red blood cells in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>CH50 Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CXCR3" nciodm:ExtCodeID="C100431">
+          <nciodm:CDISCSynonym>Chemokine (C-X-C Motif) Receptor 3</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>GPR9, CD183, CXCR3</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the CXCR3, chemokine (C-X-C motif) receptor 3, in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Chemokine Receptor CXCR3 Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CTRIGAAB" nciodm:ExtCodeID="C100464">
+          <nciodm:CDISCSynonym>Chlamydia trachomatis IgA Antibody</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the Chlamydia trachomatis IgA antibody in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Chlamydia trachomatis IgA Antibody Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CTRIGGAB" nciodm:ExtCodeID="C100466">
+          <nciodm:CDISCSynonym>Chlamydia trachomatis IgG Antibody</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the Chlamydia trachomatis IgG antibody in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Chlamydia trachomatis IgG Antibody Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CTRIGMAB" nciodm:ExtCodeID="C100465">
+          <nciodm:CDISCSynonym>Chlamydia trachomatis IgM Antibody</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the Chlamydia trachomatis IgM antibody in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Chlamydia trachomatis IgM Antibody Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="DTPACLR" nciodm:ExtCodeID="C100441">
+          <nciodm:CDISCSynonym>DTPA Clearance</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the volume of serum or plasma that would be cleared of Diethylenetriamine pentaacetate (DTPA) through its excretion for a specified unit of time.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Diethylene Triamine Pentaacetic Acid Clearance</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="DNASEBAB" nciodm:ExtCodeID="C100463">
+          <nciodm:CDISCSynonym>DNase-B Antibody</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Anti-Dnase B</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of Dnase-B antibody in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>DNase-B Antibody Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ECT" nciodm:ExtCodeID="C100422">
+          <nciodm:CDISCSynonym>Ecarin Clotting Time</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the activity of thrombin inhibitors in a biological specimen based on the generation of meizothrombin.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Ecarin Clotting Time Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="EDTACLR" nciodm:ExtCodeID="C100440">
+          <nciodm:CDISCSynonym>EDTA Clearance</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the volume of serum or plasma that would be cleared of Ethylenediamine tetraacetic acid (EDTA) through its excretion for a specified unit of time.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>EDTA Clearance</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GLYCRLFR" nciodm:ExtCodeID="C100448">
+          <nciodm:CDISCSynonym>Free Glycerol</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Free Glycerin</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the amount of unbound glycerol in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Free Glycerol Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GFRBSB2M" nciodm:ExtCodeID="C100450">
+          <nciodm:CDISCSynonym>GFR from B-2 Microglobulin Adj for BSA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the glomerular filtration rate (GFR) based on the clearance of beta-2 microglobulin after adjusting it for the body surface area.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Glomerular Filtration Rate from B-2 Microglobulin Adjusted for BSA Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GFRBSBTP" nciodm:ExtCodeID="C100449">
+          <nciodm:CDISCSynonym>GFR from Beta-Trace Protein Adj for BSA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the glomerular filtration rate (GFR) based on the clearance of beta-trace protein after adjusting it for the body surface area.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Glomerular Filtration Rate from Beta-Trace Protein Adjusted for BSA Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HDLCLDLC" nciodm:ExtCodeID="C100425">
+          <nciodm:CDISCSynonym>HDL Cholesterol/LDL Cholesterol Ratio</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A relative measurement (ratio or percentage) of the amount of HDL cholesterol compared to LDL cholesterol in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>HDL Cholesterol to LDL Cholesterol Ratio Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HLAB27AG" nciodm:ExtCodeID="C100460">
+          <nciodm:CDISCSynonym>HLA-B27 Antigen</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Human Leukocyte Antigen B27</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the human leukocyte antigen B27 (HLA-B27) in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>HLA-B27 Antigen Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HOMAIR" nciodm:ExtCodeID="C100447">
+          <nciodm:CDISCSynonym>Homostat Model Assess of Insulin Rstn</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Homeostatic Model Assessment of Insulin Resistance</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An assessment of beta-cell function and insulin resistance based on fasting blood glucose and insulin concentrations.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Homeostatic Model Assessment of Insulin Resistance</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GRANIMLE" nciodm:ExtCodeID="C100445">
+          <nciodm:CDISCSynonym>Immature Granulocytes/Leukocytes</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A relative measurement (ratio or percentage) of the immature granulocytes to leukocytes in a biological specimen (for example a bone marrow specimen).</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Immature Granulocytes to Leukocytes Ratio Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LYMIM" nciodm:ExtCodeID="C100444">
+          <nciodm:CDISCSynonym>Immature Lymphocytes</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the immature lymphocytes in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Immature Lymphocytes Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LYMIMLE" nciodm:ExtCodeID="C100443">
+          <nciodm:CDISCSynonym>Immature Lymphocytes/Leukocytes</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A relative measurement (ratio or percentage) of the immature lymphocytes to leukocytes in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Immature Lymphocytes to Leukocytes Ratio Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="NEUTIMLE" nciodm:ExtCodeID="C100442">
+          <nciodm:CDISCSynonym>Immature Neutrophils/Leukocytes</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A relative measurement (ratio or percentage) of the immature neutrophils to leukocytes in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Immature Neutrophils to Leukocytes Ratio Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="IOHEXCLR" nciodm:ExtCodeID="C100439">
+          <nciodm:CDISCSynonym>Iohexol Clearance</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the volume of serum or plasma that would be cleared of Iohexol through excretion for a specified unit of time.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Iohexol Clearance</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="JO1AB" nciodm:ExtCodeID="C100459">
+          <nciodm:CDISCSynonym>Jo-1 Antibody</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the Jo-1 antibody in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Jo-1 Antibody Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="KIM1" nciodm:ExtCodeID="C100433">
+          <nciodm:CDISCSynonym>Kidney Injury Molecule-1</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>KIM-1</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Hepatitis A Virus Cellular Receptor 1</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the kidney injury molecule-1 (Kim-1) in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Kidney Injury Molecule-1 Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LKM1IAAB" nciodm:ExtCodeID="C100456">
+          <nciodm:CDISCSynonym>Liver Kidney Microsomal Type 1 IgA Ab</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the liver kidney microsomal type 1 IgA antibodies in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Liver Kidney Microsomal Type 1 IgA Antibody Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LKM1IGAB" nciodm:ExtCodeID="C100454">
+          <nciodm:CDISCSynonym>Liver Kidney Microsomal Type 1 IgG Ab</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the liver kidney microsomal type 1 IgG antibodies in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Liver Kidney Microsomal Type 1 IgG Antibody Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LKM1IMAB" nciodm:ExtCodeID="C100455">
+          <nciodm:CDISCSynonym>Liver Kidney Microsomal Type 1 IgM Ab</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the liver kidney microsomal type 1 IgM antibodies in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Liver Kidney Microsomal Type 1 IgM Antibody Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="NPAP" nciodm:ExtCodeID="C100434">
+          <nciodm:CDISCSynonym>Non-Prostatic Acid Phosphatase</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the non-prostatic acid phosphatase in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Non-Prostatic Acid Phosphatase Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="OVAPARS" nciodm:ExtCodeID="C100452">
+          <nciodm:CDISCSynonym>Ova and Parasite</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the parasites and ova in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Ova and Parasite Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PEPSNGA" nciodm:ExtCodeID="C100469">
+          <nciodm:CDISCSynonym>Pepsinogen A</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>PGA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the pepsinogen A in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Pepsinogen A Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PEPSNGC" nciodm:ExtCodeID="C100470">
+          <nciodm:CDISCSynonym>Pepsinogen C</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>PGC</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the pepsinogen C in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Pepsinogen C Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PEPSNGI" nciodm:ExtCodeID="C100467">
+          <nciodm:CDISCSynonym>Pepsinogen I</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>PGI</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the pepsinogen I in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Pepsinogen I Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PEPSNGII" nciodm:ExtCodeID="C100468">
+          <nciodm:CDISCSynonym>Pepsinogen II</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>PGII</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the pepsinogen II in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Pepsinogen II Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PEPSNG" nciodm:ExtCodeID="C100122">
+          <nciodm:CDISCSynonym>Pepsinogen</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the pepsinogen in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Pepsinogen Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PLSMDM" nciodm:ExtCodeID="C100453">
+          <nciodm:CDISCSynonym>Plasmodium</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Examination of a biological specimen to detect the presence of any protozoan belonging to the Plasmodium genus.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Plasmodium Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PLATHCT" nciodm:ExtCodeID="C100424">
+          <nciodm:CDISCSynonym>Platelet Hematocrit</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Thrombocytocrit</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A relative measurement (ratio or percentage) of the proportion of the volume of blood taken up by platelets.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Platelet Hematocrit Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PREALB" nciodm:ExtCodeID="C100435">
+          <nciodm:CDISCSynonym>Prealbumin</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the prealbumin in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Prealbumin Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PERTHRBL" nciodm:ExtCodeID="C100446">
+          <nciodm:CDISCSynonym>Proerythroblast</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the proerythroblasts in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Proerythroblast Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PROTS" nciodm:ExtCodeID="C100436">
+          <nciodm:CDISCSynonym>Protein S</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the protein S in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Protein S Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="RBP" nciodm:ExtCodeID="C100437">
+          <nciodm:CDISCSynonym>Retinol Binding Protein</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the total retinol binding protein in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Retinol Binding Protein Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="RNPAB" nciodm:ExtCodeID="C100457">
+          <nciodm:CDISCSynonym>Ribonucleoprotein Antibody</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>RNP Antibody</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the ribonucleoprotein antibody in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Ribonucleoprotein Antibody Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BLSTRSID" nciodm:ExtCodeID="C100419">
+          <nciodm:CDISCSynonym>Ringed Sideroblasts</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the ringed sideroblasts (abnormal nucleated erythroblasts with a large number of iron deposits in the perinuclear mitochondria, forming a ring around the nucleus) in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Ringed Sideroblast Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SCL70AB" nciodm:ExtCodeID="C100458">
+          <nciodm:CDISCSynonym>Scl-70 Antibody</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Scleroderma-70 Antibody</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the Scl-70 antibody in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Scl-70 Antibody Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BLSTSID" nciodm:ExtCodeID="C100418">
+          <nciodm:CDISCSynonym>Sideroblast</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the sideroblasts (nucleated erythroblasts with iron granules in the cytoplasm) in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Sideroblast Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SLTFRNRC" nciodm:ExtCodeID="C100438">
+          <nciodm:CDISCSynonym>Soluble Transferrin Receptor</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the soluble transferrin receptor in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Soluble Transferrin Receptor Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TRCYANDP" nciodm:ExtCodeID="C100420">
+          <nciodm:CDISCSynonym>Tricyclic Antidepressants</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of tricyclic antidepressants in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Tricyclic Antidepressant Measurement</nciodm:PreferredTerm>
         </EnumeratedItem>
         <nciodm:CDISCSubmissionValue>LBTESTCD</nciodm:CDISCSubmissionValue>
         <nciodm:CDISCSynonym>Laboratory Test Code</nciodm:CDISCSynonym>
@@ -10767,6 +11109,8 @@
         <EnumeratedItem CodedValue="Antithrombin" nciodm:ExtCodeID="C81958">
           <nciodm:CDISCSynonym>Antithrombin</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>Antithrombin III</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Antithrombin Activity</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Antithrombin III Activity</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>A measurement of the antithrombin activity in a biological specimen.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Antithrombin Measurement</nciodm:PreferredTerm>
         </EnumeratedItem>
@@ -10917,8 +11261,6 @@
         </EnumeratedItem>
         <EnumeratedItem CodedValue="Complement Total" nciodm:ExtCodeID="C80160">
           <nciodm:CDISCSynonym>Complement Total</nciodm:CDISCSynonym>
-          <nciodm:CDISCSynonym>CH50</nciodm:CDISCSynonym>
-          <nciodm:CDISCSynonym>Total Hemolytic Complement</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>A measurement of the total complement in a biological specimen.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Complement Measurement</nciodm:PreferredTerm>
         </EnumeratedItem>
@@ -11874,11 +12216,13 @@
           <nciodm:PreferredTerm>Protein to Osmolality Ratio Measurement</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="Sjogrens SS-A Antibody" nciodm:ExtCodeID="C92236">
+          <nciodm:CDISCSynonym>Ro Antibody</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>Sjogrens SS-A Antibody</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>A measurement of the Sjogrens SS-A antibody in a biological specimen.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Sjogren's SS-A Antibody Measurement</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="Sjogrens SS-B Antibody" nciodm:ExtCodeID="C92237">
+          <nciodm:CDISCSynonym>La Antibody</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>Sjogrens SS-B Antibody</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>A measurement of the Sjogrens SS-B antibody in a biological specimen.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Sjogren's SS-B Antibody Measurement</nciodm:PreferredTerm>
@@ -12287,7 +12631,7 @@
           <nciodm:CDISCDefinition>A measurement of the maximum amount of oxygen that can be combined chemically with hemoglobin in a volume of blood.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Oxygen Capacity Measurement</nciodm:PreferredTerm>
         </EnumeratedItem>
-        <EnumeratedItem CodedValue="Oxygen Saturation" nciodm:ExtCodeID="C96615">
+        <EnumeratedItem CodedValue="Oxygen Saturation" nciodm:ExtCodeID="C68032">
           <nciodm:CDISCSynonym>Oxygen Saturation</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>A measurement of the oxygen-hemoglobin saturation of a volume of blood.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Oxygen Saturation Measurement</nciodm:PreferredTerm>
@@ -12616,6 +12960,316 @@
           <nciodm:CDISCSynonym>Varicella Zoster Virus IgM Antibody</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>A measurement of the Varicella Zoster virus IgM antibodies in a biological specimen.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Varicella Zoster Virus IgM Antibody Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="3,4-Dihydroxyphenylglycol" nciodm:ExtCodeID="C101017">
+          <nciodm:CDISCSynonym>3,4-Dihydroxyphenylglycol</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>3.4 Dihydroxyphenylglycol</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the catecholamine metabolite, 3,4-Dihydroxyphenylglycol in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>3,4-Dihydroxyphenylglycol Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Activated Protein C Resistance" nciodm:ExtCodeID="C100471">
+          <nciodm:CDISCSynonym>Activated Protein C Resistance</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Factor V Leiden Screen</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the resistance in the anticoagulation response to activated protein C in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Activated Protein C Resistance Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Activated PTT/Standard PTT" nciodm:ExtCodeID="C100421">
+          <nciodm:CDISCSynonym>Activated PTT/Standard PTT</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Activated Partial Thromboplastin Time/Standard Thromboplastin Time</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A relative measurement (ratio or percentage) of the subject's activated partial thromboplastin time to a standard or control partial thromboplastin time.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Activated PTT to Standard PTT Ratio Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Alanine Aminopeptidase" nciodm:ExtCodeID="C100430">
+          <nciodm:CDISCSynonym>Alanine Aminopeptidase</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the alanine aminopeptidase in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Alanine Aminopeptidase Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Alpha-1 Acid Glycoprotein" nciodm:ExtCodeID="C100429">
+          <nciodm:CDISCSynonym>Alpha-1 Acid Glycoprotein</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the alpha-1 acid glycoprotein in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Alpha-1 Acid Glycoprotein Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Alpha-1 Microglobulin" nciodm:ExtCodeID="C100461">
+          <nciodm:CDISCSynonym>Alpha-1 Microglobulin</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Protein HC</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the alpha-1 microglobulin in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Alpha-1 Microglobulin Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Alpha-1 Microglobulin/Creatinine" nciodm:ExtCodeID="C100462">
+          <nciodm:CDISCSynonym>Alpha-1 Microglobulin/Creatinine</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A relative measurement (ratio or percentage) of the alpha-1 microglobulin to creatinine in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Alpha-1 Microglobulin to Creatinine Ratio Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Apolipoprotein C2" nciodm:ExtCodeID="C100427">
+          <nciodm:CDISCSynonym>Apolipoprotein C2</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Apolipoprotein CII</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the apolipoprotein C2 in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Apolipoprotein C2 Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Apolipoprotein J" nciodm:ExtCodeID="C100428">
+          <nciodm:CDISCSynonym>Apolipoprotein J</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Clusterin</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the apolipoprotein J in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Apolipoprotein J Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Beta Carotene" nciodm:ExtCodeID="C100472">
+          <nciodm:CDISCSynonym>Beta Carotene</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>b-Carotene</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Beta Carotin</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the beta carotene in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Beta Carotene Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Beta-Trace Protein" nciodm:ExtCodeID="C100426">
+          <nciodm:CDISCSynonym>Beta-Trace Protein</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the beta-trace protein in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Beta-Trace Protein Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Carbohydrate-Deficient Transferrin" nciodm:ExtCodeID="C101016">
+          <nciodm:CDISCSynonym>Carbohydrate-Deficient Transferrin</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of transferrin with a reduced number of carbohydrate moieties in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Carbohydrate-Deficient Transferrin Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Ceruloplasmin" nciodm:ExtCodeID="C100432">
+          <nciodm:CDISCSynonym>Ceruloplasmin</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Caeruloplasmin</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of ceruloplasmin in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Ceruloplasmin Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Complement CH50" nciodm:ExtCodeID="C100423">
+          <nciodm:CDISCSynonym>Complement CH50</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Total Hemolytic Complement</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>CH50</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the complement required to lyse 50 percent of red blood cells in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>CH50 Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Chemokine (C-X-C Motif) Receptor 3" nciodm:ExtCodeID="C100431">
+          <nciodm:CDISCSynonym>Chemokine (C-X-C Motif) Receptor 3</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>GPR9, CD183, CXCR3</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the CXCR3, chemokine (C-X-C motif) receptor 3, in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Chemokine Receptor CXCR3 Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Chlamydia trachomatis IgA Antibody" nciodm:ExtCodeID="C100464">
+          <nciodm:CDISCSynonym>Chlamydia trachomatis IgA Antibody</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the Chlamydia trachomatis IgA antibody in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Chlamydia trachomatis IgA Antibody Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Chlamydia trachomatis IgG Antibody" nciodm:ExtCodeID="C100466">
+          <nciodm:CDISCSynonym>Chlamydia trachomatis IgG Antibody</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the Chlamydia trachomatis IgG antibody in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Chlamydia trachomatis IgG Antibody Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Chlamydia trachomatis IgM Antibody" nciodm:ExtCodeID="C100465">
+          <nciodm:CDISCSynonym>Chlamydia trachomatis IgM Antibody</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the Chlamydia trachomatis IgM antibody in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Chlamydia trachomatis IgM Antibody Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="DTPA Clearance" nciodm:ExtCodeID="C100441">
+          <nciodm:CDISCSynonym>DTPA Clearance</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the volume of serum or plasma that would be cleared of Diethylenetriamine pentaacetate (DTPA) through its excretion for a specified unit of time.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Diethylene Triamine Pentaacetic Acid Clearance</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="DNase-B Antibody" nciodm:ExtCodeID="C100463">
+          <nciodm:CDISCSynonym>DNase-B Antibody</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Anti-Dnase B</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of Dnase-B antibody in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>DNase-B Antibody Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Ecarin Clotting Time" nciodm:ExtCodeID="C100422">
+          <nciodm:CDISCSynonym>Ecarin Clotting Time</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the activity of thrombin inhibitors in a biological specimen based on the generation of meizothrombin.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Ecarin Clotting Time Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="EDTA Clearance" nciodm:ExtCodeID="C100440">
+          <nciodm:CDISCSynonym>EDTA Clearance</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the volume of serum or plasma that would be cleared of Ethylenediamine tetraacetic acid (EDTA) through its excretion for a specified unit of time.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>EDTA Clearance</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Free Glycerol" nciodm:ExtCodeID="C100448">
+          <nciodm:CDISCSynonym>Free Glycerol</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Free Glycerin</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the amount of unbound glycerol in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Free Glycerol Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GFR from B-2 Microglobulin Adj for BSA" nciodm:ExtCodeID="C100450">
+          <nciodm:CDISCSynonym>GFR from B-2 Microglobulin Adj for BSA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the glomerular filtration rate (GFR) based on the clearance of beta-2 microglobulin after adjusting it for the body surface area.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Glomerular Filtration Rate from B-2 Microglobulin Adjusted for BSA Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GFR from Beta-Trace Protein Adj for BSA" nciodm:ExtCodeID="C100449">
+          <nciodm:CDISCSynonym>GFR from Beta-Trace Protein Adj for BSA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the glomerular filtration rate (GFR) based on the clearance of beta-trace protein after adjusting it for the body surface area.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Glomerular Filtration Rate from Beta-Trace Protein Adjusted for BSA Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HDL Cholesterol/LDL Cholesterol Ratio" nciodm:ExtCodeID="C100425">
+          <nciodm:CDISCSynonym>HDL Cholesterol/LDL Cholesterol Ratio</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A relative measurement (ratio or percentage) of the amount of HDL cholesterol compared to LDL cholesterol in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>HDL Cholesterol to LDL Cholesterol Ratio Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HLA-B27 Antigen" nciodm:ExtCodeID="C100460">
+          <nciodm:CDISCSynonym>HLA-B27 Antigen</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Human Leukocyte Antigen B27</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the human leukocyte antigen B27 (HLA-B27) in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>HLA-B27 Antigen Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Homostat Model Assess of Insulin Rstn" nciodm:ExtCodeID="C100447">
+          <nciodm:CDISCSynonym>Homostat Model Assess of Insulin Rstn</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Homeostatic Model Assessment of Insulin Resistance</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An assessment of beta-cell function and insulin resistance based on fasting blood glucose and insulin concentrations.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Homeostatic Model Assessment of Insulin Resistance</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Immature Granulocytes/Leukocytes" nciodm:ExtCodeID="C100445">
+          <nciodm:CDISCSynonym>Immature Granulocytes/Leukocytes</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A relative measurement (ratio or percentage) of the immature granulocytes to leukocytes in a biological specimen (for example a bone marrow specimen).</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Immature Granulocytes to Leukocytes Ratio Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Immature Lymphocytes" nciodm:ExtCodeID="C100444">
+          <nciodm:CDISCSynonym>Immature Lymphocytes</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the immature lymphocytes in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Immature Lymphocytes Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Immature Lymphocytes/Leukocytes" nciodm:ExtCodeID="C100443">
+          <nciodm:CDISCSynonym>Immature Lymphocytes/Leukocytes</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A relative measurement (ratio or percentage) of the immature lymphocytes to leukocytes in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Immature Lymphocytes to Leukocytes Ratio Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Immature Neutrophils/Leukocytes" nciodm:ExtCodeID="C100442">
+          <nciodm:CDISCSynonym>Immature Neutrophils/Leukocytes</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A relative measurement (ratio or percentage) of the immature neutrophils to leukocytes in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Immature Neutrophils to Leukocytes Ratio Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Iohexol Clearance" nciodm:ExtCodeID="C100439">
+          <nciodm:CDISCSynonym>Iohexol Clearance</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the volume of serum or plasma that would be cleared of Iohexol through excretion for a specified unit of time.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Iohexol Clearance</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Jo-1 Antibody" nciodm:ExtCodeID="C100459">
+          <nciodm:CDISCSynonym>Jo-1 Antibody</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the Jo-1 antibody in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Jo-1 Antibody Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Kidney Injury Molecule-1" nciodm:ExtCodeID="C100433">
+          <nciodm:CDISCSynonym>Kidney Injury Molecule-1</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>KIM-1</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Hepatitis A Virus Cellular Receptor 1</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the kidney injury molecule-1 (Kim-1) in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Kidney Injury Molecule-1 Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Liver Kidney Microsomal Type 1 IgA Ab" nciodm:ExtCodeID="C100456">
+          <nciodm:CDISCSynonym>Liver Kidney Microsomal Type 1 IgA Ab</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the liver kidney microsomal type 1 IgA antibodies in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Liver Kidney Microsomal Type 1 IgA Antibody Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Liver Kidney Microsomal Type 1 IgG Ab" nciodm:ExtCodeID="C100454">
+          <nciodm:CDISCSynonym>Liver Kidney Microsomal Type 1 IgG Ab</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the liver kidney microsomal type 1 IgG antibodies in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Liver Kidney Microsomal Type 1 IgG Antibody Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Liver Kidney Microsomal Type 1 IgM Ab" nciodm:ExtCodeID="C100455">
+          <nciodm:CDISCSynonym>Liver Kidney Microsomal Type 1 IgM Ab</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the liver kidney microsomal type 1 IgM antibodies in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Liver Kidney Microsomal Type 1 IgM Antibody Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Non-Prostatic Acid Phosphatase" nciodm:ExtCodeID="C100434">
+          <nciodm:CDISCSynonym>Non-Prostatic Acid Phosphatase</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the non-prostatic acid phosphatase in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Non-Prostatic Acid Phosphatase Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Ova and Parasite" nciodm:ExtCodeID="C100452">
+          <nciodm:CDISCSynonym>Ova and Parasite</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the parasites and ova in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Ova and Parasite Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Pepsinogen A" nciodm:ExtCodeID="C100469">
+          <nciodm:CDISCSynonym>Pepsinogen A</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>PGA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the pepsinogen A in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Pepsinogen A Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Pepsinogen C" nciodm:ExtCodeID="C100470">
+          <nciodm:CDISCSynonym>Pepsinogen C</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>PGC</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the pepsinogen C in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Pepsinogen C Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Pepsinogen I" nciodm:ExtCodeID="C100467">
+          <nciodm:CDISCSynonym>Pepsinogen I</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>PGI</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the pepsinogen I in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Pepsinogen I Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Pepsinogen II" nciodm:ExtCodeID="C100468">
+          <nciodm:CDISCSynonym>Pepsinogen II</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>PGII</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the pepsinogen II in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Pepsinogen II Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Pepsinogen" nciodm:ExtCodeID="C100122">
+          <nciodm:CDISCSynonym>Pepsinogen</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the pepsinogen in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Pepsinogen Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Plasmodium" nciodm:ExtCodeID="C100453">
+          <nciodm:CDISCSynonym>Plasmodium</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Examination of a biological specimen to detect the presence of any protozoan belonging to the Plasmodium genus.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Plasmodium Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Platelet Hematocrit" nciodm:ExtCodeID="C100424">
+          <nciodm:CDISCSynonym>Platelet Hematocrit</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Thrombocytocrit</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A relative measurement (ratio or percentage) of the proportion of the volume of blood taken up by platelets.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Platelet Hematocrit Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Prealbumin" nciodm:ExtCodeID="C100435">
+          <nciodm:CDISCSynonym>Prealbumin</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the prealbumin in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Prealbumin Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Proerythroblast" nciodm:ExtCodeID="C100446">
+          <nciodm:CDISCSynonym>Proerythroblast</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the proerythroblasts in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Proerythroblast Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Protein S" nciodm:ExtCodeID="C100436">
+          <nciodm:CDISCSynonym>Protein S</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the protein S in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Protein S Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Retinol Binding Protein" nciodm:ExtCodeID="C100437">
+          <nciodm:CDISCSynonym>Retinol Binding Protein</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the total retinol binding protein in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Retinol Binding Protein Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Ribonucleoprotein Antibody" nciodm:ExtCodeID="C100457">
+          <nciodm:CDISCSynonym>Ribonucleoprotein Antibody</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>RNP Antibody</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the ribonucleoprotein antibody in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Ribonucleoprotein Antibody Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Ringed Sideroblasts" nciodm:ExtCodeID="C100419">
+          <nciodm:CDISCSynonym>Ringed Sideroblasts</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the ringed sideroblasts (abnormal nucleated erythroblasts with a large number of iron deposits in the perinuclear mitochondria, forming a ring around the nucleus) in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Ringed Sideroblast Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Scl-70 Antibody" nciodm:ExtCodeID="C100458">
+          <nciodm:CDISCSynonym>Scl-70 Antibody</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Scleroderma-70 Antibody</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the Scl-70 antibody in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Scl-70 Antibody Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Sideroblast" nciodm:ExtCodeID="C100418">
+          <nciodm:CDISCSynonym>Sideroblast</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the sideroblasts (nucleated erythroblasts with iron granules in the cytoplasm) in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Sideroblast Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Soluble Transferrin Receptor" nciodm:ExtCodeID="C100438">
+          <nciodm:CDISCSynonym>Soluble Transferrin Receptor</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the soluble transferrin receptor in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Soluble Transferrin Receptor Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Tricyclic Antidepressants" nciodm:ExtCodeID="C100420">
+          <nciodm:CDISCSynonym>Tricyclic Antidepressants</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of tricyclic antidepressants in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Tricyclic Antidepressant Measurement</nciodm:PreferredTerm>
         </EnumeratedItem>
         <nciodm:CDISCSubmissionValue>LBTEST</nciodm:CDISCSubmissionValue>
         <nciodm:CDISCSynonym>Laboratory Test Name</nciodm:CDISCSynonym>
@@ -13041,6 +13695,11 @@
           <nciodm:CDISCSynonym>Sling</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>A position in which the subject's body is supported by a sling.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Patient in Body Sling</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LATERAL DECUBITUS" nciodm:ExtCodeID="C100758">
+          <nciodm:CDISCSynonym>Lateral Decubitus</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Lying down on one side.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Lateral Decubitus Position</nciodm:PreferredTerm>
         </EnumeratedItem>
         <nciodm:CDISCSubmissionValue>POSITION</nciodm:CDISCSubmissionValue>
         <nciodm:CDISCSynonym>Position</nciodm:CDISCSynonym>
@@ -13955,6 +14614,16 @@
           <nciodm:CDISCDefinition>An act or process of elucidation; explication, or explanation of the meaning of the event or thing via the assignment of objects from the domain to the constants of a formal language, truth-values to the proposition symbols, truth-functions to the connectives, other functions to the function symbols, and extensions to the predicates, if any. The assignments are result of human logic application and are not native to the symbols of the formal language.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Interpretation</nciodm:PreferredTerm>
         </EnumeratedItem>
+        <EnumeratedItem CodedValue="QRSDURVP" nciodm:ExtCodeID="C100390">
+          <nciodm:CDISCSynonym>QRS Duration Ventricular Paced</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The average (mean) duration (time) of the QRS interval, obtained from a set of measurements of the QRS interval while the ventricle rhythm is controlled by an electrical impulse from a mechanical cardiac pacemaker. The QRS interval is defined as the time from the beginning of the QRS complex to the end of the QRS complex, representing the time it takes for the ventricles to depolarize.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>EKG Mean QRS Duration Ventricular Paced</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="QTC" nciodm:ExtCodeID="C100391">
+          <nciodm:CDISCSynonym>QT Interval, Corrected</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The time interval between the start of the Q wave and the end of the T wave in the cardiac cycle as corrected with a non-specified correction formula.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Corrected QT Interval</nciodm:PreferredTerm>
+        </EnumeratedItem>
         <nciodm:CDISCSubmissionValue>EGTESTCD</nciodm:CDISCSubmissionValue>
         <nciodm:CDISCSynonym>ECG Test Code</nciodm:CDISCSynonym>
         <nciodm:PreferredTerm>CDISC SDTM ECG Test Terminology by Code</nciodm:PreferredTerm>
@@ -14202,6 +14871,16 @@
           <nciodm:CDISCSynonym>Interpretation</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>An act or process of elucidation; explication, or explanation of the meaning of the event or thing via the assignment of objects from the domain to the constants of a formal language, truth-values to the proposition symbols, truth-functions to the connectives, other functions to the function symbols, and extensions to the predicates, if any. The assignments are result of human logic application and are not native to the symbols of the formal language.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Interpretation</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="QRS Duration Ventricular Paced" nciodm:ExtCodeID="C100390">
+          <nciodm:CDISCSynonym>QRS Duration Ventricular Paced</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The average (mean) duration (time) of the QRS interval, obtained from a set of measurements of the QRS interval while the ventricle rhythm is controlled by an electrical impulse from a mechanical cardiac pacemaker. The QRS interval is defined as the time from the beginning of the QRS complex to the end of the QRS complex, representing the time it takes for the ventricles to depolarize.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>EKG Mean QRS Duration Ventricular Paced</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="QT Interval, Corrected" nciodm:ExtCodeID="C100391">
+          <nciodm:CDISCSynonym>QT Interval, Corrected</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The time interval between the start of the Q wave and the end of the T wave in the cardiac cycle as corrected with a non-specified correction formula.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Corrected QT Interval</nciodm:PreferredTerm>
         </EnumeratedItem>
         <nciodm:CDISCSubmissionValue>EGTEST</nciodm:CDISCSubmissionValue>
         <nciodm:CDISCSynonym>ECG Test Name</nciodm:CDISCSynonym>
@@ -14897,7 +15576,7 @@
           <nciodm:CDISCDefinition>A unit of concentration (molarity unit) equal to one mole of solute in one liter of solution.(NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Mole per Liter</nciodm:PreferredTerm>
         </EnumeratedItem>
-        <EnumeratedItem CodedValue="% (v/v)" nciodm:ExtCodeID="C48571">
+        <EnumeratedItem CodedValue="%(v/v)" nciodm:ExtCodeID="C48571">
           <nciodm:CDISCSynonym>Percent Volume per Volume</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>A percent ratio of volume to volume, defined by the equation: [volume of solute (in ml)/ volume of solution (in ml)](100), typically used for admixtures of solutions.(NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Percent Volume per Volume</nciodm:PreferredTerm>
@@ -15197,7 +15876,7 @@
           <nciodm:CDISCSynonym>mcg/kg</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>Microgram per Kilogram</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>ng/g</nciodm:CDISCSynonym>
-          <nciodm:CDISCSynonym>ug/k</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ug/kg</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>A unit of a mass fraction expressed as a number of micrograms of substance per kilogram of mixture. The unit is also used as a dose calculation unit.(NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Microgram per Kilogram</nciodm:PreferredTerm>
         </EnumeratedItem>
@@ -15380,7 +16059,7 @@
           <nciodm:CDISCDefinition>A unit of measurement of viable bacterial organisms in a unit mass of substance of interest defined as the number of colony forming units in one gram of substance.(NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Colony Forming Unit per Gram</nciodm:PreferredTerm>
         </EnumeratedItem>
-        <EnumeratedItem CodedValue="10^ 3 CFU/g" nciodm:ExtCodeID="C68899">
+        <EnumeratedItem CodedValue="10^3 CFU/g" nciodm:ExtCodeID="C68899">
           <nciodm:CDISCSynonym>Thousand Colony Forming Units per Gram</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>Thousand CFU/g</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>A unit of measurement of viable bacterial organisms in a unit mass of substance of interest defined as the number of 10 to the third power colony forming units in one gram of substance.</nciodm:CDISCDefinition>
@@ -15844,7 +16523,7 @@
           <nciodm:CDISCDefinition>A unit of arbitrary substance concentration (biologic activity concentration) defined as the concentration of one hundred international units per one milliliter of system volume.(NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>100 International Units per Milliliter</nciodm:PreferredTerm>
         </EnumeratedItem>
-        <EnumeratedItem CodedValue="10^3 Organisms" nciodm:ExtCodeID="C71187">
+        <EnumeratedItem CodedValue="10^3 organisms" nciodm:ExtCodeID="C71187">
           <nciodm:CDISCSynonym>Thousand Organisms</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>A unit of measure of quantity of organisms expressed in 10 to the third power of organisms.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Thousand Organisms</nciodm:PreferredTerm>
@@ -16002,6 +16681,7 @@
           <nciodm:PreferredTerm>Pack Year</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="U/L" nciodm:ExtCodeID="C67456">
+          <nciodm:CDISCSynonym>mU/mL</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>Unit per Liter</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>An arbitrary unit of substance concentration equal to the concentration at which one liter of mixture contains one unit of a substance. (NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Unit per Liter</nciodm:PreferredTerm>
@@ -16679,6 +17359,36 @@
         <EnumeratedItem CodedValue="RATIO" nciodm:ExtCodeID="C44256">
           <nciodm:CDISCDefinition>A unit of measurement for the quotient of the amount of one entity to another.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Ratio</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="10^3 copies/mL" nciodm:ExtCodeID="C100897">
+          <nciodm:CDISCDefinition>The unit of concentration expressed as the number of 10 to the third power copies in unit volume equal to one milliliter. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Thousand Copies per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="10^6 copies/mL" nciodm:ExtCodeID="C100898">
+          <nciodm:CDISCDefinition>The unit of concentration expressed as the number of 10 to the sixth power copies in unit volume equal to one milliliter. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Million Copies per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="copies/mL" nciodm:ExtCodeID="C100900">
+          <nciodm:CDISCDefinition>A unit of concentration expressed as a number of copies per unit volume equal to one milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Copies per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="DIOPTER" nciodm:ExtCodeID="C100899">
+          <nciodm:CDISCSynonym>Diopter</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A unit of measurement of the optical power of a curved mirror or lens represented by the inverse of the focal length in meters.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Diopter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="L/s" nciodm:ExtCodeID="C67390">
+          <nciodm:CDISCSynonym>L/sec</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Liters per second.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Liter per second</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="mL/min/1.73m2" nciodm:ExtCodeID="C67412">
+          <nciodm:CDISCDefinition>A metric unit of volumetric flow rate defined as the rate at which one milliliter of matter travels during the period of time equal to one minute per 1.73 meters squared of body surface area.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Milliliter per Minute per 1.73 m2 of Body Surface Area</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="mU/L" nciodm:ExtCodeID="C67408">
+          <nciodm:CDISCDefinition>An arbitrary unit of substance concentration equal to the concentration at which one liter of mixture contains one thousandth of a unit of a substance.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Microunit per Milliliter</nciodm:PreferredTerm>
         </EnumeratedItem>
         <nciodm:CDISCSubmissionValue>UNIT</nciodm:CDISCSubmissionValue>
         <nciodm:CDISCSynonym>Unit</nciodm:CDISCSynonym>
@@ -18752,12 +19462,12 @@
           <nciodm:CDISCDefinition>The narrow, central portion of the thyroid gland that crosses the trachea anteriorly and connects the two lobes of the gland. (NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Thyroid Gland Isthmus</nciodm:PreferredTerm>
         </EnumeratedItem>
-        <EnumeratedItem CodedValue="THYROID GLAND, LEFT LOBE" nciodm:ExtCodeID="C33491">
+        <EnumeratedItem CodedValue="THYROID GLAND, RIGHT LOBE" nciodm:ExtCodeID="C33491">
           <nciodm:CDISCSynonym>Right Thyroid Gland Lobe</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>The cone-like lobe of the thyroid gland that is located in the right side of the trachea. (NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Right Thyroid Gland Lobe</nciodm:PreferredTerm>
         </EnumeratedItem>
-        <EnumeratedItem CodedValue="THYROID GLAND, RIGHT LOBE" nciodm:ExtCodeID="C32973">
+        <EnumeratedItem CodedValue="THYROID GLAND, LEFT LOBE" nciodm:ExtCodeID="C32973">
           <nciodm:CDISCSynonym>Left Thyroid Gland Lobe</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>The cone-like lobe of the thyroid gland that is located in the left side of the trachea. (NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Left Thyroid Gland Lobe</nciodm:PreferredTerm>
@@ -18986,6 +19696,7 @@
           <nciodm:PreferredTerm>Polygamous</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="DOMESTIC PARTNER" nciodm:ExtCodeID="C53262">
+          <nciodm:CDISCSynonym>Domestic Partner</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>Person declares that a domestic partnership relationship exists. (HL7)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Domestic Partnership</nciodm:PreferredTerm>
         </EnumeratedItem>
@@ -19288,6 +19999,18 @@
           <nciodm:CDISCDefinition>Deoxygenated blood containing urea and other waste products which is transported through the venous system to the heart and lungs. The exception is blood within the pulmonary vein which is oxygenated and travels from the lungs to the left atrium of the heart. (NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Venous Blood</nciodm:PreferredTerm>
         </EnumeratedItem>
+        <EnumeratedItem CodedValue="PLEURAL FLUID" nciodm:ExtCodeID="C77613">
+          <nciodm:CDISCDefinition>The fluid that is abnormally collected in the pleural cavity. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Pleural Fluid</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PROSTATIC FLUID" nciodm:ExtCodeID="C100896">
+          <nciodm:CDISCDefinition>A slightly alkaline, white fluid secreted from the prostate and is a constituent of semen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Prostatic Fluid</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SYNOVIAL FLUID" nciodm:ExtCodeID="C33718">
+          <nciodm:CDISCDefinition>A viscid fluid secreted by the synovial membrane, serving as a lubricant. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Synovial Fluid</nciodm:PreferredTerm>
+        </EnumeratedItem>
         <nciodm:CDISCSubmissionValue>SPECTYPE</nciodm:CDISCSubmissionValue>
         <nciodm:CDISCSynonym>Specimen Type</nciodm:CDISCSynonym>
         <nciodm:PreferredTerm>CDISC SDTM Specimen Type Terminology</nciodm:PreferredTerm>
@@ -19297,6 +20020,7 @@
           <TranslatedText xml:lang="en">The role that the individual or entity plays with respect to a specific situation or person.</TranslatedText>
         </Description>
         <EnumeratedItem CodedValue="CAREGIVER" nciodm:ExtCodeID="C17445">
+          <nciodm:CDISCSynonym>Caregiver</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>The primary person in charge of the care of a patient, usually a family member or a designated health care professional. (NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Caregiver</nciodm:PreferredTerm>
         </EnumeratedItem>
@@ -19344,10 +20068,12 @@
           <nciodm:PreferredTerm>Study Subject</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="SPOUSE" nciodm:ExtCodeID="C62649">
+          <nciodm:CDISCSynonym>Spouse</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>A person's partner in marriage. (NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Spouse</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="DOMESTIC PARTNER" nciodm:ExtCodeID="C53262">
+          <nciodm:CDISCSynonym>Domestic Partner</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>A person who is a member of an unmarried couple, including same sex couples living together in longstanding relationships, that are registered or unregistered. (NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Domestic Partnership</nciodm:PreferredTerm>
         </EnumeratedItem>
@@ -21116,7 +21842,7 @@
           <nciodm:CDISCSynonym>mcg/kg</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>Microgram per Kilogram</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>ng/g</nciodm:CDISCSynonym>
-          <nciodm:CDISCSynonym>ug/k</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ug/kg</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>A unit of a mass fraction expressed as a number of micrograms of substance per kilogram of mixture. The unit is also used as a dose calculation unit.(NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Microgram per Kilogram</nciodm:PreferredTerm>
         </EnumeratedItem>
@@ -27805,7 +28531,7 @@
           <nciodm:CDISCDefinition>Being or located on or directed toward the side of the body to the east when facing north.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Right</nciodm:PreferredTerm>
         </EnumeratedItem>
-        <EnumeratedItem CodedValue="UNILATERAL" nciodm:ExtCodeID="C68598">
+        <EnumeratedItem CodedValue="UNILATERAL" nciodm:ExtCodeID="C28012">
           <nciodm:CDISCDefinition>Affecting one side of the body or one of a pair of organs.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Unilateral</nciodm:PreferredTerm>
         </EnumeratedItem>
@@ -27950,7 +28676,7 @@
           <nciodm:CDISCDefinition>Being or representing the complete extent of a single entity.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Whole</nciodm:PreferredTerm>
         </EnumeratedItem>
-        <EnumeratedItem CodedValue="MULTIPLE" nciodm:ExtCodeID="C78728">
+        <EnumeratedItem CodedValue="MULTIPLE" nciodm:ExtCodeID="C17648">
           <nciodm:CDISCSynonym>Many</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>Several</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>More than one. (NCI)</nciodm:CDISCDefinition>
@@ -30105,6 +30831,249 @@
         <nciodm:CDISCSubmissionValue>STYPE</nciodm:CDISCSubmissionValue>
         <nciodm:CDISCSynonym>Study Type</nciodm:CDISCSynonym>
         <nciodm:PreferredTerm>CDISC SDTM Study Type Terminology</nciodm:PreferredTerm>
+      </CodeList>
+      <CodeList OID="CL.C100130.RELSUB" Name="Relationship to Subject" DataType="text" nciodm:ExtCodeID="C100130" nciodm:CodeListExtensible="Yes">
+        <Description>
+          <TranslatedText xml:lang="en">The relationship of a person to a study subject.</TranslatedText>
+        </Description>
+        <EnumeratedItem CodedValue="AUNT, BIOLOGICAL" nciodm:ExtCodeID="C96569">
+          <nciodm:CDISCSynonym>Biological Aunt</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A female relative who is a sibling of either of the biological parents, and who share a common ancestor. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Biological Aunt</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AUNT, BIOLOGICAL MATERNAL" nciodm:ExtCodeID="C96575">
+          <nciodm:CDISCSynonym>Biological Maternal Aunt</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A female relative who is a sibling of the biological mother, and who both share a common ancestor. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Biological Maternal Aunt</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AUNT, BIOLOGICAL PATERNAL" nciodm:ExtCodeID="C96581">
+          <nciodm:CDISCSynonym>Biological Paternal Aunt</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A female relative who is a sibling of the biological father, and who both share a common ancestor. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Biological Paternal Aunt</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BROTHER, BIOLOGICAL" nciodm:ExtCodeID="C96570">
+          <nciodm:CDISCSynonym>Biological Brother</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A male who shares with his sibling the genetic makeup inherited from one or both of their shared biological parents.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Biological Brother</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BROTHER, BIOLOGICAL MATERNAL HALF" nciodm:ExtCodeID="C96656">
+          <nciodm:CDISCSynonym>Half-brother with Mother as Common Parent</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A male who shares with his sibling the genetic makeup inherited from only the biological mother.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Half-brother with Mother as Common Parent</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BROTHER, BIOLOGICAL PATERNAL HALF" nciodm:ExtCodeID="C96655">
+          <nciodm:CDISCSynonym>Half-brother with Father as Common Parent</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A male who shares with his sibling the genetic makeup inherited from only the biological father.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Half-brother with Father as Common Parent</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BROTHER, HALF" nciodm:ExtCodeID="C71402">
+          <nciodm:CDISCSynonym>Half Brother</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A male who shares with his sibling the genetic makeup inherited from only one of the biological parents.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Half Brother</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CAREGIVER" nciodm:ExtCodeID="C17445">
+          <nciodm:CDISCSynonym>Caregiver</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The primary person in charge of the care of a patient, usually a family member or a designated health care professional. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Caregiver</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CHILD, BIOLOGICAL" nciodm:ExtCodeID="C100807">
+          <nciodm:CDISCSynonym>Biological Child</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A son or daughter with genetic makeup inherited from the parent.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Biological Child</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CLINICIAN" nciodm:ExtCodeID="C85499">
+          <nciodm:CDISCSynonym>Clinician</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An individual, such as a physician, nurse practitioner or other health care professional, who takes responsibility for a subject's care.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Clinician</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="COUSIN, BIOLOGICAL" nciodm:ExtCodeID="C96571">
+          <nciodm:CDISCSynonym>Biological Cousin</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A relative who is the offspring of a sibling of either of the biological parents, and who share a common ancestor. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Biological Cousin</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="COUSIN, BIOLOGICAL MATERNAL" nciodm:ExtCodeID="C96576">
+          <nciodm:CDISCSynonym>Biological Maternal Cousin</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A relative who is the offspring of a sibling of the biological mother and share a common ancestor.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Biological Maternal Cousin</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="COUSIN, BIOLOGICAL PATERNAL" nciodm:ExtCodeID="C96582">
+          <nciodm:CDISCSynonym>Biological Paternal Cousin</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A relative who is the offspring of a sibling of the biological father and share a common ancestor.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Biological Paternal Cousin</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="DOMESTIC PARTNER" nciodm:ExtCodeID="C53262">
+          <nciodm:CDISCSynonym>Domestic Partner</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Person declares that a domestic partnership relationship exists. (HL7)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Domestic Partnership</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="DONOR" nciodm:ExtCodeID="C48284">
+          <nciodm:CDISCSynonym>Donor</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>One that contributes something. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Donor</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="DONOR, ORGAN" nciodm:ExtCodeID="C100810">
+          <nciodm:CDISCSynonym>Organ Donor</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Someone from whom an organ is removed for transplantation or other purpose.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Organ Donor</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="DONOR, TISSUE" nciodm:ExtCodeID="C25168">
+          <nciodm:CDISCSynonym>Tissue Donor</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Someone from whom tissue is removed for transplantation or other purpose.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Tissue Donor</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="FAMILY MEMBER" nciodm:ExtCodeID="C41256">
+          <nciodm:CDISCSynonym>Family Member</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Any of the individuals who are descended from a common progenitor, related by marriage or other legal tie.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Family Member</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="FATHER, BIOLOGICAL" nciodm:ExtCodeID="C96572">
+          <nciodm:CDISCSynonym>Biological Father</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A male who contributes to the genetic makeup of his offspring through the fertilization of an ovum by his sperm. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Biological Father</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GRANDCHILD, BIOLOGICAL" nciodm:ExtCodeID="C100805">
+          <nciodm:CDISCSynonym>Biological Grandchild</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A biological child of an individual's biological child.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Biological Grandchild</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GRANDFATHER, BIOLOGICAL" nciodm:ExtCodeID="C96573">
+          <nciodm:CDISCSynonym>Biological Grandfather</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A male relative who is the biological father of either the biological mother or the biological father. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Biological Grandfather</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GRANDFATHER, BIOLOGICAL MATERNAL" nciodm:ExtCodeID="C96577">
+          <nciodm:CDISCSynonym>Biological Maternal Grandfather</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A male relative who is the biological father of the biological mother. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Biological Maternal Grandfather</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GRANDFATHER, BIOLOGICAL PATERNAL" nciodm:ExtCodeID="C96583">
+          <nciodm:CDISCSynonym>Biological Paternal Grandfather</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A male relative who is the biological father of the biological father. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Biological Paternal Grandfather</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GRANDMOTHER, BIOLOGICAL" nciodm:ExtCodeID="C96574">
+          <nciodm:CDISCSynonym>Biological Grandmother</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A female relative who is the biological mother of either the biological mother or the biological father. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Biological Grandmother</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GRANDMOTHER, BIOLOGICAL MATERNAL" nciodm:ExtCodeID="C96578">
+          <nciodm:CDISCSynonym>Biological Maternal Grandmother</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A female relative who is the biological mother of the biological mother. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Biological Maternal Grandmother</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GRANDMOTHER, BIOLOGICAL PATERNAL" nciodm:ExtCodeID="C96584">
+          <nciodm:CDISCSynonym>Biological Paternal Grandmother</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A female relative who is the biological mother of the biological father. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Biological Paternal Grandmother</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GRANDPARENT, BIOLOGICAL" nciodm:ExtCodeID="C100806">
+          <nciodm:CDISCSynonym>Biological Grandparent</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A biological parent of the biological father or biological mother.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Biological Grandparent</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MOTHER, BIOLOGICAL" nciodm:ExtCodeID="C96580">
+          <nciodm:CDISCSynonym>Biological Mother</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A female who contributes to the genetic makeup of her offspring from the fertilization of her ovum. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Biological Mother</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="NURSE" nciodm:ExtCodeID="C20821">
+          <nciodm:CDISCSynonym>Nurse</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A professional healthcare provider who has graduated from a nursing program.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Nurse</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PREGNANCY PARTNER" nciodm:ExtCodeID="C100811">
+          <nciodm:CDISCSynonym>Pregnancy Partner</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An individual who provides support to a pregnant individual.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Pregnancy Partner</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="RELATIVE, FIRST DEGREE" nciodm:ExtCodeID="C21481">
+          <nciodm:CDISCSynonym>First Degree Relative</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Any individual related biologically or legally to another individual and considered immediate family as in the case of a spouse, parent, sibling or child.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>First Degree Relative</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="RELATIVE, SECOND DEGREE" nciodm:ExtCodeID="C19811">
+          <nciodm:CDISCSynonym>Second Degree Relative</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Any individual related biologically or legally to another individual and considered one degree removed from the immediate family as in the case of in-laws, grandparents, aunts and uncles.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Second Degree Relative</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="RELATIVE, THIRD DEGREE" nciodm:ExtCodeID="C100808">
+          <nciodm:CDISCSynonym>Third Degree Relative</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Any individual related biologically or legally to another individual and considered two degrees removed from the immediate family as in the case of cousins.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Third Degree Relative</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SEXUAL PARTNER" nciodm:ExtCodeID="C100812">
+          <nciodm:CDISCSynonym>Sexual Partner</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A person with whom one has had sexual relations.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Sexual Partner</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SIBLING, BIOLOGICAL" nciodm:ExtCodeID="C100809">
+          <nciodm:CDISCSynonym>Biological Sibling</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A person's brother or sister with whom they share a genetic makeup inherited from their shared biological parents.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Biological Sibling</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SISTER, BIOLOGICAL" nciodm:ExtCodeID="C96586">
+          <nciodm:CDISCSynonym>Biological Sister</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A female who shares with her sibling the genetic makeup inherited from one or both of their shared biological parents.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Biological Sister</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SISTER, BIOLOGICAL MATERNAL HALF" nciodm:ExtCodeID="C96658">
+          <nciodm:CDISCSynonym>Half-sister with Mother as Common Parent</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A female who shares with her sibling the genetic makeup inherited from only the biological mother.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Half-sister with Mother as Common Parent</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SISTER, BIOLOGICAL PATERNAL HALF" nciodm:ExtCodeID="C96657">
+          <nciodm:CDISCSynonym>Half-sister with Father as Common Parent</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A female who shares with her sibling the genetic makeup inherited from only the biological father.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Half-sister with Father as Common Parent</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SISTER, HALF" nciodm:ExtCodeID="C71403">
+          <nciodm:CDISCSynonym>Half Sister</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A female who shares with her sibling the genetic makeup inherited from only one of the biological parents.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Half Sister</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SPOUSE" nciodm:ExtCodeID="C62649">
+          <nciodm:CDISCSynonym>Spouse</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A person's partner in marriage. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Spouse</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TECHNICIAN" nciodm:ExtCodeID="C63861">
+          <nciodm:CDISCSynonym>Technician</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A person skilled in the performance of the technical or procedural aspects of a profession. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Technician</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TWIN" nciodm:ExtCodeID="C73427">
+          <nciodm:CDISCSynonym>Twin</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Either of two offspring born from the same pregnancy. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Twin</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TWIN, DIZYGOTIC" nciodm:ExtCodeID="C73428">
+          <nciodm:CDISCSynonym>Dizygotic Twin</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Either of the two offspring resulting from two separately fertilized ovums during the same pregnancy.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Fraternal Twin</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TWIN, MONOZYGOTIC" nciodm:ExtCodeID="C73429">
+          <nciodm:CDISCSynonym>Monozygotic Twin</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Either of the two offspring resulting from a shared ovum. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Identical Twin</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="UNCLE, BIOLOGICAL" nciodm:ExtCodeID="C96587">
+          <nciodm:CDISCSynonym>Biological Uncle</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A male relative who is a sibling of either of the biological parents, and who share a common ancestor. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Biological Uncle</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="UNCLE, BIOLOGICAL MATERNAL" nciodm:ExtCodeID="C96579">
+          <nciodm:CDISCSynonym>Biological Maternal Uncle</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A male relative who is a sibling of the biological mother, and who both share a common ancestor. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Biological Maternal Uncle</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="UNCLE, BIOLOGICAL PATERNAL" nciodm:ExtCodeID="C96585">
+          <nciodm:CDISCSynonym>Biological Paternal Uncle</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A male relative who is a sibling of the biological father, and who both share a common ancestor. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Biological Paternal Uncle</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <nciodm:CDISCSubmissionValue>RELSUB</nciodm:CDISCSubmissionValue>
+        <nciodm:CDISCSynonym>Relationship to Subject</nciodm:CDISCSynonym>
+        <nciodm:PreferredTerm>CDISC SDTM Relationship to Subject Terminology</nciodm:PreferredTerm>
       </CodeList>
     </MetaDataVersion>
   </Study>
