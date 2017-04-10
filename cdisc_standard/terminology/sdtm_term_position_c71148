@@ -62,6 +62,11 @@
   <nciodm:CDISCDefinition>A position in which the subject's body is supported by a sling.</nciodm:CDISCDefinition>
   <nciodm:PreferredTerm>Patient in Body Sling</nciodm:PreferredTerm>
 </EnumeratedItem>
+<EnumeratedItem CodedValue="LATERAL DECUBITUS" nciodm:ExtCodeID="C100758">
+  <nciodm:CDISCSynonym>Lateral Decubitus</nciodm:CDISCSynonym>
+  <nciodm:CDISCDefinition>Lying down on one side.</nciodm:CDISCDefinition>
+  <nciodm:PreferredTerm>Lateral Decubitus Position</nciodm:PreferredTerm>
+</EnumeratedItem>
 <nciodm:CDISCSubmissionValue>POSITION</nciodm:CDISCSubmissionValue>
 <nciodm:CDISCSynonym>Position</nciodm:CDISCSynonym>
 <nciodm:PreferredTerm>CDISC SDTM Body Position Terminology</nciodm:PreferredTerm>
