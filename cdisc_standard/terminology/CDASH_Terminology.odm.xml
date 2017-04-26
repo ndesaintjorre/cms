@@ -67,7 +67,7 @@
                     <nciodm:PreferredTerm>Tablet Dosage Form</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <nciodm:CDISCSubmissionValue>CMDOSFRM</nciodm:CDISCSubmissionValue>
-                <nciodm:CDISCSynonym>Concomitant Medication Dose Form</nciodm:CDISCSynonym>
+                <nciodm:CDISCSynonym>Concomitant Medication Dose Form with modification</nciodm:CDISCSynonym>
                 <nciodm:PreferredTerm>CDISC CDASH Concomitant Medication Dose Form Terminology</nciodm:PreferredTerm>
             </CodeList>
             <CodeList OID="CL.C78417.CMDOSU" Name="Concomitant Medication Dose Units" DataType="text" nciodm:ExtCodeID="C78417" nciodm:CodeListExtensible="Yes">
