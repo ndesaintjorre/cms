@@ -1,4 +1,4 @@
- <CodeList OID="CL.C66767.ACN" Name="Action Taken with Study Treatment" DataType="text" nciodm:ExtCodeID="C66767" nciodm:CodeListExtensible="No">
+<CodeList OID="CL.C66767.ACN" Name="Action Taken with Study Treatment" DataType="text" nciodm:ExtCodeID="C66767" nciodm:CodeListExtensible="No">
         <Description>
           <TranslatedText xml:lang="en">Terminology specifying changes to the study treatment as a result of an adverse event.</TranslatedText>
         </Description>
