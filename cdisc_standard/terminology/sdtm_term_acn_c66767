@@ -1,40 +1,40 @@
 <CodeList OID="CL.C66767.ACN" Name="Action Taken with Study Treatment" DataType="text" nciodm:ExtCodeID="C66767" nciodm:CodeListExtensible="No">
-        <Description>
-          <TranslatedText xml:lang="en">Terminology specifying changes to the study treatment as a result of an adverse event.</TranslatedText>
-        </Description>
-        <EnumeratedItem CodedValue="DOSE INCREASED" nciodm:ExtCodeID="C49503">
-          <nciodm:CDISCDefinition>An indication that a medication schedule was modified by addition; either by changing the frequency, strength or amount. (NCI)</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>Dose Increased</nciodm:PreferredTerm>
-        </EnumeratedItem>
-        <EnumeratedItem CodedValue="DOSE NOT CHANGED" nciodm:ExtCodeID="C49504">
-          <nciodm:CDISCDefinition>An indication that a medication schedule was maintained. (NCI)</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>Dose Not Changed</nciodm:PreferredTerm>
-        </EnumeratedItem>
-        <EnumeratedItem CodedValue="DOSE REDUCED" nciodm:ExtCodeID="C49505">
-          <nciodm:CDISCDefinition>An indication that a medication schedule was modified by subtraction, either by changing the frequency, strength or amount. (NCI)</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>Dose Reduced</nciodm:PreferredTerm>
-        </EnumeratedItem>
-        <EnumeratedItem CodedValue="DRUG INTERRUPTED" nciodm:ExtCodeID="C49501">
-          <nciodm:CDISCDefinition>An indication that a medication schedule was modified by temporarily terminating a prescribed regimen of medication. (NCI)</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>Drug Interrupted</nciodm:PreferredTerm>
-        </EnumeratedItem>
-        <EnumeratedItem CodedValue="DRUG WITHDRAWN" nciodm:ExtCodeID="C49502">
-          <nciodm:CDISCDefinition>An indication that a medication schedule was modified through termination of a prescribed regimen of medication. (NCI)</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>Drug Withdrawn</nciodm:PreferredTerm>
-        </EnumeratedItem>
-        <EnumeratedItem CodedValue="NOT APPLICABLE" nciodm:ExtCodeID="C48660">
-          <nciodm:CDISCSynonym>NA</nciodm:CDISCSynonym>
-          <nciodm:CDISCSynonym>Not Applicable</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>Determination of a value is not relevant in the current context. (NCI)</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>Not Applicable</nciodm:PreferredTerm>
-        </EnumeratedItem>
-        <EnumeratedItem CodedValue="UNKNOWN" nciodm:ExtCodeID="C17998">
-          <nciodm:CDISCSynonym>U</nciodm:CDISCSynonym>
-          <nciodm:CDISCSynonym>Unknown</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>Not known, not observed, not recorded, or refused. (NCI)</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>Unknown</nciodm:PreferredTerm>
-        </EnumeratedItem>
-        <nciodm:CDISCSubmissionValue>ACN</nciodm:CDISCSubmissionValue>
-        <nciodm:CDISCSynonym>Action Taken with Study Treatment</nciodm:CDISCSynonym>
-        <nciodm:PreferredTerm>CDISC SDTM Action Taken with Study Treatment Terminology</nciodm:PreferredTerm>
-      </CodeList>
+                <Description>
+                    <TranslatedText xml:lang="en">Terminology specifying changes to the study treatment as a result of an adverse event.</TranslatedText>
+                </Description>
+                <EnumeratedItem CodedValue="DOSE INCREASED" nciodm:ExtCodeID="C49503">
+                    <nciodm:CDISCDefinition>An indication that a medication schedule was modified by addition; either by changing the frequency, strength or amount. (NCI)</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Dose Increased</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="DOSE NOT CHANGED" nciodm:ExtCodeID="C49504">
+                    <nciodm:CDISCDefinition>An indication that a medication schedule was maintained. (NCI)</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Dose Not Changed</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="DOSE REDUCED" nciodm:ExtCodeID="C49505">
+                    <nciodm:CDISCDefinition>An indication that a medication schedule was modified by subtraction, either by changing the frequency, strength or amount. (NCI)</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Dose Reduced</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="DRUG INTERRUPTED" nciodm:ExtCodeID="C49501">
+                    <nciodm:CDISCDefinition>An indication that a medication schedule was modified by temporarily terminating a prescribed regimen of medication. (NCI)</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Drug Interrupted</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="DRUG WITHDRAWN" nciodm:ExtCodeID="C49502">
+                    <nciodm:CDISCDefinition>An indication that a medication schedule was modified through termination of a prescribed regimen of medication. (NCI)</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Drug Withdrawn</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="NOT APPLICABLE" nciodm:ExtCodeID="C48660">
+                    <nciodm:CDISCSynonym>NA</nciodm:CDISCSynonym>
+                    <nciodm:CDISCSynonym>Not Applicable</nciodm:CDISCSynonym>
+                    <nciodm:CDISCDefinition>Determination of a value is not relevant in the current context. (NCI)</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Not Applicable</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="UNKNOWN" nciodm:ExtCodeID="C17998">
+                    <nciodm:CDISCSynonym>U</nciodm:CDISCSynonym>
+                    <nciodm:CDISCSynonym>Unknown</nciodm:CDISCSynonym>
+                    <nciodm:CDISCDefinition>Not known, not observed, not recorded, or refused. (NCI)</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Unknown</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <nciodm:CDISCSubmissionValue>ACN</nciodm:CDISCSubmissionValue>
+                <nciodm:CDISCSynonym>Action Taken with Study Treatment</nciodm:CDISCSynonym>
+                <nciodm:PreferredTerm>CDISC SDTM Action Taken with Study Treatment Terminology</nciodm:PreferredTerm>
+            </CodeList>
