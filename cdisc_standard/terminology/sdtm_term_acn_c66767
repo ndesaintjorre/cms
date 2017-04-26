@@ -1,6 +1,6 @@
-<CodeList OID="CL.C66767.ACN" Name="Action Taken with Study Treatment" DataType="text" nciodm:ExtCodeID="C66767" nciodm:CodeListExtensible="No">
+ <CodeList OID="CL.C66767.ACN" Name="Action Taken with Study Treatment" DataType="text" nciodm:ExtCodeID="C66767" nciodm:CodeListExtensible="No">
         <Description>
-          <TranslatedText xml:lang="en">Action Taken with Study Treatment</TranslatedText>
+          <TranslatedText xml:lang="en">Terminology specifying changes to the study treatment as a result of an adverse event.</TranslatedText>
         </Description>
         <EnumeratedItem CodedValue="DOSE INCREASED" nciodm:ExtCodeID="C49503">
           <nciodm:CDISCDefinition>An indication that a medication schedule was modified by addition; either by changing the frequency, strength or amount. (NCI)</nciodm:CDISCDefinition>
