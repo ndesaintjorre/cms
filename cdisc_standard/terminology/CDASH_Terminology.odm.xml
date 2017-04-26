@@ -68,7 +68,7 @@
                 </EnumeratedItem>
 				<EnumeratedItem CodedValue="TESTSANOFI" nciodm:ExtCodeID="SC00001">
                     <nciodm:CDISCSynonym>test</nciodm:CDISCSynonym>
-                    <nciodm:CDISCDefinition>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</nciodm:CDISCDefinition>
+                    <nciodm:CDISCDefinition>Lorem ipsum dolor with color JUST FOR TEST sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</nciodm:CDISCDefinition>
                     <nciodm:PreferredTerm>Example of modification with tracking</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <nciodm:CDISCSubmissionValue>CMDOSFRM</nciodm:CDISCSubmissionValue>
