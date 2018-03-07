@@ -1,0 +1,30 @@
+Terminology 2011-06-10.odm.xml
+
+<CodeList OID="CL.C66781.AGEU" Name="Age Unit" DataType="text" nciodm:ExtCodeID="C66781" nciodm:CodeListExtensible="No">
+  <Description>
+    <TranslatedText xml:lang="en">Those units of time that are routinely used to express the age of a person. (NCI)</TranslatedText>
+  </Description>
+  <EnumeratedItem CodedValue="DAYS" nciodm:ExtCodeID="C25301">
+    <nciodm:CDISCDefinition>The time for Earth to make a complete rotation on its axis; ordinarily divided into twenty-four hours. This also refers to a specific day. (NCI)</nciodm:CDISCDefinition>
+    <nciodm:PreferredTerm>Day</nciodm:PreferredTerm>
+  </EnumeratedItem>
+  <EnumeratedItem CodedValue="HOURS" nciodm:ExtCodeID="C25529">
+    <nciodm:CDISCDefinition>A unit measure of time equal to 3,600 seconds or 60 minutes. It is approximately 1/24 of a median day. (NCI)</nciodm:CDISCDefinition>
+    <nciodm:PreferredTerm>Hour</nciodm:PreferredTerm>
+  </EnumeratedItem>
+  <EnumeratedItem CodedValue="MONTHS" nciodm:ExtCodeID="C29846">
+    <nciodm:CDISCDefinition>One of the 12 divisions of a year as determined by a calendar. It corresponds to the unit of time of approximately to one cycle of the moon's phases, about 30 days or 4 weeks. (NCI)</nciodm:CDISCDefinition>
+    <nciodm:PreferredTerm>Month</nciodm:PreferredTerm>
+  </EnumeratedItem>
+  <EnumeratedItem CodedValue="WEEKS" nciodm:ExtCodeID="C29844">
+    <nciodm:CDISCDefinition>Any period of seven consecutive days. (NCI)</nciodm:CDISCDefinition>
+    <nciodm:PreferredTerm>Week</nciodm:PreferredTerm>
+  </EnumeratedItem>
+  <EnumeratedItem CodedValue="YEARS" nciodm:ExtCodeID="C29848">
+    <nciodm:CDISCDefinition>The period of time that it takes for Earth to make a complete revolution around the sun, approximately 365 days; a specific one year period. (NCI)</nciodm:CDISCDefinition>
+    <nciodm:PreferredTerm>Year</nciodm:PreferredTerm>
+  </EnumeratedItem>
+  <nciodm:CDISCSubmissionValue>AGEU</nciodm:CDISCSubmissionValue>
+  <nciodm:CDISCSynonym>Age Unit</nciodm:CDISCSynonym>
+  <nciodm:PreferredTerm>CDISC SDTM Age Unit Terminology</nciodm:PreferredTerm>
+</CodeList>
