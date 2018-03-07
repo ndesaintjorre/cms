@@ -1,4 +1,4 @@
-Terminology 2011-06-10.odm.xml
+Terminology 2011-07-22.odm.xml
 
 <CodeList OID="CL.C66781.AGEU" Name="Age Unit" DataType="text" nciodm:ExtCodeID="C66781" nciodm:CodeListExtensible="No">
   <Description>
@@ -9,6 +9,8 @@ Terminology 2011-06-10.odm.xml
     <nciodm:PreferredTerm>Day</nciodm:PreferredTerm>
   </EnumeratedItem>
   <EnumeratedItem CodedValue="HOURS" nciodm:ExtCodeID="C25529">
+    <nciodm:CDISCSynonym>Hour</nciodm:CDISCSynonym>
+    <nciodm:CDISCSynonym>hr</nciodm:CDISCSynonym>
     <nciodm:CDISCDefinition>A unit measure of time equal to 3,600 seconds or 60 minutes. It is approximately 1/24 of a median day. (NCI)</nciodm:CDISCDefinition>
     <nciodm:PreferredTerm>Hour</nciodm:PreferredTerm>
   </EnumeratedItem>
