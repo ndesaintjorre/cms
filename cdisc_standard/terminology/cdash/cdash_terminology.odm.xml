@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ODM xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC" xs:schemaLocation="http://www.nci.nih.gov/EVS/CDISC ../schema/controlledterminology1-0-0.xsd" FileType="Snapshot" FileOID="CDISC_CT.CDASH.2016-12-16" Granularity="Metadata" CreationDateTime="2016-12-12T17:02:36" AsOfDateTime="2016-12-16T00:00:00" ODMVersion="1.3.2" Originator="CDISC XML Technologies Team (Terminology2ODM converter)" SourceSystem="NCI Thesaurus" SourceSystemVersion="2016-12-16">
-    <Study OID="CDISC_CT.CDASH.2016-12-16">
+<ODM xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC" xs:schemaLocation="http://www.nci.nih.gov/EVS/CDISC ../schema/controlledterminology1-0-0.xsd" FileType="Snapshot" FileOID="CDISC_CT.CDASH.2017-09-29" Granularity="Metadata" CreationDateTime="2017-09-27T16:08:16" AsOfDateTime="2017-09-29T00:00:00" ODMVersion="1.3.2" Originator="CDISC XML Technologies Team (Terminology2ODM converter)" SourceSystem="NCI Thesaurus" SourceSystemVersion="2017-09-29">
+    <Study OID="CDISC_CT.CDASH.2017-09-29">
         <GlobalVariables>
             <StudyName>CDISC CDASH Controlled Terminology</StudyName>
-            <StudyDescription>CDISC CDASH Controlled Terminology, 2016-12-16</StudyDescription>
+            <StudyDescription>CDISC CDASH Controlled Terminology, 2017-09-29</StudyDescription>
             <ProtocolName>CDISC CDASH Controlled Terminology</ProtocolName>
         </GlobalVariables>
-        <MetaDataVersion OID="CDISC_CT_MetaDataVersion.CDASH.2016-12-16" Name="CDISC CDASH Controlled Terminology" Description="CDISC CDASH Controlled Terminology, 2016-12-16">
+        <MetaDataVersion OID="CDISC_CT_MetaDataVersion.CDASH.2017-09-29" Name="CDISC CDASH Controlled Terminology" Description="CDISC CDASH Controlled Terminology, 2017-09-29">
             <CodeList OID="CL.C78418.CMDOSFRM" Name="Concomitant Medication Dose Form" DataType="text" nciodm:ExtCodeID="C78418" nciodm:CodeListExtensible="Yes">
                 <Description>
                     <TranslatedText xml:lang="en">A terminology subset of the CDISC SDTM Pharmaceutical Dosage Form codelist created for CDASH Concomitant Medication Dose Form codelist. (NCI)</TranslatedText>
@@ -36,7 +36,7 @@
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="OINTMENT" nciodm:ExtCodeID="C42966">
                     <nciodm:CDISCSynonym>oint</nciodm:CDISCSynonym>
-                    <nciodm:CDISCDefinition>A suspension or emulsion, semisolid (1) dosage form, usually containing &lt; 20% water and volatiles (2) and &gt; 50% hydrocarbons, waxes, or polyols as the vehicle. This dosage form is generally for external application to the skin or mucous membranes. Note 1: A semisolid is not pourable; it does not flow or conform to its container at room temperature. It does not flow at low shear stress and generally exhibits plastic flow behavior. Note 2: Percent water and volatiles are measured by a loss on drying test in which the sample is heated at 105 degrees C until constant weight is achieved.</nciodm:CDISCDefinition>
+                    <nciodm:CDISCDefinition>A suspension or emulsion, semisolid (1) dosage form, usually containing less than 20 percent water and volatiles (2) and greater than 50 percent hydrocarbons, waxes, or polyols as the vehicle. This dosage form is generally for external application to the skin or mucous membranes. Note 1: A semisolid is not pourable; it does not flow or conform to its container at room temperature. It does not flow at low shear stress and generally exhibits plastic flow behavior. Note 2: Percent water and volatiles are measured by a loss on drying test in which the sample is heated at 105 degrees C until constant weight is achieved.</nciodm:CDISCDefinition>
                     <nciodm:PreferredTerm>Ointment Dosage Form</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="PATCH" nciodm:ExtCodeID="C42968">
@@ -347,7 +347,7 @@
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="OINTMENT" nciodm:ExtCodeID="C42966">
                     <nciodm:CDISCSynonym>oint</nciodm:CDISCSynonym>
-                    <nciodm:CDISCDefinition>A suspension or emulsion, semisolid (1) dosage form, usually containing &lt; 20% water and volatiles (2) and &gt; 50% hydrocarbons, waxes, or polyols as the vehicle. This dosage form is generally for external application to the skin or mucous membranes. Note 1: A semisolid is not pourable; it does not flow or conform to its container at room temperature. It does not flow at low shear stress and generally exhibits plastic flow behavior. Note 2: Percent water and volatiles are measured by a loss on drying test in which the sample is heated at 105 degrees C until constant weight is achieved.</nciodm:CDISCDefinition>
+                    <nciodm:CDISCDefinition>A suspension or emulsion, semisolid (1) dosage form, usually containing less than 20 percent water and volatiles (2) and greater than 50 percent hydrocarbons, waxes, or polyols as the vehicle. This dosage form is generally for external application to the skin or mucous membranes. Note 1: A semisolid is not pourable; it does not flow or conform to its container at room temperature. It does not flow at low shear stress and generally exhibits plastic flow behavior. Note 2: Percent water and volatiles are measured by a loss on drying test in which the sample is heated at 105 degrees C until constant weight is achieved.</nciodm:CDISCDefinition>
                     <nciodm:PreferredTerm>Ointment Dosage Form</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="PATCH" nciodm:ExtCodeID="C42968">
@@ -534,6 +534,10 @@
                     <nciodm:CDISCDefinition>A person having origins in the original peoples of Asia and the United States.</nciodm:CDISCDefinition>
                     <nciodm:PreferredTerm>Asian American</nciodm:PreferredTerm>
                 </EnumeratedItem>
+                <EnumeratedItem CodedValue="ASIAN INDIAN" nciodm:ExtCodeID="C41262">
+                    <nciodm:CDISCDefinition>A person having origins in any of the original peoples of the Indian subcontinent.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Asian Indian</nciodm:PreferredTerm>
+                </EnumeratedItem>
                 <EnumeratedItem CodedValue="BAHAMIAN" nciodm:ExtCodeID="C67271">
                     <nciodm:CDISCDefinition>A person having origins in any of the original peoples of the Bahamas.</nciodm:CDISCDefinition>
                     <nciodm:PreferredTerm>Bahamian</nciodm:PreferredTerm>
@@ -549,6 +553,10 @@
                 <EnumeratedItem CodedValue="BHUTANESE" nciodm:ExtCodeID="C43673">
                     <nciodm:CDISCDefinition>A person having origins in any of the original peoples of Bhutan.</nciodm:CDISCDefinition>
                     <nciodm:PreferredTerm>Bhutanese</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="BLACK" nciodm:ExtCodeID="C128938">
+                    <nciodm:CDISCDefinition>A person having origins in the original peoples of sub-Saharan Africa or the Caribbean.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Black</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="BLACK CENTRAL AMERICAN" nciodm:ExtCodeID="C128991">
                     <nciodm:CDISCDefinition>A person having origins in the original peoples of sub-Saharan Africa and Central America.</nciodm:CDISCDefinition>
@@ -757,6 +765,12 @@
                 <EnumeratedItem CodedValue="TRINIDADIAN" nciodm:ExtCodeID="C43828">
                     <nciodm:CDISCDefinition>A person having origins in any of the original peoples of Trinidad.</nciodm:CDISCDefinition>
                     <nciodm:PreferredTerm>Trinidadian</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="UNKNOWN" nciodm:ExtCodeID="C17998">
+                    <nciodm:CDISCSynonym>U</nciodm:CDISCSynonym>
+                    <nciodm:CDISCSynonym>Unknown</nciodm:CDISCSynonym>
+                    <nciodm:CDISCDefinition>Not known, not observed, not recorded, or refused. (NCI)</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Unknown</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="VIETNAMESE" nciodm:ExtCodeID="C43396">
                     <nciodm:CDISCDefinition>A person having origins in any of the original peoples of Viet Nam.</nciodm:CDISCDefinition>
