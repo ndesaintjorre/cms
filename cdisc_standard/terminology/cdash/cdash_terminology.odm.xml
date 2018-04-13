@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ODM xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC" xs:schemaLocation="http://www.nci.nih.gov/EVS/CDISC ../schema/controlledterminology1-0-0.xsd" FileType="Snapshot" FileOID="CDISC_CT.CDASH.2013-12-20" Granularity="Metadata" CreationDateTime="2013-12-16T15:40:24" AsOfDateTime="2013-12-20T00:00:00" ODMVersion="1.3.1" Originator="CDISC XML Technologies Team (Terminology2ODM converter)" SourceSystem="NCI Thesaurus" SourceSystemVersion="2013-12-20">
-    <Study OID="CDISC_CT.CDASH.2013-12-20">
+<ODM xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC" xs:schemaLocation="http://www.nci.nih.gov/EVS/CDISC ../schema/controlledterminology1-0-0.xsd" FileType="Snapshot" FileOID="CDISC_CT.CDASH.2014-03-28" Granularity="Metadata" CreationDateTime="2014-03-26T10:18:42" AsOfDateTime="2014-03-28T00:00:00" ODMVersion="1.3.1" Originator="CDISC XML Technologies Team (Terminology2ODM converter)" SourceSystem="NCI Thesaurus" SourceSystemVersion="2014-03-28">
+    <Study OID="CDISC_CT.CDASH.2014-03-28">
         <GlobalVariables>
             <StudyName>CDISC CDASH Controlled Terminology</StudyName>
-            <StudyDescription>CDISC CDASH Controlled Terminology, 2013-12-20</StudyDescription>
+            <StudyDescription>CDISC CDASH Controlled Terminology, 2014-03-28</StudyDescription>
             <ProtocolName>CDISC CDASH Controlled Terminology</ProtocolName>
         </GlobalVariables>
-        <MetaDataVersion OID="CDISC_CT_MetaDataVersion.CDASH.2013-12-20" Name="CDISC CDASH Controlled Terminology" Description="CDISC CDASH Controlled Terminology, 2013-12-20">
+        <MetaDataVersion OID="CDISC_CT_MetaDataVersion.CDASH.2014-03-28" Name="CDISC CDASH Controlled Terminology" Description="CDISC CDASH Controlled Terminology, 2014-03-28">
             <CodeList OID="CL.C78418.CMDOSFRM" Name="Concomitant Medication Dose Form" DataType="text" nciodm:ExtCodeID="C78418" nciodm:CodeListExtensible="Yes">
                 <Description>
                     <TranslatedText xml:lang="en">A terminology subset of the CDISC SDTM Pharmaceutical Dosage Form codelist created for CDASH Concomitant Medication Dose Form codelist. (NCI)</TranslatedText>
@@ -87,7 +87,7 @@
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="IU" nciodm:ExtCodeID="C48579">
                     <nciodm:CDISCSynonym>International Unit</nciodm:CDISCSynonym>
-                    <nciodm:CDISCDefinition>The unitage assigned by the WHO (World Health Organization) to International Biological Standards - substances, classed as biological according to the criteria provided by WHO Expert Committee on Biological Standardization (e.g. hormones, enzymes, and vaccines), to enable the results of biological and immunological assay procedures to be expressed in the same way throughout the world. The definition of an international unit is generally arbitrary and technical, and has to be officially approved by the International Conference for Unification of Formulae.(NCI)</nciodm:CDISCDefinition>
+                    <nciodm:CDISCDefinition>The unitage assigned by the WHO (World Health Organization) to International Biological Standards - substances, classed as biological according to the criteria provided by WHO Expert Committee on Biological Standardization, to enable the results of biological and immunological assay procedures to be expressed in the same way throughout the world. The definition of an international unit is generally arbitrary and technical, and has to be officially approved by the International Conference for Unification of Formulae.(NCI)</nciodm:CDISCDefinition>
                     <nciodm:PreferredTerm>International Unit</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="mg" nciodm:ExtCodeID="C28253">
@@ -96,8 +96,8 @@
                     <nciodm:PreferredTerm>Milligram</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="mL" nciodm:ExtCodeID="C28254">
-                    <nciodm:CDISCSynonym>cm3</nciodm:CDISCSynonym>
                     <nciodm:CDISCSynonym>Milliliter</nciodm:CDISCSynonym>
+                    <nciodm:CDISCSynonym>cm3</nciodm:CDISCSynonym>
                     <nciodm:CDISCDefinition>The unit of volume equal to one thousandth of a liter, one cubic centimeter, 10E-6 cubic meter, or approximately to 0.061 023 7 cubic inch.(NCI)</nciodm:CDISCDefinition>
                     <nciodm:PreferredTerm>Milliliter</nciodm:PreferredTerm>
                 </EnumeratedItem>
@@ -133,7 +133,7 @@
                     <nciodm:PreferredTerm>Twice Daily</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="PRN" nciodm:ExtCodeID="C64499">
-                    <nciodm:CDISCSynonym>As Needed</nciodm:CDISCSynonym>
+                    <nciodm:CDISCSynonym>As needed</nciodm:CDISCSynonym>
                     <nciodm:CDISCDefinition>As needed. (NCI)</nciodm:CDISCDefinition>
                     <nciodm:PreferredTerm>As Necessary</nciodm:PreferredTerm>
                 </EnumeratedItem>
@@ -332,7 +332,7 @@
                     <nciodm:PreferredTerm>Twice Daily</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="PRN" nciodm:ExtCodeID="C64499">
-                    <nciodm:CDISCSynonym>As Needed</nciodm:CDISCSynonym>
+                    <nciodm:CDISCSynonym>As needed</nciodm:CDISCSynonym>
                     <nciodm:CDISCDefinition>As needed. (NCI)</nciodm:CDISCDefinition>
                     <nciodm:PreferredTerm>As Necessary</nciodm:PreferredTerm>
                 </EnumeratedItem>
@@ -466,8 +466,8 @@
                     <nciodm:PreferredTerm>Milligram</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="mL" nciodm:ExtCodeID="C28254">
-                    <nciodm:CDISCSynonym>cm3</nciodm:CDISCSynonym>
                     <nciodm:CDISCSynonym>Milliliter</nciodm:CDISCSynonym>
+                    <nciodm:CDISCSynonym>cm3</nciodm:CDISCSynonym>
                     <nciodm:CDISCDefinition>The unit of volume equal to one thousandth of a liter, one cubic centimeter, 10E-6 cubic meter, or approximately to 0.061 023 7 cubic inch.(NCI)</nciodm:CDISCDefinition>
                     <nciodm:PreferredTerm>Milliliter</nciodm:PreferredTerm>
                 </EnumeratedItem>
@@ -603,8 +603,8 @@
                     <nciodm:PreferredTerm>Microgram per Minute</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="umol/day" nciodm:ExtCodeID="C67406">
-                    <nciodm:CDISCSynonym>mcmol/day</nciodm:CDISCSynonym>
                     <nciodm:CDISCSynonym>Micromoles per Day</nciodm:CDISCSynonym>
+                    <nciodm:CDISCSynonym>mcmol/day</nciodm:CDISCSynonym>
                     <nciodm:CDISCDefinition>A unit of amount of substance flow rate equivalent to the rate at which one millionth of a mole of substance travels to a given object or space over a period of time equal to 24 hours.(NCI)</nciodm:CDISCDefinition>
                     <nciodm:PreferredTerm>Micromole per 24 Hours</nciodm:PreferredTerm>
                 </EnumeratedItem>
@@ -633,8 +633,8 @@
                     <nciodm:PreferredTerm>Milligram</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="mL" nciodm:ExtCodeID="C28254">
-                    <nciodm:CDISCSynonym>cm3</nciodm:CDISCSynonym>
                     <nciodm:CDISCSynonym>Milliliter</nciodm:CDISCSynonym>
+                    <nciodm:CDISCSynonym>cm3</nciodm:CDISCSynonym>
                     <nciodm:CDISCDefinition>The unit of volume equal to one thousandth of a liter, one cubic centimeter, 10E-6 cubic meter, or approximately to 0.061 023 7 cubic inch.(NCI)</nciodm:CDISCDefinition>
                     <nciodm:PreferredTerm>Milliliter</nciodm:PreferredTerm>
                 </EnumeratedItem>
@@ -680,8 +680,8 @@
                     <nciodm:PreferredTerm>Milligram</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="mL" nciodm:ExtCodeID="C28254">
-                    <nciodm:CDISCSynonym>cm3</nciodm:CDISCSynonym>
                     <nciodm:CDISCSynonym>Milliliter</nciodm:CDISCSynonym>
+                    <nciodm:CDISCSynonym>cm3</nciodm:CDISCSynonym>
                     <nciodm:CDISCDefinition>The unit of volume equal to one thousandth of a liter, one cubic centimeter, 10E-6 cubic meter, or approximately to 0.061 023 7 cubic inch.(NCI)</nciodm:CDISCDefinition>
                     <nciodm:PreferredTerm>Milliliter</nciodm:PreferredTerm>
                 </EnumeratedItem>
