@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ODM xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC" xs:schemaLocation="http://www.nci.nih.gov/EVS/CDISC ../schema/controlledterminology1-0-0.xsd" FileType="Snapshot" FileOID="CDISC_CT.CDASH.2016-09-30" Granularity="Metadata" CreationDateTime="2016-09-30T14:12:46" AsOfDateTime="2016-09-30T00:00:00" ODMVersion="1.3.1" Originator="CDISC XML Technologies Team (Terminology2ODM converter)" SourceSystem="NCI Thesaurus" SourceSystemVersion="2016-09-30">
-    <Study OID="CDISC_CT.CDASH.2016-09-30">
+<ODM xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC" xs:schemaLocation="http://www.nci.nih.gov/EVS/CDISC ../schema/controlledterminology1-0-0.xsd" FileType="Snapshot" FileOID="CDISC_CT.CDASH.2016-12-16" Granularity="Metadata" CreationDateTime="2016-12-12T17:02:36" AsOfDateTime="2016-12-16T00:00:00" ODMVersion="1.3.2" Originator="CDISC XML Technologies Team (Terminology2ODM converter)" SourceSystem="NCI Thesaurus" SourceSystemVersion="2016-12-16">
+    <Study OID="CDISC_CT.CDASH.2016-12-16">
         <GlobalVariables>
             <StudyName>CDISC CDASH Controlled Terminology</StudyName>
-            <StudyDescription>CDISC CDASH Controlled Terminology, 2016-09-30</StudyDescription>
+            <StudyDescription>CDISC CDASH Controlled Terminology, 2016-12-16</StudyDescription>
             <ProtocolName>CDISC CDASH Controlled Terminology</ProtocolName>
         </GlobalVariables>
-        <MetaDataVersion OID="CDISC_CT_MetaDataVersion.CDASH.2016-09-30" Name="CDISC CDASH Controlled Terminology" Description="CDISC CDASH Controlled Terminology, 2016-09-30">
+        <MetaDataVersion OID="CDISC_CT_MetaDataVersion.CDASH.2016-12-16" Name="CDISC CDASH Controlled Terminology" Description="CDISC CDASH Controlled Terminology, 2016-12-16">
             <CodeList OID="CL.C78418.CMDOSFRM" Name="Concomitant Medication Dose Form" DataType="text" nciodm:ExtCodeID="C78418" nciodm:CodeListExtensible="Yes">
                 <Description>
                     <TranslatedText xml:lang="en">A terminology subset of the CDISC SDTM Pharmaceutical Dosage Form codelist created for CDASH Concomitant Medication Dose Form codelist. (NCI)</TranslatedText>
@@ -99,7 +99,7 @@
                 <EnumeratedItem CodedValue="mL" nciodm:ExtCodeID="C28254">
                     <nciodm:CDISCSynonym>Milliliter</nciodm:CDISCSynonym>
                     <nciodm:CDISCSynonym>cm3</nciodm:CDISCSynonym>
-                    <nciodm:CDISCDefinition>The unit of volume equal to one thousandth of a liter, one cubic centimeter, 10E-6 cubic meter, or approximately to 0.061 023 7 cubic inch.(NCI)</nciodm:CDISCDefinition>
+                    <nciodm:CDISCDefinition>A unit of volume equal to one thousandth (10E-3) of a liter.</nciodm:CDISCDefinition>
                     <nciodm:PreferredTerm>Milliliter</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="PUFF" nciodm:ExtCodeID="C65060">
@@ -116,7 +116,7 @@
                 <EnumeratedItem CodedValue="ug" nciodm:ExtCodeID="C48152">
                     <nciodm:CDISCSynonym>Microgram</nciodm:CDISCSynonym>
                     <nciodm:CDISCSynonym>mcg</nciodm:CDISCSynonym>
-                    <nciodm:CDISCDefinition>The unit of mass equal to one millionth of a gram or one thousandth of a milligram.(NCI)</nciodm:CDISCDefinition>
+                    <nciodm:CDISCDefinition>A unit of mass equal to one millionth (10E-6) of a gram.</nciodm:CDISCDefinition>
                     <nciodm:PreferredTerm>Microgram</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <nciodm:CDISCSubmissionValue>CMDOSU</nciodm:CDISCSubmissionValue>
@@ -534,21 +534,21 @@
                     <nciodm:CDISCDefinition>A person having origins in the original peoples of Asia and the United States.</nciodm:CDISCDefinition>
                     <nciodm:PreferredTerm>Asian American</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <EnumeratedItem CodedValue="BAHAMIAN" nciodm:ExtCodeID="C41262">
+                <EnumeratedItem CodedValue="BAHAMIAN" nciodm:ExtCodeID="C67271">
                     <nciodm:CDISCDefinition>A person having origins in any of the original peoples of the Bahamas.</nciodm:CDISCDefinition>
-                    <nciodm:PreferredTerm>Asian Indian</nciodm:PreferredTerm>
-                </EnumeratedItem>
-                <EnumeratedItem CodedValue="BANGLADESHI" nciodm:ExtCodeID="C67271">
-                    <nciodm:CDISCDefinition>A person having origins in any of the original peoples of Bangladesh.</nciodm:CDISCDefinition>
                     <nciodm:PreferredTerm>Bahamian</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <EnumeratedItem CodedValue="BARBADIAN" nciodm:ExtCodeID="C43671">
-                    <nciodm:CDISCDefinition>A person having origins in any of the original peoples of Barbados.</nciodm:CDISCDefinition>
+                <EnumeratedItem CodedValue="BANGLADESHI" nciodm:ExtCodeID="C43671">
+                    <nciodm:CDISCDefinition>A person having origins in any of the original peoples of Bangladesh.</nciodm:CDISCDefinition>
                     <nciodm:PreferredTerm>Bangladeshi</nciodm:PreferredTerm>
                 </EnumeratedItem>
-                <EnumeratedItem CodedValue="BHUTANESE" nciodm:ExtCodeID="C43823">
-                    <nciodm:CDISCDefinition>A person having origins in any of the original peoples of Bhutan.</nciodm:CDISCDefinition>
+                <EnumeratedItem CodedValue="BARBADIAN" nciodm:ExtCodeID="C43823">
+                    <nciodm:CDISCDefinition>A person having origins in any of the original peoples of Barbados.</nciodm:CDISCDefinition>
                     <nciodm:PreferredTerm>Barbadian</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="BHUTANESE" nciodm:ExtCodeID="C43673">
+                    <nciodm:CDISCDefinition>A person having origins in any of the original peoples of Bhutan.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Bhutanese</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="BLACK CENTRAL AMERICAN" nciodm:ExtCodeID="C128991">
                     <nciodm:CDISCDefinition>A person having origins in the original peoples of sub-Saharan Africa and Central America.</nciodm:CDISCDefinition>
@@ -831,13 +831,13 @@
                 <EnumeratedItem CodedValue="mL" nciodm:ExtCodeID="C28254">
                     <nciodm:CDISCSynonym>Milliliter</nciodm:CDISCSynonym>
                     <nciodm:CDISCSynonym>cm3</nciodm:CDISCSynonym>
-                    <nciodm:CDISCDefinition>The unit of volume equal to one thousandth of a liter, one cubic centimeter, 10E-6 cubic meter, or approximately to 0.061 023 7 cubic inch.(NCI)</nciodm:CDISCDefinition>
+                    <nciodm:CDISCDefinition>A unit of volume equal to one thousandth (10E-3) of a liter.</nciodm:CDISCDefinition>
                     <nciodm:PreferredTerm>Milliliter</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="ug" nciodm:ExtCodeID="C48152">
                     <nciodm:CDISCSynonym>Microgram</nciodm:CDISCSynonym>
                     <nciodm:CDISCSynonym>mcg</nciodm:CDISCSynonym>
-                    <nciodm:CDISCDefinition>The unit of mass equal to one millionth of a gram or one thousandth of a milligram.(NCI)</nciodm:CDISCDefinition>
+                    <nciodm:CDISCDefinition>A unit of mass equal to one millionth (10E-6) of a gram.</nciodm:CDISCDefinition>
                     <nciodm:PreferredTerm>Microgram</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <nciodm:CDISCSubmissionValue>EXVOLTU</nciodm:CDISCSubmissionValue>
@@ -945,7 +945,7 @@
                     <TranslatedText xml:lang="en">A terminology subset of the CDISC SDTM Unit codelist created for CDASH Unit of Measure for Flow Rate codelist. (NCI)</TranslatedText>
                 </Description>
                 <EnumeratedItem CodedValue="mL/min" nciodm:ExtCodeID="C64777">
-                    <nciodm:CDISCDefinition>A unit of flow rate, defined as a rate of one milliliter per minute.</nciodm:CDISCDefinition>
+                    <nciodm:CDISCDefinition>A unit of flow rate equal to one milliliter per minute.</nciodm:CDISCDefinition>
                     <nciodm:PreferredTerm>Milliliter per Minute</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="mmol/day" nciodm:ExtCodeID="C67420">
@@ -963,9 +963,8 @@
                     <nciodm:PreferredTerm>Microgram per Minute</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="umol/day" nciodm:ExtCodeID="C67406">
-                    <nciodm:CDISCSynonym>Micromoles per Day</nciodm:CDISCSynonym>
                     <nciodm:CDISCSynonym>mcmol/day</nciodm:CDISCSynonym>
-                    <nciodm:CDISCDefinition>A unit of amount of substance flow rate equivalent to the rate at which one millionth of a mole of substance travels to a given object or space over a period of time equal to 24 hours.(NCI)</nciodm:CDISCDefinition>
+                    <nciodm:CDISCDefinition>A unit of substance flow rate equal to one micromole per day.</nciodm:CDISCDefinition>
                     <nciodm:PreferredTerm>Micromole per 24 Hours</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <nciodm:CDISCSubmissionValue>EXFLRTU</nciodm:CDISCSubmissionValue>
@@ -995,7 +994,7 @@
                 <EnumeratedItem CodedValue="mL" nciodm:ExtCodeID="C28254">
                     <nciodm:CDISCSynonym>Milliliter</nciodm:CDISCSynonym>
                     <nciodm:CDISCSynonym>cm3</nciodm:CDISCSynonym>
-                    <nciodm:CDISCDefinition>The unit of volume equal to one thousandth of a liter, one cubic centimeter, 10E-6 cubic meter, or approximately to 0.061 023 7 cubic inch.(NCI)</nciodm:CDISCDefinition>
+                    <nciodm:CDISCDefinition>A unit of volume equal to one thousandth (10E-3) of a liter.</nciodm:CDISCDefinition>
                     <nciodm:PreferredTerm>Milliliter</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="PUFF" nciodm:ExtCodeID="C65060">
@@ -1012,7 +1011,7 @@
                 <EnumeratedItem CodedValue="ug" nciodm:ExtCodeID="C48152">
                     <nciodm:CDISCSynonym>Microgram</nciodm:CDISCSynonym>
                     <nciodm:CDISCSynonym>mcg</nciodm:CDISCSynonym>
-                    <nciodm:CDISCDefinition>The unit of mass equal to one millionth of a gram or one thousandth of a milligram.(NCI)</nciodm:CDISCDefinition>
+                    <nciodm:CDISCDefinition>A unit of mass equal to one millionth (10E-6) of a gram.</nciodm:CDISCDefinition>
                     <nciodm:PreferredTerm>Microgram</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <nciodm:CDISCSubmissionValue>EXDOSU</nciodm:CDISCSubmissionValue>
@@ -1042,7 +1041,7 @@
                 <EnumeratedItem CodedValue="mL" nciodm:ExtCodeID="C28254">
                     <nciodm:CDISCSynonym>Milliliter</nciodm:CDISCSynonym>
                     <nciodm:CDISCSynonym>cm3</nciodm:CDISCSynonym>
-                    <nciodm:CDISCDefinition>The unit of volume equal to one thousandth of a liter, one cubic centimeter, 10E-6 cubic meter, or approximately to 0.061 023 7 cubic inch.(NCI)</nciodm:CDISCDefinition>
+                    <nciodm:CDISCDefinition>A unit of volume equal to one thousandth (10E-3) of a liter.</nciodm:CDISCDefinition>
                     <nciodm:PreferredTerm>Milliliter</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="PUFF" nciodm:ExtCodeID="C65060">
@@ -1059,7 +1058,7 @@
                 <EnumeratedItem CodedValue="ug" nciodm:ExtCodeID="C48152">
                     <nciodm:CDISCSynonym>Microgram</nciodm:CDISCSynonym>
                     <nciodm:CDISCSynonym>mcg</nciodm:CDISCSynonym>
-                    <nciodm:CDISCDefinition>The unit of mass equal to one millionth of a gram or one thousandth of a milligram.(NCI)</nciodm:CDISCDefinition>
+                    <nciodm:CDISCDefinition>A unit of mass equal to one millionth (10E-6) of a gram.</nciodm:CDISCDefinition>
                     <nciodm:PreferredTerm>Microgram</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <nciodm:CDISCSubmissionValue>EXPDOSEU</nciodm:CDISCSubmissionValue>
