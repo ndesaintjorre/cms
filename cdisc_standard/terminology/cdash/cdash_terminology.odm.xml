@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ODM xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC" xs:schemaLocation="http://www.nci.nih.gov/EVS/CDISC ../schema/controlledterminology1-0-0.xsd" FileType="Snapshot" FileOID="CDISC_CT.CDASH.2016-03-25" Granularity="Metadata" CreationDateTime="2016-03-22T10:45:19" AsOfDateTime="2016-03-25T00:00:00" ODMVersion="1.3.1" Originator="CDISC XML Technologies Team (Terminology2ODM converter)" SourceSystem="NCI Thesaurus" SourceSystemVersion="2016-03-25">
-    <Study OID="CDISC_CT.CDASH.2016-03-25">
+<ODM xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC" xs:schemaLocation="http://www.nci.nih.gov/EVS/CDISC ../schema/controlledterminology1-0-0.xsd" FileType="Snapshot" FileOID="CDISC_CT.CDASH.2016-09-30" Granularity="Metadata" CreationDateTime="2016-09-30T14:12:46" AsOfDateTime="2016-09-30T00:00:00" ODMVersion="1.3.1" Originator="CDISC XML Technologies Team (Terminology2ODM converter)" SourceSystem="NCI Thesaurus" SourceSystemVersion="2016-09-30">
+    <Study OID="CDISC_CT.CDASH.2016-09-30">
         <GlobalVariables>
             <StudyName>CDISC CDASH Controlled Terminology</StudyName>
-            <StudyDescription>CDISC CDASH Controlled Terminology, 2016-03-25</StudyDescription>
+            <StudyDescription>CDISC CDASH Controlled Terminology, 2016-09-30</StudyDescription>
             <ProtocolName>CDISC CDASH Controlled Terminology</ProtocolName>
         </GlobalVariables>
-        <MetaDataVersion OID="CDISC_CT_MetaDataVersion.CDASH.2016-03-25" Name="CDISC CDASH Controlled Terminology" Description="CDISC CDASH Controlled Terminology, 2016-03-25">
+        <MetaDataVersion OID="CDISC_CT_MetaDataVersion.CDASH.2016-09-30" Name="CDISC CDASH Controlled Terminology" Description="CDISC CDASH Controlled Terminology, 2016-09-30">
             <CodeList OID="CL.C78418.CMDOSFRM" Name="Concomitant Medication Dose Form" DataType="text" nciodm:ExtCodeID="C78418" nciodm:CodeListExtensible="Yes">
                 <Description>
                     <TranslatedText xml:lang="en">A terminology subset of the CDISC SDTM Pharmaceutical Dosage Form codelist created for CDASH Concomitant Medication Dose Form codelist. (NCI)</TranslatedText>
@@ -82,7 +82,7 @@
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="g" nciodm:ExtCodeID="C48155">
                     <nciodm:CDISCSynonym>Gram</nciodm:CDISCSynonym>
-                    <nciodm:CDISCDefinition>A metric unit of mass equal to one one thousandth of a kilogram. (NCI)</nciodm:CDISCDefinition>
+                    <nciodm:CDISCDefinition>A unit of mass equal to one thousandth (10E-3) of a kilogram, the kilogram being the base unit of mass in the International System of Units (SI).</nciodm:CDISCDefinition>
                     <nciodm:PreferredTerm>Gram</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="IU" nciodm:ExtCodeID="C48579">
@@ -93,7 +93,7 @@
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="mg" nciodm:ExtCodeID="C28253">
                     <nciodm:CDISCSynonym>Milligram</nciodm:CDISCSynonym>
-                    <nciodm:CDISCDefinition>The unit of mass equal to one thousandth of a gram or 1000 micrograms. One milligram equals approximately 0.015432 grain or 35.274 x 10E-6 ounce.(NCI)</nciodm:CDISCDefinition>
+                    <nciodm:CDISCDefinition>A unit of mass equal to one thousandth (10E-3) of a gram.</nciodm:CDISCDefinition>
                     <nciodm:PreferredTerm>Milligram</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="mL" nciodm:ExtCodeID="C28254">
@@ -140,8 +140,7 @@
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="QD" nciodm:ExtCodeID="C25473">
                     <nciodm:CDISCSynonym>Daily</nciodm:CDISCSynonym>
-                    <nciodm:CDISCSynonym>Per Day</nciodm:CDISCSynonym>
-                    <nciodm:CDISCDefinition>A rate of occurrence within a period of time equal to one day.</nciodm:CDISCDefinition>
+                    <nciodm:CDISCDefinition>A rate of occurrences within a period of time equal to one day.</nciodm:CDISCDefinition>
                     <nciodm:PreferredTerm>Daily</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="QID" nciodm:ExtCodeID="C64530">
@@ -253,12 +252,72 @@
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="sec" nciodm:ExtCodeID="C42535">
                     <nciodm:CDISCSynonym>Second</nciodm:CDISCSynonym>
-                    <nciodm:CDISCDefinition>The second is a unit of time with a duration of 919 263 177 0 periods of the specified light radiation corresponding to the transition between the two hyperfine levels of the cesium 133 atom in its ground state at 0 K. According to the convention, 60 seconds constitute one minute; 3,600 seconds constitute one hour. Abbreviation Sec. is acceptable in non-scientific usage only.(NCI)</nciodm:CDISCDefinition>
+                    <nciodm:CDISCDefinition>The base unit of time in the International System of Units (SI) equal to the duration of 9,192,631,770 periods of the specified light radiation corresponding to the transition between the two hyperfine levels of the cesium 133 atom in its ground state at 0 K.</nciodm:CDISCDefinition>
                     <nciodm:PreferredTerm>Second</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <nciodm:CDISCSubmissionValue>EGORRESU</nciodm:CDISCSubmissionValue>
                 <nciodm:CDISCSynonym>ECG Original Units</nciodm:CDISCSynonym>
                 <nciodm:PreferredTerm>CDISC CDASH ECG Original Units Terminology</nciodm:PreferredTerm>
+            </CodeList>
+            <CodeList OID="CL.C128690.ETHNICC" Name="Ethnicity As Collected" DataType="text" nciodm:ExtCodeID="C128690" nciodm:CodeListExtensible="Yes">
+                <Description>
+                    <TranslatedText xml:lang="en">A terminology codelist relevant to the ethnicity of an individual as collected on the case report form.</TranslatedText>
+                </Description>
+                <EnumeratedItem CodedValue="ASHKENAZI JEW" nciodm:ExtCodeID="C17950">
+                    <nciodm:CDISCDefinition>A person of Ashkenazi Jewish descent.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Ashkenazi Jew</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="CENTRAL AMERICAN" nciodm:ExtCodeID="C67118">
+                    <nciodm:CDISCDefinition>A person of Central American descent.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Central American</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="CUBAN" nciodm:ExtCodeID="C107608">
+                    <nciodm:CDISCDefinition>A person of Cuban descent.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Cuban</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="CUBAN AMERICAN" nciodm:ExtCodeID="C67115">
+                    <nciodm:CDISCDefinition>A person of Cuban and American descent.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Cuban or Cuban American</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="HISPANIC OR LATINO" nciodm:ExtCodeID="C17459">
+                    <nciodm:CDISCDefinition>A person of Mexican, Puerto Rican, Cuban, Central or South American or other Spanish culture or origin, regardless of race. (NCI)</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Hispanic or Latino</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="LATIN AMERICAN" nciodm:ExtCodeID="C126531">
+                    <nciodm:CDISCDefinition>A person of Latin American descent.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Latin American</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="MEXICAN" nciodm:ExtCodeID="C67113">
+                    <nciodm:CDISCDefinition>A person of Mexican descent.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Mexican</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="MEXICAN AMERICAN" nciodm:ExtCodeID="C67114">
+                    <nciodm:CDISCDefinition>A person of Mexican and American descent.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Mexican American</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="NOT HISPANIC OR LATINO" nciodm:ExtCodeID="C41222">
+                    <nciodm:CDISCDefinition>A person not of Cuban, Mexican, Puerto Rican, South or Central American, or other Spanish culture or origin, regardless of race. An arbitrary ethnic classification. (NCI)</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Not Hispanic or Latino</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="PUERTO RICAN" nciodm:ExtCodeID="C67112">
+                    <nciodm:CDISCDefinition>A person of Puerto Rican descent.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Puerto Rican</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="SEPHARDIC JEW" nciodm:ExtCodeID="C103283">
+                    <nciodm:CDISCDefinition>A person of Sephardic Jewish descent.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Sephardic Jew</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="SOUTH AMERICAN" nciodm:ExtCodeID="C126532">
+                    <nciodm:CDISCDefinition>A person of South American descent.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>South American</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="SPANISH" nciodm:ExtCodeID="C67120">
+                    <nciodm:CDISCDefinition>A person from Spain or of Spanish descent.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Spanish</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <nciodm:CDISCSubmissionValue>ETHNICC</nciodm:CDISCSubmissionValue>
+                <nciodm:CDISCSynonym>Ethnicity As Collected</nciodm:CDISCSynonym>
+                <nciodm:PreferredTerm>CDISC SDTM Collected Ethnicity Terminology</nciodm:PreferredTerm>
             </CodeList>
             <CodeList OID="CL.C78426.EXDOSFRM" Name="Exposure Dose Form" DataType="text" nciodm:ExtCodeID="C78426" nciodm:CodeListExtensible="Yes">
                 <Description>
@@ -339,8 +398,7 @@
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="QD" nciodm:ExtCodeID="C25473">
                     <nciodm:CDISCSynonym>Daily</nciodm:CDISCSynonym>
-                    <nciodm:CDISCSynonym>Per Day</nciodm:CDISCSynonym>
-                    <nciodm:CDISCDefinition>A rate of occurrence within a period of time equal to one day.</nciodm:CDISCDefinition>
+                    <nciodm:CDISCDefinition>A rate of occurrences within a period of time equal to one day.</nciodm:CDISCDefinition>
                     <nciodm:PreferredTerm>Daily</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="QID" nciodm:ExtCodeID="C64530">
@@ -436,6 +494,310 @@
                 <nciodm:CDISCSynonym>Exposure Route of Administration</nciodm:CDISCSynonym>
                 <nciodm:PreferredTerm>CDISC CDASH Exposure Route of Administration Terminology</nciodm:PreferredTerm>
             </CodeList>
+            <CodeList OID="CL.C128689.RACEC" Name="Race As Collected" DataType="text" nciodm:ExtCodeID="C128689" nciodm:CodeListExtensible="Yes">
+                <Description>
+                    <TranslatedText xml:lang="en">A terminology codelist relevant to the race of an individual as collected on the case report form.</TranslatedText>
+                </Description>
+                <EnumeratedItem CodedValue="AFRICAN" nciodm:ExtCodeID="C42331">
+                    <nciodm:CDISCDefinition>A person having origins in any of the original peoples of sub-Saharan Africa.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>African</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="AFRICAN AMERICAN" nciodm:ExtCodeID="C128937">
+                    <nciodm:CDISCDefinition>A person having origins in the original peoples of sub-Saharan Africa and the United States.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>African American</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="AFRICAN CARIBBEAN" nciodm:ExtCodeID="C41226">
+                    <nciodm:CDISCDefinition>A person having origins in the original peoples of sub-Saharan Africa and the Caribbean.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>African Caribbean</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="ALASKA NATIVE" nciodm:ExtCodeID="C18237">
+                    <nciodm:CDISCDefinition>The native people of Alaska.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Alaska Native</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="AMERICAN INDIAN" nciodm:ExtCodeID="C43877">
+                    <nciodm:CDISCDefinition>The native people of North America.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>American Indian</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="AMERICAN INDIAN OR ALASKA NATIVE" nciodm:ExtCodeID="C41259">
+                    <nciodm:CDISCDefinition>A person having origins in any of the original peoples of North and South America (including Central America), and who maintains tribal affiliation or community attachment. (FDA)</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>American Indian or Alaska Native</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="ARAB" nciodm:ExtCodeID="C43876">
+                    <nciodm:CDISCDefinition>A person having origins in any of the original peoples of the Arabian peninsula and surrounding territories in the Middle East and northern Africa.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Arab</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="ASIAN" nciodm:ExtCodeID="C41260">
+                    <nciodm:CDISCDefinition>A person having origins in any of the original peoples of the Far East, Southeast Asia, or the Indian subcontinent including, for example, Cambodia, China, India, Japan, Korea, Malaysia, Pakistan, the Philippine Islands, Thailand, and Vietnam. (FDA)</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Asian</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="ASIAN AMERICAN" nciodm:ExtCodeID="C16310">
+                    <nciodm:CDISCDefinition>A person having origins in the original peoples of Asia and the United States.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Asian American</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="BAHAMIAN" nciodm:ExtCodeID="C41262">
+                    <nciodm:CDISCDefinition>A person having origins in any of the original peoples of the Bahamas.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Asian Indian</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="BANGLADESHI" nciodm:ExtCodeID="C67271">
+                    <nciodm:CDISCDefinition>A person having origins in any of the original peoples of Bangladesh.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Bahamian</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="BARBADIAN" nciodm:ExtCodeID="C43671">
+                    <nciodm:CDISCDefinition>A person having origins in any of the original peoples of Barbados.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Bangladeshi</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="BHUTANESE" nciodm:ExtCodeID="C43823">
+                    <nciodm:CDISCDefinition>A person having origins in any of the original peoples of Bhutan.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Barbadian</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="BLACK CENTRAL AMERICAN" nciodm:ExtCodeID="C128991">
+                    <nciodm:CDISCDefinition>A person having origins in the original peoples of sub-Saharan Africa and Central America.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Black Central American</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="BLACK OR AFRICAN AMERICAN" nciodm:ExtCodeID="C16352">
+                    <nciodm:CDISCDefinition>A person having origins in any of the black racial groups of Africa. Terms such as "Haitian" or "Negro" can be used in addition to "Black or African American." (FDA)</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Black or African American</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="BLACK SOUTH AMERICAN" nciodm:ExtCodeID="C128992">
+                    <nciodm:CDISCDefinition>A person having origins in the original peoples of sub-Saharan Africa and South America.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Black South American</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="BOTSWANAN" nciodm:ExtCodeID="C43830">
+                    <nciodm:CDISCDefinition>A person having origins in any of the original peoples of Botswana.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Botswanan</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="BURMESE" nciodm:ExtCodeID="C43674">
+                    <nciodm:CDISCDefinition>A person having origins in any of the original peoples of Myanmar (formerly Burma).</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Burmese</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="CAMBODIAN" nciodm:ExtCodeID="C43399">
+                    <nciodm:CDISCDefinition>A person having origins in any of the original peoples of Cambodia (formerly Kampuchea).</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Cambodian</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="CARIBBEAN INDIAN" nciodm:ExtCodeID="C77810">
+                    <nciodm:CDISCDefinition>The native people of the Caribbean.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Caribbean Indian</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="CENTRAL AMERICAN INDIAN" nciodm:ExtCodeID="C44950">
+                    <nciodm:CDISCDefinition>The native people of Central America.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Central American Indian</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="CHINESE" nciodm:ExtCodeID="C43391">
+                    <nciodm:CDISCDefinition>A person having origins in any of the original peoples of China.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Chinese</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="DOMINICA ISLANDER" nciodm:ExtCodeID="C43824">
+                    <nciodm:CDISCDefinition>A person having origins in any of the original peoples of Dominica.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Dominica Islander</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="DOMINICAN" nciodm:ExtCodeID="C67117">
+                    <nciodm:CDISCDefinition>A person having origins in any of the original peoples of the Dominican Republic.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Dominican</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="EASTERN EUROPEAN" nciodm:ExtCodeID="C77819">
+                    <nciodm:CDISCDefinition>A person having origins in any of the original peoples of Eastern Europe.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Eastern European</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="ETHIOPIAN" nciodm:ExtCodeID="C43831">
+                    <nciodm:CDISCDefinition>A person having origins in any of the original peoples of Ethiopia.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Ethiopian</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="EUROPEAN" nciodm:ExtCodeID="C43851">
+                    <nciodm:CDISCDefinition>A person having origins in any of the original peoples of Europe.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>European</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="FILIPINO" nciodm:ExtCodeID="C43393">
+                    <nciodm:CDISCDefinition>A person having origins in any of the original peoples of the Philippines.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Filipino</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="GREENLAND INUIT" nciodm:ExtCodeID="C44265">
+                    <nciodm:CDISCDefinition>The native people of Greenland.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Greenland Eskimo</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="HAITIAN" nciodm:ExtCodeID="C43825">
+                    <nciodm:CDISCDefinition>A person having origins in any of the original peoples of Haiti.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Haitian</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="HMONG" nciodm:ExtCodeID="C43398">
+                    <nciodm:CDISCDefinition>The native people originating in China around the Yellow River or Hoang Ho.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Hmong</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="INDONESIAN" nciodm:ExtCodeID="C43715">
+                    <nciodm:CDISCDefinition>A person having origins in any of the original peoples of Indonesia.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Indonesian</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="INUPIAT INUIT" nciodm:ExtCodeID="C44268">
+                    <nciodm:CDISCDefinition>The native people inhabiting the territory spanning the Norton Sound on the Bering Sea to the Canadian border.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Inupiat Eskimo</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="IWO JIMAN" nciodm:ExtCodeID="C43718">
+                    <nciodm:CDISCDefinition>A person having origins in any of the original peoples of Iwo Jima.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Iwo Jiman</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="JAMAICAN" nciodm:ExtCodeID="C43826">
+                    <nciodm:CDISCDefinition>A person having origins in any of the original peoples of Jamaica.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Jamaican</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="JAPANESE" nciodm:ExtCodeID="C43392">
+                    <nciodm:CDISCDefinition>A person having origins in any of the original peoples of Japan.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Japanese</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="KOREAN" nciodm:ExtCodeID="C43395">
+                    <nciodm:CDISCDefinition>A person having origins in any of the original peoples of North and South Korea.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Korean</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="LAOTIAN" nciodm:ExtCodeID="C43397">
+                    <nciodm:CDISCDefinition>A person having origins in any of the original peoples of Laos.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Laotian</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="LIBERIAN" nciodm:ExtCodeID="C43832">
+                    <nciodm:CDISCDefinition>A person having origins in any of the original peoples of Liberia.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Liberian</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="MALAGASY" nciodm:ExtCodeID="C43722">
+                    <nciodm:CDISCDefinition>A person having origins in any of the original peoples of Madagascar.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Malagasy</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="MALAYSIAN" nciodm:ExtCodeID="C43716">
+                    <nciodm:CDISCDefinition>A person having origins in any of the original peoples of Malaysia.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Malaysian</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="MALDIVIAN" nciodm:ExtCodeID="C43719">
+                    <nciodm:CDISCDefinition>A person having origins in any of the original peoples of the Maldives.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Maldivian</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="MEDITERRANEAN" nciodm:ExtCodeID="C77811">
+                    <nciodm:CDISCDefinition>A person having origins in any of the original peoples of the countries surrounding the Mediterranean sea.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Mediterranean</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="MELANESIAN" nciodm:ExtCodeID="C43409">
+                    <nciodm:CDISCDefinition>A person having origins in any of the original peoples of Melanesia.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Melanesian</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="MICRONESIAN" nciodm:ExtCodeID="C43402">
+                    <nciodm:CDISCDefinition>A person having origins in any of the original peoples of Micronesia.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Micronesian</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="MIDDLE EASTERN" nciodm:ExtCodeID="C77820">
+                    <nciodm:CDISCDefinition>A person having origins in any of the original peoples of the Middle East.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Middle Eastern</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="MONGOLIAN" nciodm:ExtCodeID="C43864">
+                    <nciodm:CDISCDefinition>A person having origins in any of the original peoples of Mongolia.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Mongolian</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="NAMIBIAN" nciodm:ExtCodeID="C43833">
+                    <nciodm:CDISCDefinition>A person having origins in any of the original peoples of Namibia.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Namibian</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="NATIVE HAWAIIAN OR OTHER PACIFIC ISLANDER" nciodm:ExtCodeID="C41219">
+                    <nciodm:CDISCDefinition>Denotes a person having origins in any of the original peoples of Hawaii, Guam, Samoa, or other Pacific Islands. The term covers particularly people who identify themselves as part-Hawaiian, Native Hawaiian, Guamanian or Chamorro, Carolinian, Samoan, Chuu. (FDA)</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Native Hawaiian or Other Pacific Islander</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="NEPALESE" nciodm:ExtCodeID="C43720">
+                    <nciodm:CDISCDefinition>A person having origins in any of the original peoples of Nepal.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Nepalese</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="NIGERIAN" nciodm:ExtCodeID="C43834">
+                    <nciodm:CDISCDefinition>A person having origins in any of the original peoples of Nigeria.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Nigerian</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="NORTH AFRICAN" nciodm:ExtCodeID="C77813">
+                    <nciodm:CDISCDefinition>A person having origins in any of the original peoples of North Africa.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>North Coast of Africa</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="NORTHERN EUROPEAN" nciodm:ExtCodeID="C77814">
+                    <nciodm:CDISCDefinition>A person having origins in any of the original peoples of Northern Europe.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Northern European</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="OKINAWAN" nciodm:ExtCodeID="C43717">
+                    <nciodm:CDISCDefinition>A person having origins in any of the original peoples of Okinawa.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Okinawan</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="PAKISTANI" nciodm:ExtCodeID="C43427">
+                    <nciodm:CDISCDefinition>A person having origins in any of the original peoples of Pakistan.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Pakistani</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="POLYNESIAN" nciodm:ExtCodeID="C43405">
+                    <nciodm:CDISCDefinition>A person having origins in any of the original peoples of Polynesia.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Polynesian</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="RUSSIAN" nciodm:ExtCodeID="C43860">
+                    <nciodm:CDISCDefinition>A person having origins in any of the original peoples of Russia.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Russian</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="SIBERIAN ESKIMO" nciodm:ExtCodeID="C44269">
+                    <nciodm:CDISCDefinition>The native Yupik people inhabiting the coast of the Chukchi Peninsula in the far northeast of the Russian Federation and on St. Lawrence Island in Alaska.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Siberian Eskimo</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="SINGAPOREAN" nciodm:ExtCodeID="C43721">
+                    <nciodm:CDISCDefinition>A person having origins in any of the original peoples of Singapore.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Singaporean</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="SOUTH AMERICAN INDIAN" nciodm:ExtCodeID="C44953">
+                    <nciodm:CDISCDefinition>The native people of South America.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>South American Indian</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="SRI LANKAN" nciodm:ExtCodeID="C43672">
+                    <nciodm:CDISCDefinition>A person having origins in any of the original peoples of Sri Lanka.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Sri Lankan</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="TAIWANESE" nciodm:ExtCodeID="C43675">
+                    <nciodm:CDISCDefinition>A person having origins in any of the original peoples of Taiwan.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Taiwanese</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="THAI" nciodm:ExtCodeID="C43400">
+                    <nciodm:CDISCDefinition>A person having origins in any of the original peoples of Thailand.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Thai</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="TOBAGOAN" nciodm:ExtCodeID="C43827">
+                    <nciodm:CDISCDefinition>A person having origins in any of the original peoples of Tobago.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Tobagoan</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="TRINIDADIAN" nciodm:ExtCodeID="C43828">
+                    <nciodm:CDISCDefinition>A person having origins in any of the original peoples of Trinidad.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Trinidadian</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="VIETNAMESE" nciodm:ExtCodeID="C43396">
+                    <nciodm:CDISCDefinition>A person having origins in any of the original peoples of Viet Nam.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Vietnamese</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="WEST INDIAN" nciodm:ExtCodeID="C43829">
+                    <nciodm:CDISCDefinition>A person having origins in any of the original peoples of the West Indies.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>West Indian</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="WESTERN EUROPEAN" nciodm:ExtCodeID="C77817">
+                    <nciodm:CDISCDefinition>A person having origins in any of the original peoples of Western Europe.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Western European</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="WHITE" nciodm:ExtCodeID="C41261">
+                    <nciodm:CDISCDefinition>Denotes a person with European, Middle Eastern, or North African ancestral origin who identifies, or is identified, as White. (FDA)</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>White</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="WHITE CARIBBEAN" nciodm:ExtCodeID="C77816">
+                    <nciodm:CDISCDefinition>A person having origins in the original peoples of Europe, the Middle East, or North Africa, and the Caribbean.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>White Caribbean</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="WHITE CENTRAL AMERICAN" nciodm:ExtCodeID="C128993">
+                    <nciodm:CDISCDefinition>A person having origins in the original peoples of Europe, the Middle East, or North Africa, and Central America.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>White Central American</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="WHITE SOUTH AMERICAN" nciodm:ExtCodeID="C128994">
+                    <nciodm:CDISCDefinition>A person having origins in the original peoples of Europe, the Middle East, or North Africa, and South America.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>White South American</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="YUPIK ESKIMO" nciodm:ExtCodeID="C44270">
+                    <nciodm:CDISCDefinition>The native people inhabiting western, southwestern, and southcentral Alaska and the Russian Far East.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Yupik Eskimo</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <EnumeratedItem CodedValue="ZAIREAN" nciodm:ExtCodeID="C43835">
+                    <nciodm:CDISCDefinition>A person having origins in any of the original peoples of Zaire.</nciodm:CDISCDefinition>
+                    <nciodm:PreferredTerm>Zairean</nciodm:PreferredTerm>
+                </EnumeratedItem>
+                <nciodm:CDISCSubmissionValue>RACEC</nciodm:CDISCSubmissionValue>
+                <nciodm:CDISCSynonym>Race As Collected</nciodm:CDISCSynonym>
+                <nciodm:PreferredTerm>CDISC SDTM Collected Race Terminology</nciodm:PreferredTerm>
+            </CodeList>
             <CodeList OID="CL.C83004.SUNCF" Name="Substance Use Never/Current/Former Classification" DataType="text" nciodm:ExtCodeID="C83004" nciodm:CodeListExtensible="Yes">
                 <Description>
                     <TranslatedText xml:lang="en">A terminology subset of the CDISC SDTM Never/Current/Former Classification codelist created for CDASH Substance Use Never/Current/Former Classification codelist. (NCI)</TranslatedText>
@@ -463,7 +825,7 @@
                 </Description>
                 <EnumeratedItem CodedValue="mg" nciodm:ExtCodeID="C28253">
                     <nciodm:CDISCSynonym>Milligram</nciodm:CDISCSynonym>
-                    <nciodm:CDISCDefinition>The unit of mass equal to one thousandth of a gram or 1000 micrograms. One milligram equals approximately 0.015432 grain or 35.274 x 10E-6 ounce.(NCI)</nciodm:CDISCDefinition>
+                    <nciodm:CDISCDefinition>A unit of mass equal to one thousandth (10E-3) of a gram.</nciodm:CDISCDefinition>
                     <nciodm:PreferredTerm>Milligram</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="mL" nciodm:ExtCodeID="C28254">
@@ -487,19 +849,20 @@
                     <TranslatedText xml:lang="en">A terminology subset of the CDISC SDTM Unit codelist created for CDASH Unit for Duration of Treatment Interruption codelist. (NCI)</TranslatedText>
                 </Description>
                 <EnumeratedItem CodedValue="HOURS" nciodm:ExtCodeID="C25529">
-                    <nciodm:CDISCSynonym>Hour</nciodm:CDISCSynonym>
+                    <nciodm:CDISCSynonym>Hours</nciodm:CDISCSynonym>
+                    <nciodm:CDISCSynonym>h</nciodm:CDISCSynonym>
                     <nciodm:CDISCSynonym>hr</nciodm:CDISCSynonym>
-                    <nciodm:CDISCDefinition>A unit measure of time equal to 3,600 seconds or 60 minutes. It is approximately 1/24 of a median day. (NCI)</nciodm:CDISCDefinition>
+                    <nciodm:CDISCDefinition>A unit of measurement of time equal to 60 minutes.</nciodm:CDISCDefinition>
                     <nciodm:PreferredTerm>Hour</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="min" nciodm:ExtCodeID="C48154">
-                    <nciodm:CDISCSynonym>Minute Unit of Time</nciodm:CDISCSynonym>
-                    <nciodm:CDISCDefinition>A unit measure of time equal to 60 seconds.(NCI)</nciodm:CDISCDefinition>
+                    <nciodm:CDISCSynonym>Minute</nciodm:CDISCSynonym>
+                    <nciodm:CDISCDefinition>A unit of measurement of time equal to 60 seconds.</nciodm:CDISCDefinition>
                     <nciodm:PreferredTerm>Minute</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="sec" nciodm:ExtCodeID="C42535">
                     <nciodm:CDISCSynonym>Second</nciodm:CDISCSynonym>
-                    <nciodm:CDISCDefinition>The second is a unit of time with a duration of 919 263 177 0 periods of the specified light radiation corresponding to the transition between the two hyperfine levels of the cesium 133 atom in its ground state at 0 K. According to the convention, 60 seconds constitute one minute; 3,600 seconds constitute one hour. Abbreviation Sec. is acceptable in non-scientific usage only.(NCI)</nciodm:CDISCDefinition>
+                    <nciodm:CDISCDefinition>The base unit of time in the International System of Units (SI) equal to the duration of 9,192,631,770 periods of the specified light radiation corresponding to the transition between the two hyperfine levels of the cesium 133 atom in its ground state at 0 K.</nciodm:CDISCDefinition>
                     <nciodm:PreferredTerm>Second</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <nciodm:CDISCSubmissionValue>EXINTPU</nciodm:CDISCSubmissionValue>
@@ -586,20 +949,17 @@
                     <nciodm:PreferredTerm>Milliliter per Minute</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="mmol/day" nciodm:ExtCodeID="C67420">
-                    <nciodm:CDISCSynonym>Millimole per 24 Hours</nciodm:CDISCSynonym>
-                    <nciodm:CDISCDefinition>A unit of amount of substance flow rate equivalent to the rate at which one thousandth of a mole of substance travels or is delivered to a given object or space over a period of time equal to 24 hours.(NCI)</nciodm:CDISCDefinition>
+                    <nciodm:CDISCDefinition>A unit of substance flow rate equal to one millimole per day.</nciodm:CDISCDefinition>
                     <nciodm:PreferredTerm>Millimole per 24 Hours</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="ug/day" nciodm:ExtCodeID="C71205">
-                    <nciodm:CDISCSynonym>Microgram per Day</nciodm:CDISCSynonym>
                     <nciodm:CDISCSynonym>mcg/day</nciodm:CDISCSynonym>
-                    <nciodm:CDISCDefinition>A unit of mass flow rate equivalent to the rate at which one millionth of a gram of matter travels to a given object or space over a period of time equal to twenty four hours. Microgram per day is also a dose administration rate unit equal to the rate at which one millionth of a gram of a product is administered per unit of time equal to twenty four hours.(NCI)</nciodm:CDISCDefinition>
+                    <nciodm:CDISCDefinition>A unit of mass flow rate equal to one microgram per day.</nciodm:CDISCDefinition>
                     <nciodm:PreferredTerm>Microgram per Day</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="ug/min" nciodm:ExtCodeID="C71211">
-                    <nciodm:CDISCSynonym>Micrograms per Minute</nciodm:CDISCSynonym>
                     <nciodm:CDISCSynonym>mcg/min</nciodm:CDISCSynonym>
-                    <nciodm:CDISCDefinition>A unit of mass flow rate equivalent to the rate at which one millionth of a gram of matter travels to a given object or space over a period of time equal to one minute. Microgram per minute is also a dose administration rate unit equal to the rate at which one millionth of a gram of a product is administered per unit of time equal to one minute.(NCI)</nciodm:CDISCDefinition>
+                    <nciodm:CDISCDefinition>A unit of mass flow rate equal to one microgram per minute.</nciodm:CDISCDefinition>
                     <nciodm:PreferredTerm>Microgram per Minute</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="umol/day" nciodm:ExtCodeID="C67406">
@@ -624,12 +984,12 @@
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="g" nciodm:ExtCodeID="C48155">
                     <nciodm:CDISCSynonym>Gram</nciodm:CDISCSynonym>
-                    <nciodm:CDISCDefinition>A metric unit of mass equal to one one thousandth of a kilogram. (NCI)</nciodm:CDISCDefinition>
+                    <nciodm:CDISCDefinition>A unit of mass equal to one thousandth (10E-3) of a kilogram, the kilogram being the base unit of mass in the International System of Units (SI).</nciodm:CDISCDefinition>
                     <nciodm:PreferredTerm>Gram</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="mg" nciodm:ExtCodeID="C28253">
                     <nciodm:CDISCSynonym>Milligram</nciodm:CDISCSynonym>
-                    <nciodm:CDISCDefinition>The unit of mass equal to one thousandth of a gram or 1000 micrograms. One milligram equals approximately 0.015432 grain or 35.274 x 10E-6 ounce.(NCI)</nciodm:CDISCDefinition>
+                    <nciodm:CDISCDefinition>A unit of mass equal to one thousandth (10E-3) of a gram.</nciodm:CDISCDefinition>
                     <nciodm:PreferredTerm>Milligram</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="mL" nciodm:ExtCodeID="C28254">
@@ -671,12 +1031,12 @@
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="g" nciodm:ExtCodeID="C48155">
                     <nciodm:CDISCSynonym>Gram</nciodm:CDISCSynonym>
-                    <nciodm:CDISCDefinition>A metric unit of mass equal to one one thousandth of a kilogram. (NCI)</nciodm:CDISCDefinition>
+                    <nciodm:CDISCDefinition>A unit of mass equal to one thousandth (10E-3) of a kilogram, the kilogram being the base unit of mass in the International System of Units (SI).</nciodm:CDISCDefinition>
                     <nciodm:PreferredTerm>Gram</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="mg" nciodm:ExtCodeID="C28253">
                     <nciodm:CDISCSynonym>Milligram</nciodm:CDISCSynonym>
-                    <nciodm:CDISCDefinition>The unit of mass equal to one thousandth of a gram or 1000 micrograms. One milligram equals approximately 0.015432 grain or 35.274 x 10E-6 ounce.(NCI)</nciodm:CDISCDefinition>
+                    <nciodm:CDISCDefinition>A unit of mass equal to one thousandth (10E-3) of a gram.</nciodm:CDISCDefinition>
                     <nciodm:PreferredTerm>Milligram</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="mL" nciodm:ExtCodeID="C28254">
