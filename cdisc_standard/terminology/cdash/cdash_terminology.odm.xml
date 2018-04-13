@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ODM xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC" xs:schemaLocation="http://www.nci.nih.gov/EVS/CDISC ../schema/controlledterminology1-0-0.xsd" FileType="Snapshot" FileOID="CDISC_CT.CDASH.2015-03-27" Granularity="Metadata" CreationDateTime="2015-03-24T10:09:43" AsOfDateTime="2015-03-27T00:00:00" ODMVersion="1.3.1" Originator="CDISC XML Technologies Team (Terminology2ODM converter)" SourceSystem="NCI Thesaurus" SourceSystemVersion="2015-03-27">
-    <Study OID="CDISC_CT.CDASH.2015-03-27">
+<ODM xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC" xs:schemaLocation="http://www.nci.nih.gov/EVS/CDISC ../schema/controlledterminology1-0-0.xsd" FileType="Snapshot" FileOID="CDISC_CT.CDASH.2016-03-25" Granularity="Metadata" CreationDateTime="2016-03-22T10:45:19" AsOfDateTime="2016-03-25T00:00:00" ODMVersion="1.3.1" Originator="CDISC XML Technologies Team (Terminology2ODM converter)" SourceSystem="NCI Thesaurus" SourceSystemVersion="2016-03-25">
+    <Study OID="CDISC_CT.CDASH.2016-03-25">
         <GlobalVariables>
             <StudyName>CDISC CDASH Controlled Terminology</StudyName>
-            <StudyDescription>CDISC CDASH Controlled Terminology, 2015-03-27</StudyDescription>
+            <StudyDescription>CDISC CDASH Controlled Terminology, 2016-03-25</StudyDescription>
             <ProtocolName>CDISC CDASH Controlled Terminology</ProtocolName>
         </GlobalVariables>
-        <MetaDataVersion OID="CDISC_CT_MetaDataVersion.CDASH.2015-03-27" Name="CDISC CDASH Controlled Terminology" Description="CDISC CDASH Controlled Terminology, 2015-03-27">
+        <MetaDataVersion OID="CDISC_CT_MetaDataVersion.CDASH.2016-03-25" Name="CDISC CDASH Controlled Terminology" Description="CDISC CDASH Controlled Terminology, 2016-03-25">
             <CodeList OID="CL.C78418.CMDOSFRM" Name="Concomitant Medication Dose Form" DataType="text" nciodm:ExtCodeID="C78418" nciodm:CodeListExtensible="Yes">
                 <Description>
                     <TranslatedText xml:lang="en">A terminology subset of the CDISC SDTM Pharmaceutical Dosage Form codelist created for CDASH Concomitant Medication Dose Form codelist. (NCI)</TranslatedText>
@@ -103,7 +103,7 @@
                     <nciodm:PreferredTerm>Milliliter</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="PUFF" nciodm:ExtCodeID="C65060">
-                    <nciodm:CDISCSynonym>Puff</nciodm:CDISCSynonym>
+                    <nciodm:CDISCSynonym>Puff Dosing Unit</nciodm:CDISCSynonym>
                     <nciodm:CDISCDefinition>A means of delivering a defined dose of a therapeutic aerolized solution into either the upper or lower respiratory tract. Metered-dose inhalers or spray pumps are devices that provide a puff dose for delivery into either the oral or the nasal cavity.(NCI)</nciodm:CDISCDefinition>
                     <nciodm:PreferredTerm>Puff Dosing Unit</nciodm:PreferredTerm>
                 </EnumeratedItem>
@@ -241,7 +241,7 @@
                 <Description>
                     <TranslatedText xml:lang="en">A terminology subset of the CDISC SDTM Unit codelist created for CDASH ECG Original Units codelist. (NCI)</TranslatedText>
                 </Description>
-                <EnumeratedItem CodedValue="BEATS/MIN" nciodm:ExtCodeID="C49673">
+                <EnumeratedItem CodedValue="beats/min" nciodm:ExtCodeID="C49673">
                     <nciodm:CDISCSynonym>Beats per Minute</nciodm:CDISCSynonym>
                     <nciodm:CDISCDefinition>The number of heartbeats measured per minute time. (NCI)</nciodm:CDISCDefinition>
                     <nciodm:PreferredTerm>Beats per Minute</nciodm:PreferredTerm>
@@ -582,8 +582,7 @@
                     <TranslatedText xml:lang="en">A terminology subset of the CDISC SDTM Unit codelist created for CDASH Unit of Measure for Flow Rate codelist. (NCI)</TranslatedText>
                 </Description>
                 <EnumeratedItem CodedValue="mL/min" nciodm:ExtCodeID="C64777">
-                    <nciodm:CDISCSynonym>Milliliters per Minute</nciodm:CDISCSynonym>
-                    <nciodm:CDISCDefinition>A metric unit of volumetric flow rate defined as the rate at which one milliliter of matter travels during the period of time equal to one minute.(NCI)</nciodm:CDISCDefinition>
+                    <nciodm:CDISCDefinition>A unit of flow rate, defined as a rate of one milliliter per minute.</nciodm:CDISCDefinition>
                     <nciodm:PreferredTerm>Milliliter per Minute</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="mmol/day" nciodm:ExtCodeID="C67420">
@@ -640,7 +639,7 @@
                     <nciodm:PreferredTerm>Milliliter</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="PUFF" nciodm:ExtCodeID="C65060">
-                    <nciodm:CDISCSynonym>Puff</nciodm:CDISCSynonym>
+                    <nciodm:CDISCSynonym>Puff Dosing Unit</nciodm:CDISCSynonym>
                     <nciodm:CDISCDefinition>A means of delivering a defined dose of a therapeutic aerolized solution into either the upper or lower respiratory tract. Metered-dose inhalers or spray pumps are devices that provide a puff dose for delivery into either the oral or the nasal cavity.(NCI)</nciodm:CDISCDefinition>
                     <nciodm:PreferredTerm>Puff Dosing Unit</nciodm:PreferredTerm>
                 </EnumeratedItem>
@@ -687,7 +686,7 @@
                     <nciodm:PreferredTerm>Milliliter</nciodm:PreferredTerm>
                 </EnumeratedItem>
                 <EnumeratedItem CodedValue="PUFF" nciodm:ExtCodeID="C65060">
-                    <nciodm:CDISCSynonym>Puff</nciodm:CDISCSynonym>
+                    <nciodm:CDISCSynonym>Puff Dosing Unit</nciodm:CDISCSynonym>
                     <nciodm:CDISCDefinition>A means of delivering a defined dose of a therapeutic aerolized solution into either the upper or lower respiratory tract. Metered-dose inhalers or spray pumps are devices that provide a puff dose for delivery into either the oral or the nasal cavity.(NCI)</nciodm:CDISCDefinition>
                     <nciodm:PreferredTerm>Puff Dosing Unit</nciodm:PreferredTerm>
                 </EnumeratedItem>
