@@ -19,6 +19,7 @@
           <nciodm:PreferredTerm>Continue</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="BID" nciodm:ExtCodeID="C64496">
+          <nciodm:CDISCSynonym>BD</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>Twice per day</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>Two times per day, at unspecified times. (NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Twice Daily</nciodm:PreferredTerm>
@@ -234,7 +235,7 @@
           <nciodm:PreferredTerm>Every Five Days</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="Q2S" nciodm:ExtCodeID="C71127">
-          <nciodm:CDISCSynonym>Every 2 weeks.</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Every 2 weeks</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>Every two weeks. (NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Every Two Weeks</nciodm:PreferredTerm>
         </EnumeratedItem>

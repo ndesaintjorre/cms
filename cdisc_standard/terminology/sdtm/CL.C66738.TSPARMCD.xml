@@ -34,12 +34,12 @@
         </EnumeratedItem>
         <EnumeratedItem CodedValue="LENGTH" nciodm:ExtCodeID="C49697">
           <nciodm:CDISCSynonym>Trial Length</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>The anticipated length of a clinical trial measured as a unit of time. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Planned length of observation for a single subject.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Trial Length</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="PLANSUB" nciodm:ExtCodeID="C49692">
           <nciodm:CDISCSynonym>Planned Number of Subjects</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>The number of subjects entered in a clinical trial. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>The planned number of subjects entered in a clinical trial.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Planned Subject Number</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="RANDOM" nciodm:ExtCodeID="C25196">

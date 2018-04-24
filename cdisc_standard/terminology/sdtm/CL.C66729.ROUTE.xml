@@ -3,199 +3,199 @@
           <TranslatedText xml:lang="en">The course by which a substance was administered in order to reach the site of action in the body.</TranslatedText>
         </Description>
         <EnumeratedItem CodedValue="AURICULAR (OTIC)" nciodm:ExtCodeID="C38192">
-          <nciodm:CDISCDefinition>Administration to or by way of the ear.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration to or by way of the ear. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Auricular Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="BUCCAL" nciodm:ExtCodeID="C38193">
-          <nciodm:CDISCDefinition>Administration directed toward the cheek, generally from within the mouth.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration directed toward the cheek, generally from within the mouth. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Buccal Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="CONJUNCTIVAL" nciodm:ExtCodeID="C38194">
-          <nciodm:CDISCDefinition>Administration to the conjunctiva, the delicate membrane that lines the eyelids and covers the exposed surface of the eyeball.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration to the conjunctiva, the delicate membrane that lines the eyelids and covers the exposed surface of the eyeball. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Conjunctival Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="CUTANEOUS" nciodm:ExtCodeID="C38675">
-          <nciodm:CDISCDefinition>Administration to the skin.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration to the skin. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Cutaneous Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="DENTAL" nciodm:ExtCodeID="C38197">
-          <nciodm:CDISCDefinition>Administration to a tooth or teeth.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration to a tooth or teeth. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Dental Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="ELECTRO-OSMOSIS" nciodm:ExtCodeID="C38633">
-          <nciodm:CDISCDefinition>Administration of through the diffusion of substance through a membrane in an electric field.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration of through the diffusion of substance through a membrane in an electric field. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Electro-osmosis Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="ENDOCERVICAL" nciodm:ExtCodeID="C38205">
-          <nciodm:CDISCDefinition>Administration within the canal of the cervix uteri. Synonymous with the term intracervical.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration within the canal of the cervix uteri. Synonymous with the term intracervical. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Endocervical Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="ENDOSINUSIAL" nciodm:ExtCodeID="C38206">
-          <nciodm:CDISCDefinition>Administration within the nasal sinuses of the head.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration within the nasal sinuses of the head. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Endosinusial Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="ENDOTRACHEAL" nciodm:ExtCodeID="C38208">
-          <nciodm:CDISCDefinition>Administration directly into the trachea. Synonymous with the term intratracheal.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration directly into the trachea. Synonymous with the term intratracheal. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Endotracheal Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="ENTERAL" nciodm:ExtCodeID="C38209">
-          <nciodm:CDISCDefinition>Administration directly into the intestines.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration directly into the intestines. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Enteral Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="EPIDURAL" nciodm:ExtCodeID="C38210">
-          <nciodm:CDISCDefinition>Administration upon or over the dura mater.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration upon or over the dura mater. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Epidural Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="EXTRA-AMNIOTIC" nciodm:ExtCodeID="C38211">
-          <nciodm:CDISCDefinition>Administration to the outside of the membrane enveloping the fetus.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration to the outside of the membrane enveloping the fetus. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Extraamniotic Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="EXTRACORPOREAL" nciodm:ExtCodeID="C38212">
-          <nciodm:CDISCDefinition>Administration outside of the body.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration outside of the body. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Extracorporeal Circulation Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="HEMODIALYSIS" nciodm:ExtCodeID="C38200">
-          <nciodm:CDISCDefinition>Administration through hemodialysate fluid.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration through hemodialysate fluid. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Administration Via Hemodialysis</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INFILTRATION" nciodm:ExtCodeID="C38215">
-          <nciodm:CDISCDefinition>Administration that results in substances passing into tissue spaces or into cells.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration that results in substances passing into tissue spaces or into cells. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Infiltration Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTERSTITIAL" nciodm:ExtCodeID="C38219">
-          <nciodm:CDISCDefinition>Administration to or in the interstices of a tissue.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration to or in the interstices of a tissue. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Interstitial Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRA-ABDOMINAL" nciodm:ExtCodeID="C38220">
-          <nciodm:CDISCDefinition>Administration within the abdomen.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration within the abdomen. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Intraabdominal Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRA-AMNIOTIC" nciodm:ExtCodeID="C38221">
-          <nciodm:CDISCDefinition>Administration within the amnion.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration within the amnion. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Intraamniotic Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRA-ARTERIAL" nciodm:ExtCodeID="C38222">
-          <nciodm:CDISCDefinition>Administration within an artery or arteries.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration within an artery or arteries. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Intraarterial Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRA-ARTICULAR" nciodm:ExtCodeID="C38223">
-          <nciodm:CDISCDefinition>Administration within a joint.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration within a joint. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Intraarticular Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRABILIARY" nciodm:ExtCodeID="C38224">
-          <nciodm:CDISCDefinition>Administration within the bile, bile ducts or gallbladder.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration within the bile, bile ducts or gallbladder. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Intrabiliary Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRABRONCHIAL" nciodm:ExtCodeID="C38225">
-          <nciodm:CDISCDefinition>Administration within a bronchus.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration within a bronchus. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Intrabronchial Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRABURSAL" nciodm:ExtCodeID="C38226">
-          <nciodm:CDISCDefinition>Administration within a bursa.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration within a bursa. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Intrabursal Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRACARDIAC" nciodm:ExtCodeID="C38227">
-          <nciodm:CDISCDefinition>Administration within the heart.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration within the heart. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Intracardiac Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRACARTILAGINOUS" nciodm:ExtCodeID="C38228">
-          <nciodm:CDISCDefinition>Administration within a cartilage; endochondral.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration within a cartilage; endochondral. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Intracartilaginous Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRACAUDAL" nciodm:ExtCodeID="C38229">
-          <nciodm:CDISCDefinition>Administration within the cauda equina.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration within the cauda equina. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Intracaudal Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRACAVERNOUS" nciodm:ExtCodeID="C38230">
-          <nciodm:CDISCDefinition>Administration within a pathologic cavity, such as occurs in the lung in tuberculosis.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration within a pathologic cavity, such as occurs in the lung in tuberculosis. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Intracavernous Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRACAVITARY" nciodm:ExtCodeID="C38231">
-          <nciodm:CDISCDefinition>Administration within a non-pathologic cavity, such as that of the cervix, uterus, or penis, or such as that is formed as the result of a wound.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration within a non-pathologic cavity, such as that of the cervix, uterus, or penis, or such as that is formed as the result of a wound. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Intracavitary Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRACEREBRAL" nciodm:ExtCodeID="C38232">
-          <nciodm:CDISCDefinition>Administration within the cerebrum.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration within the cerebrum. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Intracerebral Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRACISTERNAL" nciodm:ExtCodeID="C38233">
-          <nciodm:CDISCDefinition>Administration within the cisterna magna cerebellomedularis.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration within the cisterna magna cerebellomedularis. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Intracisternal Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRACORNEAL" nciodm:ExtCodeID="C38234">
-          <nciodm:CDISCDefinition>Administration within the cornea (the transparent structure forming the anterior part of the fibrous tunic of the eye).(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration within the cornea (the transparent structure forming the anterior part of the fibrous tunic of the eye). (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Intracorneal Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRACORONAL, DENTAL" nciodm:ExtCodeID="C38217">
-          <nciodm:CDISCDefinition>Administration of a drug within a portion of a tooth which is covered by enamel and which is separated from the roots by a slightly constricted region known as the neck.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration of a drug within a portion of a tooth which is covered by enamel and which is separated from the roots by a slightly constricted region known as the neck. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Intracoronal Dental Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRACORONARY" nciodm:ExtCodeID="C38218">
-          <nciodm:CDISCDefinition>Administration within the coronary arteries.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration within the coronary arteries. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Intracoronary Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRACORPORUS CAVERNOSUM" nciodm:ExtCodeID="C38235">
-          <nciodm:CDISCDefinition>Administration within the dilatable spaces of the corporus cavernosa of the penis.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration within the dilatable spaces of the corporus cavernosa of the penis. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Intracorporus Cavernosum Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRADERMAL" nciodm:ExtCodeID="C38238">
-          <nciodm:CDISCDefinition>Administration within the dermis.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration within the dermis. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Intradermal Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRADISCAL" nciodm:ExtCodeID="C38239">
-          <nciodm:CDISCDefinition>Administration within a disc.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration within a disc. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Intradiscal Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRADUCTAL" nciodm:ExtCodeID="C38240">
-          <nciodm:CDISCDefinition>Administration within the duct of a gland.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration within the duct of a gland. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Intraductal Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRADUODENAL" nciodm:ExtCodeID="C38241">
-          <nciodm:CDISCDefinition>Administration within the duodenum.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration within the duodenum. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Intraduodenal Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRADURAL" nciodm:ExtCodeID="C38242">
-          <nciodm:CDISCDefinition>Administration within or beneath the dura.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration within or beneath the dura. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Intradural Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRAEPIDERMAL" nciodm:ExtCodeID="C38243">
-          <nciodm:CDISCDefinition>Administration within the epidermis.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration within the epidermis. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Intraepidermal Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRAESOPHAGEAL" nciodm:ExtCodeID="C38245">
-          <nciodm:CDISCDefinition>Administration within the esophagus.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration within the esophagus. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Intraesophageal Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRAGASTRIC" nciodm:ExtCodeID="C38246">
-          <nciodm:CDISCDefinition>Administration within the stomach.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration within the stomach. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Intragastric Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRAGINGIVAL" nciodm:ExtCodeID="C38247">
-          <nciodm:CDISCDefinition>Administration within the gingivae.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration within the gingivae. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Intragingival Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRAILEAL" nciodm:ExtCodeID="C38249">
-          <nciodm:CDISCDefinition>Administration within the distal portion of the small intestine, from the jejunum to the cecum.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration within the distal portion of the small intestine, from the jejunum to the cecum. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Intraileal Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRALESIONAL" nciodm:ExtCodeID="C38250">
-          <nciodm:CDISCDefinition>Administration within or introduced directly into a localized lesion.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration within or introduced directly into a localized lesion. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Intralesional Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRALUMINAL" nciodm:ExtCodeID="C38251">
-          <nciodm:CDISCDefinition>Administration within the lumen of a tube.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration within the lumen of a tube. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Intraluminal Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRALYMPHATIC" nciodm:ExtCodeID="C38252">
-          <nciodm:CDISCDefinition>Administration within the lymph.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration within the lymph. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Intralymphatic Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRAMEDULLARY" nciodm:ExtCodeID="C38253">
-          <nciodm:CDISCDefinition>Administration within the marrow cavity of a bone.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration within the marrow cavity of a bone. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Intramedullary Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRAMENINGEAL" nciodm:ExtCodeID="C38254">
-          <nciodm:CDISCDefinition>Administration within the meninges (the three membranes that envelope the brain and spinal cord).(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration within the meninges (the three membranes that envelope the brain and spinal cord). (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Intrameningeal Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRAMUSCULAR" nciodm:ExtCodeID="C28161">
@@ -203,255 +203,255 @@
           <nciodm:PreferredTerm>Intramuscular Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRAOCULAR" nciodm:ExtCodeID="C38255">
-          <nciodm:CDISCDefinition>Administration within the eye.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration within the eye. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Intraocular Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRAOVARIAN" nciodm:ExtCodeID="C38256">
-          <nciodm:CDISCDefinition>Administration within the ovary.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration within the ovary. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Intraovarian Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRAPERICARDIAL" nciodm:ExtCodeID="C38257">
-          <nciodm:CDISCDefinition>Administration within the pericardium.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration within the pericardium. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Intrapericardial Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRAPERITONEAL" nciodm:ExtCodeID="C38258">
-          <nciodm:CDISCDefinition>Administration within the peritoneal cavity.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration within the peritoneal cavity. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Intraperitoneal Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRAPLEURAL" nciodm:ExtCodeID="C38259">
-          <nciodm:CDISCDefinition>Administration within the pleura.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration within the pleura. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Intrapleural Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRAPROSTATIC" nciodm:ExtCodeID="C38260">
-          <nciodm:CDISCDefinition>Administration within the prostate gland.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration within the prostate gland. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Intraprostatic Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRAPULMONARY" nciodm:ExtCodeID="C38261">
-          <nciodm:CDISCDefinition>Administration within the lungs or its bronchi.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration within the lungs or its bronchi. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Intrapulmonary Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRASINAL" nciodm:ExtCodeID="C38262">
-          <nciodm:CDISCDefinition>Administration within the nasal or periorbital sinuses.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration within the nasal or periorbital sinuses. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Intrasinal Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRASPINAL" nciodm:ExtCodeID="C38263">
-          <nciodm:CDISCDefinition>Administration within the vertebral column.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration within the vertebral column. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Intraspinal Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRASYNOVIAL" nciodm:ExtCodeID="C38264">
-          <nciodm:CDISCDefinition>Administration within the synovial cavity of a joint.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration within the synovial cavity of a joint. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Intrasynovial Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRATENDINOUS" nciodm:ExtCodeID="C38265">
-          <nciodm:CDISCDefinition>Administration within a tendon.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration within a tendon. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Intratendinous Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRATESTICULAR" nciodm:ExtCodeID="C38266">
-          <nciodm:CDISCDefinition>Administration within the testicle.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration within the testicle. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Intratesticular Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRATHECAL" nciodm:ExtCodeID="C38267">
-          <nciodm:CDISCDefinition>Administration within the cerebrospinal fluid at any level of the cerebrospinal axis, including injection into the cerebral ventricles.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration within the cerebrospinal fluid at any level of the cerebrospinal axis, including injection into the cerebral ventricles. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Intrathecal Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRATHORACIC" nciodm:ExtCodeID="C38207">
-          <nciodm:CDISCDefinition>Administration within the thorax (internal to the ribs); synonymous with the term endothoracic.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration within the thorax (internal to the ribs); synonymous with the term endothoracic. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Endothoracic Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRATUBULAR" nciodm:ExtCodeID="C38268">
-          <nciodm:CDISCDefinition>Administration within the tubules of an organ.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration within the tubules of an organ. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Intratubular Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRATUMOR" nciodm:ExtCodeID="C38269">
           <nciodm:CDISCSynonym>Intratumor Route of Administration</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>Administration within a tumor.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration within a tumor. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Intratumoral Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRATYMPANIC" nciodm:ExtCodeID="C38270">
-          <nciodm:CDISCDefinition>Administration within the auris media.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration within the auris media. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Intratympanic Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRAUTERINE" nciodm:ExtCodeID="C38272">
-          <nciodm:CDISCDefinition>Administration within the uterus.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration within the uterus. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Intrauterine Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRAVASCULAR" nciodm:ExtCodeID="C38273">
-          <nciodm:CDISCDefinition>Administration within a vessel or vessels.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration within a vessel or vessels. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Intravascular Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRAVENOUS" nciodm:ExtCodeID="C38276">
-          <nciodm:CDISCDefinition>Administration within or into a vein or veins.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration within or into a vein or veins. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Intravenous Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRAVENOUS BOLUS" nciodm:ExtCodeID="C38274">
-          <nciodm:CDISCDefinition>Administration within or into a vein or veins all at once.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration within or into a vein or veins all at once. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Intravenous Bolus</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRAVENOUS DRIP" nciodm:ExtCodeID="C38279">
-          <nciodm:CDISCDefinition>Administration within or into a vein or veins over a sustained period of time.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration within or into a vein or veins over a sustained period of time. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Intravenous Drip</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRAVENTRICULAR" nciodm:ExtCodeID="C38277">
-          <nciodm:CDISCDefinition>Administration within a ventricle.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration within a ventricle. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Intraventricular Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRAVESICAL" nciodm:ExtCodeID="C38278">
-          <nciodm:CDISCDefinition>Administration within the bladder.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration within the bladder. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Intravesical Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTRAVITREAL" nciodm:ExtCodeID="C38280">
-          <nciodm:CDISCDefinition>Administration within the vitreous body of the eye.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration within the vitreous body of the eye. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Intravitreal Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="IONTOPHORESIS" nciodm:ExtCodeID="C38203">
-          <nciodm:CDISCDefinition>Administration by means of an electric current where ions of soluble salts migrate into the tissues of the body.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration by means of an electric current where ions of soluble salts migrate into the tissues of the body. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Iontophoresis Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="IRRIGATION" nciodm:ExtCodeID="C38281">
-          <nciodm:CDISCDefinition>Administration to bathe or flush open wounds or body cavities.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration to bathe or flush open wounds or body cavities. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Irrigation-Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="LARYNGEAL" nciodm:ExtCodeID="C38282">
-          <nciodm:CDISCDefinition>Administration directly upon the larynx.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration directly upon the larynx. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Laryngeal Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="NASAL" nciodm:ExtCodeID="C38284">
-          <nciodm:CDISCDefinition>Administration to the nose; administered by way of the nose.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration to the nose; administered by way of the nose. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Nasal Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="NASOGASTRIC" nciodm:ExtCodeID="C38285">
-          <nciodm:CDISCDefinition>Administration through the nose and into the stomach, usually by means of a tube.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration through the nose and into the stomach, usually by means of a tube. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Nasogastric Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="NOT APPLICABLE" nciodm:ExtCodeID="C48623">
-          <nciodm:CDISCDefinition>Routes of administration are not applicable.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Routes of administration are not applicable. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Route of Administration Not Applicable</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="OCCLUSIVE DRESSING TECHNIQUE" nciodm:ExtCodeID="C38286">
-          <nciodm:CDISCDefinition>Administration by the topical route which is then covered by a dressing which occludes the area.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration by the topical route which is then covered by a dressing which occludes the area. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Occlusive Dressing Technique</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="OPHTHALMIC" nciodm:ExtCodeID="C38287">
-          <nciodm:CDISCDefinition>Administration to the external eye.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration to the external eye. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Ophthalmic Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="ORAL" nciodm:ExtCodeID="C38288">
           <nciodm:CDISCSynonym>PO</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>Administration to or by way of the mouth.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration to or by way of the mouth. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Oral Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="OROPHARYNGEAL" nciodm:ExtCodeID="C38289">
-          <nciodm:CDISCDefinition>Administration directly to the mouth and pharynx.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration directly to the mouth and pharynx. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Oropharyngeal Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="OTHER" nciodm:ExtCodeID="C38290">
-          <nciodm:CDISCDefinition>Administration is different from others on this list.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration is different from others on this list. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Other Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="PARENTERAL" nciodm:ExtCodeID="C38291">
-          <nciodm:CDISCDefinition>Administration by injection, infusion, or implantation.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration by injection, infusion, or implantation. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Parenteral Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="PERCUTANEOUS" nciodm:ExtCodeID="C38676">
-          <nciodm:CDISCDefinition>Administration through the skin.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration through the skin. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Percutaneous Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="PERIARTICULAR" nciodm:ExtCodeID="C38292">
-          <nciodm:CDISCDefinition>Administration around a joint.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration around a joint. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Periarticular Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="PERIDURAL" nciodm:ExtCodeID="C38677">
-          <nciodm:CDISCDefinition>Administration to the outside of the dura mater of the spinal cord.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration to the outside of the dura mater of the spinal cord. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Peridural Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="PERINEURAL" nciodm:ExtCodeID="C38293">
-          <nciodm:CDISCDefinition>Administration surrounding a nerve or nerves.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration surrounding a nerve or nerves. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Perineural Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="PERIODONTAL" nciodm:ExtCodeID="C38294">
-          <nciodm:CDISCDefinition>Administration around a tooth.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration around a tooth. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Periodontal Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="RECTAL" nciodm:ExtCodeID="C38295">
-          <nciodm:CDISCDefinition>Administration to the rectum.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration to the rectum. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Rectal Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="RESPIRATORY (INHALATION)" nciodm:ExtCodeID="C38216">
-          <nciodm:CDISCDefinition>Administration within the respiratory tract by inhaling orally or nasally for local or systemic effect.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration within the respiratory tract by inhaling orally or nasally for local or systemic effect. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Inhalation Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="RETROBULBAR" nciodm:ExtCodeID="C38296">
-          <nciodm:CDISCDefinition>Administration behind the pons or behind the eyeball.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration behind the pons or behind the eyeball. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Retrobulbar Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="SOFT TISSUE" nciodm:ExtCodeID="C38198">
-          <nciodm:CDISCDefinition>Administration into any soft tissue.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration into any soft tissue. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Soft Tissue Route Of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="SUBARACHNOID" nciodm:ExtCodeID="C38297">
-          <nciodm:CDISCDefinition>Administration beneath the arachnoid.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration beneath the arachnoid. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Subarachnoid Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="SUBCONJUNCTIVAL" nciodm:ExtCodeID="C38298">
-          <nciodm:CDISCDefinition>Administration beneath the conjunctiva.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration beneath the conjunctiva. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Subconjunctival Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="SUBCUTANEOUS" nciodm:ExtCodeID="C38299">
           <nciodm:CDISCSynonym>SC</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>Administration beneath the skin; hypodermic. Synonymous with the term SUBDERMAL.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration beneath the skin; hypodermic. Synonymous with the term SUBDERMAL. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Subcutaneous Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="SUBLINGUAL" nciodm:ExtCodeID="C38300">
-          <nciodm:CDISCDefinition>Administration beneath the tongue.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration beneath the tongue. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Sublingual Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="SUBMUCOSAL" nciodm:ExtCodeID="C38301">
-          <nciodm:CDISCDefinition>Administration beneath the mucous membrane.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration beneath the mucous membrane. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Submucosal Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="TOPICAL" nciodm:ExtCodeID="C38304">
           <nciodm:CDISCSynonym>TOP</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>Administration to a particular spot on the outer surface of the body. The E2B term TRANSMAMMARY is a subset of the term TOPICAL.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration to a particular spot on the outer surface of the body. The E2B term TRANSMAMMARY is a subset of the term TOPICAL. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Topical Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="TRANSDERMAL" nciodm:ExtCodeID="C38305">
-          <nciodm:CDISCDefinition>Administration through the dermal layer of the skin to the systemic circulation by diffusion.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration through the dermal layer of the skin to the systemic circulation by diffusion. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Transdermal Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="TRANSMUCOSAL" nciodm:ExtCodeID="C38283">
-          <nciodm:CDISCDefinition>Administration across the mucosa.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration across the mucosa. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Mucosal Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="TRANSPLACENTAL" nciodm:ExtCodeID="C38307">
-          <nciodm:CDISCDefinition>Administration through or across the placenta.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration through or across the placenta. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Transplacental Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="TRANSTRACHEAL" nciodm:ExtCodeID="C38308">
-          <nciodm:CDISCDefinition>Administration through the wall of the trachea.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration through the wall of the trachea. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Transtracheal Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="TRANSTYMPANIC" nciodm:ExtCodeID="C38309">
-          <nciodm:CDISCDefinition>Administration across or through the tympanic cavity.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration across or through the tympanic cavity. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Transtympanic Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="UNASSIGNED" nciodm:ExtCodeID="C38310">
-          <nciodm:CDISCDefinition>Route of administration has not yet been assigned.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Route of administration has not yet been assigned. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Unassigned Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="UNKNOWN" nciodm:ExtCodeID="C38311">
-          <nciodm:CDISCDefinition>Route of administration is unknown.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Route of administration is unknown. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Unknown Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="URETERAL" nciodm:ExtCodeID="C38312">
-          <nciodm:CDISCDefinition>Administration into the ureter.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration into the ureter. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Ureteral Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="URETHRAL" nciodm:ExtCodeID="C38271">
-          <nciodm:CDISCDefinition>Administration into the urethra.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration into the urethra. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Intraurethral Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="VAGINAL" nciodm:ExtCodeID="C38313">
-          <nciodm:CDISCDefinition>Administration into the vagina.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Administration into the vagina. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Vaginal Route of Administration</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="DIETARY" nciodm:ExtCodeID="C78373">

@@ -36,7 +36,7 @@
         </EnumeratedItem>
         <EnumeratedItem CodedValue="HEPATOBILIARY DISORDERS" nciodm:ExtCodeID="C3959">
           <nciodm:CDISCDefinition>Any deviation from the normal structure or function of the liver or biliary tract that is manifested by a characteristic set of symptoms and signs. (NCI)</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>Liver and Biliary Tract Disorder</nciodm:PreferredTerm>
+          <nciodm:PreferredTerm>Hepatobiliary Disorder</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="IMMUNE SYSTEM DISORDERS" nciodm:ExtCodeID="C3507">
           <nciodm:CDISCDefinition>A disorder resulting from an abnormality in the immune system. -- 2003 (NCI)</nciodm:CDISCDefinition>
@@ -100,7 +100,7 @@
         </EnumeratedItem>
         <EnumeratedItem CodedValue="SURGICAL AND MEDICAL PROCEDURES" nciodm:ExtCodeID="C25218">
           <nciodm:CDISCDefinition>A particular course of action intended to achieve a result. (NCI)</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>Procedure</nciodm:PreferredTerm>
+          <nciodm:PreferredTerm>Intervention or Procedure</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="VASCULAR DISORDERS" nciodm:ExtCodeID="C35117">
           <nciodm:CDISCDefinition>Any deviation from the normal structure or function of the vascular system that is manifested by a characteristic set of symptoms and signs. (NCI)</nciodm:CDISCDefinition>

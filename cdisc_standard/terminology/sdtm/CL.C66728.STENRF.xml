@@ -4,7 +4,7 @@
         </Description>
         <EnumeratedItem CodedValue="AFTER" nciodm:ExtCodeID="C38008">
           <nciodm:CDISCDefinition>The time period following a point or another period of time. (NCI)</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>Status Post</nciodm:PreferredTerm>
+          <nciodm:PreferredTerm>Post</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="BEFORE" nciodm:ExtCodeID="C25629">
           <nciodm:CDISCDefinition>Earlier in time or order. (NCI)</nciodm:CDISCDefinition>

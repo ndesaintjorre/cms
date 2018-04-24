@@ -41,5 +41,6 @@
         </EnumeratedItem>
         <nciodm:CDISCSubmissionValue>MSRESCAT</nciodm:CDISCSubmissionValue>
         <nciodm:CDISCSynonym>Microbiology Susceptibility Testing Result Category</nciodm:CDISCSynonym>
+        <nciodm:PreferredTerm>CDISC SDTM Microbiology Susceptibility Testing Result Category Terminology</nciodm:PreferredTerm>
       </CodeList>
       

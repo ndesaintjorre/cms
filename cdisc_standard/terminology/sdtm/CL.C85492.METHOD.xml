@@ -32,7 +32,7 @@
         </EnumeratedItem>
         <EnumeratedItem CodedValue="AUSCULTATION" nciodm:ExtCodeID="C85573">
           <nciodm:CDISCDefinition>Listening with a device, such as a stethoscope, to anatomical locations that produce audible sounds like the heart, lungs and abdomen.</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>Ascultation</nciodm:PreferredTerm>
+          <nciodm:PreferredTerm>Auscultation</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="BETA LACTAMASE" nciodm:ExtCodeID="C85576">
           <nciodm:CDISCDefinition>A test that detects beta lactamase produced by Staphylococcus species, Haemophilus species, Moraxella catarrhalis, and Neisseria gonorrhoeae.</nciodm:CDISCDefinition>
@@ -203,7 +203,7 @@
         </EnumeratedItem>
         <EnumeratedItem CodedValue="PERCUSSION" nciodm:ExtCodeID="C62298">
           <nciodm:CDISCDefinition>A diagnostic test performed on a tooth by tapping on the crown with a dental instrument.</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>Percussion</nciodm:PreferredTerm>
+          <nciodm:PreferredTerm>Dental Percussion</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="PHASE CONTRAST MICROSCOPY" nciodm:ExtCodeID="C16857">
           <nciodm:CDISCDefinition>A microscopic technique in which the amplitude shift that occurs when light passes through a specimen highlights structures or details within the specimen.</nciodm:CDISCDefinition>
@@ -224,7 +224,7 @@
         </EnumeratedItem>
         <EnumeratedItem CodedValue="SLIT LAMP" nciodm:ExtCodeID="C75583">
           <nciodm:CDISCDefinition>Examination of the anterior segment of the eye using a medical instrument called a slit lamp.</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>Slit Lamp Examination</nciodm:PreferredTerm>
+          <nciodm:PreferredTerm>Slit-lamp Examination</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="SPIRAL CT" nciodm:ExtCodeID="C20645">
           <nciodm:CDISCSynonym>Spiral Computed Tomography</nciodm:CDISCSynonym>
@@ -310,7 +310,7 @@
         </EnumeratedItem>
         <EnumeratedItem CodedValue="ANGIOGRAM" nciodm:ExtCodeID="C16805">
           <nciodm:CDISCDefinition>An X-ray representation of blood vessels made after the injection of a radiopaque substance.</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>Angiogram</nciodm:PreferredTerm>
+          <nciodm:PreferredTerm>Lymphangiogram</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="MAMMOGRAPHY" nciodm:ExtCodeID="C16818">
           <nciodm:CDISCDefinition>A type of radiography used specifically to examine breast tissue. The procedure utilizes a low-dose of x-rays or radiation to generate an image.</nciodm:CDISCDefinition>
@@ -318,11 +318,11 @@
         </EnumeratedItem>
         <EnumeratedItem CodedValue="PET/CT SCAN" nciodm:ExtCodeID="C17007">
           <nciodm:CDISCDefinition>An imaging technique that utilizes positron emission tomography and computed tomography in a single machine.</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>PET-CT</nciodm:PreferredTerm>
+          <nciodm:PreferredTerm>Positron Emission Tomography</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="DXA SCAN" nciodm:ExtCodeID="C48789">
           <nciodm:CDISCDefinition>A technique for scanning bone and measuring bone mineral density (BMD).</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>Dual X-Ray Absorptometry</nciodm:PreferredTerm>
+          <nciodm:PreferredTerm>Dual X-ray Absorptiometry</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="SCINTIGRAPHY" nciodm:ExtCodeID="C62667">
           <nciodm:CDISCDefinition>An imaging technique that uses a small dose of a radioactive chemical (isotope) called a tracer that can detect sites of cancer growth, trauma, infection or degenerative disorders. The tracer, which is either injected into a vein or swallowed, travels through the bloodstream to the target organ, and emits gamma rays, which are detected by a gamma camera and analyzed by a computer to form an image of the target organ. (NCI)</nciodm:CDISCDefinition>

@@ -4,7 +4,8 @@
         </Description>
         <EnumeratedItem CodedValue="0" nciodm:ExtCodeID="C75533">
           <nciodm:CDISCSynonym>ABSENT</nciodm:CDISCSynonym>
-          <nciodm:CDISCSynonym>Grade 0: 0</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Grade 0</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>0</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>Grade 0 is universally defined as absence of Adverse Events or within normal limits or values.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Absent Adverse Event</nciodm:PreferredTerm>
         </EnumeratedItem>

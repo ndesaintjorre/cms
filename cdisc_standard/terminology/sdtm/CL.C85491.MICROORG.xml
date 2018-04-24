@@ -1459,19 +1459,19 @@
         </EnumeratedItem>
         <EnumeratedItem CodedValue="ESCHERICHIA COLI O111" nciodm:ExtCodeID="C86881">
           <nciodm:CDISCDefinition>Any bacterial organism that can be assigned to the species Escherichia coli and strain O111.</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>Escherichia coli and strain O111</nciodm:PreferredTerm>
+          <nciodm:PreferredTerm>Escherichia coli strain O111</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="ESCHERICHIA COLI O157 (NOT H7)" nciodm:ExtCodeID="C86882">
           <nciodm:CDISCDefinition>Any bacterial organism that can be assigned to the species Escherichia coli and strain O157.</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>Escherichia coli and strain O157</nciodm:PreferredTerm>
+          <nciodm:PreferredTerm>Escherichia coli strain O157</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="ESCHERICHIA COLI O157:H7" nciodm:ExtCodeID="C86883">
           <nciodm:CDISCDefinition>Any bacterial organism that can be assigned to the species Escherichia coli and strain O157:H7.</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>Escherichia coli and strain O157:H7</nciodm:PreferredTerm>
+          <nciodm:PreferredTerm>Escherichia coli strain O157:H7</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="ESCHERICHIA COLI O26" nciodm:ExtCodeID="C86884">
           <nciodm:CDISCDefinition>Any bacterial organism that can be assigned to the species Escherichia coli and strain O26.</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>Escherichia coli and strain O26</nciodm:PreferredTerm>
+          <nciodm:PreferredTerm>Escherichia coli strain O26</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="ESCHERICHIA FERGUSONII" nciodm:ExtCodeID="C86380">
           <nciodm:CDISCSynonym>CDC ENTERIC GROUP 10</nciodm:CDISCSynonym>
@@ -1707,7 +1707,7 @@
         </EnumeratedItem>
         <EnumeratedItem CodedValue="GRAM-POSITIVE BACILLUS" nciodm:ExtCodeID="C62589">
           <nciodm:CDISCDefinition>Any rod-shaped bacteria that has a peptidoglycan-rich cell wall that stains dark purple with the Gram staining technique.</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>Gram Positive Bacillus</nciodm:PreferredTerm>
+          <nciodm:PreferredTerm>Gram-Positive Rod</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="GRAM-POSITIVE COCCUS" nciodm:ExtCodeID="C86424">
           <nciodm:CDISCDefinition>Any spherical-shaped bacteria that has a peptidoglycan-rich cell wall that stains dark purple with the Gram staining technique.</nciodm:CDISCDefinition>
@@ -1930,7 +1930,6 @@
           <nciodm:CDISCSynonym>ENTEROBACTER INTERMEDIUM</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>ENTEROBACTER INTERMEDIUS</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>KLUYVERA COCHLEAE</nciodm:CDISCSynonym>
-          <nciodm:CDISCSynonym>ENTEROBACTER INTERMEDIUM</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>Any bacterial organism that can be assigned to the species Kluyvera intermedia.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Kluyvera intermedia</nciodm:PreferredTerm>
         </EnumeratedItem>
@@ -3805,31 +3804,31 @@
         </EnumeratedItem>
         <EnumeratedItem CodedValue="SALMONELLA ENTERICA SUBSP. DIARIZONAE" nciodm:ExtCodeID="C91844">
           <nciodm:CDISCDefinition>Any bacterial organism that can be assigned to the species Salmonella enterica subspecies diarizonae.</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>Salmonella enterica subsp. diarizonae</nciodm:PreferredTerm>
+          <nciodm:PreferredTerm>Salmonella enterica subsp diarizonae</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="SALMONELLA ENTERICA SUBSP. HOUTENAE" nciodm:ExtCodeID="C91845">
           <nciodm:CDISCDefinition>Any bacterial organism that can be assigned to the species Salmonella enterica subspecies houtenae.</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>Salmonella enterica subsp. houtenae</nciodm:PreferredTerm>
+          <nciodm:PreferredTerm>Salmonella enterica subsp houtenae</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="SALMONELLA ENTERICA SUBSP. INDICA" nciodm:ExtCodeID="C91846">
           <nciodm:CDISCDefinition>Any bacterial organism that can be assigned to the species Salmonella enterica subspecies indica.</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>Salmonella enterica subsp. indica</nciodm:PreferredTerm>
+          <nciodm:PreferredTerm>Salmonella enterica subsp indica</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="SALMONELLA ENTERICA SUBSP. SALAMAE" nciodm:ExtCodeID="C91847">
           <nciodm:CDISCDefinition>Any bacterial organism that can be assigned to the species Salmonella enterica subspecies salamae.</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>Salmonella enterica subsp. salamae</nciodm:PreferredTerm>
+          <nciodm:PreferredTerm>Salmonella enterica subsp salamae</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="STREPTOCOCCUS DYSGALACTIAE SUBSP. DYSGALACTIAE" nciodm:ExtCodeID="C91848">
           <nciodm:CDISCDefinition>Any bacterial organism that can be assigned to the species Streptococcus dysgalactiae subspecies dysgalactiae.</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>Streptococcus dysgalactiae subsp. dysgalactiae</nciodm:PreferredTerm>
+          <nciodm:PreferredTerm>Streptococcus dysgalactiae subsp dysgalactiae</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="TREPONEMA PALLIDUM SUBSP. ENDEMICUM" nciodm:ExtCodeID="C91850">
           <nciodm:CDISCDefinition>Any bacterial organism that can be assigned to the species Treponema pallidum subspecies endemicum.</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>Treponema pallidum subsp. endemicum</nciodm:PreferredTerm>
+          <nciodm:PreferredTerm>Treponema pallidum subsp endemicum</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="TREPONEMA PALLIDUM SUBSP. PALLIDUM" nciodm:ExtCodeID="C91849">
           <nciodm:CDISCDefinition>Any bacterial organism that can be assigned to the species Treponema pallidum subspecies pallidum.</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>Treponema pallidum subsp. pallidum</nciodm:PreferredTerm>
+          <nciodm:PreferredTerm>Treponema pallidum subsp pallidum</nciodm:PreferredTerm>
         </EnumeratedItem>
         <nciodm:CDISCSubmissionValue>MICROORG</nciodm:CDISCSubmissionValue>
         <nciodm:CDISCSynonym>Microorganism</nciodm:CDISCSynonym>

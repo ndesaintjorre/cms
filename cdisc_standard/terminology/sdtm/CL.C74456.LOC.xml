@@ -374,7 +374,7 @@
         </EnumeratedItem>
         <EnumeratedItem CodedValue="PUTAMEN" nciodm:ExtCodeID="C12452">
           <nciodm:CDISCSynonym>Putamen</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>The largest and most lateral of the basal ganglia lying between the lateral medullary lamina of the globus pallidus and the external capsule. It is part of the neostriatum and forms part of the lentiform nucleus along with the globus pallidus. (MeSH) (NCI)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>The largest and most lateral of the basal ganglia lying between the lateral medullary lamina of the globus pallidus and the external capsule. It is part of the neostriatum and forms part of the lentiform nucleus along with the globus pallidus. (MeSH)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Putamen</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="THALAMUS" nciodm:ExtCodeID="C12459">
@@ -1278,10 +1278,10 @@
           <nciodm:CDISCDefinition>The ninth thoracic vertebra counting from the top down. (NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>T9 Vertebra</nciodm:PreferredTerm>
         </EnumeratedItem>
-        <EnumeratedItem CodedValue="TARSUS BONE" nciodm:ExtCodeID="C33737">
+        <EnumeratedItem CodedValue="TARSUS BONE" nciodm:ExtCodeID="C12796">
           <nciodm:CDISCSynonym>Tarsus Bone</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>Any one of the seven bones forming the instep of the foot. (NCI)</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>Tarsus Bone</nciodm:PreferredTerm>
+          <nciodm:PreferredTerm>Tarsal Bone</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="THIGH" nciodm:ExtCodeID="C33763">
           <nciodm:CDISCSynonym>Thigh</nciodm:CDISCSynonym>
@@ -1520,11 +1520,7 @@
         </EnumeratedItem>
         <EnumeratedItem CodedValue="APPENDICEAL TIP" nciodm:ExtCodeID="C83470">
           <nciodm:CDISCDefinition>The distal end of the appendix. (NCI)</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>Appendeceal Tip</nciodm:PreferredTerm>
-        </EnumeratedItem>
-        <EnumeratedItem CodedValue="BASAL GANGLIA" nciodm:ExtCodeID="C12447">
-          <nciodm:CDISCDefinition>Clusters of neurons comprising the globus pallidus, putamen, caudate, nucleus accumbens, substantia nigra and subthalamic nucleus. They are involved with high level aspects of inhibitory motor activity in coordination with the excitation commands issued from the cerebellum. (NCI)</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>Basal Ganglia</nciodm:PreferredTerm>
+          <nciodm:PreferredTerm>Appendiceal Tip</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="BLADDER, DOME" nciodm:ExtCodeID="C12332">
           <nciodm:CDISCSynonym>Dome of the Bladder</nciodm:CDISCSynonym>
@@ -1544,7 +1540,7 @@
         <EnumeratedItem CodedValue="BLADDER, TRIGONE" nciodm:ExtCodeID="C12331">
           <nciodm:CDISCSynonym>Trigone of the Bladder</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>The triangular area in the bladder mucosa that is formed by the two ureteral orifices and the urethral orifice. (NCI)</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>Trigone of Bladder</nciodm:PreferredTerm>
+          <nciodm:PreferredTerm>Bladder Trigone</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="BRAIN STEM" nciodm:ExtCodeID="C12441">
           <nciodm:CDISCDefinition>The part of the brain that connects the cerebral hemispheres with the spinal cord. It consists of the mesencephalon, pons, and medulla oblongata. (NCI)</nciodm:CDISCDefinition>
@@ -1781,7 +1777,7 @@
         <EnumeratedItem CodedValue="KIDNEY, LOWER LOBE" nciodm:ExtCodeID="C93180">
           <nciodm:CDISCSynonym>Lower Lobe of the Kidney</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>The lobe of the kidney located in the lowest portion of the kidney. (NCI)</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>Lower Lobe of the Kidney</nciodm:PreferredTerm>
+          <nciodm:PreferredTerm>Lower Lobe of Kidney</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="KIDNEY, MEDULLA" nciodm:ExtCodeID="C12740">
           <nciodm:CDISCSynonym>Renal Medulla</nciodm:CDISCSynonym>
@@ -1791,7 +1787,7 @@
         <EnumeratedItem CodedValue="KIDNEY, UPPER LOBE" nciodm:ExtCodeID="C93179">
           <nciodm:CDISCSynonym>Upper Lobe of the Kidney</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>The lobe of the kidney located in the uppermost region of the kidney. (NCI)</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>Upper Lobe of the Kidney</nciodm:PreferredTerm>
+          <nciodm:PreferredTerm>Upper Lobe of Kidney</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="LESSER TROCHANTER" nciodm:ExtCodeID="C32982">
           <nciodm:CDISCDefinition>A cone-shaped projection in the shaft of the femur in which the iliopsoas muscle is attached. (NCI)</nciodm:CDISCDefinition>
@@ -1886,10 +1882,6 @@
           <nciodm:CDISCSynonym>Superior Mediastinum</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>The part of the mediastinum that is located between the upper part of the sternum in the front and the upper thoracic vertebrae in the back. (NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Superior Mediastinum</nciodm:PreferredTerm>
-        </EnumeratedItem>
-        <EnumeratedItem CodedValue="MEDULLA OBLONGATA" nciodm:ExtCodeID="C12442">
-          <nciodm:CDISCDefinition>The lower portion of the brainstem located between the pons and brainstem. This structure contains several descending and ascending tracts, lower cranial nerve nuclei, a significant proportion of the reticular system of the brainstem and other structures. (NCI)</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>Medulla Oblongata</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="MIDBRAIN" nciodm:ExtCodeID="C12510">
           <nciodm:CDISCSynonym>Mesencephalon</nciodm:CDISCSynonym>

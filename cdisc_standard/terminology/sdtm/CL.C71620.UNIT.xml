@@ -19,17 +19,18 @@
         </EnumeratedItem>
         <EnumeratedItem CodedValue="HOURS" nciodm:ExtCodeID="C25529">
           <nciodm:CDISCSynonym>Hour</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>A unit measure of time equal to 3,600 seconds or 60 minutes. It is approximately 1/24 of a median day.(NCI)</nciodm:CDISCDefinition>
+          <nciodm:CDISCSynonym>hr</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A unit measure of time equal to 3,600 seconds or 60 minutes. It is approximately 1/24 of a median day. (NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Hour</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="%" nciodm:ExtCodeID="C25613">
           <nciodm:CDISCSynonym>Percentage</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>A fraction or ratio with 100 understood as the denominator.(NCI)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>A fraction or ratio with 100 understood as the denominator. (NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Percentage</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="mm" nciodm:ExtCodeID="C28251">
           <nciodm:CDISCSynonym>Millimeter</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>A unit of measure equal to one thousandth of a meter.(NCI)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>A unit of measure equal to one thousandth of a meter. (NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Millimeter</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="kg" nciodm:ExtCodeID="C28252">
@@ -50,12 +51,12 @@
         </EnumeratedItem>
         <EnumeratedItem CodedValue="WEEKS" nciodm:ExtCodeID="C29844">
           <nciodm:CDISCSynonym>Week</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>Any period of seven consecutive days.(NCI)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>Any period of seven consecutive days. (NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Week</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="MONTHS" nciodm:ExtCodeID="C29846">
           <nciodm:CDISCSynonym>Month</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>One of the 12 divisions of a year as determined by a calendar. It corresponds to the unit of time of approximately to one cycle of the moon's phases, about 30 days or 4 weeks.(NCI)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>One of the 12 divisions of a year as determined by a calendar. It corresponds to the unit of time of approximately to one cycle of the moon's phases, about 30 days or 4 weeks. (NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Month</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="YEARS" nciodm:ExtCodeID="C29848">
@@ -140,7 +141,7 @@
         </EnumeratedItem>
         <EnumeratedItem CodedValue="ohm" nciodm:ExtCodeID="C42554">
           <nciodm:CDISCSynonym>Ohm</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>A unit of electrical resistance equal to the resistance between two points on a conductor when a potential difference of one volt between them produces a current of one Ampere. Ohm is also used to measure impedance and reactance for complex resistance. A measurement in ohms is the reciprocal of a measurement in Siemens.(NCI)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>A unit of electrical resistance equal to the resistance between two points on a conductor when a potential difference of one volt between them produces a current of one Ampere. Ohm is also used to measure impedance and reactance for complex resistance. A measurement in ohms is the reciprocal of a measurement in Siemens. (NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Ohm</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="Siemens" nciodm:ExtCodeID="C42555">
@@ -573,12 +574,12 @@
         </EnumeratedItem>
         <EnumeratedItem CodedValue="cm" nciodm:ExtCodeID="C49668">
           <nciodm:CDISCSynonym>Centimeter</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>A basic unit of length equal to one hundredth of a meter or approximately 0.393 700 787 inch (NCI)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>A basic unit of length equal to one hundredth of a meter or approximately 0.393 700 787 inch. (NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Centimeter</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="mmHg" nciodm:ExtCodeID="C49670">
           <nciodm:CDISCSynonym>Millimeter of Mercury</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>A unit of pressure equal to 0.001316 atmosphere and equal to the pressure indicated by one millimeter rise of mercury in a barometer at the Earth's surface.(NCI)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>A unit of pressure equal to 0.001316 atmosphere and equal to the pressure indicated by one millimeter rise of mercury in a barometer at the Earth's surface. (NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Millimeter of Mercury</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="kg/m2" nciodm:ExtCodeID="C49671">
@@ -588,12 +589,12 @@
         </EnumeratedItem>
         <EnumeratedItem CodedValue="BEATS/MIN" nciodm:ExtCodeID="C49673">
           <nciodm:CDISCSynonym>Beats per Minute</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>The number of heartbeats measured per minute time.(NCI)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>The number of heartbeats measured per minute time. (NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Beats per Minute</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="BREATHS/MIN" nciodm:ExtCodeID="C49674">
           <nciodm:CDISCSynonym>Breaths per Minute</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>The number of breaths (inhalation and exhalation) taken per minute time.(NCI)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>The number of breaths (inhalation and exhalation) taken per minute time. (NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Breaths per Minute</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="CUP" nciodm:ExtCodeID="C54703">
@@ -1265,7 +1266,8 @@
         </EnumeratedItem>
         <EnumeratedItem CodedValue="GBq/ug" nciodm:ExtCodeID="C70526">
           <nciodm:CDISCSynonym>Gigabecquerel per microgram</nciodm:CDISCSynonym>
-          <nciodm:CDISCSynonym>MBq/ng, Megabecquerel per nanogram</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MBq/ng</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Megabecquerel per nanogram</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>GBq/mcg</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>A unit of specific radioactivity (massic activity) equal to activity of one gigabecquerel of the sample with total mass of one microgram.(NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Gigabecquerel per Microgram</nciodm:PreferredTerm>
@@ -1556,7 +1558,7 @@
         <EnumeratedItem CodedValue="kUSP" nciodm:ExtCodeID="C71202">
           <nciodm:CDISCSynonym>Kilo United States Pharmacopoeia Unit</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>A unit of potency equal to one thousand US Pharmacopoeia Units.(NCI)</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>Kilo United States Pharmacopoeia Unit</nciodm:PreferredTerm>
+          <nciodm:PreferredTerm>Kilo United States Pharmacopeia Unit</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="km/h" nciodm:ExtCodeID="C71203">
           <nciodm:CDISCSynonym>Kilometer Per Hour</nciodm:CDISCSynonym>
@@ -1606,7 +1608,7 @@
         <EnumeratedItem CodedValue="FINGERTIP UNIT" nciodm:ExtCodeID="C71321">
           <nciodm:CDISCSynonym>Fingertip Unit</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>An arbitrary dosing unit used predominantly for semisolid topical formulations such as cream, ointment, paste, etc. One fingertip unit is the amount of a product that is squeezed out from a standard tube with 5-millimeter diameter nozzle along an adult's fingertip. A fingertip length is defined from the tip of the index finger to the first finger crease. A fingertip dosing unit varies with age and size of the body. The average fingertip unit is equal to approximately 0.5 gram for an adult male and 0.4 gram for an adult female.(NCI)</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>Fingertip Unit</nciodm:PreferredTerm>
+          <nciodm:PreferredTerm>Fingertip Dosing Unit</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="SACHET" nciodm:ExtCodeID="C71324">
           <nciodm:CDISCSynonym>Sachet dosing unit</nciodm:CDISCSynonym>
@@ -1679,13 +1681,13 @@
         </EnumeratedItem>
         <EnumeratedItem CodedValue="/wk" nciodm:ExtCodeID="C67069">
           <nciodm:CDISCSynonym>Per Week</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>Every week.</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>/week</nciodm:PreferredTerm>
+          <nciodm:CDISCDefinition>Every week. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Weekly</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="AFU" nciodm:ExtCodeID="C77534">
           <nciodm:CDISCSynonym>Arbitrary Fluorescence Unit</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>Arbitrary unit(s) of fluorescent luminescence. (NCI)</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>AFU</nciodm:PreferredTerm>
+          <nciodm:PreferredTerm>Arbitrary Fluorescence Units</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="amu" nciodm:ExtCodeID="C64559">
           <nciodm:CDISCSynonym>Atomic Mass Unit</nciodm:CDISCSynonym>
@@ -1765,7 +1767,7 @@
         <EnumeratedItem CodedValue="g/day" nciodm:ExtCodeID="C67372">
           <nciodm:CDISCSynonym>Gram per Day</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>A dose calculation unit expressed in gram(s) per period of time equal to twenty-four hours.</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>g/day</nciodm:PreferredTerm>
+          <nciodm:PreferredTerm>Gram per 24 Hours</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="g/g" nciodm:ExtCodeID="C70453">
           <nciodm:CDISCSynonym>Gram per Gram</nciodm:CDISCSynonym>
@@ -1796,7 +1798,7 @@
           <nciodm:CDISCSynonym>Kilonewton per Centimeter Squared</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>kdyn/cm2</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>The kilonewton per centimeter squared is an SI derived unit of pressure; one newton is computed as the force necessary to accelerate a mass of one gram at the rate of one centimeter per second squared. One kilonewton per centimeter squared is descriptive of the amount of force exerted in a particular area. This measurement is frequently used when describing conditions of cellular movement. (NCI)</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>kN/cm2</nciodm:PreferredTerm>
+          <nciodm:PreferredTerm>Kilonewton per Centimeter Squared</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="kPa" nciodm:ExtCodeID="C67284">
           <nciodm:CDISCSynonym>Kilopascal</nciodm:CDISCSynonym>
@@ -1826,7 +1828,7 @@
         <EnumeratedItem CodedValue="mEq/mmol" nciodm:ExtCodeID="C92616">
           <nciodm:CDISCSynonym>Milliequivalent per Millimole</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>A concentration unit measured as a number of one thousandth of an equivalent weight per millimole of substance. (NCI)</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>mEq/mmol</nciodm:PreferredTerm>
+          <nciodm:PreferredTerm>Milliequivalent per Milliimole</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="MESF" nciodm:ExtCodeID="C96691">
           <nciodm:CDISCSynonym>Molecules of Equivalent Soluble Fluorochromes</nciodm:CDISCSynonym>
@@ -1936,7 +1938,7 @@
         <EnumeratedItem CodedValue="mL/g/day" nciodm:ExtCodeID="C73755">
           <nciodm:CDISCSynonym>Milliliter per Gram per Day</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>Liters per kilogram per day.</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>mL/g/day</nciodm:PreferredTerm>
+          <nciodm:PreferredTerm>Milliliter per Gram per Day</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="mL/g/h" nciodm:ExtCodeID="C73756">
           <nciodm:CDISCSynonym>Milliliter per Gram per Hour</nciodm:CDISCSynonym>
@@ -2011,7 +2013,7 @@
         <EnumeratedItem CodedValue="nmol/mL/min" nciodm:ExtCodeID="C92613">
           <nciodm:CDISCSynonym>Nanomole per Milliliter per Minute</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>A unit of concentration (molarity unit) equal to one billionth of a mole (10E-9 mole) of solute in one milliliter of solution to be administered per minute of time.</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>nmol/mL/min</nciodm:PreferredTerm>
+          <nciodm:PreferredTerm>Nanomole per Minute per Milliliter</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="nsec" nciodm:ExtCodeID="C73767">
           <nciodm:CDISCSynonym>Nanosecond</nciodm:CDISCSynonym>
@@ -2176,7 +2178,7 @@
         <EnumeratedItem CodedValue="um2" nciodm:ExtCodeID="C73770">
           <nciodm:CDISCSynonym>MicroSquare Meter</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>A SI unit of area measurement equal to a square whose sides are one micrometer long. (NCI)</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>um2</nciodm:PreferredTerm>
+          <nciodm:PreferredTerm>Square Micrometer</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="um3" nciodm:ExtCodeID="C67565">
           <nciodm:CDISCSynonym>Cubic Micrometer</nciodm:CDISCSynonym>

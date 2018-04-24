@@ -2346,7 +2346,7 @@
         </EnumeratedItem>
         <EnumeratedItem CodedValue="CA19_9AG" nciodm:ExtCodeID="C81982">
           <nciodm:CDISCSynonym>Cancer Antigen 19-9</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>A measurement of the cancer antigen 18-9 in a biological specimen.</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>A measurement of the cancer antigen 19-9 in a biological specimen.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Cancer Antigen 19-9 Measurement</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="CAION" nciodm:ExtCodeID="C81948">

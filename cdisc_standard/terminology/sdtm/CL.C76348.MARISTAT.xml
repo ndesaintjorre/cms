@@ -12,7 +12,7 @@
         </EnumeratedItem>
         <EnumeratedItem CodedValue="INTERLOCUTORY" nciodm:ExtCodeID="C76241">
           <nciodm:CDISCDefinition>Temporary order issued during the course of litigation. (HL7)</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>Interlocutory</nciodm:PreferredTerm>
+          <nciodm:PreferredTerm>Interlocutory Marital Status</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="LEGALLY SEPARATED" nciodm:ExtCodeID="C51777">
           <nciodm:CDISCDefinition>A person living apart from his/her spouse by legal arrangement. (HL7)</nciodm:CDISCDefinition>
@@ -40,6 +40,6 @@
         </EnumeratedItem>
         <nciodm:CDISCSubmissionValue>MARISTAT</nciodm:CDISCSubmissionValue>
         <nciodm:CDISCSynonym>Marital Status</nciodm:CDISCSynonym>
-        <nciodm:PreferredTerm>Marital Status Terminology</nciodm:PreferredTerm>
+        <nciodm:PreferredTerm>CDISC SDTM Marital Status Terminology</nciodm:PreferredTerm>
       </CodeList>
       
