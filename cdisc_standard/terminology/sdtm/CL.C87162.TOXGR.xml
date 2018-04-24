@@ -1,0 +1,50 @@
+<CodeList xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" OID="CL.C87162.TOXGR" Name="Common Terminology Criteria for Adverse Events V4.0" DataType="text" nciodm:ExtCodeID="C87162" nciodm:CodeListExtensible="No">
+        <Description>
+          <TranslatedText xml:lang="en">The version 4.0 standard terminology developed to report adverse events occurring in cancer clinical trials. Common terminology criteria for adverse events (CTCAE) are used to study adverse event summaries and Investigational New Drug reports to the Food and Drug Administration. The CTCAE contain a grading scale for each adverse event term representing the severity of the event. (NCI)</TranslatedText>
+        </Description>
+        <EnumeratedItem CodedValue="0" nciodm:ExtCodeID="C75533">
+          <nciodm:CDISCSynonym>ABSENT</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Grade 0: 0</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Grade 0 is universally defined as absence of Adverse Events or within normal limits or values.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Absent Adverse Event</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="1" nciodm:ExtCodeID="C84263">
+          <nciodm:CDISCSynonym>MILD</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Grade 1</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>1</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An adverse event that is asymptomatic; or involves mild or minor symptoms; or is of marginal clinical relevance; or consists of clinical or diagnostic observations alone; or for which intervention is not indicated; or for which only non-prescription intervention is indicated.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Mild Adverse Event</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="2" nciodm:ExtCodeID="C84264">
+          <nciodm:CDISCSynonym>MODERATE</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Grade 2</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>2</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An adverse event for which only minimal, local, or noninvasive intervention (e.g. packing, cautery) is indicated; or that limits instrumental activities of daily living (ADLs, e.g., shopping, laundry, transportation, or ability to conduct finances).</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Moderate Adverse Event</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="3" nciodm:ExtCodeID="C84265">
+          <nciodm:CDISCSynonym>SEVERE</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Grade 3</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>3</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An adverse event that is medically significant but not life-threatening; or for which inpatient care or prolongation of hospitalization are indicated; or that is an important medical event that does not result in hospitalization, but may jeopardize the patient or may require intervention either to prevent hospitalization, to prevent the AE from becoming life-threatening or causing death; or that is disabling; or that results in persistent or significant disability, incapacity, or limitation of self care activities of daily living (ADLs, e.g., getting in and out of bed, dressing, eating, getting around inside, bathing, or using the toilet).</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Severe Adverse Event</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="4" nciodm:ExtCodeID="C84266">
+          <nciodm:CDISCSynonym>LIFE THREATENING</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Grade 4</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>4</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An adverse event that has life-threatening consequences; for which urgent intervention is indicated; that puts the patient at risk of death at the time of the event if immediate intervention is not undertaken; or that causes blindness or deafness.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Life Threatening Adverse Event</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="5" nciodm:ExtCodeID="C48275">
+          <nciodm:CDISCSynonym>FATAL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Grade 5</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>5</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The termination of life as a result of an adverse event. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Death Related to Adverse Event</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <nciodm:CDISCSubmissionValue>TOXGR</nciodm:CDISCSubmissionValue>
+        <nciodm:CDISCSynonym>Common Terminology Criteria for Adverse Events V4.0</nciodm:CDISCSynonym>
+        <nciodm:PreferredTerm>CDISC SDTM Common Terminology Criteria for Adverse Event Grade Terminology Version 4.0</nciodm:PreferredTerm>
+      </CodeList>
+      

@@ -1,0 +1,13 @@
+<CodeList xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" OID="CL.C66789.ND" Name="Not Done" DataType="text" nciodm:ExtCodeID="C66789" nciodm:CodeListExtensible="No">
+        <Description>
+          <TranslatedText xml:lang="en">Indicates a task, process or examination that has either not been initiated or completed. (NCI)</TranslatedText>
+        </Description>
+        <EnumeratedItem CodedValue="NOT DONE" nciodm:ExtCodeID="C49484">
+          <nciodm:CDISCDefinition>Indicates a task, process or examination that has either not been initiated or completed. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Not Done</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <nciodm:CDISCSubmissionValue>ND</nciodm:CDISCSubmissionValue>
+        <nciodm:CDISCSynonym>Not Done</nciodm:CDISCSynonym>
+        <nciodm:PreferredTerm>CDISC SDTM Not Done Terminology</nciodm:PreferredTerm>
+      </CodeList>
+      

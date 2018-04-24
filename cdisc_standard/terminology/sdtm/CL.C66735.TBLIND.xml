@@ -1,0 +1,21 @@
+<CodeList xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" OID="CL.C66735.TBLIND" Name="Trial Blinding Schema" DataType="text" nciodm:ExtCodeID="C66735" nciodm:CodeListExtensible="Yes">
+        <Description>
+          <TranslatedText xml:lang="en">The name of a code list that contains terms to define the type of blinding for the trial. (NCI)</TranslatedText>
+        </Description>
+        <EnumeratedItem CodedValue="DOUBLE BLIND" nciodm:ExtCodeID="C15228">
+          <nciodm:CDISCDefinition>A study in which neither the subject nor the investigator nor the research team interacting with the subject or data during the trial knows what treatment a subject is receiving. (CDISC glossary)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Double Blind Study</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="OPEN LABEL" nciodm:ExtCodeID="C49659">
+          <nciodm:CDISCDefinition>A trial in which subjects and investigators know which product each subject is receiving; opposite of a blinded or double-blind study. (CDISC glossary)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Open Label Study</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SINGLE BLIND" nciodm:ExtCodeID="C28233">
+          <nciodm:CDISCDefinition>A study in which one party, either the investigator or the subject, does not know which medication or placebo is administered to the subject; also called singlemasked study. (CDISC glossary)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Single Blind Study</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <nciodm:CDISCSubmissionValue>TBLIND</nciodm:CDISCSubmissionValue>
+        <nciodm:CDISCSynonym>Trial Blinding Schema</nciodm:CDISCSynonym>
+        <nciodm:PreferredTerm>CDISC SDTM Trial Blinding Schema Terminology</nciodm:PreferredTerm>
+      </CodeList>
+      

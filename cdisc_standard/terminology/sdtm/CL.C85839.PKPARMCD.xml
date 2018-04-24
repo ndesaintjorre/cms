@@ -1,0 +1,950 @@
+<CodeList xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" OID="CL.C85839.PKPARMCD" Name="PK Parameters Code" DataType="text" nciodm:ExtCodeID="C85839" nciodm:CodeListExtensible="Yes">
+        <Description>
+          <TranslatedText xml:lang="en">Parameter codes used to describe the time-concentration curve.</TranslatedText>
+        </Description>
+        <EnumeratedItem CodedValue="RECAMT" nciodm:ExtCodeID="C85832">
+          <nciodm:CDISCSynonym>Amount Recovered</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The cumulative amount recovered from the specimen type specified in PPSPEC, from dosing to end of the current collection interval.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Amount Recovered</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="RECAMTB" nciodm:ExtCodeID="C92363">
+          <nciodm:CDISCSynonym>Amount Recovered Norm by BMI</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The cumulative amount recovered from the specimen type specified in PPSPEC, from dosing to end of the current collection interval divided by the body mass index.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Amount Recovered Normalized by Body Mass Index</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="RECAMTD" nciodm:ExtCodeID="C92364">
+          <nciodm:CDISCSynonym>Amount Recovered Norm by Dose</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The cumulative amount recovered from the specimen type specified in PPSPEC, from dosing to end of the current collection interval divided by the dose.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Amount Recovered Normalized by Dose</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="RECAMTS" nciodm:ExtCodeID="C92365">
+          <nciodm:CDISCSynonym>Amount Recovered Norm by SA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The cumulative amount recovered from the specimen type specified in PPSPEC, from dosing to end of the current collection interval divided by the surface area.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Amount Recovered Normalized by Surface Area</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="RECAMTW" nciodm:ExtCodeID="C92366">
+          <nciodm:CDISCSynonym>Amount Recovered Norm by WT</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The cumulative amount recovered from the specimen type specified in PPSPEC, from dosing to end of the current collection interval divided by the weight.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Amount Recovered Normalized by Weight</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AUCPBEO" nciodm:ExtCodeID="C85763">
+          <nciodm:CDISCSynonym>AUC %Back Extrapolation Obs</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The percentage of the area under curve extrapolated to infinity that was due to back extrapolation to estimate concentration at time zero, based on the observed value for concentration at time zero.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Observed Area Under the Curve Percent Back Extrapolation</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AUCPBEP" nciodm:ExtCodeID="C85787">
+          <nciodm:CDISCSynonym>AUC %Back Extrapolation Pred</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The percentage of the area under the curve (AUC) extrapolated to infinity that was due to back extrapolation to estimate concentration at time zero, based on the predicted value for concentration at time zero.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Predicted Area Under the Curve Percent Back Extrapolation</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AUCPEO" nciodm:ExtCodeID="C85764">
+          <nciodm:CDISCSynonym>AUC %Extrapolation Obs</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The percentage of the area under the curve (AUC) extrapolated to infinity from Tlast to infinity based on the observed value for concentration at TLast.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Observed Area Under the Curve Percent Extrapolation</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AUCPEP" nciodm:ExtCodeID="C85788">
+          <nciodm:CDISCSynonym>AUC %Extrapolation Pred</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The percentage of the area under the curve (AUC) extrapolated to infinity from Tlast to infinity based on the predicted value for concentration at TLast.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Predicted Area Under the Curve Percent Extrapolation</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AUCALL" nciodm:ExtCodeID="C85564">
+          <nciodm:CDISCSynonym>AUC All</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the curve (AUC) from the time of dosing to the time of the last observation, regardless of whether the last concentration is measurable or not.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Area Under the Curve All</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AUCALLB" nciodm:ExtCodeID="C92362">
+          <nciodm:CDISCSynonym>AUC All Norm by BMI</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the curve (AUC) from the time of dosing to the time of the last observation divided by the body mass index, regardless of whether the last concentration is measurable or not.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>AUC All Normalized by Body Mass Index</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AUCALLD" nciodm:ExtCodeID="C92306">
+          <nciodm:CDISCSynonym>AUC All Norm by Dose</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the curve (AUC) from the time of dosing to the time of the last observation divided by the dose, regardless of whether the last concentration is measurable or not.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>AUC All Normalized by Dose</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AUCALLS" nciodm:ExtCodeID="C92307">
+          <nciodm:CDISCSynonym>AUC All Norm by SA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the curve (AUC) from the time of dosing to the time of the last observation divided by the surface area, regardless of whether the last concentration is measurable or not.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>AUC All Normalized by Surface Area</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AUCALLW" nciodm:ExtCodeID="C92308">
+          <nciodm:CDISCSynonym>AUC All Norm by WT</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the curve (AUC) from the time of dosing to the time of the last observation divided by the weight, regardless of whether the last concentration is measurable or not.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>AUC All Normalized by Weight</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AUCLST" nciodm:ExtCodeID="C85565">
+          <nciodm:CDISCSynonym>AUC Dosing to Last Conc</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the curve (AUC) from the time of dosing to the last measurable concentration.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Area Under the Curve From Dosing to Last Concentration</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AUCLSTB" nciodm:ExtCodeID="C92309">
+          <nciodm:CDISCSynonym>AUC Dosing to Last Conc Norm by BMI</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the curve (AUC) from the time of dosing to the last measurable concentration divided by the body mass index.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>AUC Dosing to Last Concentration Normalized by Body Mass Index</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AUCLSTD" nciodm:ExtCodeID="C92310">
+          <nciodm:CDISCSynonym>AUC Dosing to Last Conc Norm by Dose</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the curve (AUC) from the time of dosing to the last measurable concentration divided by the dose.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>AUC Dosing to Last Concentration Normalized by Dose</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AUCLSTS" nciodm:ExtCodeID="C92311">
+          <nciodm:CDISCSynonym>AUC Dosing to Last Conc Norm by SA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the curve (AUC) from the time of dosing to the last measurable concentration divided by the surface area.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>AUC Dosing to Last Concentration Normalized by Surface Area</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AUCLSTW" nciodm:ExtCodeID="C92305">
+          <nciodm:CDISCSynonym>AUC Dosing to Last Conc Norm by WT</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the curve (AUC) from the time of dosing to the last measurable concentration divided by the weight.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>AUC Dosing to Last Concentration Normalized by Weight</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AUCINT" nciodm:ExtCodeID="C85566">
+          <nciodm:CDISCSynonym>AUC from T1 to T2</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the curve (AUC) over the interval from T1 to T2.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Area Under the Curve from T1 to T2</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AUCINTB" nciodm:ExtCodeID="C92312">
+          <nciodm:CDISCSynonym>AUC from T1 to T2 Norm by BMI</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the curve (AUC) over the interval from T1 to T2 divided by the body mass index.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>AUC from T1 to T2 Normalized by Body Mass Index</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AUCINTD" nciodm:ExtCodeID="C92313">
+          <nciodm:CDISCSynonym>AUC from T1 to T2 Norm by Dose</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the curve (AUC) over the interval from T1 to T2 divided by the dose.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>AUC from T1 to T2 Normalized by Dose</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AUCINTS" nciodm:ExtCodeID="C92314">
+          <nciodm:CDISCSynonym>AUC from T1 to T2 Norm by SA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the curve (AUC) over the interval from T1 to T2 divided by the surface area.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>AUC from T1 to T2 Normalized by Surface Area</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AUCINTW" nciodm:ExtCodeID="C92315">
+          <nciodm:CDISCSynonym>AUC from T1 to T2 Norm by WT</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the curve (AUC) over the interval from T1 to T2 divided by the weight.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>AUC from T1 to T2 Normalized by Weight</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AUCIFOB" nciodm:ExtCodeID="C92316">
+          <nciodm:CDISCSynonym>AUC Infinity Obs Norm by BMI</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The observed area under the curve (AUC) extrapolated to infinity divided by the body mass index.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>AUC Infinity Observed Normalized by Body Mass Index</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AUCIFOS" nciodm:ExtCodeID="C92317">
+          <nciodm:CDISCSynonym>AUC Infinity Obs Norm by SA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The observed area under the curve (AUC) extrapolated to infinity divided by the surface area.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>AUC Infinity Observed Normalized by Surface Area</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AUCIFOW" nciodm:ExtCodeID="C92318">
+          <nciodm:CDISCSynonym>AUC Infinity Obs Norm by WT</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The observed area under the curve (AUC) extrapolated to infinity divided by the weight.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>AUC Infinity Observed Normalized by Weight</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AUCIFP" nciodm:ExtCodeID="C85785">
+          <nciodm:CDISCSynonym>AUC Infinity Pred</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the curve (AUC) extrapolated to infinity from dosing time, based on the predicted last concentration.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Predicted Area Under the Curve Infinity</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AUCIFPD" nciodm:ExtCodeID="C85786">
+          <nciodm:CDISCSynonym>AUC Infinity Pred Norm by Dose</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the curve (AUC) extrapolated to infinity from dosing time, based on the predicted last concentration, divided by the dose.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Predicted Area Under the Curve Infinity by Dose</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AUCIFPB" nciodm:ExtCodeID="C92319">
+          <nciodm:CDISCSynonym>AUC Infinity Pred Norm by BMI</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the curve (AUC) extrapolated to infinity from dosing time, based on the predicted last concentration, divided by the body mass index.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>AUC Infinity Predicted Normalized by Body Mass Index</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AUCIFPS" nciodm:ExtCodeID="C92320">
+          <nciodm:CDISCSynonym>AUC Infinity Pred Norm by SA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the curve (AUC) extrapolated to infinity from dosing time, based on the predicted last concentration, divided by the surface area.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>AUC Infinity Predicted Normalized by Surface Area</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AUCIFPW" nciodm:ExtCodeID="C92321">
+          <nciodm:CDISCSynonym>AUC Infinity Pred Norm by WT</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the curve (AUC) extrapolated to infinity from dosing time, based on the predicted last concentration, divided by the weight.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>AUC Infinity Predicted Normalized by Weight</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AUCTAU" nciodm:ExtCodeID="C85567">
+          <nciodm:CDISCSynonym>AUC Over Dosing Interval</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the curve (AUC) for the defined interval between doses (TAU).</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Area Under the Curve Over Dosing Interval</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AUCTAUB" nciodm:ExtCodeID="C92322">
+          <nciodm:CDISCSynonym>AUC Over Dosing Interval Norm by BMI</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the curve (AUC) for the defined interval between doses (TAU) divided by the body mass index.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>AUC Over Dosing Interval Normalized by Body Mass Index</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AUCTAUD" nciodm:ExtCodeID="C92323">
+          <nciodm:CDISCSynonym>AUC Over Dosing Interval Norm by Dose</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the curve (AUC) for the defined interval between doses (TAU) divided by the dose.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>AUC Over Dosing Interval Normalized by Dose</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AUCTAUS" nciodm:ExtCodeID="C92324">
+          <nciodm:CDISCSynonym>AUC Over Dosing Interval Norm by SA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the curve (AUC) for the defined interval between doses (TAU) divided by the surface area.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>AUC Over Dosing Interval Normalized by Surface Area</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AUCTAUW" nciodm:ExtCodeID="C92325">
+          <nciodm:CDISCSynonym>AUC Over Dosing Interval Norm by WT</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the curve (AUC) for the defined interval between doses (TAU) divided by the weight.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>AUC Over Dosing Interval Normalized by Weight</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AUMCPEO" nciodm:ExtCodeID="C85766">
+          <nciodm:CDISCSynonym>AUMC % Extrapolation Obs</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The percentage of the area under the moment curve (AUMC) extrapolated to infinity from Tlast to infinity based on the observed value for concentration at TLast.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Observed Area Under the First Moment Curve Percent Extrapolation</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AUMCPEP" nciodm:ExtCodeID="C85790">
+          <nciodm:CDISCSynonym>AUMC % Extrapolation Pred</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The percentage of the area under the moment curve (AUMC) extrapolated to infinity from Tlast to infinity based on the predicted value for concentration at TLast.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Predicted Area Under the First Moment Curve Percent Extrapolation</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AUMCLST" nciodm:ExtCodeID="C85569">
+          <nciodm:CDISCSynonym>AUMC Dosing to Last Conc</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the moment curve (AUMC) from the time of dosing to the last measurable concentration.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Area Under the First Moment Curve From Dosing to Last Concentration</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AUMCLSTB" nciodm:ExtCodeID="C92326">
+          <nciodm:CDISCSynonym>AUMC Dosing to Last Conc Norm by BMI</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the moment curve (AUMC) from the time of dosing to the last measurable concentration divided by the body mass index.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>AUMC Dosing to Last Concentration Normalized by Body Mass Index</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AUMCLSTD" nciodm:ExtCodeID="C92327">
+          <nciodm:CDISCSynonym>AUMC Dosing to Last Conc Norm by Dose</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the moment curve (AUMC) from the time of dosing to the last measurable concentration divided by the dose.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>AUMC Dosing to Last Concentration Normalized by Dose</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AUMCLSTS" nciodm:ExtCodeID="C92328">
+          <nciodm:CDISCSynonym>AUMC Dosing to Last Conc Norm by SA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the moment curve (AUMC) from the time of dosing to the last measurable concentration divided by the surface area.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>AUMC Dosing to Last Concentration Normalized by Surface Area</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AUMCLSTW" nciodm:ExtCodeID="C92329">
+          <nciodm:CDISCSynonym>AUMC Dosing to Last Conc Norm by WT</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the moment curve (AUMC) from the time of dosing to the last measurable concentration divided by the weight.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>AUMC Dosing to Last Concentration Normalized by Weight</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AUMCIFO" nciodm:ExtCodeID="C85765">
+          <nciodm:CDISCSynonym>AUMC Infinity Obs</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the first moment curve (AUMC) extrapolated to infinity, based on the last observed concentration.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Observed Area Under the First Moment Curve Infinity</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AUMCIFOB" nciodm:ExtCodeID="C92330">
+          <nciodm:CDISCSynonym>AUMC Infinity Obs Norm by BMI</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the first moment curve (AUMC) extrapolated to infinity, based on the last observed concentration divided by the body mass index.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>AUMC Infinity Observed Normalized by Body Mass Index</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AUMCIFOD" nciodm:ExtCodeID="C92331">
+          <nciodm:CDISCSynonym>AUMC Infinity Obs Norm by Dose</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the first moment curve (AUMC) extrapolated to infinity, based on the last observed concentration divided by the dose.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>AUMC Infinity Observed Normalized by Dose</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AUMCIFOS" nciodm:ExtCodeID="C92332">
+          <nciodm:CDISCSynonym>AUMC Infinity Obs Norm by SA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the first moment curve (AUMC) extrapolated to infinity, based on the last observed concentration divided by the surface area.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>AUMC Infinity Observed Normalized by Surface Area</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AUMCIFOW" nciodm:ExtCodeID="C92333">
+          <nciodm:CDISCSynonym>AUMC Infinity Obs Norm by WT</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the first moment curve (AUMC) extrapolated to infinity, based on the last observed concentration divided by the weight.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>AUMC Infinity Observed Normalized by Weight</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AUMCIFP" nciodm:ExtCodeID="C85789">
+          <nciodm:CDISCSynonym>AUMC Infinity Pred</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the first moment curve (AUMC) extrapolated to infinity, based on the last predicted concentration.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Predicted Area Under the First Moment Curve Infinity</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AUMCIFPB" nciodm:ExtCodeID="C92334">
+          <nciodm:CDISCSynonym>AUMC Infinity Pred Norm by BMI</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the first moment curve (AUMC) extrapolated to infinity, based on the last predicted concentration divided by the body mass index.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>AUMC Infinity Predicted Normalized by Body Mass Index</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AUMCIFPD" nciodm:ExtCodeID="C92335">
+          <nciodm:CDISCSynonym>AUMC Infinity Pred Norm by Dose</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the first moment curve (AUMC) extrapolated to infinity, based on the last predicted concentration divided by the dose.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>AUMC Infinity Predicted Normalized by Dose</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AUMCIFPS" nciodm:ExtCodeID="C92336">
+          <nciodm:CDISCSynonym>AUMC Infinity Pred Norm by SA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the first moment curve (AUMC) extrapolated to infinity, based on the last predicted concentration divided by the surface area.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>AUMC Infinity Predicted Normalized by Surface Area</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AUMCIFPW" nciodm:ExtCodeID="C92337">
+          <nciodm:CDISCSynonym>AUMC Infinity Pred Norm by WT</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the first moment curve (AUMC) extrapolated to infinity, based on the last predicted concentration divided by the weight.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>AUMC Infinity Predicted Normalized by Weight</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AUMCTAU" nciodm:ExtCodeID="C85570">
+          <nciodm:CDISCSynonym>AUMC Over Dosing Interval</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the first moment curve (AUMC) for the defined interval between doses (TAU).</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Area Under the First Moment Curve Over Dosing Interval</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AUMCTAUB" nciodm:ExtCodeID="C92338">
+          <nciodm:CDISCSynonym>AUMC Over Dosing Interval Norm by BMI</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the first moment curve (AUMC) for the defined interval between doses (TAU) divided by the body mass index.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>AUMC Over Dosing Interval Normalized by Body Mass Index</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AUMCTAUD" nciodm:ExtCodeID="C92339">
+          <nciodm:CDISCSynonym>AUMC Over Dosing Interval Norm by Dose</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the first moment curve (AUMC) for the defined interval between doses (TAU) divided by the dose.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>AUMC Over Dosing Interval Normalized by Dose</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AUMCTAUS" nciodm:ExtCodeID="C92340">
+          <nciodm:CDISCSynonym>AUMC Over Dosing Interval Norm by SA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the first moment curve (AUMC) for the defined interval between doses (TAU) divided by the surface area.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>AUMC Over Dosing Interval Normalized by Surface Area</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AUMCTAUW" nciodm:ExtCodeID="C92341">
+          <nciodm:CDISCSynonym>AUMC Over Dosing Interval Norm by WT</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the first moment curve (AUMC) for the defined interval between doses (TAU) divided by the weight.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>AUMC Over Dosing Interval Normalized by Weight</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AURCPEO" nciodm:ExtCodeID="C85768">
+          <nciodm:CDISCSynonym>AURC % Extrapolation Obs</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The percentage of the area under the urine excretion rate curve (AURC) extrapolated to infinity observed from Tlast to infinity.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Observed Area Under the Urinary Excretion Rate Curve Percent Extrapolation</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AURCPEP" nciodm:ExtCodeID="C85792">
+          <nciodm:CDISCSynonym>AURC % Extrapolation Pred</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The percentage of the area under the urine excretion rate curve (AURC) extrapolated to infinity predicted from Tlast to infinity.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Predicted Area Under the Urinary Excretion Rate Curve Percent Extrapolation</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AURCALL" nciodm:ExtCodeID="C85841">
+          <nciodm:CDISCSynonym>AURC All</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the urinary excretion rate curve (AURC) from time zero to the last measurable rate.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Area Under Urinary Excretion Rate Curve All</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AURCALLB" nciodm:ExtCodeID="C92342">
+          <nciodm:CDISCSynonym>AURC All Norm by BMI</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the urinary excretion rate curve (AURC) from time zero to the last measurable rate divided by the body mass index.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>AURC All Normalized by Body Mass Index</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AURCALLD" nciodm:ExtCodeID="C92343">
+          <nciodm:CDISCSynonym>AURC All Norm by Dose</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the urinary excretion rate curve (AURC) from time zero to the last measurable rate divided by the dose.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>AURC All Normalized by Dose</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AURCALLS" nciodm:ExtCodeID="C92344">
+          <nciodm:CDISCSynonym>AURC All Norm by SA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the urinary excretion rate curve (AURC) from time zero to the last measurable rate divided by the surface area.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>AURC All Normalized by Surface Area</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AURCALLW" nciodm:ExtCodeID="C92345">
+          <nciodm:CDISCSynonym>AURC All Norm by WT</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the urinary excretion rate curve (AURC) from time zero to the last measurable rate divided by the weight.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>AURC All Normalized by Weight</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AURCLST" nciodm:ExtCodeID="C85571">
+          <nciodm:CDISCSynonym>AURC Dosing to Last Conc</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the urinary excretion rate curve (AURC) from time zero to the last measurable rate.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Area Under the Urinary Excretion Rate Curve From Dosing to Last Concentration</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AURCLSTB" nciodm:ExtCodeID="C92346">
+          <nciodm:CDISCSynonym>AURC Dosing to Last Conc Norm by BMI</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the urinary excretion rate curve (AURC) from time zero to the last measurable rate, divided by the body mass index.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>AURC Dosing to Last Concentration Normalized by Body Mass Index</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AURCLSTD" nciodm:ExtCodeID="C92347">
+          <nciodm:CDISCSynonym>AURC Dosing to Last Conc Norm by Dose</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the urinary excretion rate curve (AURC) from time zero to the last measurable rate, divided by the dose.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>AURC Dosing to Last Concentration Normalized by Dose</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AURCLSTS" nciodm:ExtCodeID="C92348">
+          <nciodm:CDISCSynonym>AURC Dosing to Last Conc Norm by SA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the urinary excretion rate curve (AURC) from time zero to the last measurable rate, divided by the surface area.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>AURC Dosing to Last Concentration Normalized by Surface Area</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AURCLSTW" nciodm:ExtCodeID="C92349">
+          <nciodm:CDISCSynonym>AURC Dosing to Last Conc Norm by WT</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the urinary excretion rate curve (AURC) from time zero to the last measurable rate, divided by the weight.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>AURC Dosing to Last Concentration Normalized by Weight</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AURCINT" nciodm:ExtCodeID="C85572">
+          <nciodm:CDISCSynonym>AURC from T1 to T2</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the urinary excretion rate curve (AURC) over the interval from T1 to T2.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Area Under the Urinary Excretion Rate Curve from T1 to T2</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AURCINTB" nciodm:ExtCodeID="C92350">
+          <nciodm:CDISCSynonym>AURC from T1 to T2 Norm by BMI</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the urinary excretion rate curve (AURC) over the interval from T1 to T2 divided by the body mass index.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>AURC from T1 to T2 Normalized by Body Mass Index</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AURCINTD" nciodm:ExtCodeID="C92351">
+          <nciodm:CDISCSynonym>AURC from T1 to T2 Norm by Dose</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the urinary excretion rate curve (AURC) over the interval from T1 to T2 divided by the dose.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>AURC from T1 to T2 Normalized by Dose</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AURCINTS" nciodm:ExtCodeID="C92352">
+          <nciodm:CDISCSynonym>AURC from T1 to T2 Norm by SA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the urinary excretion rate curve (AURC) over the interval from T1 to T2 divided by the surface area.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>AURC from T1 to T2 Normalized by Surface Area</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AURCINTW" nciodm:ExtCodeID="C92353">
+          <nciodm:CDISCSynonym>AURC from T1 to T2 Norm by WT</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the urinary excretion rate curve (AURC) over the interval from T1 to T2 divided by the weight.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>AURC from T1 to T2 Normalized by Weight</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AURCIFO" nciodm:ExtCodeID="C85767">
+          <nciodm:CDISCSynonym>AURC Infinity Obs</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the urinary excretion rate curve (AURC) extrapolated to infinity, based on the last observed excretion rate.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Observed Area Under the Urinary Excretion Rate Curve infinity</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AURCIFOB" nciodm:ExtCodeID="C92354">
+          <nciodm:CDISCSynonym>AURC Infinity Obs Norm by BMI</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the urinary excretion rate curve (AURC) extrapolated to infinity, based on the last observed excretion rate, divided by the body mass index.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>AURC Infinity Observed Normalized by Body Mass Index</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AURCIFOD" nciodm:ExtCodeID="C92355">
+          <nciodm:CDISCSynonym>AURC Infinity Obs Norm by Dose</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the urinary excretion rate curve (AURC) extrapolated to infinity, based on the last observed excretion rate, divided by the dose.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>AURC Infinity Observed Normalized by Dose</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AURCIFOS" nciodm:ExtCodeID="C92356">
+          <nciodm:CDISCSynonym>AURC Infinity Obs Norm by SA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the urinary excretion rate curve (AURC) extrapolated to infinity, based on the last observed excretion rate, divided by the surface area.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>AURC Infinity Observed Normalized by Surface Area</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AURCIFOW" nciodm:ExtCodeID="C92357">
+          <nciodm:CDISCSynonym>AURC Infinity Obs Norm by WT</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the urinary excretion rate curve (AURC) extrapolated to infinity, based on the last observed excretion rate, divided by the weight.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>AURC Infinity Observed Normalized by Weight</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AURCIFP" nciodm:ExtCodeID="C85791">
+          <nciodm:CDISCSynonym>AURC Infinity Pred</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the urinary excretion rate curve (AURC) extrapolated to infinity, based on the last predicted excretion rate.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Predicted Area Under the Urinary Excretion Rate Curve Infinity</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AURCIFPB" nciodm:ExtCodeID="C92358">
+          <nciodm:CDISCSynonym>AURC Infinity Pred Norm by BMI</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the urinary excretion rate curve (AURC) extrapolated to infinity, based on the last predicted excretion rate, divided by the body mass index.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>AURC Infinity Predicted Normalized by Body Mass Index</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AURCIFPD" nciodm:ExtCodeID="C92359">
+          <nciodm:CDISCSynonym>AURC Infinity Pred Norm by Dose</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the urinary excretion rate curve (AURC) extrapolated to infinity, based on the last predicted excretion rate, divided by the dose.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>AURC Infinity Predicted Normalized by Dose</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AURCIFPS" nciodm:ExtCodeID="C92360">
+          <nciodm:CDISCSynonym>AURC Infinity Pred Norm by SA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the urinary excretion rate curve (AURC) extrapolated to infinity, based on the last predicted excretion rate, divided by the surface area.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>AURC Infinity Predicted Normalized by Surface Area</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AURCIFPW" nciodm:ExtCodeID="C92361">
+          <nciodm:CDISCSynonym>AURC Infinity Pred Norm by WT</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the urinary excretion rate curve (AURC) extrapolated to infinity, based on the last predicted excretion rate, divided by the weight.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>AURC Infinity Predicted Normalized by Weight</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CAVG" nciodm:ExtCodeID="C85575">
+          <nciodm:CDISCSynonym>Average Conc</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Average Concentration</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>AUCTAU divided by TAU.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Average Concentration</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CAVGB" nciodm:ExtCodeID="C92367">
+          <nciodm:CDISCSynonym>Average Conc Norm by BMI</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>AUCTAU divided by TAU and then divided by the body mass index.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Average Concentration Normalized by Body Mass Index</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CAVGD" nciodm:ExtCodeID="C92368">
+          <nciodm:CDISCSynonym>Average Conc Norm by Dose</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>AUCTAU divided by TAU and then divided by the dose.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Average Concentration Normalized by Dose</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CAVGS" nciodm:ExtCodeID="C92369">
+          <nciodm:CDISCSynonym>Average Conc Norm by SA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>AUCTAU divided by TAU and then divided by the surface area.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Average Concentration Normalized by Surface Area</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CAVGW" nciodm:ExtCodeID="C92370">
+          <nciodm:CDISCSynonym>Average Conc Norm by WT</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>AUCTAU divided by TAU and then divided by the weight.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Average Concentration Normalized by Weight</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CNTHDOS" nciodm:ExtCodeID="C92378">
+          <nciodm:CDISCSynonym>Conc After the Nth Dose</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The concentration at the Nth dose.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Concentration After the Nth Dose</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CNTHDOSB" nciodm:ExtCodeID="C92379">
+          <nciodm:CDISCSynonym>Conc After the Nth Dose by BMI</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The concentration at the Nth dose divided by the body mass index.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Concentration After the Nth Dose by Body Mass Index</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CNTHDOSD" nciodm:ExtCodeID="C92380">
+          <nciodm:CDISCSynonym>Conc After the Nth Dose by Dose</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The concentration at the Nth dose divided by the dose.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Concentration After the Nth Dose by Dose</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CNTHDOSS" nciodm:ExtCodeID="C92381">
+          <nciodm:CDISCSynonym>Conc After the Nth Dose by SA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The concentration at the Nth dose divided by the surface area.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Concentration After the Nth Dose by Surface Area</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CNTHDOSW" nciodm:ExtCodeID="C92382">
+          <nciodm:CDISCSynonym>Conc After the Nth Dose by WT</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The concentration at the Nth dose divided by the weight.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Concentration After the Nth Dose by Weight</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CORRXY" nciodm:ExtCodeID="C85821">
+          <nciodm:CDISCSynonym>Correlation Between TimeX and Log ConcY</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The correlation between time (X) and log concentration (Y) for the points used in the estimation of lambda z.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Time and Log Concentration Correlation</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="FLUCP" nciodm:ExtCodeID="C85581">
+          <nciodm:CDISCSynonym>Fluctuation%</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The difference between Cmin and Cmax standardized to Cavg, between dose time and Tau.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Concentration Variability Between Dose Time and Tau</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LAMZHL" nciodm:ExtCodeID="C85818">
+          <nciodm:CDISCSynonym>Half-Life Lambda z</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Terminal half-life.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Terminal Half Life</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="C0" nciodm:ExtCodeID="C85644">
+          <nciodm:CDISCSynonym>Initial Conc</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Initial concentration. Given only for bolus IV models.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Initial Concentration</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="C0B" nciodm:ExtCodeID="C92383">
+          <nciodm:CDISCSynonym>Initial Conc Norm by BMI</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Initial concentration divided by the body mass index. Given only for bolus IV models.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Initial Concentration Normalized by Body Mass Index</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="C0D" nciodm:ExtCodeID="C92384">
+          <nciodm:CDISCSynonym>Initial Conc Norm by Dose</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Initial concentration divided by the dose. Given only for bolus IV models.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Initial Concentration Normalized by Dose</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="C0S" nciodm:ExtCodeID="C92385">
+          <nciodm:CDISCSynonym>Initial Conc Norm by SA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Initial concentration divided by the surface area. Given only for bolus IV models.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Initial Concentration Normalized by Surface Area</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="C0W" nciodm:ExtCodeID="C92386">
+          <nciodm:CDISCSynonym>Initial Conc Norm by WT</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Initial concentration divided by the weight. Given only for bolus IV models.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Initial Concentration Normalized by Weight</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LAMZ" nciodm:ExtCodeID="C85652">
+          <nciodm:CDISCSynonym>Lambda z</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The first order rate constant associated with the terminal (log-linear) portion of the curve.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Lambda Z</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LAMZLL" nciodm:ExtCodeID="C85653">
+          <nciodm:CDISCSynonym>Lambda z Lower Limit</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The lower limit on time for values to be included in the calculation of Lambda z.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Lambda Z Time Lower Limit</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LAMZUL" nciodm:ExtCodeID="C85654">
+          <nciodm:CDISCSynonym>Lambda z Upper Limit</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The upper limit on time for values to be included in the calculation of Lambda z.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Lambda Z Time Upper Limit</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CLST" nciodm:ExtCodeID="C85655">
+          <nciodm:CDISCSynonym>Last Conc</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The concentration corresponding to Tlast.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Last Concentration</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CLSTB" nciodm:ExtCodeID="C92387">
+          <nciodm:CDISCSynonym>Last Conc Norm by BMI</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The concentration corresponding to Tlast divided by the body mass index.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Last Concentration Normalized by Body Mass Index</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CLSTD" nciodm:ExtCodeID="C92388">
+          <nciodm:CDISCSynonym>Last Conc Norm by Dose</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The concentration corresponding to Tlast divided by the dose.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Last Concentration Normalized by Dose</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CLSTS" nciodm:ExtCodeID="C92389">
+          <nciodm:CDISCSynonym>Last Conc Norm by SA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The concentration corresponding to Tlast divided by the surface area.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Last Concentration Normalized by Surface Area</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CLSTW" nciodm:ExtCodeID="C92390">
+          <nciodm:CDISCSynonym>Last Conc Norm by WT</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The concentration corresponding to Tlast divided by the weight.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Last Concentration Normalized by Weight</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ERLST" nciodm:ExtCodeID="C85656">
+          <nciodm:CDISCSynonym>Last Meas Excretion Rate</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The last measurable (positive) excretion rate.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Last Measurable Observed Excretion Rate</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ERLSTB" nciodm:ExtCodeID="C92391">
+          <nciodm:CDISCSynonym>Last Meas Excretion Rate Norm by BMI</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The last measurable (positive) excretion rate divided by the body mass index.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Last Measurable Excretion Rate Normalized by Body Mass Index</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ERLSTD" nciodm:ExtCodeID="C92392">
+          <nciodm:CDISCSynonym>Last Meas Excretion Rate Norm by Dose</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The last measurable (positive) excretion rate divided by the dose.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Last Measurable Excretion Rate Normalized by Dose</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ERLSTS" nciodm:ExtCodeID="C92393">
+          <nciodm:CDISCSynonym>Last Meas Excretion Rate Norm by SA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The last measurable (positive) excretion rate divided by the surface area.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Last Measurable Excretion Rate Normalized by Surface Area</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ERLSTW" nciodm:ExtCodeID="C92394">
+          <nciodm:CDISCSynonym>Last Meas Excretion Rate Norm by WT</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The last measurable (positive) excretion rate divided by the weight.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Last Measurable Excretion Rate Normalized by Weight</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CMAX" nciodm:ExtCodeID="C70918">
+          <nciodm:CDISCSynonym>Max Conc</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The maximum concentration occurring at Tmax.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Cmax</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CMAXD" nciodm:ExtCodeID="C85698">
+          <nciodm:CDISCSynonym>Max Conc Norm by Dose</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The maximum concentration occurring at Tmax, divided by the dose.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Maximum Concentration Dose Normalized</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ERMAX" nciodm:ExtCodeID="C85699">
+          <nciodm:CDISCSynonym>Max Obs Excretion Rate</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The maximum observed excretion rate.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Maximum Observed Excretion Rate</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CMAXB" nciodm:ExtCodeID="C92371">
+          <nciodm:CDISCSynonym>Max Conc Norm by BMI</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The maximum concentration occurring at Tmax, divided by the body mass index.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Maximum Concentration Normalized by Body Mass Index</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CMAXS" nciodm:ExtCodeID="C92372">
+          <nciodm:CDISCSynonym>Max Conc Norm by SA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The maximum concentration occurring at Tmax, divided by the surface area.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Maximum Concentration Normalized by Surface Area</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CMAXW" nciodm:ExtCodeID="C92373">
+          <nciodm:CDISCSynonym>Max Conc Norm by WT</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The maximum concentration occurring at Tmax, divided by the weight.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Maximum Concentration Normalized by Weight</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ERMAXB" nciodm:ExtCodeID="C92395">
+          <nciodm:CDISCSynonym>Max Obs Excretion Rate Norm by BMI</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The maximum observed excretion rate divided by the body mass index.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Maximum Observed Excretion Rate Normalized by Body Mass Index</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ERMAXD" nciodm:ExtCodeID="C92396">
+          <nciodm:CDISCSynonym>Max Obs Excretion Rate Norm by Dose</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The maximum observed excretion rate divided by the dose.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Maximum Observed Excretion Rate Normalized by Dose</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ERMAXS" nciodm:ExtCodeID="C92397">
+          <nciodm:CDISCSynonym>Max Obs Excretion Rate Norm by SA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The maximum observed excretion rate divided by the surface area.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Maximum Observed Excretion Rate Normalized by Surface Area</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ERMAXW" nciodm:ExtCodeID="C92398">
+          <nciodm:CDISCSynonym>Max Obs Excretion Rate Norm by WT</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The maximum observed excretion rate divided by the weight.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Maximum Observed Excretion Rate Normalized by Weight</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MIDPTLST" nciodm:ExtCodeID="C85580">
+          <nciodm:CDISCSynonym>Midpoint of Entire Collection Interval</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The midpoint of collection interval, which is associated with last Measurable rate.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Collection Interval Midpoint</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CMIN" nciodm:ExtCodeID="C85579">
+          <nciodm:CDISCSynonym>Min Conc</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The minimum concentration between dose time and dose time plus Tau (at Tmin).</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Cmin</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CMINB" nciodm:ExtCodeID="C92374">
+          <nciodm:CDISCSynonym>Min Conc Norm by BMI</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The minimum concentration between dose time and dose time plus Tau (at Tmin) divided by the body mass index.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Minimum Concentration Normalized by Body Mass Index</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CMIND" nciodm:ExtCodeID="C92375">
+          <nciodm:CDISCSynonym>Min Conc Norm by Dose</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The minimum concentration between dose time and dose time plus Tau (at Tmin) divided by the dose.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Minimum Concentration Normalized by Dose</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CMINS" nciodm:ExtCodeID="C92376">
+          <nciodm:CDISCSynonym>Min Conc Norm by SA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The minimum concentration between dose time and dose time plus Tau (at Tmin) divided by the surface area.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Minimum Concentration Normalized by Surface Area</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CMINW" nciodm:ExtCodeID="C92377">
+          <nciodm:CDISCSynonym>Min Conc Norm by WT</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The minimum concentration between dose time and dose time plus Tau (at Tmin) divided by the weight.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Minimum Concentration Normalized by Weight</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MRTIFO" nciodm:ExtCodeID="C85769">
+          <nciodm:CDISCSynonym>MRT Infinity Obs</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The observed mean residence time (MRT) extrapolated to infinity.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Observed Mean Residence Time Infinity</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MRTIFP" nciodm:ExtCodeID="C85793">
+          <nciodm:CDISCSynonym>MRT Infinity Pred</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The predicted mean residence time (MRT) extrapolated to infinity.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Predicted Mean Residence Time Infinity</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MRTLST" nciodm:ExtCodeID="C85700">
+          <nciodm:CDISCSynonym>MRT Last</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Mean residence time (MRT) from the time of dosing to the time of the last measurable concentration.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Mean Residence Time Last</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LAMZNPT" nciodm:ExtCodeID="C85816">
+          <nciodm:CDISCSynonym>Number of Points for Lambda z</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The number of time points used in computing Lambda z.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Sum of Lambda Z Timepoints</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AUCIFO" nciodm:ExtCodeID="C85761">
+          <nciodm:CDISCSynonym>AUC Infinity Obs</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area under the curve (AUC) extrapolated to infinity from dosing time, based on the last observed concentration.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Observed Area Under the Curve Infinity</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="RECPCT" nciodm:ExtCodeID="C85777">
+          <nciodm:CDISCSynonym>Percent Recovered</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The percentage of the dose that is recovered from the specimen type specified in PPSPEC, from dosing to end of the current collection interval.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Percent Recovered</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="RECPCTB" nciodm:ExtCodeID="C92413">
+          <nciodm:CDISCSynonym>Percent Recovered Norm by BMI</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The percentage of the dose that is recovered from the specimen type specified in PPSPEC, from dosing to end of the current collection interval divided by the body mass index.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Percent Recovered Normalized by Body Mass Index</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="RECPCTD" nciodm:ExtCodeID="C92414">
+          <nciodm:CDISCSynonym>Percent Recovered Norm by Dose</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The percentage of the dose that is recovered from the specimen type specified in PPSPEC, from dosing to end of the current collection interval divided by the dose.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Percent Recovered Normalized by Dose</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="RECPCTS" nciodm:ExtCodeID="C92415">
+          <nciodm:CDISCSynonym>Percent Recovered Norm by SA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The percentage of the dose that is recovered from the specimen type specified in PPSPEC, from dosing to end of the current collection interval divided by the surface area.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Percent Recovered Normalized by Surface Area</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="RECPCTW" nciodm:ExtCodeID="C92416">
+          <nciodm:CDISCSynonym>Percent Recovered Norm by WT</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The percentage of the dose that is recovered from the specimen type specified in PPSPEC, from dosing to end of the current collection interval divided by the weight.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Percent Recovered Normalized by Weight</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="R2" nciodm:ExtCodeID="C85542">
+          <nciodm:CDISCSynonym>R Squared</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The goodness of fit statistic for the terminal elimination phase.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>R Squared</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="R2ADJ" nciodm:ExtCodeID="C85553">
+          <nciodm:CDISCSynonym>R Squared Adjusted</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The goodness of fit statistic for the terminal elimination phase, adjusted for the number of time points used in the estimation of Lambda z.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Adjusted R Squared</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="VOLPK" nciodm:ExtCodeID="C85817">
+          <nciodm:CDISCSynonym>Sum of Urine Vol Used for PK Parameters</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The sum of urine volumes that are used for PK parameters.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Sum Urine Volume</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TMAX" nciodm:ExtCodeID="C70919">
+          <nciodm:CDISCSynonym>Time of CMAX Observation</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The time of maximum observed concentration sampled during a dosing interval.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Tmax</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TMIN" nciodm:ExtCodeID="C85825">
+          <nciodm:CDISCSynonym>Time of CMIN Observation</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The time of minimum concentration sampled during a dosing interval.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Tmin</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TLST" nciodm:ExtCodeID="C85822">
+          <nciodm:CDISCSynonym>Time of Last Nonzero Conc</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The time of the last measurable (positive) concentration.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Time of Last Nonzero Concentration</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ERTMAX" nciodm:ExtCodeID="C85823">
+          <nciodm:CDISCSynonym>Time of Max Excretion Rate</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The midpoint of collection interval associated with the maximum observed excretion rate.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Time of Maximum Observed Excretion Rate</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TLAG" nciodm:ExtCodeID="C85824">
+          <nciodm:CDISCSynonym>Time Until First Nonzero Conc</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The time prior to the first measurable (non-zero) concentration.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Time until First Nonzero Concentration</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CLO" nciodm:ExtCodeID="C85773">
+          <nciodm:CDISCSynonym>Total CL Obs</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The observed total body clearance for intravascular administration.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Observed Total Body Clearance Rate</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CLFO" nciodm:ExtCodeID="C85772">
+          <nciodm:CDISCSynonym>Total CL Obs by Fract Dose</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The observed total body clearance for extravascular administration based on the fraction of dose absorbed.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Observed Total Body Clearance by Fraction of Dose Absorbed</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CLP" nciodm:ExtCodeID="C85797">
+          <nciodm:CDISCSynonym>Total CL Pred</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The predicted total body clearance for intravascular administration.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Predicted Total Body Clearance Rate</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CLFP" nciodm:ExtCodeID="C85796">
+          <nciodm:CDISCSynonym>Total CL Pred by Fract Dose</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The predicted total body clearance for extravascular administration based on the fraction of dose absorbed.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Predicted Total Body Clearance by Fraction of Dose Absorbed</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CLFOB" nciodm:ExtCodeID="C92399">
+          <nciodm:CDISCSynonym>Total CL Obs by Fract Dose Norm by BMI</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The observed total body clearance for extravascular administration based on the fraction of dose absorbed and divided by the body mass index.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Total Clearance Observed by Fraction Dose Normalized by Body Mass Index</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CLFOD" nciodm:ExtCodeID="C92400">
+          <nciodm:CDISCSynonym>Total CL Obs by Fract Dose Norm by Dose</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The observed total body clearance for extravascular administration based on the fraction of dose absorbed and divided by the dose.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Total Clearance Observed by Fraction Dose Normalized by Dose</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CLFOS" nciodm:ExtCodeID="C92401">
+          <nciodm:CDISCSynonym>Total CL Obs by Fract Dose Norm by SA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The observed total body clearance for extravascular administration based on the fraction of dose absorbed and divided by the surface area.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Total Clearance Observed by Fraction Dose Normalized by Surface Area</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CLFOW" nciodm:ExtCodeID="C92402">
+          <nciodm:CDISCSynonym>Total CL Obs by Fract Dose Norm by WT</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The observed total body clearance for extravascular administration based on the fraction of dose absorbed and divided by the weight.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Total Clearance Observed by Fraction Dose Normalized by Weight</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CLOB" nciodm:ExtCodeID="C92403">
+          <nciodm:CDISCSynonym>Total CL Obs Norm by BMI</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The observed total body clearance for intravascular administration divided by the body mass index.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Total Clearance Observed Normalized by Body Mass Index</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CLOD" nciodm:ExtCodeID="C92404">
+          <nciodm:CDISCSynonym>Total CL Obs Norm by Dose</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The observed total body clearance for intravascular administration divided by the dose.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Total Clearance Observed Normalized by Dose</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CLOS" nciodm:ExtCodeID="C92405">
+          <nciodm:CDISCSynonym>Total CL Obs Norm by SA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The observed total body clearance for intravascular administration divided by the surface area.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Total Clearance Observed Normalized by Surface Area</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CLOW" nciodm:ExtCodeID="C92406">
+          <nciodm:CDISCSynonym>Total CL Obs Norm by WT</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The observed total body clearance for intravascular administration divided by the weight.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Total Clearance Observed Normalized by Weight</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CLFPB" nciodm:ExtCodeID="C92417">
+          <nciodm:CDISCSynonym>Total CL Pred by Fract Dose Norm by BMI</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The predicted total body clearance for extravascular administration based on the fraction of dose absorbed and divided by the body mass index.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Total Clearance Predicted by Fraction Dose Normalized by Body Mass Index</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CLFPD" nciodm:ExtCodeID="C92418">
+          <nciodm:CDISCSynonym>Total CL Pred by Fract Dose Norm by Dose</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The predicted total body clearance for extravascular administration based on the fraction of dose absorbed and divided by the dose.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Total Clearance Predicted by Fraction Dose Normalized by Dose</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CLFPS" nciodm:ExtCodeID="C92419">
+          <nciodm:CDISCSynonym>Total CL Pred by Fract Dose Norm by SA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The predicted total body clearance for extravascular administration based on the fraction of dose absorbed and divided by the surface area.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Total Clearance Predicted by Fraction Dose Normalized by Surface Area</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CLFPW" nciodm:ExtCodeID="C92420">
+          <nciodm:CDISCSynonym>Total CL Pred by Fract Dose Norm by WT</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The predicted total body clearance for extravascular administration based on the fraction of dose absorbed and divided by the weight.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Total Clearance Predicted by Fraction Dose Normalized by Weight</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CLPB" nciodm:ExtCodeID="C92421">
+          <nciodm:CDISCSynonym>Total CL Pred Norm by BMI</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The predicted total body clearance for intravascular administration divided by the body mass index.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Total Clearance Predicted Normalized by Body Mass Index</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CLPD" nciodm:ExtCodeID="C92422">
+          <nciodm:CDISCSynonym>Total CL Pred Norm by Dose</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The predicted total body clearance for intravascular administration divided by the dose.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Total Clearance Predicted Normalized by Dose</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CLPS" nciodm:ExtCodeID="C92423">
+          <nciodm:CDISCSynonym>Total CL Pred Norm by SA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The predicted total body clearance for intravascular administration divided by the surface area.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Total Clearance Predicted Normalized by Surface Area</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CLPW" nciodm:ExtCodeID="C92424">
+          <nciodm:CDISCSynonym>Total CL Pred Norm by WT</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The predicted total body clearance for intravascular administration divided by the weight.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Total Clearance Predicted Normalized by Weight</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="VZFO" nciodm:ExtCodeID="C85775">
+          <nciodm:CDISCSynonym>Vol Dist of Fract Dose Obs</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The observed volume of distribution of the absorbed fraction associated with the terminal slope following extravascular administration, where F equals the fraction of dose absorbed.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Observed Volume of Distribution of Absorbed Fraction</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="VZFP" nciodm:ExtCodeID="C85799">
+          <nciodm:CDISCSynonym>Vol Dist of Fract Dose Pred</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The predicted volume of distribution of the absorbed fraction associated with the terminal slope following extravascular administration, where F equals the fraction of dose absorbed.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Predicted Volume of Distribution of Absorbed Fraction</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="VZOB" nciodm:ExtCodeID="C92407">
+          <nciodm:CDISCSynonym>Vz Obs Norm by BMI</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The observed volume of distribution associated with the terminal slope following intravascular administration divided by the body mass index.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Volume of Distribution Observed Normalized by Body Mass Index</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="VZOS" nciodm:ExtCodeID="C92408">
+          <nciodm:CDISCSynonym>Vz Obs Norm by SA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The observed volume of distribution associated with the terminal slope following intravascular administration divided by the surface area.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Volume of Distribution Observed Normalized by Surface Area</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="VZOW" nciodm:ExtCodeID="C92409">
+          <nciodm:CDISCSynonym>Vz Obs Norm by WT</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The observed volume of distribution associated with the terminal slope following intravascular administration divided by the weight.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Volume of Distribution Observed Normalized by Weight</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="VZFOB" nciodm:ExtCodeID="C92410">
+          <nciodm:CDISCSynonym>Vol Dist of Fract Dose Obs Norm by BMI</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The observed volume of distribution of the absorbed fraction associated with the terminal slope following extravascular administration, where F equals the fraction of dose absorbed, divided by the body mass index.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Volume of Distribution of Fraction Dose Observed Normalized by Body Mass Index</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="VZFOS" nciodm:ExtCodeID="C92411">
+          <nciodm:CDISCSynonym>Vol Dist of Fract Dose Obs Norm by SA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The observed volume of distribution of the absorbed fraction associated with the terminal slope following extravascular administration, where F equals the fraction of dose absorbed, divided by the surface area.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Volume of Distribution of Fraction Dose Observed Normalized by Surface Area</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="VZFOW" nciodm:ExtCodeID="C92412">
+          <nciodm:CDISCSynonym>Vol Dist of Fract Dose Obs Norm by WT</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The observed volume of distribution of the absorbed fraction associated with the terminal slope following extravascular administration, where F equals the fraction of dose absorbed, divided by the weight.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Volume of Distribution of Fraction Dose Observed Normalized by Weight</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="VZFPB" nciodm:ExtCodeID="C92428">
+          <nciodm:CDISCSynonym>Vol Dist of Fract Dose Pred Norm by BMI</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The predicted volume of distribution of the absorbed fraction associated with the terminal slope following extravascular administration, where F equals the fraction of dose absorbed, divided by the body mass index.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Volume of Distribution of Fraction Dose Predicted Normalized by Body Mass Index</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="VZFPS" nciodm:ExtCodeID="C92429">
+          <nciodm:CDISCSynonym>Vol Dist of Fract Dose Pred Norm by SA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The predicted volume of distribution of the absorbed fraction associated with the terminal slope following extravascular administration, where F equals the fraction of dose absorbed, divided by the surface area.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Volume of Distribution of Fraction Dose Predicted Normalized by Surface Area</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="VZFPW" nciodm:ExtCodeID="C92430">
+          <nciodm:CDISCSynonym>Vol Dist of Fract Dose Pred Norm by WT</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The predicted volume of distribution of the absorbed fraction associated with the terminal slope following extravascular administration, where F equals the fraction of dose absorbed, divided by the weight.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Volume of Distribution of Fraction Dose Predicted Normalized by Weight</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="VZPB" nciodm:ExtCodeID="C92425">
+          <nciodm:CDISCSynonym>Vz Pred Norm by BMI</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The predicted volume of distribution associated with the terminal slope following intravascular administration divided by the body mass index.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Volume of Distribution Predicted Normalized by Body Mass Index</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="VZPS" nciodm:ExtCodeID="C92426">
+          <nciodm:CDISCSynonym>Vz Pred Norm by SA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The predicted volume of distribution associated with the terminal slope following intravascular administration divided by the surface area.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Volume of Distribution Predicted Normalized by Surface Area</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="VZPW" nciodm:ExtCodeID="C92427">
+          <nciodm:CDISCSynonym>Vz Pred Norm by WT</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The predicted volume of distribution associated with the terminal slope following intravascular administration divided by the weight.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Volume of Distribution Predicted Normalized by Weight</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="VZO" nciodm:ExtCodeID="C85774">
+          <nciodm:CDISCSynonym>Vz Obs</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The observed volume of distribution associated with the terminal slope following intravascular administration.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Observed Volume of Distribution</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="VZP" nciodm:ExtCodeID="C85798">
+          <nciodm:CDISCSynonym>Vz Pred</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The predicted volume of distribution associated with the terminal slope following intravascular administration.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Predicted Volume of Distribution</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AUCIFOD" nciodm:ExtCodeID="C96695">
+          <nciodm:CDISCSynonym>AUC Infinity Obs Norm by Dose</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The observed area under the curve (AUC) extrapolated to infinity divided by the dose.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>AUC Infinity Observed Normalized by Dose</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <nciodm:CDISCSubmissionValue>PKPARMCD</nciodm:CDISCSubmissionValue>
+        <nciodm:CDISCSynonym>PK Parameters Code</nciodm:CDISCSynonym>
+        <nciodm:PreferredTerm>CDISC SDTM Pharmacokinetic Parameter Terminology by Code</nciodm:PreferredTerm>
+      </CodeList>
+      

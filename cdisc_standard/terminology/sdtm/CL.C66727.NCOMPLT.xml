@@ -1,0 +1,74 @@
+<CodeList xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" OID="CL.C66727.NCOMPLT" Name="Completion/Reason for Non-Completion" DataType="text" nciodm:ExtCodeID="C66727" nciodm:CodeListExtensible="Yes">
+        <Description>
+          <TranslatedText xml:lang="en">The status of the subject's completion of the study or a segment of the study, or the reason the subject discontinued the study or segment of the study.</TranslatedText>
+        </Description>
+        <EnumeratedItem CodedValue="ADVERSE EVENT" nciodm:ExtCodeID="C41331">
+          <nciodm:CDISCDefinition>Any untoward medical occurrence in a patient or clinical investigation subject administered a pharmaceutical product and which does not necessarily have a causal relationship with this treatment. An adverse event (AE) can therefore be any unintended sign (including an abnormal laboratory finding), symptom, or disease temporally associated with the use of a medicinal (investigational) product, whether or not related to the medicinal (investigational) product. NOTE: For further information, see the ICH Guideline for Clinical Safety Data Management: Definitions and Standards for Expedited Reporting. [Modified from ICH E2A] Synonyms: side effect, adverse experience. See also serious adverse event, serious adverse experience. (CDISC glossary)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Adverse Event</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="COMPLETED" nciodm:ExtCodeID="C25250">
+          <nciodm:CDISCDefinition>To possess every necessary or normal part or component or step; having come or been brought to a conclusion. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Complete</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="DEATH" nciodm:ExtCodeID="C28554">
+          <nciodm:CDISCDefinition>The absence of life or state of being dead. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Death</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LACK OF EFFICACY" nciodm:ExtCodeID="C48226">
+          <nciodm:CDISCDefinition>The lack of expected or desired effect related to a therapy. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Lack of Efficacy</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LOST TO FOLLOW-UP" nciodm:ExtCodeID="C48227">
+          <nciodm:CDISCDefinition>The loss or lack of continuation of a subject to follow-up.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Lost To Follow-up</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="NON-COMPLIANCE WITH STUDY DRUG" nciodm:ExtCodeID="C49631">
+          <nciodm:CDISCDefinition>An indication that a subject has not agreed with or followed the instructions related to the study medication. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Non-Compliance With Study Drug</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="OTHER" nciodm:ExtCodeID="C17649">
+          <nciodm:CDISCSynonym>Other</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Different than the one(s) previously specified or mentioned. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Other</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PHYSICIAN DECISION" nciodm:ExtCodeID="C48250">
+          <nciodm:CDISCDefinition>A position, opinion or judgment reached after consideration by a physician with reference to subject. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Physician Decision</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PREGNANCY" nciodm:ExtCodeID="C25742">
+          <nciodm:CDISCDefinition>Pregnancy is the state or condition of having a developing embryo or fetus in the body (uterus), after union of an ovum and spermatozoon, during the period from conception to birth. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Pregnancy</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PROGRESSIVE DISEASE" nciodm:ExtCodeID="C35571">
+          <nciodm:CDISCDefinition>A disease process that is increasing in scope or severity. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Progressive Disease</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PROTOCOL VIOLATION" nciodm:ExtCodeID="C48251">
+          <nciodm:CDISCDefinition>An event or decision that stands in contrast to the guidelines set out by the protocol. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Protocol Violation</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="RECOVERY" nciodm:ExtCodeID="C25746">
+          <nciodm:CDISCDefinition>A healing process and/or an outcome implying relative health. The term is typically used in the context of direct and indirect effects of sickness or injury. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Recovery</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SCREEN FAILURE" nciodm:ExtCodeID="C49628">
+          <nciodm:CDISCDefinition>The potential subject who does not meet one or more criteria required for participation in a trial.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Trial Screen Failure</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="STUDY TERMINATED BY SPONSOR" nciodm:ExtCodeID="C49632">
+          <nciodm:CDISCDefinition>An indication that a clinical study was stopped by its sponsor. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Study Terminated By Sponsor</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TECHNICAL PROBLEMS" nciodm:ExtCodeID="C49633">
+          <nciodm:CDISCDefinition>A problem with some technical aspect of a clinical study, usually related to an instrument. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Technical Problem</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="WITHDRAWAL BY SUBJECT" nciodm:ExtCodeID="C49634">
+          <nciodm:CDISCDefinition>An indication that a study participant has removed itself from the study. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Withdrawal by Subject</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <nciodm:CDISCSubmissionValue>NCOMPLT</nciodm:CDISCSubmissionValue>
+        <nciodm:CDISCSynonym>Completion/Reason for Non-Completion</nciodm:CDISCSynonym>
+        <nciodm:PreferredTerm>CDISC SDTM Reason for Non-Completion Terminology</nciodm:PreferredTerm>
+      </CodeList>
+      

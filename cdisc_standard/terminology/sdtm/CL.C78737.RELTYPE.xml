@@ -1,0 +1,17 @@
+<CodeList xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" OID="CL.C78737.RELTYPE" Name="Relationship Type" DataType="text" nciodm:ExtCodeID="C78737" nciodm:CodeListExtensible="No">
+        <Description>
+          <TranslatedText xml:lang="en">The description of relationship types between a record or set of records.</TranslatedText>
+        </Description>
+        <EnumeratedItem CodedValue="ONE" nciodm:ExtCodeID="C66832">
+          <nciodm:CDISCDefinition>A textual representation of the numeral 1.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>One</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MANY" nciodm:ExtCodeID="C78728">
+          <nciodm:CDISCDefinition>More than one. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Many</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <nciodm:CDISCSubmissionValue>RELTYPE</nciodm:CDISCSubmissionValue>
+        <nciodm:CDISCSynonym>Relationship Type</nciodm:CDISCSynonym>
+        <nciodm:PreferredTerm>CDISC SDTM Relationship Type Terminology</nciodm:PreferredTerm>
+      </CodeList>
+      

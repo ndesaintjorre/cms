@@ -1,0 +1,24 @@
+<CodeList xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" OID="CL.C96784.TUTESTCD" Name="Tumor Identification Test Code" DataType="text" nciodm:ExtCodeID="C96784" nciodm:CodeListExtensible="Yes">
+        <Description>
+          <TranslatedText xml:lang="en">Terminology relevant to the test codes that describe tumor assessments for identification purposes.</TranslatedText>
+        </Description>
+        <EnumeratedItem CodedValue="TUMIDENT" nciodm:ExtCodeID="C94523">
+          <nciodm:CDISCSynonym>Tumor Identification</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An indication that a tumor has been located and characterized.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Tumor Identification</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TUMERGE" nciodm:ExtCodeID="C94525">
+          <nciodm:CDISCSynonym>Tumor Merged</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An indication that multiple tumors have coalesced into one tumor.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Matted Tumor Mass Present</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TUSPLIT" nciodm:ExtCodeID="C96642">
+          <nciodm:CDISCSynonym>Tumor Split</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An indication that a single tumor has divided into two or more tumors.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Tumor Split</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <nciodm:CDISCSubmissionValue>TUTESTCD</nciodm:CDISCSubmissionValue>
+        <nciodm:CDISCSynonym>Tumor Identification Test Code</nciodm:CDISCSynonym>
+        <nciodm:PreferredTerm>CDISC SDTM Tumor Identification Test Code Terminology</nciodm:PreferredTerm>
+      </CodeList>
+      

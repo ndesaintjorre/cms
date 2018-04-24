@@ -1,0 +1,49 @@
+<CodeList xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" OID="CL.C96785.RSSTRESC" Name="Tumor Response Result" DataType="text" nciodm:ExtCodeID="C96785" nciodm:CodeListExtensible="Yes">
+        <Description>
+          <TranslatedText xml:lang="en">The result of an assessment of tumor response to treatment or therapy.</TranslatedText>
+        </Description>
+        <EnumeratedItem CodedValue="PR" nciodm:ExtCodeID="C18058">
+          <nciodm:CDISCSynonym>Partial Response</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A finding indicating that there is a decrease in the size and the extent of tissue involvement by a malignant tumor in a patient. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Partial Remission</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SD" nciodm:ExtCodeID="C18213">
+          <nciodm:CDISCSynonym>Stable Disease</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Cancer that is neither decreasing nor increasing in extent or severity. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Stable Disease</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PD" nciodm:ExtCodeID="C35571">
+          <nciodm:CDISCSynonym>Progressive Disease</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A disease process that is increasing in scope or severity. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Progressive Disease</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="NA" nciodm:ExtCodeID="C48660">
+          <nciodm:CDISCSynonym>Not Applicable</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Determination of a value is not relevant in the current context. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Not Applicable</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CR" nciodm:ExtCodeID="C4870">
+          <nciodm:CDISCSynonym>Complete Response</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The disappearance of all signs of cancer in response to treatment. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Complete Remission</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="NE" nciodm:ExtCodeID="C62222">
+          <nciodm:CDISCSynonym>Not Evaluable</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Unable to be evaluated. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Unevaluable</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="UPD" nciodm:ExtCodeID="C96644">
+          <nciodm:CDISCSynonym>Unequivocal Progression</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An overall level of substantial worsening in non-target disease that is of a magnitude that, even in the presence of SD or PR in target disease, the treating physician would feel it important to change therapy. (RECIST)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Unequivocal Progression</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="NonCR/NonPD" nciodm:ExtCodeID="C96700">
+          <nciodm:CDISCSynonym>Non Complete Response/Non Progressive Disease</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Persistence of one or more non-target lesion(s) and/or maintenance of tumor marker levels above the normal limits. (RECIST)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Non Complete Response/Non Progressive Disease</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <nciodm:CDISCSubmissionValue>RSSTRESC</nciodm:CDISCSubmissionValue>
+        <nciodm:CDISCSynonym>Tumor Response Result</nciodm:CDISCSynonym>
+        <nciodm:PreferredTerm>CDISC SDTM Tumor Response Result Terminology</nciodm:PreferredTerm>
+      </CodeList>
+      

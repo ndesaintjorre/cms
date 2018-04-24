@@ -1,0 +1,45 @@
+<CodeList xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" OID="CL.C66788.DICTNAM" Name="Dictionary Name" DataType="text" nciodm:ExtCodeID="C66788" nciodm:CodeListExtensible="Yes">
+        <Description>
+          <TranslatedText xml:lang="en">A name given to a reference source that lists words and gives their meaning. (NCI)</TranslatedText>
+        </Description>
+        <EnumeratedItem CodedValue="COSTART" nciodm:ExtCodeID="C49471">
+          <nciodm:CDISCSynonym>Coding Symbols for a Thesaurus of Adverse Reaction Terms</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A terminology developed and used by the Food and Drug Administration (FDA) for the coding, filing and retrieving of post marketing adverse reaction reports. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Thesaurus of Adverse Reaction Term Coding Symbols</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ICD" nciodm:ExtCodeID="C49474">
+          <nciodm:CDISCSynonym>International Classification of Diseases</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A system of categories to which morbid entries are assigned according to established criteria. Included is the entire range of conditions in a manageable number of categories, grouped to facilitate mortality reporting. It is produced by the World Health Organization (from ICD-10, p1). The Clinical Modifications, produced by the United States Dept. of Health and Human Services, are larger extensions used for morbidity and general epidemiological purposes, primarily in the U.S. (MSH2005_2004_10_12)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>International Classification of Diseases</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LOINC" nciodm:ExtCodeID="C49476">
+          <nciodm:CDISCSynonym>Logical Observation Identifiers Names and Codes</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Published by The Regenstrief Institute, the Logical Observation Identifiers Names and Codes covers clinical and clinical laboratory terminology. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Logical Observation Identifiers Names and Codes</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MedDRA" nciodm:ExtCodeID="C43820">
+          <nciodm:CDISCSynonym>Medical Dictionary for Regulatory Activities</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>MedDRA is an international medical terminology designed to support the classification, retrieval, presentation, and communication of medical information throughout the medical product regulatory cycle. MedDRA was developed under the auspices of the International Conference on Harmonisation of Technical Requirements for Registration of Pharmaceuticals for Human Use (ICH). The MedDRA Maintenance and Support Services Organization (MSSO) holds a contract with the International Federation of Pharmaceutical Manufacturers Associations (IFPMA) to maintain and support the implementation of the terminology. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>MedDRA</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SNOMED" nciodm:ExtCodeID="C53489">
+          <nciodm:CDISCSynonym>Systematized Nomenclature of Medicine</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A multiaxial, hierarchical classification system for diseases in man developed by the College of American Pathologists. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Systematized Nomenclature of Medicine</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="WHOART" nciodm:ExtCodeID="C49468">
+          <nciodm:CDISCSynonym>World Health Organization Adverse Reaction Terms</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A terminology implemented by the World Health Organization to describe adverse reactions to a prescribed medication or treatment regimen. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>World Health Organization Adverse Reaction Terminology</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="WHODD" nciodm:ExtCodeID="C49475">
+          <nciodm:CDISCSynonym>World Health Organization Drug Dictionary</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A reference source of drugs and drug associated information maintained by the World Health Organization. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>World Health Organization Drug Dictionary</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <nciodm:CDISCSubmissionValue>DICTNAM</nciodm:CDISCSubmissionValue>
+        <nciodm:CDISCSynonym>Dictionary Name</nciodm:CDISCSynonym>
+        <nciodm:CDISCSynonym>Name of Dictionary</nciodm:CDISCSynonym>
+        <nciodm:PreferredTerm>CDISC SDTM Dictionary Name Terminology</nciodm:PreferredTerm>
+      </CodeList>
+      

@@ -1,0 +1,330 @@
+<CodeList xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" OID="CL.C66734.DOMAIN" Name="Domain Abbreviation" DataType="text" nciodm:ExtCodeID="C66734" nciodm:CodeListExtensible="Yes">
+        <Description>
+          <TranslatedText xml:lang="en">A unique, 2-character domain code used in the regulatory submission process. The domain abbreviation is used consistently throughout the submission, i.e. in the dataset name, as the value of the domain variable within the dataset, and as a prefix for most variable names in the dataset. (CDISC Glossary)</TranslatedText>
+        </Description>
+        <EnumeratedItem CodedValue="AD" nciodm:ExtCodeID="C49563">
+          <nciodm:CDISCSynonym>Analysis Dataset</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Datasets used for statistical analysis and reporting by the sponsor. These are submitted in addition to the data tabulation datasets.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Analysis Dataset Domain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AE" nciodm:ExtCodeID="C49562">
+          <nciodm:CDISCSynonym>Adverse Events</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Adverse events may be captured either as free text or a pre-specified list of terms.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Adverse Event Domain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AU" nciodm:ExtCodeID="C49565">
+          <nciodm:CDISCSynonym>Autopsy</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Additional data about deaths, specific to findings from autopsies.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Autopsy Domain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BM" nciodm:ExtCodeID="C49566">
+          <nciodm:CDISCSynonym>Bone Measurements</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Findings resulting from evaluations of bone mineral density.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Bone Measurements Domain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BR" nciodm:ExtCodeID="C49567">
+          <nciodm:CDISCSynonym>Biopsy</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Findings resulting from biopsies.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Biopsy Domain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CE" nciodm:ExtCodeID="C85441">
+          <nciodm:CDISCSynonym>Clinical Events</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A dataset used to capture clinical events of interest that would not be classified as adverse events.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Clinical Events Domain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CM" nciodm:ExtCodeID="C49568">
+          <nciodm:CDISCSynonym>Concomitant Meds</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Case report form (CRF) data that captures the Concomitant and Prior Medications/Therapies used by the subject. Examples are the Concomitant Medications/Therapies given on an as needed basis and the usual Background Medications/Therapies given for a condition.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Concomitant Medication Domain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CO" nciodm:ExtCodeID="C49569">
+          <nciodm:CDISCSynonym>Comments</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The Comments dataset accommodates two sources of comments: 1) those collected alongside other data on topical case report form (CRF) pages such as Adverse Events and 2) those collected on a separate page specifically dedicated to comments.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Comment Domain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="DA" nciodm:ExtCodeID="C49578">
+          <nciodm:CDISCSynonym>Drug Accountability</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Data regarding the accountability of study drug, such as information on the receipt, dispensing, return, and packaging.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Drug Accountability Domain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="DC" nciodm:ExtCodeID="C49570">
+          <nciodm:CDISCSynonym>Disease Characteristics</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Data related to the characteristics of a specific disease state under study for a subject.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Disease Characteristics Domain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="DM" nciodm:ExtCodeID="C49572">
+          <nciodm:CDISCSynonym>Demographics</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The Demographics domain includes a set of essential standard variables that describe each subject in a clinical study. It is the parent domain for all other observations for human clinical subjects</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Demographics Domain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="DS" nciodm:ExtCodeID="C49576">
+          <nciodm:CDISCSynonym>Disposition</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A subject domain utilized for the submission of information encompassing and representing data, vocabulary or records related to disposition. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Disposition Domain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="DV" nciodm:ExtCodeID="C49585">
+          <nciodm:CDISCSynonym>Protocol Deviations</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The intent of the domain is to capture protocol violations and deviations during the course of the study and will store only those criteria violation by or deviated from by the subject and not a response to each violation or deviation.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Protocol Deviations Domain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="EE" nciodm:ExtCodeID="C49625">
+          <nciodm:CDISCSynonym>Electroencephalogram</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Findings resulting from electroencephalogram (EEG) tests.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Electroencephalogram Domain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="EG" nciodm:ExtCodeID="C49626">
+          <nciodm:CDISCSynonym>Electrocardiogram</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Findings related to the collection of ECG data, including position of the subject, method of evaluation, all cycle measurements and all findings from the ECG including an overall interpretation if collected or derived.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Electrocardiogram Domain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="EX" nciodm:ExtCodeID="C49587">
+          <nciodm:CDISCSynonym>Exposure</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The Exposure domain model records the details of a subject's exposure to protocol-specified study treatment. Study treatment may be any intervention that is prospectively defined as a test material within a study, and is typically but not always supplied to the subject.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Exposure Domain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="FA" nciodm:ExtCodeID="C85442">
+          <nciodm:CDISCSynonym>Findings About Events or Interventions</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A dataset used to capture the findings about an event or intervention that cannot be represented within an event or intervention record or as a supplemental qualifier.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Findings About Events or Interventions Domain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="FH" nciodm:ExtCodeID="C49588">
+          <nciodm:CDISCSynonym>Family History</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A subject domain utilized for the submission of information encompassing and representing data, vocabulary or records related to family history. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Family History Domain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HU" nciodm:ExtCodeID="C49589">
+          <nciodm:CDISCSynonym>Healthcare Resource Utilization</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Healthcare resource utilization data such as subject visits to physicians, hospitalizations, and nursing home stays.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Healthcare Resource Utilization Domain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="IE" nciodm:ExtCodeID="C61536">
+          <nciodm:CDISCSynonym>Inclusion/Exclusion</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The intent of the domain model is to only collect those criteria that cause the subject to be in violation of the inclusion/exclusion criteria not a response to each criterion.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Inclusion Exclusion Domain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LB" nciodm:ExtCodeID="C49592">
+          <nciodm:CDISCSynonym>Laboratory Data</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Laboratory test findings including, but is not limited to hematology, clinical chemistry and urinalysis data. This domain does not include microbiology or pharmacokinetic data, which are stored in separate domains.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Laboratory Data Domain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MB" nciodm:ExtCodeID="C49602">
+          <nciodm:CDISCSynonym>Microbiology</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Microbiology specimen findings, including gram stain results, and organisms found.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Microbiology Specimen Domain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MH" nciodm:ExtCodeID="C49603">
+          <nciodm:CDISCSynonym>Medical History</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The medical history dataset includes the subject's prior history at the start of the trial. Examples of subject medical history information could include general medical history, gynecological history, and primary diagnosis.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Medical History Domain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ML" nciodm:ExtCodeID="C49604">
+          <nciodm:CDISCSynonym>Meal Data</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Information regarding the subject's meal consumption, such as fluid intake, amounts, form (solid or liquid state), frequency, etc., typically used for pharmacokinetic analysis.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Meal Data Domain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MS" nciodm:ExtCodeID="C61531">
+          <nciodm:CDISCSynonym>Microbiology Susceptibility</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>This includes microbiology susceptibility test results, plus results of any other organism-related tests.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Microbiology Susceptibility Domain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="OM" nciodm:ExtCodeID="C49605">
+          <nciodm:CDISCSynonym>Organ Measurements</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Findings from organ measurement evaluations.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Organ Measurement Domain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PC" nciodm:ExtCodeID="C49606">
+          <nciodm:CDISCSynonym>Pharmacokinetic Concentration</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Concentrations of drugs/metabolites in fluids or tissues as a function of time.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Pharmacokinetic Concentration Domain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PE" nciodm:ExtCodeID="C49608">
+          <nciodm:CDISCSynonym>Physical Exam</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Findings collected during a physical examination of the subject. It has findings that are discovered that are related to body systems. Does not include vital signs measurements, which are stored in the vital signs domain.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Physical Exam Domain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PG" nciodm:ExtCodeID="C61529">
+          <nciodm:CDISCSynonym>Pharmacogenomics</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Pharmacogenomics findings that initially focus on genotype and gene expression data.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Pharmacogenomics Domain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PP" nciodm:ExtCodeID="C49607">
+          <nciodm:CDISCSynonym>Pharmacokinetic Parameters</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Pharmacokinetic parameters derived from pharmacokinetic concentration-time (PC) data.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Pharmacokinetic Parameters Domain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="QS" nciodm:ExtCodeID="C49609">
+          <nciodm:CDISCSynonym>Questionnaires</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Questionnaire data may include, but are not limited to the following: subject reported outcomes, validated or non-validated questionnaires, and validated or non-validated diaries (i.e. data with a common topicality).</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Questionnaire Domain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SC" nciodm:ExtCodeID="C49610">
+          <nciodm:CDISCSynonym>Subject Characteristics</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The subject characteristics domain is for data not collected in other domains that is subject-related.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Subject Characteristics Domain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SE" nciodm:ExtCodeID="C49616">
+          <nciodm:CDISCSynonym>Subject Element</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The subject element table describes the actual order of elements followed by the subject, together with the start date/time and end date/time for each element.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Subject Element Domain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SG" nciodm:ExtCodeID="C49611">
+          <nciodm:CDISCSynonym>Surgery</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Surgical information.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Surgery Domain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SK" nciodm:ExtCodeID="C49612">
+          <nciodm:CDISCSynonym>Skin Test</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Findings from diagnostic skin tests.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Skin Test Domain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SL" nciodm:ExtCodeID="C49613">
+          <nciodm:CDISCSynonym>Sleep Polysomnography Data</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Findings from diagnostic sleep tests (polysomnography).</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Sleep Polysomnography Domain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ST" nciodm:ExtCodeID="C49614">
+          <nciodm:CDISCSynonym>Stress (Exercise) Test Data</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Findings from exercise stress tests.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Stress Exercise Test Data Domain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SU" nciodm:ExtCodeID="C49615">
+          <nciodm:CDISCSynonym>Substance Use</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The intent of the domain is to capture substance use information that may be used to assess the efficacy and/or safety of therapies that look to mitigate the effects of chronic substance use.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Substance Use Domain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SV" nciodm:ExtCodeID="C49617">
+          <nciodm:CDISCSynonym>Subject Visits</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The subject visits table describes the actual start and end data/time for each visit of each individual subject.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Subject Visits Domain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TA" nciodm:ExtCodeID="C49618">
+          <nciodm:CDISCSynonym>Trial Arms</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The trial arms table describes each planned arm in the trial. An arm is described as an ordered sequence of elements.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Trial Arms Domain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TE" nciodm:ExtCodeID="C49619">
+          <nciodm:CDISCSynonym>TE</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Trial Elements</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The trial elements table describes the element code that is unique for each element, the element description, and the rules for starting and ending an element.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Trial Elements Domain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TI" nciodm:ExtCodeID="C49620">
+          <nciodm:CDISCSynonym>Trial Inclusion/Exclusion Criteria</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The trial summary information domain is not subject oriented. It contains one record for each of the inclusion and exclusion criteria for the trial.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Trial Inclusion and Exclusion Criteria Domain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TS" nciodm:ExtCodeID="C53483">
+          <nciodm:CDISCSynonym>Trial Summary</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The trial summary information domain is not subject oriented. It contains one record for each trial summary characteristic.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Trial Summary Domain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TV" nciodm:ExtCodeID="C49621">
+          <nciodm:CDISCSynonym>Trial Visits</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The trial visits table describes the planned order and number of visits in the study within each arm.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Trial Visits Domain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="VS" nciodm:ExtCodeID="C49622">
+          <nciodm:CDISCSynonym>Vital Signs</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Measurements including but not limited to blood pressure, temperature, respiration, body surface area, BMI, height and weight.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Vital Signs Domain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BG" nciodm:ExtCodeID="C95083">
+          <nciodm:CDISCSynonym>Body Weight Gain</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Body weight gain is the actual difference between two body weight measurements for any given interval for a subject. This is most commonly shown as the difference between two consecutive body weight measurements.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Body Weight Gain Domain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BH" nciodm:ExtCodeID="C95084">
+          <nciodm:CDISCSynonym>Behavioral</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>This domain captures behavioral testing measurements on individual subjects.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Behavioral Domain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BW" nciodm:ExtCodeID="C95085">
+          <nciodm:CDISCSynonym>Body Weight</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>This domain captures body weights collected for subjects during the study and at the end of the study (terminal body weights).</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Body Weight Domain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CL" nciodm:ExtCodeID="C95086">
+          <nciodm:CDISCSynonym>Clinical Observation</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>This domain captures clinical sign information including ophthalmology, physical examination, and dermal examination collected in life while executing the study.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Clinical Observation Domain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="DD" nciodm:ExtCodeID="C95087">
+          <nciodm:CDISCSynonym>Death Diagnosis</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>This domain captures the diagnosis of the cause of death for a subject.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Death Diagnosis Domain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="DP" nciodm:ExtCodeID="C95088">
+          <nciodm:CDISCSynonym>Developmental Milestone</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>This domain captures the outcome of developmental milestone testing during a scheduled period of observation.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Developmental Milestone Domain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="FE" nciodm:ExtCodeID="C95089">
+          <nciodm:CDISCSynonym>Fertility</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>This domain captures test results relative to male and female fertility.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Fertility Domain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="FW" nciodm:ExtCodeID="C95090">
+          <nciodm:CDISCSynonym>Food And Water</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>This domain captures food/water consumption of animals in the study. The data in this domain is derived data.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Food and Water Consumption Domain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="FX" nciodm:ExtCodeID="C95091">
+          <nciodm:CDISCSynonym>Fetal and Neonatal Developmental Morphology</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>This domain captures observations for fetal and pup morphological examinations.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Fetal and Neonatal Developmental Morphology Domain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="IC" nciodm:ExtCodeID="C95092">
+          <nciodm:CDISCSynonym>Implantation Classification</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The Implantation Classification domain provides a record for each implantation identified for the scheduled cesarean section component of a study.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Implantation Classification Domain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LR" nciodm:ExtCodeID="C95093">
+          <nciodm:CDISCSynonym>Cesarean Section and Delivery Litter Results</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>This domain captures litter based results in female animals for cesarean section and/or delivery components of a study, including litter survival during preweaning.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Cesarean Section and Delivery Litter Results Domain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MA" nciodm:ExtCodeID="C95094">
+          <nciodm:CDISCSynonym>Macroscopic Findings</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The gross pathology findings recorded at necropsy.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Macroscopic Findings Domain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MI" nciodm:ExtCodeID="C95095">
+          <nciodm:CDISCSynonym>Microscopic Findings</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The histopathology findings and microscopic evaluations recorded.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Microscopic Findings Domain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PM" nciodm:ExtCodeID="C95097">
+          <nciodm:CDISCSynonym>Palpable Masses</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>This domain captures information of any palpable masses examined during the experimental phase.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Palpable Masses Domain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ST" nciodm:ExtCodeID="C95099">
+          <nciodm:CDISCSynonym>Subject Stages</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The Subject Stages domain captures subject level non-treatment related blocks of time known as stages, such as Gestation, Lactation and Premating.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Subject Stages Domain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TF" nciodm:ExtCodeID="C95100">
+          <nciodm:CDISCSynonym>Tumor Findings</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>This domain captures the tumor findings of the nonclinical subject.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Tumor Findings Domain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TP" nciodm:ExtCodeID="C95101">
+          <nciodm:CDISCSynonym>Trial Paths</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The trial paths domain is not subject oriented. This domain provides the complete planned non-treatment related sequences of stages for each path in a study.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Trial Paths Domain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TT" nciodm:ExtCodeID="C95102">
+          <nciodm:CDISCSynonym>Trial Stages</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The trial stages domain is not subject oriented. It captures non-treatment related planned blocks of time known as stages, such as Gestation, Lactation and Premating.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Trial Stages Domain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TX" nciodm:ExtCodeID="C95103">
+          <nciodm:CDISCSynonym>Trial Sets</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The trial stages domain is not subject oriented. It contains one record for each trial set characteristic including experimental factors, treatment factors, inherent characteristics, or distinct sponsor designations.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Trial Sets Domain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <nciodm:CDISCSubmissionValue>DOMAIN</nciodm:CDISCSubmissionValue>
+        <nciodm:CDISCSynonym>Domain Abbreviation</nciodm:CDISCSynonym>
+        <nciodm:PreferredTerm>CDISC SDTM Submission Domain Abbreviation Terminology</nciodm:PreferredTerm>
+      </CodeList>
+      

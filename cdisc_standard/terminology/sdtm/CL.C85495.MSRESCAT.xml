@@ -1,0 +1,45 @@
+<CodeList xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" OID="CL.C85495.MSRESCAT" Name="Microbiology Susceptibility Testing Result Category" DataType="text" nciodm:ExtCodeID="C85495" nciodm:CodeListExtensible="No">
+        <Description>
+          <TranslatedText xml:lang="en">Used to categorize the result of a finding in a standard format.</TranslatedText>
+        </Description>
+        <EnumeratedItem CodedValue="INTERMEDIATE" nciodm:ExtCodeID="C85560">
+          <nciodm:CDISCSynonym>Intermediate</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The growth of microorganisms may be inhibited by antimicrobials that approach usually attainable blood and tissue concentrations. The response rates may be lower than for susceptible isolates. This category also includes a buffer zone, which should prevent small, uncontrolled, technical factors from causing major discrepancies in interpretations, especially for drugs with narrow pharmacotoxicity margins.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Antimicrobial Intermediate Susceptibility Result</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="NONSUSCEPTIBLE" nciodm:ExtCodeID="C85561">
+          <nciodm:CDISCSynonym>Non Susceptible</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A category used for microorganisms that have only a susceptible interpretive criteria, but not an intermediate or resistant interpretive category (i.e., susceptible-only interpretive category). This category may be applied to new antimicrobial agents for which no resistant microorganisms have been encountered at the time the initial interpretive criteria are determined. Microorganisms that test with an MIC above or a zone measurement below the susceptible interpretive criteria are designated as nonsusceptible. A designation of nonsusceptible does not necessarily mean that a resistance mechanism(s) exists in the microorganism.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Antimicrobial Nonsusceptibility Result</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="NOT APPLICABLE" nciodm:ExtCodeID="C48660">
+          <nciodm:CDISCSynonym>Not Applicable</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>NA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Determination of a value is not relevant in the current context. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Not Applicable</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="RESISTANT" nciodm:ExtCodeID="C85562">
+          <nciodm:CDISCSynonym>Resistant</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The growth of microorganisms are not inhibited by the usually achievable concentrations of the antimicrobial agent with normal dosages, and/or microorganisms demonstrate MICs or zone diameters that fall in the range where specific microbial resistance mechanisms (e.g. Beta-lactamases) are likely, and clinical efficacy of the agent against the microorganism has not been reliably shown in treatment studies.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Antimicrobial Resistance Result</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SUSCEPTIBLE" nciodm:ExtCodeID="C85563">
+          <nciodm:CDISCSynonym>Susceptible</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The growth of microorganisms are inhibited by the usually achievable concentrations of antimicrobial agent when the recommended dosage is used for the site of infection.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Antimicrobial Susceptibility Result</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SUSCEPTIBLE-DOSE DEPENDENT" nciodm:ExtCodeID="C85559">
+          <nciodm:CDISCSynonym>Susceptible-Dose Dependent</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The growth of microorganisms may be inhibited when higher than normal dosages of an antimicrobial agent are used and maximal possible blood concentration of the antimicrobial agent is achieved.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Antimicrobial Dose Dependent Susceptibility Result</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="UNKNOWN" nciodm:ExtCodeID="C17998">
+          <nciodm:CDISCSynonym>U</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Unknown</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Not known, not observed, not recorded, or refused. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Unknown</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <nciodm:CDISCSubmissionValue>MSRESCAT</nciodm:CDISCSubmissionValue>
+        <nciodm:CDISCSynonym>Microbiology Susceptibility Testing Result Category</nciodm:CDISCSynonym>
+      </CodeList>
+      

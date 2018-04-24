@@ -1,0 +1,41 @@
+<CodeList xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" OID="CL.C66739.TTYPE" Name="Trial Type" DataType="text" nciodm:ExtCodeID="C66739" nciodm:CodeListExtensible="Yes">
+        <Description>
+          <TranslatedText xml:lang="en">The type of clinical trial performed e.g. efficacy, safety. (NCI)</TranslatedText>
+        </Description>
+        <EnumeratedItem CodedValue="BIO-AVAILABILITY" nciodm:ExtCodeID="C49664">
+          <nciodm:CDISCDefinition>A study of the degree to which or rate at which a drug or other substance is absorbed or becomes available at the site of physiological activity after administration. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Bioavailability Study</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BIO-EQUIVALENCE" nciodm:ExtCodeID="C49665">
+          <nciodm:CDISCDefinition>A study most often used to compare the efficacy of different formulations to treat a given disease. It is the testing of an old versus a new formulation in healthy volunteers or subjects with the disease under study and usually in one dose. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Therapeutic Equivalency Study</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="EFFICACY" nciodm:ExtCodeID="C49666">
+          <nciodm:CDISCDefinition>A study of the relative therapeutic efficacy of treatment of a disease. Usually this is a Phase II or III study. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Efficacy Study</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PHARMACODYNAMIC" nciodm:ExtCodeID="C49662">
+          <nciodm:CDISCDefinition>A study of the biochemical and physiological effect of a drug and the mechanism of drug action and the relationship between drug concentration and effect. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Pharmacodynamic Study</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PHARMACOECONOMIC" nciodm:ExtCodeID="C39493">
+          <nciodm:CDISCDefinition>A study that assesses the value associated with a given drug in therapeutic and economic terms. This type of study is multidisciplinary in nature and takes into consideration the social and economic costs (resource utilization costs including direct, indirect, and intangible costs) of drug therapy in addition to its direct therapeutic benefits. Analyses relate the difference in therapeutic benefits to the difference in costs between treatment alternatives. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Pharmacoeconomic Study</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PHARMACOGENOMIC" nciodm:ExtCodeID="C49661">
+          <nciodm:CDISCDefinition>A study of identification and analysis of genomic variations that affect the efficacy of a drug. Pharmacogenomic studies can potentially be predictive of an individual's drug-response or adverse reactions or susceptibility to iatrogenic disorders, and may also reveal new targets that can help in the design of new drugs. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Pharmacogenomic Study</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PHARMACOKINETIC" nciodm:ExtCodeID="C49663">
+          <nciodm:CDISCDefinition>A study of the process by which a drug is absorbed, distributed, metabolized, and eliminated by the body. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Pharmacokinetic Study</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SAFETY" nciodm:ExtCodeID="C49667">
+          <nciodm:CDISCDefinition>A study of the relative safety of treatment of a disease. Usually this is a Phase I or II trial. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Safety Study</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <nciodm:CDISCSubmissionValue>TTYPE</nciodm:CDISCSubmissionValue>
+        <nciodm:CDISCSynonym>Trial Type</nciodm:CDISCSynonym>
+        <nciodm:PreferredTerm>CDISC SDTM Trial Type Terminology</nciodm:PreferredTerm>
+      </CodeList>
+      

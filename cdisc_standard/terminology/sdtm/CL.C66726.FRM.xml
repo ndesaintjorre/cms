@@ -1,0 +1,688 @@
+<CodeList xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" OID="CL.C66726.FRM" Name="Pharmaceutical Dosage Form" DataType="text" nciodm:ExtCodeID="C66726" nciodm:CodeListExtensible="Yes">
+        <Description>
+          <TranslatedText xml:lang="en">The form of the completed pharmaceutical product, e.g. tablet, capsule, injection, elixir, suppository. Dosage form can have a significant effect on the onset, duration and intensity of the pharmacological action of a drug. A pharmaceutical dosage form controls the rate at which the drug is released into the biological fluids. This release rate affects its intrinsic absorption pattern and therefore, the bioavailability of the drug.</TranslatedText>
+        </Description>
+        <EnumeratedItem CodedValue="AEROSOL" nciodm:ExtCodeID="C42887">
+          <nciodm:CDISCSynonym>aer</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A product that is packaged under pressure and contains therapeutically active ingredients that are released upon activation of an appropriate valve system; it is intended for topical application to the skin as well as local application into the nose (nasal aerosols), mouth (lingual aerosols), or lungs (inhalation aerosols). (FDA)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Aerosol Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AEROSOL, FOAM" nciodm:ExtCodeID="C42888">
+          <nciodm:CDISCDefinition>A dosage form containing one or more active ingredients, surfactants, aqueous or non-aqueous liquids, and the propellants; if the propellant is in the internal (discontinuous) phase (i.e., of the oil-in-water type), a stable foam is discharged, and if the propellant is in the external (continuous) phase (i.e., of the water-in-oil type), a spray or a quick-breaking foam is discharged. (FDA)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Aerosol Foam Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AEROSOL, METERED" nciodm:ExtCodeID="C42960">
+          <nciodm:CDISCDefinition>A pressurized dosage form consisting of metered dose valves which allow for the delivery of a uniform quantity of spray upon each activation. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Metered Aerosol Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AEROSOL, POWDER" nciodm:ExtCodeID="C42971">
+          <nciodm:CDISCDefinition>A product that is packaged under pressure and contains therapeutically active ingredients, in the form of a powder, that are released upon activation of an appropriate valve system. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Powder Aerosol Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AEROSOL, SPRAY" nciodm:ExtCodeID="C42889">
+          <nciodm:CDISCDefinition>An aerosol product which utilizes a compressed gas as the propellant to provide the force necessary to expel the product as a wet spray; it is applicable to solutions of medicinal agents in aqueous solvents. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Aerosol Spray Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BAR, CHEWABLE" nciodm:ExtCodeID="C42892">
+          <nciodm:CDISCDefinition>A solid dosage form usually in the form of a rectangle that is meant to be chewed. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Chewable Bar Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BEAD" nciodm:ExtCodeID="C42890">
+          <nciodm:CDISCDefinition>A solid dosage form in the shape of a small ball. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Bead Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BEAD, IMPLANT, EXTENDED RELEASE" nciodm:ExtCodeID="C43451">
+          <nciodm:CDISCDefinition>A small sterile solid mass consisting of a highly purified drug intended for implantation in the body which would allow at least a reduction in dosing frequency as compared to that drug presented as a conventional dosage form. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Extended Release Bead Implant Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BLOCK" nciodm:ExtCodeID="C42891">
+          <nciodm:CDISCDefinition>Solid dosage form, usually in the shape of a square or rectangle. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Block Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CAPSULE" nciodm:ExtCodeID="C25158">
+          <nciodm:CDISCSynonym>cap</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A solid pharmaceutical dosage form that contains medicinal agent within either a hard or soft soluble container or shell, usually used for the oral administration of medicine. The shells are made of a suitable form of gelatin or other substance. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Capsule Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CAPSULE, COATED" nciodm:ExtCodeID="C42895">
+          <nciodm:CDISCDefinition>A solid dosage form in which the drug is enclosed within either a hard or soft soluble container or "shell" made from a suitable form of gelatin; additionally, the capsule is covered in a designated coating. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Coated Capsule Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CAPSULE, COATED PELLETS" nciodm:ExtCodeID="C42896">
+          <nciodm:CDISCDefinition>A solid dosage form in which the drug is enclosed within either a hard or soft soluble container or "shell" made from a suitable form of gelatin; the drug itself is in the form of granules to which varying amounts of coating have been applied. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Coated Pellets in Capsule Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CAPSULE, COATED, EXTENDED RELEASE" nciodm:ExtCodeID="C42917">
+          <nciodm:CDISCDefinition>A solid dosage form in which the drug is enclosed within either a hard or soft soluble container or "shell" made from a suitable form of gelatin; additionally, the capsule is covered in a designated coating, and which releases a drug (or drugs) in such a manner to allow at least a reduction in dosing frequency as compared to that drug (or drugs) presented as a conventional dosage form. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Extended Release Coated Capsule Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CAPSULE, DELAYED RELEASE" nciodm:ExtCodeID="C42902">
+          <nciodm:CDISCDefinition>A solid dosage form in which the drug is enclosed within either a hard or soft soluble container made from a suitable form of gelatin, and which releases a drug (or drugs) at a time other than promptly after administration. Enteric-coated articles are delayed release dosage forms. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Delayed Release Capsule Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CAPSULE, DELAYED RELEASE PELLETS" nciodm:ExtCodeID="C42904">
+          <nciodm:CDISCDefinition>A solid dosage form in which the drug is enclosed within either a hard or soft soluble container or "shell" made from a suitable form of gelatin; the drug itself is in the form of granules to which enteric coating has been applied, thus delaying release of the drug until its passage into the intestines. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Delayed Release Pellets in Capsule Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CAPSULE, EXTENDED RELEASE" nciodm:ExtCodeID="C42916">
+          <nciodm:CDISCDefinition>A solid dosage form in which the drug is enclosed within either a hard or soft soluble container made from a suitable form of gelatin, and which releases a drug (or drugs) in such a manner to allow a reduction in dosing frequency as compared to that drug (or drugs) presented as a conventional dosage form. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Extended Release Capsule Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CAPSULE, FILM COATED, EXTENDED RELEASE" nciodm:ExtCodeID="C42928">
+          <nciodm:CDISCDefinition>A solid dosage form in which the drug is enclosed within either a hard or soft soluble container or "shell" made from a suitable form of gelatin; additionally, the capsule is covered in a designated film coating, and which releases a drug (or drugs) in such a manner to allow at least a reduction in dosing frequency as compared to that drug (or drugs) presented as a conventional dosage form. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Extended Release Film Coated Capsule Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CAPSULE, GELATIN COATED" nciodm:ExtCodeID="C42936">
+          <nciodm:CDISCDefinition>A solid dosage form in which the drug is enclosed within either a hard or soft soluble container made from a suitable form of gelatin; through a banding process, the capsule is coated with additional layers of gelatin so as to form a complete seal. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Gelatin Coated Capsule Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CAPSULE, LIQUID FILLED" nciodm:ExtCodeID="C42954">
+          <nciodm:CDISCDefinition>A solid dosage form in which the drug is enclosed within a soluble, gelatin shell which is plasticized by the addition of a polyol, such as sorbitol or glycerin, and is therefore of a somewhat thicker consistency than that of a hard shell capsule; typically, the active ingredients are dissolved or suspended in a liquid vehicle. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Liquid Filled Capsule Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CEMENT" nciodm:ExtCodeID="C45414">
+          <nciodm:CDISCDefinition>A substance that serves to produce solid union between two surfaces. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Cement Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CIGARETTE" nciodm:ExtCodeID="C42678">
+          <nciodm:CDISCDefinition>A narrow tube filled with material that is capable to burn with release of therapeutically-active substance(s) during the process of smoking. Cigarette is a very efficient drug-delivery inhaler system for fast-acting substances.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Cigarette Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CLOTH" nciodm:ExtCodeID="C60884">
+          <nciodm:CDISCDefinition>A large piece of relatively flat, absorbent material that contains a drug. It is typically used for applying medication or for cleansing. (FDA)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Cloth Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CONCENTRATE" nciodm:ExtCodeID="C60891">
+          <nciodm:CDISCDefinition>A liquid preparation of increased strength and reduced volume which is usually diluted prior to administration. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Concentrate Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CONE" nciodm:ExtCodeID="C42900">
+          <nciodm:CDISCDefinition>A solid dosage form bounded by a circular base and the surface formed by line segments joining every point of the boundary of the base to a common vertex. A cone (usually containing antibiotics) is normally placed below the gingiva after a dental extraction. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Cone Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CORE, EXTENDED RELEASE" nciodm:ExtCodeID="C42919">
+          <nciodm:CDISCDefinition>An ocular system placed in the eye from which the drug diffuses through a membrane at a constant rate over a specified period. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Extended Release Core Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CREAM" nciodm:ExtCodeID="C28944">
+          <nciodm:CDISCDefinition>A semisolid emulsion of either the oil-in-water or the water-in-oil type, ordinarily intended for topical use. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Cream Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CREAM, AUGMENTED" nciodm:ExtCodeID="C60897">
+          <nciodm:CDISCDefinition>A cream dosage form that enhances drug delivery. Augmentation does not refer to the strength of the drug in the dosage form. NOTE: CDER has decided to refrain from expanding the use of this dosage form due to difficulties in setting specific criteria that must be met to be considered augmented. (FDA)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Augmented Cream Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CRYSTAL" nciodm:ExtCodeID="C42901">
+          <nciodm:CDISCDefinition>A naturally produced angular solid of definite form in which the ultimate units from which it is built up are systematically arranged; they are usually evenly spaced on a regular space lattice.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Crystal Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CULTURE" nciodm:ExtCodeID="C45415">
+          <nciodm:CDISCDefinition>The propagation of microorganisms or of living tissue cells in special media conducive to their growth. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Culture Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="DIAPHRAGM" nciodm:ExtCodeID="C47890">
+          <nciodm:CDISCDefinition>A device usually dome-shaped, worn during copulation over the cervical mouth for prevention of conception or infection. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Diaphragm Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="DISC" nciodm:ExtCodeID="C43525">
+          <nciodm:CDISCDefinition>A circular plate-like organ or structure. (FDA)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Disc Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="DOUCHE" nciodm:ExtCodeID="C42679">
+          <nciodm:CDISCDefinition>A liquid preparation, intended for the irrigative cleansing of the vagina, that is prepared from powders, liquid solutions, or liquid concentrates and contains one or more chemical substances dissolved in a suitable solvent or mutually miscible solvents. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Douche Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="DRESSING" nciodm:ExtCodeID="C42763">
+          <nciodm:CDISCDefinition>The application of various materials for protecting a wound.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Dressing Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="DRUG DELIVERY SYSTEM" nciodm:ExtCodeID="C17423">
+          <nciodm:CDISCDefinition>Modern technology, distributed with or as a part of a drug product that allows for the uniform release or targeting of drugs to the body. (FDA)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Drug Delivery System</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ELIXIR" nciodm:ExtCodeID="C42912">
+          <nciodm:CDISCDefinition>A clear, pleasantly flavored, sweetened hydroalcoholic liquid containing dissolved medicinal agents; it is intended for oral use. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Elixir Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="EMULSION" nciodm:ExtCodeID="C42913">
+          <nciodm:CDISCDefinition>A dosage form consisting of a two-phase system comprised of at least two immiscible liquids (1), one of which is dispersed as droplets (internal or dispersed phase) within the other liquid (external or continuous phase), generally stabilized with one or more emulsifying agents. Note 1: A liquid is pourable; it flows and conforms to its container at room temperature. It displays Newtonian or pseudoplastic flow behavior. Note 2: Emulsion is used as a dosage form term unless a more specific term is applicable, e.g. cream, lotion, ointment. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Emulsion Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ENEMA" nciodm:ExtCodeID="C42915">
+          <nciodm:CDISCDefinition>A rectal preparation for therapeutic, diagnostic, or nutritive purposes. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Enema Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="EXTRACT" nciodm:ExtCodeID="C42929">
+          <nciodm:CDISCDefinition>A concentrated preparation of vegetable or animal drugs obtained by removal of the active constituents of the respective drugs with a suitable menstrua, evaporation of all or nearly all of the solvent, and adjustment of the residual masses or powders to the prescribed standards. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Extract Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="FIBER, EXTENDED RELEASE" nciodm:ExtCodeID="C60926">
+          <nciodm:CDISCDefinition>A slender and elongated solid thread-like substance that delivers drug in such a manner to allow a reduction in dosing frequency as compared to that drug (or drugs) presented as a conventional dosage form. (FDA)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Extended Release Fiber Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="FILM" nciodm:ExtCodeID="C42932">
+          <nciodm:CDISCDefinition>A thin layer or coating. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Film Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="FILM, EXTENDED RELEASE" nciodm:ExtCodeID="C42920">
+          <nciodm:CDISCDefinition>A drug delivery system in the form of a film that releases the drug over an extended period in such a way as to maintain constant drug levels in the blood or target tissue. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Extended Release Film Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="FILM, SOLUBLE" nciodm:ExtCodeID="C42984">
+          <nciodm:CDISCDefinition>A thin layer or coating which is susceptible to being dissolved when in contact with a liquid. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Soluble Film Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="FOR SOLUTION" nciodm:ExtCodeID="C60927">
+          <nciodm:CDISCDefinition>A product, usually a solid, intended for solution prior to administration. (FDA)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Dosage Form For Solution</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="FOR SUSPENSION" nciodm:ExtCodeID="C60928">
+          <nciodm:CDISCDefinition>A product, usually a solid, intended for suspension prior to administration. (FDA)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Dosage Form For Suspension</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="FOR SUSPENSION, EXTENDED RELEASE" nciodm:ExtCodeID="C60929">
+          <nciodm:CDISCDefinition>A product, usually a solid, intended for suspension prior to administration; once the suspension is administered, the drug will be released at a constant rate over a specified period. (FDA)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Extended Release Dosage Form For Suspension</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GAS" nciodm:ExtCodeID="C42933">
+          <nciodm:CDISCDefinition>Any elastic aeriform fluid in which the molecules are separated from one another and have free paths. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Gas Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GEL" nciodm:ExtCodeID="C42934">
+          <nciodm:CDISCDefinition>A semisolid (1) dosage form that contains a gelling agent to provide stiffness to a solution or a colloidal dispersion (2). A gel may contain suspended particles. Note 1: A semisolid is not pourable; it does not flow or conform to its container at room temperature. It does not flow at low shear stress and generally exhibits plastic flow behavior. Note 2: A colloidal dispersion is a system in which particles of colloidal dimension (i.e., typically between 1 nm and 1 micrometer) are distributed uniformly throughout a liquid. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Gel Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GEL, DENTIFRICE" nciodm:ExtCodeID="C42906">
+          <nciodm:CDISCDefinition>A combination of a dentifrice (formulation intended to clean and/or polish the teeth, and which may contain certain additional agents), and a gel. It is used with a toothbrush for the purpose of cleaning and polishing the teeth. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Dentifrice Gel Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GEL, METERED" nciodm:ExtCodeID="C60930">
+          <nciodm:CDISCDefinition>A gel preparation, with metered dose valves, which allow for the delivery of a uniform quantity of gel upon each activation. (FDA)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Metered Gel Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GENERATOR" nciodm:ExtCodeID="C48193">
+          <nciodm:CDISCDefinition>An apparatus for the formation of vapor or gas from a liquid or solid by heat or chemical action. The term GENERATOR also applies to radioactive columns from which radionuclides are provided. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Generator Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GLOBULE" nciodm:ExtCodeID="C42937">
+          <nciodm:CDISCDefinition>Also called pellets or pilules, are made of pure sucrose, lactose, or other polysaccharides. They are formed into small globular masses of various sizes, and are medicated by placing them in a vial and adding the liquid drug attenuation in the proportion not less than one percent (v/w). After shaking, the medicated globules are dried at temperatures not to exceed 40 degrees Centigrade. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Globule Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GRAFT" nciodm:ExtCodeID="C45416">
+          <nciodm:CDISCDefinition>A slip of skin or of other tissue for implantation. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Graft Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GRANULE" nciodm:ExtCodeID="C42938">
+          <nciodm:CDISCDefinition>A small particle or grain. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Granule Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GRANULE, DELAYED RELEASE" nciodm:ExtCodeID="C42903">
+          <nciodm:CDISCDefinition>A small medicinal particle or grain to which an enteric or other coating has been applied, thus delaying release of the drug until its passage into the intestines. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Delayed Release Granule Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GRANULE, EFFERVESCENT" nciodm:ExtCodeID="C42909">
+          <nciodm:CDISCDefinition>A small particle or grain containing a medicinal agent in a dry mixture usually composed of sodium bicarbonate, citric acid, and tartaric acid which, when in contact with water, has the capability to release gas, resulting in effervescence. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Effervescent Granule Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GRANULE, FOR SOLUTION" nciodm:ExtCodeID="C42939">
+          <nciodm:CDISCDefinition>A small medicinal particle or grain made available in its more stable dry form, to be reconstituted with solvent just before dispensing; the granules are so prepared to contain not only the medicinal agent, but the colorants, flavorants, and any other desired pharmaceutic ingredient. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Granule For Solution Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GRANULE, FOR SUSPENSION" nciodm:ExtCodeID="C42940">
+          <nciodm:CDISCDefinition>A small medicinal particle or grain made available in its more stable dry form, to be reconstituted with solvent just before dispensing to form a suspension; the granules are so prepared to contain not only the medicinal agent, but the colorants, flavorants, and any other desired pharmaceutic ingredient. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Granule For Suspension Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GRANULE, FOR SUSPENSION, EXTENDED RELEASE" nciodm:ExtCodeID="C42921">
+          <nciodm:CDISCDefinition>A small medicinal particle or grain made available in its more stable dry form, to be reconstituted with solvent just before dispensing to form a suspension; the extended release system achieves slow release of the drug over an extended period of time and maintains constant drug levels in the blood or target tissue. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Extended Release Granule For Suspension Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GUM" nciodm:ExtCodeID="C42941">
+          <nciodm:CDISCDefinition>A mucilaginous excretion from various plants. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Gum Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GUM, CHEWING" nciodm:ExtCodeID="C42894">
+          <nciodm:CDISCDefinition>A sweetened and flavored insoluble plastic material of various shapes which when chewed, releases a drug substance into the oral cavity. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Chewing Gum Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GUM, RESIN" nciodm:ExtCodeID="C42978">
+          <nciodm:CDISCDefinition>Natural mixture of gum and resin, usually obtained as exudations from plants. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Resin Gum Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="IMPLANT" nciodm:ExtCodeID="C42942">
+          <nciodm:CDISCDefinition>A material containing drug intended to be inserted securely and deeply in a living site for growth, slow release, or formation of an organic union. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Implant Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="INHALANT" nciodm:ExtCodeID="C42944">
+          <nciodm:CDISCDefinition>A special class of inhalations consisting of a drug or combination of drugs, that by virtue of their high vapor pressure, can be carried by an air current into the nasal passage where they exert their effect; the container from which the inhalant generally is administered is known as an inhaler. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Inhalant Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="INJECTABLE, LIPOSOMAL" nciodm:ExtCodeID="C60931">
+          <nciodm:CDISCDefinition>An injection, which either consists of or forms liposomes (a lipid bilayer vesicle usually composed of phospholipids which is used to encapsulate an active drug substance). (FDA)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Liposomal Injection Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="INJECTION" nciodm:ExtCodeID="C42946">
+          <nciodm:CDISCDefinition>A sterile preparation intended for parenteral use; five distinct classes of injections exist as defined by the USP. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Injectable Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="INJECTION, EMULSION" nciodm:ExtCodeID="C42914">
+          <nciodm:CDISCDefinition>An emulsion consisting of a sterile, pyrogen-free preparation intended to be administered parenterally.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Emulsion for Injection Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="INJECTION, LIPID COMPLEX" nciodm:ExtCodeID="C42950">
+          <nciodm:CDISCDefinition>[definition pending](FDA)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Injectable Lipid Complex Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="INJECTION, POWDER, FOR SOLUTION" nciodm:ExtCodeID="C42974">
+          <nciodm:CDISCDefinition>A sterile preparation intended for reconstitution to form a solution for parenteral use. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Powder For Injectable Solution Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="INJECTION, POWDER, FOR SUSPENSION" nciodm:ExtCodeID="C42976">
+          <nciodm:CDISCDefinition>A sterile preparation intended for reconstitution to form a suspension for parenteral use. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Powder For Injectable Suspension Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="INJECTION, POWDER, FOR SUSPENSION, EXTENDED RELEASE" nciodm:ExtCodeID="C42977">
+          <nciodm:CDISCDefinition>A dried preparation intended for reconstitution to form a suspension for parenteral use which has been formulated in a manner to allow at least a reduction in dosing frequency as compared to that drug presented as a conventional dosage form (e.g., as a solution).(FDA)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Powder For Injectable Extended Release Suspension Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="INJECTION, POWDER, LYOPHILIZED, FOR LIPOSOMAL SUSPENSION" nciodm:ExtCodeID="C42959">
+          <nciodm:CDISCDefinition>A sterile freeze dried preparation intended for reconstitution for parenteral use which has been formulated in a manner that would allow liposomes (a lipid bilayer vesicle usually composed of phospholipids which is used to encapsulate an active drug substance, either within a lipid bilayer or in an aqueous space) to be formed upon reconstitution. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Lyophilized Powder For Injectable Liposomal Suspension Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION" nciodm:ExtCodeID="C42957">
+          <nciodm:CDISCDefinition>A dosage form intended for the solution prepared by lyophilization ('freeze drying'), a process which involves the removal of water from products in the frozen state at extremely low pressures; this is intended for subsequent addition of liquid to create a solution that conforms in all respects to the requirements for Injections. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Lyophilized Powder For Injectable Solution Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="INJECTION, POWDER, LYOPHILIZED, FOR SUSPENSION" nciodm:ExtCodeID="C42958">
+          <nciodm:CDISCDefinition>A liquid preparation, intended for parenteral use, that contains solids suspended in a suitable fluid medium and conforms in all respects to the requirements for Sterile Suspensions; the medicinal agents intended for the suspension are prepared by lyophilization ("freeze drying"), a process which involves the removal of water from products in the frozen state at extremely low pressures. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Lyophilized Powder For Injectable Suspension Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="INJECTION, POWDER, LYOPHILIZED, FOR SUSPENSION, EXTENDED RELEASE" nciodm:ExtCodeID="C42956">
+          <nciodm:CDISCDefinition>A sterile freeze dried preparation intended for reconstitution for parenteral use which has been formulated in a manner to allow at least a reduction in dosing frequency as compared to that drug presented as a conventional dosage form (e.g., as a solution). (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Lyophilized Powder For Extended Release Injectable Suspension Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="INJECTION, SOLUTION" nciodm:ExtCodeID="C42945">
+          <nciodm:CDISCDefinition>A liquid preparation containing one or more drug substances dissolved in a suitable solvent or mixture of mutually miscible solvents that is suitable for injection. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Injectable Solution Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="INJECTION, SOLUTION, CONCENTRATE" nciodm:ExtCodeID="C42899">
+          <nciodm:CDISCDefinition>A sterile preparation for parenteral use which, upon the addition of suitable solvents, yields a solution conforming in all respects to the requirements for Injections. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Concentrate for Injectable Solution Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="INJECTION, SUSPENSION" nciodm:ExtCodeID="C42995">
+          <nciodm:CDISCDefinition>A liquid preparation, suitable for injection, which consists of solid particles dispersed throughout a liquid phase in which the particles are not soluble. It can also consist of an oil phase dispersed throughout an aqueous phase, or vice-versa. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Injectable Suspension Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="INJECTION, SUSPENSION, EXTENDED RELEASE" nciodm:ExtCodeID="C42926">
+          <nciodm:CDISCDefinition>A sterile preparation intended for parenteral use which has been formulated in a manner to allow at least a reduction in dosing frequency as compared to that drug presented as a conventional dosage form (e.g., as a solution or a prompt drug-releasing, conventional solid dosage form). (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Injectable Extended Release Suspension Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="INJECTION, SUSPENSION, LIPOSOMAL" nciodm:ExtCodeID="C42951">
+          <nciodm:CDISCDefinition>A liquid parenteral pharmaceutical dosage form structured as a multilamellar composition of concentric phospholipid spheres that encapsulate the drug (drug delivery systems) separated by layers of water. Drug release is facilitated and controlled by in vivo erosion of the liposomes. To further increase the in vivo circulation time, liposomes in some preparations are covalently derivatized with PEG to produce PEGylated or stealth liposomes. Covalent attachment of drugs to the outer surface of liposomes can potentially serve as a delayed-release product. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Injectable Liposomal Suspension Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="INJECTION, SUSPENSION, SONICATED" nciodm:ExtCodeID="C42988">
+          <nciodm:CDISCDefinition>A liquid preparation, suitable for injection, which consists of solid particles dispersed throughout a liquid phase in which the particles are not soluble. In addition, the product is sonicated while a gas is bubbled through the suspension, and this results in the formation of microspheres by the solid particles. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Injectable Sonicated Suspension Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="INSERT" nciodm:ExtCodeID="C60933">
+          <nciodm:CDISCDefinition>A specially formulated and shaped non-encapsulated solid preparation intended to be placed into a non-rectal orifice of the body, where drug is released, generally for localized effects. (FDA)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Insert Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="INSERT, EXTENDED RELEASE" nciodm:ExtCodeID="C42922">
+          <nciodm:CDISCDefinition>A specially formulated and shaped solid preparation (e.g., ring, tablet, or stick) intended to be placed in the vagina by special inserters, where the medication is released, generally for localized effects; the extended release preparation is designed to allow a reduction in dosing frequency. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Extended Release Insert Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="INTRAUTERINE DEVICE" nciodm:ExtCodeID="C47915">
+          <nciodm:CDISCDefinition>A device inserted and left in the uterus to prevent effective conception. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Intrauterine Device Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="IRRIGANT" nciodm:ExtCodeID="C42947">
+          <nciodm:CDISCDefinition>A sterile solution intended to bathe or flush open wounds or body cavities; they're used topically, never parenterally. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Irrigant Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="JELLY" nciodm:ExtCodeID="C42948">
+          <nciodm:CDISCDefinition>A class of gels--semisolid systems which consist of suspensions made up of either small inorganic particles or large organic molecules interpenetrated by a liquid--in which the structural coherent matrix contains a high portion of liquid, usually water. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Jelly Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="KIT" nciodm:ExtCodeID="C47916">
+          <nciodm:CDISCDefinition>A packaged collection of related material. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Kit Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LINER, DENTAL" nciodm:ExtCodeID="C45413">
+          <nciodm:CDISCDefinition>A material applied to the inside of the dental cavity, for protection or insulation of the surface.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Dental Liner Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LINIMENT" nciodm:ExtCodeID="C42949">
+          <nciodm:CDISCDefinition>A solution or mixture of various substances in oil, alcoholic solutions of soap, or emulsions intended for external application. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Liniment Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LIPSTICK" nciodm:ExtCodeID="C42952">
+          <nciodm:CDISCDefinition>A waxy solid, usually colored cosmetic, in stick form for the lips. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Lipstick Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LIQUID" nciodm:ExtCodeID="C42953">
+          <nciodm:CDISCDefinition>A dosage form consisting of a pure chemical in its liquid state. This dosage form term should not be applied to solutions. Note: A liquid is pourable; it flows and conforms to its container at room temperature. It displays Newtonian or pseudoplastic flow behavior.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Liquid Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LIQUID, EXTENDED RELEASE" nciodm:ExtCodeID="C60934">
+          <nciodm:CDISCDefinition>A liquid that delivers a drug in such a manner to allow a reduction in dosing frequency as compared to that drug (or drugs) presented as a conventional dosage form. (FDA)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Extended Release Liquid Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LOTION" nciodm:ExtCodeID="C29167">
+          <nciodm:CDISCDefinition>An emulsion, liquid (1) dosage form. This dosage form is generally for external application to the skin (2). Note 1: A liquid is pourable; it flows and conforms to its container at room temperature. It displays Newtonian or pseudoplastic flow behavior. Note 2: Previously the definition of a lotion was: The term lotion has been used to categorize many topical suspensions, solutions, and emulsions intended for application to the skin. The current definition of a lotion is restricted to an emulsion. (FDA)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Lotion Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LOTION. AUGMENTED" nciodm:ExtCodeID="C60957">
+          <nciodm:CDISCDefinition>A lotion dosage form that enhances drug delivery. Augmentation does not refer to the strength of the drug in the dosage form. NOTE: CDER has decided to refrain from expanding the use of this dosage form due to difficulties in setting specific criteria that must be met to be considered augmented. (FDA)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Augmented Lotion Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LOTION/SHAMPOO" nciodm:ExtCodeID="C60958">
+          <nciodm:CDISCDefinition>A lotion dosage form which has a soap or detergent that is usually used to clean the hair and scalp; it is often used as a vehicle for dermatologic agents. (FDA)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Lotion Shampoo Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LOZENGE" nciodm:ExtCodeID="C42955">
+          <nciodm:CDISCDefinition>A solid preparation containing one or more medicaments, usually in a flavored, sweetened base which is intended to dissolve or disintegrate slowly in the mouth. A lollipop is a lozenge on a stick.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Lozenge Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MOUTHWASH" nciodm:ExtCodeID="C29269">
+          <nciodm:CDISCDefinition>An aqueous solution which is most often used for its deodorant, refreshing, or antiseptic effect. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Mouthwash Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="NOT APPLICABLE" nciodm:ExtCodeID="C48624">
+          <nciodm:CDISCDefinition>The use of a dosage form term is not relevant or appropriate. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Dosage Form Not Applicable</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="OIL" nciodm:ExtCodeID="C42965">
+          <nciodm:CDISCDefinition>An unctuous, combustible substance which is liquid, or easily liquefiable, on warming, and is soluble in ether but insoluble in water. Such substances, depending on their origin, are classified as animal, mineral, or vegetable oils. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Oil Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="OINTMENT" nciodm:ExtCodeID="C42966">
+          <nciodm:CDISCSynonym>oint</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A suspension or emulsion, semisolid (1) dosage form, usually containing &lt; 20% water and volatiles (2) and &gt; 50% hydrocarbons, waxes, or polyols as the vehicle. This dosage form is generally for external application to the skin or mucous membranes. Note 1: A semisolid is not pourable; it does not flow or conform to its container at room temperature. It does not flow at low shear stress and generally exhibits plastic flow behavior. Note 2: Percent water and volatiles are measured by a loss on drying test in which the sample is heated at 105 degrees C until constant weight is achieved. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Ointment Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="OINTMENT, AUGMENTED" nciodm:ExtCodeID="C60984">
+          <nciodm:CDISCDefinition>An ointment dosage form that enhances drug delivery. Augmentation does not refer to the strength of the drug in the dosage form. NOTE: CDER has decided to refrain from expanding the use of this dosage form due to difficulties in setting specific criteria that must be met to be considered augmented. (FDA)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Augmented Ointment Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PACKING" nciodm:ExtCodeID="C47887">
+          <nciodm:CDISCDefinition>A material, usually covered by or impregnated with a drug, that is inserted into a body cavity or between the tooth enamel and the gingival margin.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Packing Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PASTE" nciodm:ExtCodeID="C42967">
+          <nciodm:CDISCDefinition>A semisolid dosage form, containing a large proportion (20 - 50%) of solids finely dispersed in a fatty vehicle. This dosage form is generally for external application to the skin or mucous membranes. Note: A semisolid is not pourable; it does not flow or conform to its container at room temperature. It does not flow at low shear stress and generally exhibits plastic flow behavior. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Paste Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PASTE, DENTIFRICE" nciodm:ExtCodeID="C42907">
+          <nciodm:CDISCDefinition>A paste formulation intended to clean and/or polish the teeth, and which may contain certain additional agents. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Dentifrice Paste Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PASTILLE" nciodm:ExtCodeID="C60985">
+          <nciodm:CDISCDefinition>An aromatic preparation, often with a pleasing flavor, usually intended to dissolve in the mouth. (FDA)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Pastille Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PATCH" nciodm:ExtCodeID="C42968">
+          <nciodm:CDISCDefinition>A drug delivery system that often contains an adhesive backing that is usually applied to an external site on the body. Its ingredients either passively diffuse from, or are actively transported from, some portion of the patch. Depending upon the patch, the ingredients are either delivered to the outer surface of the body or into the body. A patch is sometimes synonymous with the terms Extended Release Film and System. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Patch Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PATCH, EXTENDED RELEASE" nciodm:ExtCodeID="C42923">
+          <nciodm:CDISCDefinition>A drug delivery system in the form of a patch that releases the drug in such a manner that a reduction in dosing frequency compared to that drug presented as a conventional dosage form (e.g., a solution or a prompt drug-releasing, conventional solid dosage form). (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Extended Release Patch Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PATCH, EXTENDED RELEASE, ELECTRICALLY CONTROLLED" nciodm:ExtCodeID="C42911">
+          <nciodm:CDISCDefinition>A drug delivery system in the form of a patch which is controlled by an electric current that releases the drug in such a manner that a reduction in dosing frequency compared to that drug presented as a conventional dosage form (e.g., a solution or a prompt drug-releasing, conventional solid dosage form). (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Electrically Controlled Extended Release Patch Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PELLET" nciodm:ExtCodeID="C42969">
+          <nciodm:CDISCDefinition>A small sterile solid mass consisting of a highly purified drug (with or without excipients) made by the formation of granules, or by compression and molding. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Pellet Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PELLET, IMPLANTABLE" nciodm:ExtCodeID="C42943">
+          <nciodm:CDISCDefinition>A small sterile solid mass consisting of a highly purified drug (with or without excipients) made by the formation of granules, or by compression and molding; they are intended for implantation in the body (usually subcutaneously) for the purpose of providing continuous release of the drug over long periods of time. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Implantable Pellet Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PELLETS, COATED, EXTENDED RELEASE" nciodm:ExtCodeID="C42918">
+          <nciodm:CDISCDefinition>A solid dosage form in which the drug itself is in the form of granules to which varying amounts of coating have been applied, and which releases a drug (or drugs) in such a manner to allow a reduction in dosing frequency as compared to that drug (or drugs) presented as a conventional dosage form. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Extended Release Coated Pellets Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PILL" nciodm:ExtCodeID="C25394">
+          <nciodm:CDISCDefinition>A dose of medicine in the form of a small pellet. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Pill Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PLASTER" nciodm:ExtCodeID="C42970">
+          <nciodm:CDISCDefinition>Substance intended for external application made of such materials and of such consistency as to adhere to the skin and attach to a dressing; plasters are intended to afford protection and support and/or to furnish an occlusion and macerating action and to bring medication into close contact with the skin. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Plaster Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="POULTICE" nciodm:ExtCodeID="C47913">
+          <nciodm:CDISCDefinition>A soft, moist mass of meal, herbs, seed, etc., usually applied hot in cloth that consists of gruel-like consistency. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Poultice Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="POWDER" nciodm:ExtCodeID="C42972">
+          <nciodm:CDISCDefinition>An intimate mixture of dry, finely divided drugs and/or chemicals that may be intended for internal or external use. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Powder Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="POWDER, DENTIFRICE" nciodm:ExtCodeID="C42908">
+          <nciodm:CDISCDefinition>A powder formulation intended to clean and/or polish the teeth, and which may contain certain additional agents. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Dentifrice Powder Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="POWDER, FOR SOLUTION" nciodm:ExtCodeID="C42973">
+          <nciodm:CDISCDefinition>An intimate mixture of dry, finely divided drugs and/or chemicals, which, upon the addition of suitable vehicles, yields a solution. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Powder for Solution Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="POWDER, FOR SUSPENSION" nciodm:ExtCodeID="C42975">
+          <nciodm:CDISCDefinition>An intimate mixture of dry, finely divided drugs and/or chemicals, which, upon the addition of suitable vehicles, yields a suspension (a liquid preparation containing the solid particles dispersed in the liquid vehicle). (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Powder for Suspension Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="POWDER, METERED" nciodm:ExtCodeID="C42961">
+          <nciodm:CDISCDefinition>A powder dosage form that is situated inside a container that has a mechanism to deliver a specified quantity. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Metered Powder Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="RING" nciodm:ExtCodeID="C60988">
+          <nciodm:CDISCDefinition>A small circular object with a vacant circular center that is usually intended to be placed in the body by special inserters, where the medication is released, generally for localized effects. (FDA)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Ring Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="RINSE" nciodm:ExtCodeID="C42979">
+          <nciodm:CDISCDefinition>A liquid used to cleanse by flushing. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Rinse Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SALVE" nciodm:ExtCodeID="C42980">
+          <nciodm:CDISCDefinition>A thick ointment or cerate (a fat or wax based preparation with a consistency between an ointment and a plaster). (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Salve Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SHAMPOO" nciodm:ExtCodeID="C42981">
+          <nciodm:CDISCDefinition>A liquid soap or detergent used to clean the hair and scalp and is often used as a vehicle for dermatologic agents. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Shampoo Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SHAMPOO, SUSPENSION" nciodm:ExtCodeID="C42982">
+          <nciodm:CDISCDefinition>A liquid soap or detergent containing one or more solid, insoluble substances dispersed in a liquid vehicle that is used to clean the hair and scalp and is often used as a vehicle for dermatologic agents. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Shampoo Suspension Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SOAP" nciodm:ExtCodeID="C42983">
+          <nciodm:CDISCDefinition>Any compound of one or more fatty acids, or their equivalents, with an alkali; soap is detergent and is much employed in liniments, enemas, and in making pills. It is also a mild aperient, antacid and antiseptic. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Soap Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SOLUTION" nciodm:ExtCodeID="C42986">
+          <nciodm:CDISCDefinition>A clear, homogeneous liquid dosage form that contains one or more chemical substances dissolved in a solvent or mixture of mutually miscible solvents. Note: A liquid is pourable; it flows and conforms to its container at room temperature. It displays Newtonian or pseudoplastic flow behavior. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Solution Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SOLUTION, CONCENTRATE" nciodm:ExtCodeID="C42898">
+          <nciodm:CDISCDefinition>A liquid preparation (i.e., a substance that flows readily in its natural state) that contains a drug dissolved in a suitable solvent or mixture of mutually miscible solvents; the drug has been strengthened by the evaporation of its non-active parts. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Concentrate for Solution Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SOLUTION, FOR SLUSH" nciodm:ExtCodeID="C42987">
+          <nciodm:CDISCDefinition>A solution for the preparation of an iced saline slush, which is administered by irrigation and used to induce regional hypothermia (in conditions such as certain open heart and kidney surgical procedures) by its direct application. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Solution For Slush Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SOLUTION, GEL FORMING / DROPS" nciodm:ExtCodeID="C60994">
+          <nciodm:CDISCDefinition>A solution, which after usually being administered in a drop-wise fashion, forms a gel. (FDA)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Gel Forming Drops Solution Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SOLUTION, GEL FORMING, EXTENDED RELEASE" nciodm:ExtCodeID="C42935">
+          <nciodm:CDISCDefinition>A solution that forms a gel when it comes in contact with ocular fluid, and which allows at least a reduction in dosing frequency. (FDA)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Extended Release Gel Forming Solution Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SOLUTION/ DROPS" nciodm:ExtCodeID="C60992">
+          <nciodm:CDISCDefinition>A solution which is usually administered in a drop-wise fashion. (FDA)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Drops Solution Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SPONGE" nciodm:ExtCodeID="C47912">
+          <nciodm:CDISCDefinition>A porous, interlacing, absorbent material that contains a drug. It is typically used for applying or introducing medication, or for cleansing. A sponge usually retains its shape.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Sponge Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SPRAY" nciodm:ExtCodeID="C42989">
+          <nciodm:CDISCDefinition>A liquid minutely divided as by a jet of air or steam. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Spray Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SPRAY, METERED" nciodm:ExtCodeID="C42962">
+          <nciodm:CDISCDefinition>A non-pressurized dosage form consisting of valves which allow the dispensing of a specified quantity of spray upon each activation. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Metered Spray Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SPRAY, SUSPENSION" nciodm:ExtCodeID="C42990">
+          <nciodm:CDISCDefinition>A liquid preparation containing solid particles dispersed in a liquid vehicle and in the form of coarse droplets or as finely divided solids to be applied locally, most usually to the nasal-pharyngeal tract, or topically to the skin. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Spray Suspension Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="STICK" nciodm:ExtCodeID="C42991">
+          <nciodm:CDISCDefinition>A dosage form prepared in a relatively long and slender often cylindrical form. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Stick Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="STRIP" nciodm:ExtCodeID="C47914">
+          <nciodm:CDISCDefinition>A long narrow piece of material.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Strip Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SUPPOSITORY" nciodm:ExtCodeID="C42993">
+          <nciodm:CDISCSynonym>supp</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A solid body of various weights and shapes, adapted for introduction into the rectal, vaginal, or urethral orifice of the human body; they usually melt, soften, or dissolve at body temperature. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Suppository Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SUPPOSITORY, EXTENDED RELEASE" nciodm:ExtCodeID="C42924">
+          <nciodm:CDISCDefinition>A drug delivery system in the form of a suppository that allows at least a reduction in dosing frequency. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Extended Release Suppository Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SUSPENSION" nciodm:ExtCodeID="C42994">
+          <nciodm:CDISCSynonym>susp</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A liquid dosage form that contains solid particles dispersed in a liquid vehicle. Note: A liquid is pourable; it flows and conforms to its container at room temperature. It displays Newtonian or pseudoplastic flow behavior.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Suspension Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SUSPENSION, EXTENDED RELEASE" nciodm:ExtCodeID="C42925">
+          <nciodm:CDISCDefinition>A liquid preparation consisting of solid particles dispersed throughout a liquid phase in which the particles are not soluble; the suspension has been formulated in a manner to allow at least a reduction in dosing frequency as compared to that drug presented as a conventional dosage form (e.g., as a solution or a prompt drug-releasing, conventional solid dosage form). (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Extended Release Suspension Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SUSPENSION/DROPS" nciodm:ExtCodeID="C60995">
+          <nciodm:CDISCDefinition>A suspension which is usually administered in a dropwise fashion. (FDA)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Drops Suspension Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SUTURE" nciodm:ExtCodeID="C47889">
+          <nciodm:CDISCDefinition>A strand or fiber used to hold wound edges in apposition during healing. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Suture Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SWAB" nciodm:ExtCodeID="C47898">
+          <nciodm:CDISCDefinition>A small piece of relatively flat absorbent material that contains a drug. A swab may also be attached to one end of a small stick. A swab is typically used for applying medication or for cleansing. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Swab Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SYRUP" nciodm:ExtCodeID="C42996">
+          <nciodm:CDISCDefinition>An oral solution containing high concentrations of sucrose or other sugars; the term has also been used to include any other liquid dosage form prepared in a sweet and viscid vehicle, including oral suspensions. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Syrup Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TABLET" nciodm:ExtCodeID="C42998">
+          <nciodm:CDISCSynonym>tab</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A solid dosage form containing medicinal substances with or without suitable diluents. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Tablet Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TABLET, CHEWABLE" nciodm:ExtCodeID="C42893">
+          <nciodm:CDISCDefinition>A solid dosage form containing medicinal substances with or without suitable diluents that is intended to be chewed, producing a pleasant tasting residue in the oral cavity that is easily swallowed and does not leave a bitter or unpleasant after-taste. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Chewable Tablet Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TABLET, COATED" nciodm:ExtCodeID="C42897">
+          <nciodm:CDISCDefinition>A solid dosage form that contains medicinal substances with or without suitable diluents and is covered with a designated coating. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Coated Tablet Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TABLET, COATED PARTICLES" nciodm:ExtCodeID="C60997">
+          <nciodm:CDISCDefinition>A solid dosage form containing a conglomerate of medicinal particles that have each been covered with a coating. (FDA)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Tablet Coated Particles Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TABLET, DELAYED RELEASE" nciodm:ExtCodeID="C42905">
+          <nciodm:CDISCDefinition>A solid dosage form which releases a drug (or drugs) at a time other than promptly after administration. Enteric-coated articles are delayed release dosage forms. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Delayed Release Tablet Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TABLET, DELAYED RELEASE PARTICLES" nciodm:ExtCodeID="C42997">
+          <nciodm:CDISCDefinition>A solid dosage form containing a conglomerate of medicinal particles that have been covered with a coating which releases a drug (or drugs) at a time other than promptly after administration. Enteric-coated articles are delayed release dosage forms. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Delayed Release Particles Tablet Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TABLET, EFFERVESCENT" nciodm:ExtCodeID="C42910">
+          <nciodm:CDISCDefinition>A solid dosage form containing mixtures of acids (e.g., citric acid, tartaric acid) and sodium bicarbonate, which release carbon dioxide when dissolved in water; it is intended to be dissolved or dispersed in water before administration.(FDA)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Effervescent Tablet Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TABLET, EXTENDED RELEASE" nciodm:ExtCodeID="C42927">
+          <nciodm:CDISCDefinition>A solid dosage form containing a drug which allows at least a reduction in dosing frequency as compared to that drug presented in conventional dosage form. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Extended Release Tablet Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TABLET, FILM COATED" nciodm:ExtCodeID="C42931">
+          <nciodm:CDISCDefinition>A solid dosage form that contains medicinal substances with or without suitable diluents and is coated with a thin layer of a water-insoluble or water-soluble polymer. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Film Coated Tablet Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TABLET, FILM COATED, EXTENDED RELEASE" nciodm:ExtCodeID="C42930">
+          <nciodm:CDISCDefinition>A solid dosage form that contains medicinal substances with or without suitable diluents and is coated with a thin layer of a water-insoluble or water-soluble polymer; the tablet is formulated in such manner as to make the contained medicament available over an extended period of time following ingestion. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Film Coated Extended Release Tablet Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TABLET, FOR SOLUTION" nciodm:ExtCodeID="C61004">
+          <nciodm:CDISCDefinition>A tablet that forms a solution when placed in a liquid. (FDA)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Tablet For Solution Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TABLET, FOR SUSPENSION" nciodm:ExtCodeID="C61005">
+          <nciodm:CDISCDefinition>A tablet that forms a suspension when placed in a liquid (formerly referred to as a Dispersible Tablet).</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Tablet For Suspension Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TABLET, MULTILAYER" nciodm:ExtCodeID="C42964">
+          <nciodm:CDISCDefinition>A solid dosage form containing medicinal substances that have been compressed to form a multiple-layered tablet or a tablet-within-a-tablet, the inner tablet being the core and the outer portion being the shell. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Multilayered Tablet Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TABLET, MULTILAYER, EXTENDED RELEASE" nciodm:ExtCodeID="C42963">
+          <nciodm:CDISCDefinition>A solid dosage form containing medicinal substances that have been compressed to form a multiple-layered tablet or a tablet-within-a-tablet, the inner tablet being the core and the outer portion being the shell, which, additionally, is covered in a designated coating; the tablet is formulated in such manner as to allow at least a reduction in dosing frequency as compared to that drug presented as a conventional dosage form. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Multilayered Extended Release Tablet Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TABLET, ORALLY DISINTEGRATING" nciodm:ExtCodeID="C42999">
+          <nciodm:CDISCDefinition>A solid dosage form containing medicinal substances which disintegrates rapidly, usually within a matter of seconds, when placed upon the tongue. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Orally Disintegrating Tablet Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TABLET, ORALLY DISINTEGRATING, DELAYED RELEASE" nciodm:ExtCodeID="C61006">
+          <nciodm:CDISCDefinition>A solid dosage form containing medicinal substances which disintegrates rapidly, usually within a matter of seconds, when placed upon the tongue, but which releases a drug (or drugs) at a time other than promptly after administration. (FDA)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Tablet Orally Disintegrating Delayed Release Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TABLET, SOLUBLE" nciodm:ExtCodeID="C42985">
+          <nciodm:CDISCDefinition>A solid dosage form that contains medicinal substances with or without suitable diluents and possesses the ability to dissolve in fluids. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Soluble Tablet Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TABLET, SUGAR COATED" nciodm:ExtCodeID="C42992">
+          <nciodm:CDISCDefinition>A solid dosage form that contains medicinal substances with or without suitable diluents and is coated with a colored or an uncolored water-soluble sugar. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Sugar Coated Tablet Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TAMPON" nciodm:ExtCodeID="C47892">
+          <nciodm:CDISCDefinition>A plug made of cotton, sponge, or oakum variously used in surgery to plug the nose, vagina, etc., for the control of hemorrhage or the absorption of secretions. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Tampon Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TAPE" nciodm:ExtCodeID="C47897">
+          <nciodm:CDISCDefinition>A narrow woven fabric, or a narrow extruded synthetic (such as plastic), usually with an adhesive on one or both sides. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Tape Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TINCTURE" nciodm:ExtCodeID="C43000">
+          <nciodm:CDISCDefinition>An alcoholic or hydroalcoholic solution prepared from vegetable materials or from chemical substances. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Tincture Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TROCHE" nciodm:ExtCodeID="C43001">
+          <nciodm:CDISCDefinition>A discoid-shaped solid containing the medicinal agent in a suitably flavored base; troches are placed in the mouth where they slowly dissolve, liberating the active ingredients. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Troche Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="UNASSIGNED" nciodm:ExtCodeID="C43002">
+          <nciodm:CDISCDefinition>A dosage form has yet to be assigned. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Unassigned Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="WAFER" nciodm:ExtCodeID="C43003">
+          <nciodm:CDISCDefinition>A thin slice of material containing a medicinal agent. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Wafer Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <nciodm:CDISCSubmissionValue>FRM</nciodm:CDISCSubmissionValue>
+        <nciodm:CDISCSynonym>Pharmaceutical Dosage Form</nciodm:CDISCSynonym>
+        <nciodm:CDISCSynonym>Dose Form</nciodm:CDISCSynonym>
+        <nciodm:PreferredTerm>CDISC SDTM Pharmaceutical Dosage Form Terminology</nciodm:PreferredTerm>
+      </CodeList>
+      

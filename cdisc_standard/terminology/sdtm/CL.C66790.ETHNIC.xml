@@ -1,0 +1,28 @@
+<CodeList xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" OID="CL.C66790.ETHNIC" Name="Ethnic Group" DataType="text" nciodm:ExtCodeID="C66790" nciodm:CodeListExtensible="Yes">
+        <Description>
+          <TranslatedText xml:lang="en">A social group characterized by a distinctive social and cultural tradition maintained from generation to generation, a common history and origin and a sense of identification with the group; members of the group have distinctive features in their way of life, shared experiences and often a common genetic heritage; these features may be reflected in their experience of health and disease. (NCI)</TranslatedText>
+        </Description>
+        <EnumeratedItem CodedValue="HISPANIC OR LATINO" nciodm:ExtCodeID="C17459">
+          <nciodm:CDISCDefinition>A person of Mexican, Puerto Rican, Cuban, Central or South American or other Spanish culture or origin, regardless of race. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hispanic or Latino</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="NOT HISPANIC OR LATINO" nciodm:ExtCodeID="C41222">
+          <nciodm:CDISCDefinition>A person not of Cuban, Mexican, Puerto Rican, South or Central American, or other Spanish culture or origin, regardless of race. An arbitrary ethnic classification. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Not Hispanic or Latino</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="NOT REPORTED" nciodm:ExtCodeID="C43234">
+          <nciodm:CDISCSynonym>Not reported</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Not provided or available.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Not Stated</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="UNKNOWN" nciodm:ExtCodeID="C17998">
+          <nciodm:CDISCSynonym>U</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Unknown</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Not known, not observed, not recorded, or refused. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Unknown</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <nciodm:CDISCSubmissionValue>ETHNIC</nciodm:CDISCSubmissionValue>
+        <nciodm:CDISCSynonym>Ethnic Group</nciodm:CDISCSynonym>
+        <nciodm:PreferredTerm>CDISC SDTM Ethnic Group Terminology</nciodm:PreferredTerm>
+      </CodeList>
+      

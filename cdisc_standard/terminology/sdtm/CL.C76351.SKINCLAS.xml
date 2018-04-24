@@ -1,0 +1,39 @@
+<CodeList xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" OID="CL.C76351.SKINCLAS" Name="Skin Classification" DataType="text" nciodm:ExtCodeID="C76351" nciodm:CodeListExtensible="Yes">
+        <Description>
+          <TranslatedText xml:lang="en">A classification system used to categorize the sensitivity of a subject's skin to sunlight.</TranslatedText>
+        </Description>
+        <EnumeratedItem CodedValue="TYPEI" nciodm:ExtCodeID="C74569">
+          <nciodm:CDISCSynonym>TYPE1</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Individuals who never tan and always sunburn if exposed to any appreciable amount of sunlight, primarily red headed individuals and lightly complected blondes. (Reference: Fitzpatrick TB: The validity and practicality of sun-reactive skin types I through VI. Arch. Dermatol. 1998 124: 869-871)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Fitzpatrick Skin Type I</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TYPEII" nciodm:ExtCodeID="C74570">
+          <nciodm:CDISCSynonym>TYPE2</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Individuals who frequently burn but are able to tan to a small degree after extended sun exposure. (Reference: Fitzpatrick TB: The validity and practicality of sun-reactive skin types I through VI. Arch. Dermatol. 1998 124: 869-871)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Fitzpatrick Skin Type II</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TYPEIII" nciodm:ExtCodeID="C74571">
+          <nciodm:CDISCSynonym>TYPE3</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Individuals who burn infrequently and tan readily. (Reference: Fitzpatrick TB: The validity and practicality of sun-reactive skin types I through VI. Arch. Dermatol. 1998 124: 869-871)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Fitzpatrick Skin Type III</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TYPEIV" nciodm:ExtCodeID="C74572">
+          <nciodm:CDISCSynonym>TYPE4</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Individuals who rarely burn and tan heavily with moderate sun exposures, especially individuals of Asian, American Indian, Mediterranean and Latin American descent. (Reference: Fitzpatrick TB: The validity and practicality of sun-reactive skin types I through VI. Arch. Dermatol. 1998 124: 869-871)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Fitzpatrick Skin Type IV</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TYPEV" nciodm:ExtCodeID="C74573">
+          <nciodm:CDISCSynonym>TYPE5</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Individuals who have dark constitutive pigmentation but become noticeably darker with sun exposure, especially light complected black individuals, those of Indian descent. (Reference: Fitzpatrick TB: The validity and practicality of sun-reactive skin types I through VI. Arch. Dermatol. 1998 124: 869-871)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Fitzpatrick Skin Type V</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TYPEVI" nciodm:ExtCodeID="C74574">
+          <nciodm:CDISCSynonym>TYPE6</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Individuals who have the heaviest constitutive pigmentation, especially dark skinned black individuals. (Reference: Fitzpatrick TB: The validity and practicality of sun-reactive skin types I through VI. Arch. Dermatol. 1998 124: 869-871)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Fitzpatrick Skin Type VI</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <nciodm:CDISCSubmissionValue>SKINCLAS</nciodm:CDISCSubmissionValue>
+        <nciodm:CDISCSynonym>Skin Classification</nciodm:CDISCSynonym>
+        <nciodm:PreferredTerm>CDISC SDTM Fitzpatrick Skin Classification Terminology</nciodm:PreferredTerm>
+      </CodeList>
+      

@@ -1,0 +1,1561 @@
+<CodeList xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" OID="CL.C85494.PKUNIT" Name="PK Parameter Units of Measure" DataType="text" nciodm:ExtCodeID="C85494" nciodm:CodeListExtensible="Yes">
+        <Description>
+          <TranslatedText xml:lang="en">Units of measure needed for pharmacokinetic parameters.</TranslatedText>
+        </Description>
+        <EnumeratedItem CodedValue="day*fg/mL" nciodm:ExtCodeID="C85583">
+          <nciodm:CDISCSynonym>pg*day/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>day*pg/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>fg*day/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>d*fg/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Days times femtograms per milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Day Times Femtogram per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="day*g/mL" nciodm:ExtCodeID="C85584">
+          <nciodm:CDISCSynonym>g*day/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>day*kg/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>kg*day/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>d*g/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Days times grams per milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Day Times Gram per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="day*kg/mL" nciodm:ExtCodeID="C85585">
+          <nciodm:CDISCSynonym>kg*day/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>g*day/uL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>day*g/uL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>d*kg/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Days times kilograms per milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Day Times Kilogram per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="day*mg/mL" nciodm:ExtCodeID="C85588">
+          <nciodm:CDISCSynonym>mg*day/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>day*g/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>g*day/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>day*ug/uL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ug*day/uL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>d*mg/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Days times milligrams per milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Day Times Milligram per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="day*mmol/mL" nciodm:ExtCodeID="C85589">
+          <nciodm:CDISCSynonym>mmol*day/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>day*mol/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mol*day/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>day*umol/uL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>umol*day/uL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>d*mmol/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Days times millimoles per milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Day Times Millimole per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="day*mol/mL" nciodm:ExtCodeID="C85590">
+          <nciodm:CDISCSynonym>mol*day/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>d*mol/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Days times moles per milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Day Times Mole per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="day*ng/mL" nciodm:ExtCodeID="C85591">
+          <nciodm:CDISCSynonym>ng*day/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>day*ug/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ug*day/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>d*ng/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Days times nanograms per milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Day Times Nanogram per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="day*nmol/mL" nciodm:ExtCodeID="C85592">
+          <nciodm:CDISCSynonym>nmol*day/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>day*umol/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>umol*day/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>d*nmol/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Days times nanomoles per milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Day Times Nanomole per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="day*pg/mL" nciodm:ExtCodeID="C85593">
+          <nciodm:CDISCSynonym>pg*day/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>day*ng/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ng*day/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>d*pg/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Days times picograms per milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Day Times Picogram per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="day*pmol/mL" nciodm:ExtCodeID="C85594">
+          <nciodm:CDISCSynonym>nmol*day/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>day*nmol/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>pmol*day/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>d*pmol/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Days times picomoles per milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Day Times Picomole per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="day*ug/mL" nciodm:ExtCodeID="C85586">
+          <nciodm:CDISCSynonym>ug*day/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>day*mg/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mg*day/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>day*mcg/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mcg*day/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Days times micrograms per milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Day Times Microgram per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="day*umol/mL" nciodm:ExtCodeID="C85587">
+          <nciodm:CDISCSynonym>umol*day/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>day*mmol/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mmol*day/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>day*mcmol/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mcmol*day/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>d*umol/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Days times micromoles per milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Day Times Micromole per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="fg/mL" nciodm:ExtCodeID="C85597">
+          <nciodm:CDISCSynonym>pg/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>fg/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Femtograms per milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Femtogram per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="g" nciodm:ExtCodeID="C48155">
+          <nciodm:CDISCSynonym>Gram</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A metric unit of mass equal to one one thousandth of a kilogram. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Gram</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="g/day" nciodm:ExtCodeID="C85600">
+          <nciodm:CDISCSynonym>gram/day</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>g/d</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Grams per day.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Gram per Day</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="g/h" nciodm:ExtCodeID="C85601">
+          <nciodm:CDISCSynonym>gram/h</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>g/h</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Grams per hour.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Gram per Hour</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="g/min" nciodm:ExtCodeID="C85602">
+          <nciodm:CDISCSynonym>gram/min</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>g/min</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Grams per minute.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Gram per Minute</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="g/mL" nciodm:ExtCodeID="C64566">
+          <nciodm:CDISCSynonym>Gram per Milliliter</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Kilogram per Liter</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A unit of mass concentration defined as the concentration of one kilogram of a substance in unit volume of the mixture equal to one liter. The concept also refers to the unit of mass density (volumic mass) defined as the density of substance which mass equal to one kilogram occupies the volume one liter.(NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Kilogram per Liter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="g/s" nciodm:ExtCodeID="C85603">
+          <nciodm:CDISCSynonym>gram/sec</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>g/sec</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>gram/s</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>g/s</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Grams per second.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Gram per Second</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="h*fg/mL" nciodm:ExtCodeID="C85611">
+          <nciodm:CDISCSynonym>pg*h/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h*pg/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>fg*h/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h*fg/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Hours times femtograms per milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hour Times Femtogram per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="h*fmol/mL" nciodm:ExtCodeID="C85612">
+          <nciodm:CDISCSynonym>pmol*h/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h*pmol/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>fmol*h/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h*fmol/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Hours times femtomoles per milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hour Times Femtomole per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="h*g/mL" nciodm:ExtCodeID="C85613">
+          <nciodm:CDISCSynonym>g*h/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h*kg/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>kg*h/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h*g/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Hours times grams per milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hour Times Gram per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="h*kg/mL" nciodm:ExtCodeID="C85614">
+          <nciodm:CDISCSynonym>kg*h/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>g*h/uL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h*g/uL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h*kg/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Hours times kilograms per milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hour Times Kilogram per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="h*mg/L/mg" nciodm:ExtCodeID="C85620">
+          <nciodm:CDISCSynonym>mg*h/L/mg</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h*mg/mg/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mg*h/mg/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h*mg/L/mg</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Hours times milligrams per liter per milligram.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hour Times Milligram per Liter per Milligram</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="h*mg/mL" nciodm:ExtCodeID="C85621">
+          <nciodm:CDISCSynonym>mg*h/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h*g/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>g*h/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ug*h/uL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h*ug/uL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h*mg/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Hours times milligrams per milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hour Times Milligram per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="h*mmol/mL" nciodm:ExtCodeID="C85622">
+          <nciodm:CDISCSynonym>mmol*h/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h*mol/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mol*h/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>umol*h/uL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h*umol/uL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h*mmol/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Hours times millimoles per milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hour Times Millimole per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="h*mol/mL" nciodm:ExtCodeID="C85623">
+          <nciodm:CDISCSynonym>mol*h/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h*mol/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Hours times moles per milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hour Times Mole per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="h*ng/mL" nciodm:ExtCodeID="C85624">
+          <nciodm:CDISCSynonym>ng*h/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h*ug/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ug*h/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h*ng/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Hours times nanograms per milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hour Times Nanogram per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="h*ng/mL*kg" nciodm:ExtCodeID="C85630">
+          <nciodm:CDISCSynonym>ng*h/mL*kg</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h*ng/kg*mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ng*h/kg*mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h*ng/mL*kg</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Hours times nanograms per milliliter times kilogram.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hour Times Nanogram per Milliliter Times Kilogram</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="h*ng/mL/g" nciodm:ExtCodeID="C85625">
+          <nciodm:CDISCSynonym>ng*h/mL/g</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h*ng/g/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ng*h/g/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h*ng/mL/g</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Hours times nanograms per milliliter per gram.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hour Times Nanogram per Milliliter per Gram</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="h*ng/mL/kg" nciodm:ExtCodeID="C85626">
+          <nciodm:CDISCSynonym>ng*h/mL/kg</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ng*h/kg/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h*ng/kg/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h*ng/mL/kg</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Hours times nanograms per milliliter per kilogram.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hour Times Nanogram per Milliliter per Kilogram</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="h*ng/mL/mg" nciodm:ExtCodeID="C85627">
+          <nciodm:CDISCSynonym>ng*h/mL/mg</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h*ng/mg/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ng*h/mg/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h*ng/mL/mg</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Hours times nanograms per milliliter per milligram.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hour Times Nanogram per Milliliter per Milligram</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="h*ng/mL/mg/kg" nciodm:ExtCodeID="C85628">
+          <nciodm:CDISCSynonym>ng*h/mL/mg/kg</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h*ng/mL/mg</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Hours times nanograms per milliliter per milligram per kilogram.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hour Times Nanogram per Milliliter per Milligram per Kilogram</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="h*ng/mL/mg/m2" nciodm:ExtCodeID="C85629">
+          <nciodm:CDISCSynonym>h*ng/mL/mg/m^2</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h*ng/mL/mg/m*m</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ng*h/mL/mg/m2</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Hours times nanograms per milliliter per milligram per meter squared.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hour Times Nanogram per Milliliter per Milligram per Meter Squared</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="h*nmol/L/umol" nciodm:ExtCodeID="C85631">
+          <nciodm:CDISCSynonym>h*nmol/L/mcmol</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>nmol*h/L/umol</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h*nmol/umol/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>nmol*h/umol/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Hours times nanomoles per liter per micromole.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hour Times Nanomole per Liter per Micromole</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="h*nmol/mL" nciodm:ExtCodeID="C85632">
+          <nciodm:CDISCSynonym>umol*h/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h*umol/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>nmol*h/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h*nmol/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Hours times nanomoles per milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hour Times Nanomole per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="h*nmol/mL/mg" nciodm:ExtCodeID="C85634">
+          <nciodm:CDISCSynonym>nmol*h/mL/mg</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h*nmol/mg/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>nmol*h/mg/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h*nmol/mL/mg</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Hours times nanomoles per milliliter per milligram.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hour Times Nanomole per Milliliter per Milligram</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="h*pg/mL" nciodm:ExtCodeID="C85635">
+          <nciodm:CDISCSynonym>pg*h/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h*ng/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ng*h/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h*pg/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Hours times picograms per milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hour Times Picogram per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="h*pg/mL/kg" nciodm:ExtCodeID="C85636">
+          <nciodm:CDISCSynonym>pg*h/mL/kg</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h*pg/kg/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>pg*h/kg/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h*pg/mL/kg</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Hours times picograms per milliliter per kilogram.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hour Times Picogram per Milliliter per Kilogram</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="h*pg/mL/mg" nciodm:ExtCodeID="C85638">
+          <nciodm:CDISCSynonym>pg*h/mL/mg</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h*pg/mg/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>pg*h/mg/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h*pg/mL/mg</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Hours times picograms per milliliter per milligram.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hour Times Picogram per Milliliter per Milligram</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="h*pg/mL/ug" nciodm:ExtCodeID="C85637">
+          <nciodm:CDISCSynonym>h*pg/mL/mcg</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>pg*h/mL/ug</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h*pg/ug/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>pg*h/ug/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Hours times picograms per milliliter per microgram.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hour Times Picogram per Milliliter per Microgram</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="h*pmol/L/ug" nciodm:ExtCodeID="C85639">
+          <nciodm:CDISCSynonym>pmol*h/L/ug</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h*pmol/L/mcg</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h*pmol/ug/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>pmol*h/ug/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Hours times picomoles per liter per microgram.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hour Times Picomole per Liter per Microgram</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="h*pmol/mL" nciodm:ExtCodeID="C85640">
+          <nciodm:CDISCSynonym>pmol*h/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h*nmol/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>nmol*h/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h*pmol/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Hours times picomoles per milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hour Times Picomole per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="h*pmol/mL/mg" nciodm:ExtCodeID="C85641">
+          <nciodm:CDISCSynonym>pmol*h/mL/mg</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h*pmol/mg/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>pmol*h/mg/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h*pmol/mL/mg</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Hours times picomoles per milliliter per milligram.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hour Times Picomole per Milliliter per Milligram</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="h*ug/mL" nciodm:ExtCodeID="C85615">
+          <nciodm:CDISCSynonym>mg*h/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h*mg/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h*ng/uL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ng*h/uL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h*ug/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h*mcg/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mcg*h/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Hours times micrograms per milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hour Times Microgram per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="h*ug/mL/mg" nciodm:ExtCodeID="C85617">
+          <nciodm:CDISCSynonym>ug*h/mL/mg</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h*mcg/mL/mg</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h*ug/mg/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ug*h/mg/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Hours times micrograms per milliliter per milligram.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hour Times Microgram per Milliliter per Milligram</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="h*umol/mL" nciodm:ExtCodeID="C85618">
+          <nciodm:CDISCSynonym>mmol*h/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h*mmol/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>umol*h/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h*mcmol/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mcmol*h/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h*umol/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Hours times micromoles per milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hour Times Micromole per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="h2*mg/mL" nciodm:ExtCodeID="C85606">
+          <nciodm:CDISCSynonym>mg*h2/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h^2*mg/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h*h*mg/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h2*g/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h2*ug/uL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Hours squared times milligrams per milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hour Squared Times Milligram per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="h2*mmol/mL" nciodm:ExtCodeID="C85607">
+          <nciodm:CDISCSynonym>mmol*h2/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h^2*mmol/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h*h*mmol/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h2*mol/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h2*umol/uL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Hours squared times millimoles per milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hour Squared Times Millimole per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="h2*ng/mL" nciodm:ExtCodeID="C85608">
+          <nciodm:CDISCSynonym>ng*h2/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h^2*ng/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h*h*ng/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h2*ug/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Hours squared times nanograms per milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hour Squared Times Nanogram per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="h2*pg/mL" nciodm:ExtCodeID="C85609">
+          <nciodm:CDISCSynonym>pg*h2/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h^2*pg/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h*h*pg/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h2*ng/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Hours squared times picogram per milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hour Squared Times Picogram per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="h2*pmol/mL" nciodm:ExtCodeID="C85610">
+          <nciodm:CDISCSynonym>pmol*h2/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h^2*pmol/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h*h*pmol/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h2*nmol/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Hours squared times picomoles per milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hour Squared Times Picomole per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="h2*ug/mL" nciodm:ExtCodeID="C85604">
+          <nciodm:CDISCSynonym>ug*h2/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h^2*ug/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h*h*ug/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h2*mcg/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h2*mg/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Hours squared times micrograms per milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hour Squared Times Microgram per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="h2*umol/mL" nciodm:ExtCodeID="C85605">
+          <nciodm:CDISCSynonym>umol*h2/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h^2*umol/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h*h*umol/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h2*mcmol/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>h2*mmol/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Hours squared times micromoles per milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hour Squared Times Micromole per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="IU/day" nciodm:ExtCodeID="C85645">
+          <nciodm:CDISCSynonym>IU/d</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>International units per day.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>International Unit per Day</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="IU/h" nciodm:ExtCodeID="C85646">
+          <nciodm:CDISCSynonym>IU/h</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>International units per hour.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>International Unit per Hour</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="IU/min" nciodm:ExtCodeID="C85647">
+          <nciodm:CDISCSynonym>IU/min</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>International units per minute.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>International Unit per Minute</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="IU/s" nciodm:ExtCodeID="C85648">
+          <nciodm:CDISCSynonym>IU/sec</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>IU/s</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>International units per second.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>International Unit per Second</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="L" nciodm:ExtCodeID="C48505">
+          <nciodm:CDISCSynonym>Liter</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A unit of volume equal to a cubic decimeter, or one thousandth of cubic meter, or 1000 cubic centimeters, or approximately 61.023 744 cubic inches.(NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Liter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="L/day" nciodm:ExtCodeID="C69110">
+          <nciodm:CDISCDefinition>Liters per day.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Liter per Day</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="L/g/day" nciodm:ExtCodeID="C85657">
+          <nciodm:CDISCSynonym>mL/mg/day</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>uL/ug/day</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/day/g</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/g/d</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Liters per gram per day.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Liter per Gram per Day</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="L/g/h" nciodm:ExtCodeID="C85658">
+          <nciodm:CDISCSynonym>L/h/g</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/mg/h</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>uL/ug/h</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/h/mg</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>uL/h/ug</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/g/h</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Liters per gram per hour.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Liter per Gram per Hour</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="L/g/min" nciodm:ExtCodeID="C85659">
+          <nciodm:CDISCSynonym>mL/mg/min</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>uL/ug/min</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/min/g</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/g/min</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Liters per gram per minute.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Liter per Gram per Minute</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="L/g/s" nciodm:ExtCodeID="C85660">
+          <nciodm:CDISCSynonym>L/g/sec</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/mg/s</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>uL/ug/s</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/s/g</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/mg/sec</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>uL/ug/sec</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/sec/g</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/g/s</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Liters per gram per second.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Liter per Gram per Second</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="L/h" nciodm:ExtCodeID="C69160">
+          <nciodm:CDISCSynonym>L/h</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Liters per hour.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Liter per Hour</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="L/kg/day" nciodm:ExtCodeID="C73755">
+          <nciodm:CDISCSynonym>mL/g/day</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>uL/mg/day</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/day/kg</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/day/g</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>uL/day/mg</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/kg/d</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Liters per kilogram per day.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Liter per Kilogram per Day</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="L/kg/h" nciodm:ExtCodeID="C73756">
+          <nciodm:CDISCDefinition>Milliliters per gram per hour.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Milliliter per Gram per Hour</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="L/kg/min" nciodm:ExtCodeID="C73757">
+          <nciodm:CDISCDefinition>Milliliters per gram per minute.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Milliliter per Gram per Minute</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="L/kg/s" nciodm:ExtCodeID="C85664">
+          <nciodm:CDISCSynonym>L/kg/sec</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/g/s</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>uL/mg/s</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/s/kg</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/sec/kg</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/s/g</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>uL/s/mg</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/kg/s</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Liters per kilogram per second.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Liter per Kilogram per Second</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="L/mg/day" nciodm:ExtCodeID="C85672">
+          <nciodm:CDISCSynonym>mL/ug/day</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/day/mg</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/day/ug</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/mg/d</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Liters per milligram per day.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Liter per Milligram per Day</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="L/mg/h" nciodm:ExtCodeID="C85673">
+          <nciodm:CDISCSynonym>mL/ug/h</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/h/mg</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/h/ug</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/mg/h</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Liters per milligram per hour.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Liter per Milligram per Hour</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="L/mg/min" nciodm:ExtCodeID="C85674">
+          <nciodm:CDISCSynonym>mL/ug/min</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/min/mg</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/min/ug</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/mg/min</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Liters per milligram per minute.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Liter per Milligram per Minute</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="L/mg/s" nciodm:ExtCodeID="C85675">
+          <nciodm:CDISCSynonym>mL/ug/s</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/s/mg</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/s/ug</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/ug/sec</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/sec/mg</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/sec/ug</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/mg/s</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Liters per milligram per second.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Liter per Milligram per Second</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="L/min" nciodm:ExtCodeID="C67388">
+          <nciodm:CDISCSynonym>Liters per Minute</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A unit of volumetric flow rate defined as the rate at which one liter of matter travels during the period of time equal to one minute.(NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Liter per Minute</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="L/mmol/day" nciodm:ExtCodeID="C85676">
+          <nciodm:CDISCSynonym>mL/umol/day</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/day/mmol</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/day/umol</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/mmol/d</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Liters per millimole per day.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Liter per Millimole per Day</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="L/mmol/h" nciodm:ExtCodeID="C85677">
+          <nciodm:CDISCSynonym>mL/umol/h</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/h/mmol</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/h/umol</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/mmol/h</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Liters per millimole per hour.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Liter per Millimole per Hour</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="L/mmol/min" nciodm:ExtCodeID="C85678">
+          <nciodm:CDISCSynonym>mL/umol/min</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/min/mmol</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/min/umol</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/mmol/min</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Liters per millimole per minute.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Liter per Millimole per Minute</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="L/mmol/s" nciodm:ExtCodeID="C85679">
+          <nciodm:CDISCSynonym>L/mmol/sec</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/s/mmol</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/sec/mmol</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/umol/s</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/umol/sec</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/s/umol</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/sec/umoL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/mmol/s</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Liters per millimole per second.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Liter per Millimole per Second</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="L/mol" nciodm:ExtCodeID="C85680">
+          <nciodm:CDISCSynonym>mL/mmol</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>uL/umol</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/mol</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Liters per mole.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Liter per Mole</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="L/mol/day" nciodm:ExtCodeID="C85681">
+          <nciodm:CDISCSynonym>L/day/mol</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/mmol/day</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>uL/umol/day</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/day/mmol</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>uL/day/umol</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/mol/d</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Liters per mole per day.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Liter per Mole per Day</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="L/mol/h" nciodm:ExtCodeID="C85682">
+          <nciodm:CDISCSynonym>L/h/mol</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/mmol/h</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>uL/umol/h</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/h/mmol</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>uL/h/umol</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/mol/h</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Liters per mole per hour.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Liter per Mole per Hour</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="L/mol/min" nciodm:ExtCodeID="C85683">
+          <nciodm:CDISCSynonym>L/min/mol</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/mmol/min</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>uL/umol/min</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/min/mmol</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>uL/min/umol</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/mol/min</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Liters per mole per minute.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Liter per Mole per Minute</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="L/mol/s" nciodm:ExtCodeID="C85684">
+          <nciodm:CDISCSynonym>L/mol/sec</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/s/mol</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/sec/mol</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/mmol/s</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/mmol/sec</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/s/mmol</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/sec/mmol</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/mol/s</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Liters per mole per second.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Liter per Mole per Second</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="L/ng/day" nciodm:ExtCodeID="C85685">
+          <nciodm:CDISCSynonym>L/day/ng</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/pg/day</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/day/pg</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/ng/d</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Liters per nanogram per day.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Liter per Nanogram per Day</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="L/ng/h" nciodm:ExtCodeID="C85686">
+          <nciodm:CDISCSynonym>L/h/ng</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/pg/h</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/h/pg</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/ng/h</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Liters per nanogram per hour.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Liter per Nanogram per Hour</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="L/ng/min" nciodm:ExtCodeID="C85687">
+          <nciodm:CDISCSynonym>L/min/ng</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/pg/min</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/min/pg</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/ng/min</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Liters per nanogram per minute.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Liter per Nanogram per Minute</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="L/ng/s" nciodm:ExtCodeID="C85688">
+          <nciodm:CDISCSynonym>L/s/ng</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/ng/sec</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/sec/ng</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/pg/s</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/s/pg</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/pg/sec</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/sec/pg</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/ng/s</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Liters per nanogram per second.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Liter per Nanogram per Second</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="L/nmol/day" nciodm:ExtCodeID="C85689">
+          <nciodm:CDISCSynonym>mL/pmol/day</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/day/nmol</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/day/pmol</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/nmol/d</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Liters per nanomole per day.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Liter per Nanomole per Day</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="L/nmol/h" nciodm:ExtCodeID="C85690">
+          <nciodm:CDISCSynonym>mL/pmol/h</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/h/nmol</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/h/pmol</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/nmol/h</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Liters per nanomole per hour.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Liter per Nanomole per Hour</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="L/nmol/min" nciodm:ExtCodeID="C85691">
+          <nciodm:CDISCSynonym>mL/pmol/min</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/min/nmol</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/min/pmol</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/nmol/min</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Liters per nanomole per minute.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Liter per Nanomole per Minute</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="L/nmol/s" nciodm:ExtCodeID="C85692">
+          <nciodm:CDISCSynonym>L/nmol/sec</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/pmol/s</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/s/pmol</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/s/nmol</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/sec/nmol</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/nmol/s</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Liters per nanomole per second.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Liter per Nanomole per Second</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="L/pg/day" nciodm:ExtCodeID="C85693">
+          <nciodm:CDISCSynonym>L/day/pg</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/pg/d</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Liters per picogram per day.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Liter per Picogram per Day</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="L/pg/h" nciodm:ExtCodeID="C85694">
+          <nciodm:CDISCSynonym>L/h/pg</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/pg/h</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Liters per picogram per hour.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Liter per Picogram per Hour</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="L/pg/min" nciodm:ExtCodeID="C85695">
+          <nciodm:CDISCSynonym>L/min/pg</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/pg/min</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Liters per picogram per minute.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Liter per Picogram per Minute</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="L/pg/s" nciodm:ExtCodeID="C85696">
+          <nciodm:CDISCSynonym>L/pg/sec</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/s/pg</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/sec/pg</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/pg/s</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Liters per picogram per second.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Liter per Picogram per Second</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="L/s" nciodm:ExtCodeID="C67390">
+          <nciodm:CDISCSynonym>L/sec</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Liters per second.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Liter per Second</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="L/ug/day" nciodm:ExtCodeID="C85665">
+          <nciodm:CDISCSynonym>L/mcg/day</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/day/ug</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/day/mcg</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/day/ng</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/ng/day</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Liters per microgram per day.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Liter per Microgram per Day</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="L/ug/h" nciodm:ExtCodeID="C85662">
+          <nciodm:CDISCSynonym>L/mcg/h</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/h/ug</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/h/mcg</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/h/ng</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/ng/h</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/ug/h</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Liters per microgram per hour.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Liter per Microgram per Hour</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="L/ug/min" nciodm:ExtCodeID="C85666">
+          <nciodm:CDISCSynonym>L/mcg/min</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/min/ug</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/min/mcg</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/min/ng</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/ng/min</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Liters per microgram per minute.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Liter per Microgram per Minute</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="L/ug/s" nciodm:ExtCodeID="C85667">
+          <nciodm:CDISCSynonym>L/ug/sec</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/s/ug</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/ug/s</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/sec/ug</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/mcg/sec</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/s/mcg</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/mcg/s</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/sec/mcg</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/ng/s</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/s/ng</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Liters per microgram per second.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Liter per Microgram per Second</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="L/umol/day" nciodm:ExtCodeID="C85668">
+          <nciodm:CDISCSynonym>L/mcmol/day</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/day/umol</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/day/mcmol</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/umol/d</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Liters per micromole per day.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Liter per Micromole per Day</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="L/umol/h" nciodm:ExtCodeID="C85669">
+          <nciodm:CDISCSynonym>L/mcmol/h</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/h/umol</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/h/mcmol</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/umol/h</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Liters per micromole per hour.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Liter per Micromole per Hour</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="L/umol/min" nciodm:ExtCodeID="C85670">
+          <nciodm:CDISCSynonym>L/mcmol/min</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/min/umol</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/min/mcmol</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/umol/min</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Liters per micromole per minute.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Liter per Micromole per Minute</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="L/umol/s" nciodm:ExtCodeID="C85671">
+          <nciodm:CDISCSynonym>L/mcmol/s</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/umol/sec</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/s/umol</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/sec/umol</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/mcmol/sec</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/sec/mcmol</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/nmol/s</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/s/nmol</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/umol/s</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Liters per micromole per second.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Liter per Micromole per Second</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="mg" nciodm:ExtCodeID="C28253">
+          <nciodm:CDISCSynonym>Milligram</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The unit of mass equal to one thousandth of a gram or 1000 micrograms. One milligram equals approximately 0.015432 grain or 35.274 x 10E-6 ounce.(NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Milligram</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="mg/day" nciodm:ExtCodeID="C67399">
+          <nciodm:CDISCSynonym>Milligram per Day</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A unit of measure referring to the ratio between mass expressed in milligrams per day.(NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Milligram per 24 Hours</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="mg/h" nciodm:ExtCodeID="C66969">
+          <nciodm:CDISCSynonym>Milligram per Hour</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A unit of mass flow rate equivalent to the rate at which one thousandth of a gram of matter travels to a given object or space over a period of time equal to one hour.(NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Milligram per Hour</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="mg/L/mg" nciodm:ExtCodeID="C85710">
+          <nciodm:CDISCSynonym>mg/mg/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mg/L/mg</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Milligrams per liter per milligram.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Milligram per Liter per Milligram</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="mg/min" nciodm:ExtCodeID="C73742">
+          <nciodm:CDISCDefinition>Milligrams per minute.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Milligram per Minute</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="mg/mL" nciodm:ExtCodeID="C42576">
+          <nciodm:CDISCSynonym>g/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Gram per Liter</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>kg/m3</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Kilogram per Cubic Metre</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Microgram per Microliter</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Milligram per Milliliter</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ug/uL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A unit of mass concentration defined as the concentration of one kilogram of a substance per unit volume of the mixture equal to one cubic meter, or the concentration of one milligram of a substance per unit volume of the mixture equal to one milliliter, or one gram of a substance per one liter of the mixture. It is also a unit of mass density (volumic mass) defined as the density of substance which mass equal to one milligram occupies the volume one milliliter.(NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Kilogram per Cubic Meter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="mg/mL/h" nciodm:ExtCodeID="C85711">
+          <nciodm:CDISCSynonym>g/L/h</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ug/uL/h</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mg/h/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>g/h/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ug/h/uL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Milligrams per milliliter per hour.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Milligram per Milliliter per Hour</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="mg/s" nciodm:ExtCodeID="C85712">
+          <nciodm:CDISCSynonym>mg/sec</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mg/s</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Milligrams per second.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Milligram per Second</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="min*fg/mL" nciodm:ExtCodeID="C85724">
+          <nciodm:CDISCSynonym>pg*min/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>min*pg/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>fg*min/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>min*fg/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Minutes times femtograms per milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Minute Times Femtogram per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="min*g/mL" nciodm:ExtCodeID="C85725">
+          <nciodm:CDISCSynonym>g*min/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>min*kg/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>kg*min/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>min*g/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Minutes times grams per milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Minute Times Gram per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="min*kg/mL" nciodm:ExtCodeID="C85726">
+          <nciodm:CDISCSynonym>kg*min/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>g*min/uL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>min*g/uL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>min*kg/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Minutes times kilograms per milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Minute Times Kilogram per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="min*mg/mL" nciodm:ExtCodeID="C85729">
+          <nciodm:CDISCSynonym>mg*min/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>min*g/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>g*min/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ug*min/uL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>min*ug/uL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>min*mg/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Minutes times milligrams per milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Minute Times Milligram per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="min*mmol/mL" nciodm:ExtCodeID="C85730">
+          <nciodm:CDISCSynonym>mmol*min/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>min*mol/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mol*min/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>min*umol/uL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>umol*min/uL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>min*mmol/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Minutes times millimoles per milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Minute Times Millimole per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="min*mol/mL" nciodm:ExtCodeID="C85731">
+          <nciodm:CDISCSynonym>mol*min/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>min*mol/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Minutes times moles per milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Minute Times Mole per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="min*ng/mL" nciodm:ExtCodeID="C85732">
+          <nciodm:CDISCSynonym>ng*min/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>min*ug/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ug*min/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>min*ng/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Minutes times nanograms per milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Minute Times Nanogram per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="min*nmol/mL" nciodm:ExtCodeID="C85733">
+          <nciodm:CDISCSynonym>nmol*min/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>min*umol/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>umol*min/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>min*nmol/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Minutes times nanomoles per milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Minute Times Nanomole per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="min*pg/mL" nciodm:ExtCodeID="C85734">
+          <nciodm:CDISCSynonym>pg*min/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>min*ng/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ng*min/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>min*pg/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Minutes times picograms per milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Minute Times Picogram per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="min*pmol/mL" nciodm:ExtCodeID="C85735">
+          <nciodm:CDISCSynonym>nmol*min/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>min*nmol/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>pmol*min/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>min*pmol/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Minutes times picomoles per milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Minute Times Picomole per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="min*ug/mL" nciodm:ExtCodeID="C85727">
+          <nciodm:CDISCSynonym>ug*min/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>min*mg/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mg*min/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>min*mcg/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mcg*min/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Minutes times micrograms per milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Minute Times Microgram per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="min*umol/mL" nciodm:ExtCodeID="C85728">
+          <nciodm:CDISCSynonym>umol*min/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>min*mcmol/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>min*mmol/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mmol*min/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>min*umol/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Minutes times micromoles per milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Minute Times Micromole per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="mIU/mL" nciodm:ExtCodeID="C67376">
+          <nciodm:CDISCSynonym>International Unit per Liter</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>IU/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mIU/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Unit of arbitrary substance concentration (biologic activity concentration) defined as the concentration of one international unit per one liter of system volume.(NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>International Unit per Liter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="mL" nciodm:ExtCodeID="C28254">
+          <nciodm:CDISCSynonym>Milliliter</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>cm3</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The unit of volume equal to one thousandth of a liter, one cubic centimeter, 10E-6 cubic meter, or approximately to 0.061 023 7 cubic inch.(NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="mL/day" nciodm:ExtCodeID="C73753">
+          <nciodm:CDISCDefinition>Milliliters per day.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Milliliter per Day</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="mL/h" nciodm:ExtCodeID="C66962">
+          <nciodm:CDISCSynonym>Milliliters per Hour</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A unit of volumetric flow rate defined as the rate at which one milliliter of matter travels during the period of time equal to one hour.(NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Milliliter per Hour</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="mL/kg/day" nciodm:ExtCodeID="C73758">
+          <nciodm:CDISCDefinition>Milliliters per kilogram per day.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Milliliter per Kilogram per Day</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="mL/kg/h" nciodm:ExtCodeID="C73759">
+          <nciodm:CDISCDefinition>Milliliters per kilogram per hour.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Milliliter per Kilogram per Hour</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="mL/kg/min" nciodm:ExtCodeID="C73760">
+          <nciodm:CDISCSynonym>uL/g/min</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/min/kg</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>uL/min/g</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/kg/min</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Milliliters per kilogram per minute.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Milliliter per Kilogram per Minute</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="mL/kg/s" nciodm:ExtCodeID="C85715">
+          <nciodm:CDISCSynonym>mL/sec/kg</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/s/kg</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/kg/sec</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/kg/s</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Milliliters per kilogram per second.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Milliliter per Kilogram per Second</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="mL/min" nciodm:ExtCodeID="C64777">
+          <nciodm:CDISCSynonym>Milliliters per Minute</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A metric unit of volumetric flow rate defined as the rate at which one milliliter of matter travels during the period of time equal to one minute.(NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Milliliter per Minute</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="mL/mol/day" nciodm:ExtCodeID="C85716">
+          <nciodm:CDISCSynonym>uL/mmol/day</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/day/mol</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>uL/day/mmol</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/mol/d</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Milliliters per mole per day.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Milliliter per Mole per Day</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="mL/mol/h" nciodm:ExtCodeID="C85717">
+          <nciodm:CDISCSynonym>uL/mmol/h</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/h/mol</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>uL/h/mmol</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/mol/h</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Milliliters per mole per hour.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Milliliter per Mole per Hour</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="mL/mol/min" nciodm:ExtCodeID="C85718">
+          <nciodm:CDISCSynonym>uL/mmol/min</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/min/mol</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>uL/min/mmol</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/mol/min</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Milliliters per mole per minute.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Milliliter per Mole per Minute</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="mL/mol/s" nciodm:ExtCodeID="C85719">
+          <nciodm:CDISCSynonym>mL/sec/mol</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/s/mol</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/mol/sec</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/mol/s</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Milliliters per mole per second.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Milliliter per Mole per Second</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="mL/s" nciodm:ExtCodeID="C69073">
+          <nciodm:CDISCDefinition>Milliliters per second.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Milliliter per Second</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="mmol/h" nciodm:ExtCodeID="C85720">
+          <nciodm:CDISCDefinition>Millimoles per hour.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Millimole per Hour</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="mmol/min" nciodm:ExtCodeID="C85722">
+          <nciodm:CDISCDefinition>Millimoles per minute.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Millimole per Minute</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="mmol/mL" nciodm:ExtCodeID="C48555">
+          <nciodm:CDISCSynonym>Mole per Liter</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mol/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mmol/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A unit of concentration (molarity unit) equal to one mole of solute in one liter of solution.(NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Mole per Liter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="mmol/mL/h" nciodm:ExtCodeID="C85721">
+          <nciodm:CDISCSynonym>mol/L/h</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>umol/uL/h</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mmol/h/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mol/h/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>umol/h/uL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mmol/mL/h</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Millimoles per milliliter per hour.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Millimole per Milliliter per Hour</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="mmol/s" nciodm:ExtCodeID="C85723">
+          <nciodm:CDISCSynonym>mmol/sec</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mmol/s</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Millimoles per second.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Millimole per Second</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="mol/day" nciodm:ExtCodeID="C85737">
+          <nciodm:CDISCSynonym>mol/d</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Moles per day.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Mole per Day</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="mol/h" nciodm:ExtCodeID="C85738">
+          <nciodm:CDISCDefinition>Moles per hour.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Mole per Hour</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="mol/min" nciodm:ExtCodeID="C85739">
+          <nciodm:CDISCDefinition>Moles per minute.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Mole per Minute</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="mol/s" nciodm:ExtCodeID="C85740">
+          <nciodm:CDISCSynonym>mol/sec</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mol/s</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Moles per second.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Mole per Second</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ng" nciodm:ExtCodeID="C48516">
+          <nciodm:CDISCSynonym>Nanogram</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A unit of mass equal to one billionth (10E-9) of a gram, or one millionth (10E-6) of a milligram.(NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Nanogram</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ng/day" nciodm:ExtCodeID="C85741">
+          <nciodm:CDISCSynonym>ng/d</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Nanograms per day.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Nanogram per Day</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ng/h" nciodm:ExtCodeID="C85742">
+          <nciodm:CDISCDefinition>Nanograms per hour.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Nanogram per Hour</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ng/kg/min" nciodm:ExtCodeID="C85743">
+          <nciodm:CDISCSynonym>ng/min/kg</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>pg/g/min</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>pg/min/g</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ng/kg/min</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Nanograms per kilogram per minute.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Nanogram per Kilogram per Minute</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ng/mg of Creatinine" nciodm:ExtCodeID="C85744">
+          <nciodm:CDISCSynonym>ug/g of Creatinine</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ng/mg of Creatinine</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Nanograms per milligram of creatinine.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Nanogram per Milligram of Creatinine</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ng/min" nciodm:ExtCodeID="C85749">
+          <nciodm:CDISCDefinition>Nanograms per minute.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Nanogram per Minute</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ng/mL" nciodm:ExtCodeID="C67306">
+          <nciodm:CDISCSynonym>mg/m3</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Microgram per Liter</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Milligram per Cubic Meter</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Nanogram per Milliliter</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ug/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A unit of mass concentration defined as the concentration of one microgram of a substance per unit volume of the mixture equal to one liter. The concept also refers to the unit of mass density (volumic mass) defined as the density of substance which mass equal to one microgram occupies the volume one liter.(NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Microgram per Liter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ng/mL*kg" nciodm:ExtCodeID="C85748">
+          <nciodm:CDISCSynonym>ng/kg*mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ng/mL*kg</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Nanograms per milliliter times kilogram.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Nanogram per Milliliter Times Kilogram</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ng/mL/h" nciodm:ExtCodeID="C67430">
+          <nciodm:CDISCSynonym>ug/L/h</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ng/h/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ng/mL/h</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Nanograms per milliliter per hour.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Nanogram per Milliliter per Hour</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ng/mL/kg" nciodm:ExtCodeID="C85746">
+          <nciodm:CDISCSynonym>ng/kg/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ng/mL/kg</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Nanograms per milliliter per kilogram.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Nanogram per Milliliter per Kilogram</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ng/mL/mg" nciodm:ExtCodeID="C85747">
+          <nciodm:CDISCSynonym>ng/mg/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ng/mL/mg</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Nanograms per milliliter per milligram.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Nanogram per Milliliter per Milligram</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ng/s" nciodm:ExtCodeID="C85750">
+          <nciodm:CDISCSynonym>ng/sec</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ng/s</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Nanograms per second.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Nanogram per Second</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="nL" nciodm:ExtCodeID="C69188">
+          <nciodm:CDISCSynonym>Nanoliter</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A unit of volume equal to one billionth of a liter (10E-9 liter).(NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Nanoliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="nmol/day" nciodm:ExtCodeID="C85751">
+          <nciodm:CDISCSynonym>nmol/d</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Nanomoles per day.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Nanomole per Day</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="nmol/g" nciodm:ExtCodeID="C85752">
+          <nciodm:CDISCSynonym>umol/kg</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>pmol/mg</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>nmol/g</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Nanomoles per gram.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Nanomole per Gram</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="nmol/h" nciodm:ExtCodeID="C85753">
+          <nciodm:CDISCDefinition>Nanomoles per hour.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Nanomole per Hour</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="nmol/kg" nciodm:ExtCodeID="C85754">
+          <nciodm:CDISCSynonym>pmol/g</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>nmol/kg</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Nanomoles per kilogram.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Nanomole per Kilogram</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="nmol/L/umol" nciodm:ExtCodeID="C85755">
+          <nciodm:CDISCSynonym>nmol/L/mcmol</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>nmol/umol/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>nmol/mcmol/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>nmol/L/umol</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Nanomoles per liter per micromole.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Nanomole per Liter per Micromole</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="nmol/min" nciodm:ExtCodeID="C85758">
+          <nciodm:CDISCDefinition>Nanomoles per minute.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Nanomole per Minute</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="nmol/mL" nciodm:ExtCodeID="C85756">
+          <nciodm:CDISCSynonym>umol/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mcmol/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>nmol/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Nanomoles per milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Nanomole per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="nmol/mL/h" nciodm:ExtCodeID="C85757">
+          <nciodm:CDISCSynonym>umol/L/h</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>nmol/h/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>nmol/mL/h</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Nanomoles per milliliter per hour.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Nanomole per Milliliter per Hour</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="nmol/s" nciodm:ExtCodeID="C85759">
+          <nciodm:CDISCSynonym>nmol/sec</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>nmol/s</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Nanomoles per second.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Nanomole per Second</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="nU/mL" nciodm:ExtCodeID="C85760">
+          <nciodm:CDISCSynonym>uU/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mcU/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>nU/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Nanounits per milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Nanounit per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="pg/day" nciodm:ExtCodeID="C85778">
+          <nciodm:CDISCSynonym>pg/d</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Picograms per day.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Picogram per Day</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="pg/dL" nciodm:ExtCodeID="C67331">
+          <nciodm:CDISCDefinition>Picograms per deciliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Picogram per Deciliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="pg/h" nciodm:ExtCodeID="C85779">
+          <nciodm:CDISCDefinition>Picograms per hour.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Picogram per Hour</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="pg/mg" nciodm:ExtCodeID="C67396">
+          <nciodm:CDISCSynonym>ug/kg</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Microgram per Kilogram</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A unit of a mass fraction expressed as a number of micrograms of substance per kilogram of mixture. The unit is also used as a dose calculation unit.(NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Microgram per Kilogram</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="pg/mg Creatinine" nciodm:ExtCodeID="C85780">
+          <nciodm:CDISCSynonym>ng/g of Creatinine</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>pg/mg of Creatinine</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Picograms per milligram creatinine.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Picogram per Milligram of Creatinine</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="pg/min" nciodm:ExtCodeID="C85782">
+          <nciodm:CDISCDefinition>Picograms per minute.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Picogram per Minute</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="pg/mL" nciodm:ExtCodeID="C67327">
+          <nciodm:CDISCSynonym>ug/m3</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Microgram per Cubic Meter</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ng/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>pg/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A unit of mass concentration defined as the concentration of one nanogram of a substance per one liter of the mixture, or one picogram of a substance in unit volume of the mixture equal to one milliliter, or one microgram of a substance per one cubic meter of the mixture. The concept also refers to the metric unit of mass density (volumic mass) defined as the density of substance which mass equal to one nanogram occupies the volume one liter.(NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Nanogram per Liter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="pg/mL/ug" nciodm:ExtCodeID="C85781">
+          <nciodm:CDISCSynonym>pg/mL/mcg</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>pg/ug/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>pg/mcg/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Picograms per milliliter per microgram.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Picogram per Milliliter per Microgram</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="pg/s" nciodm:ExtCodeID="C85783">
+          <nciodm:CDISCSynonym>pg/sec</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>pg/s</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Picograms per second.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Picogram per Second</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="pmol/L/ug" nciodm:ExtCodeID="C85784">
+          <nciodm:CDISCSynonym>pmol/L/mcg</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>pmol/ug/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>pmol/mcg/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Picomoles per liters per microgram.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Picomole per Liter per Microgram</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="s*fg/mL" nciodm:ExtCodeID="C85802">
+          <nciodm:CDISCSynonym>pg*s/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>sec*fg/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>s*pg/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>fg*s/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>fg*sec/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>s*fg/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Seconds times femtograms per milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Second Times Femtogram per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="s*g/mL" nciodm:ExtCodeID="C85803">
+          <nciodm:CDISCSynonym>g*s/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>sec*g/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>g*sec/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>s*kg/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>kg*s/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>sec*kg/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>kg*sec/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Seconds times grams per milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Second Times Gram per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="s*kg/mL" nciodm:ExtCodeID="C85804">
+          <nciodm:CDISCSynonym>kg*s/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>g*s/uL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>s*g/uL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>kg*sec/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>g*sec/uL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>sec*g/uL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>s*kg/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Seconds times kilograms per milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Second Times Kilogram per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="s*mg/mL" nciodm:ExtCodeID="C85807">
+          <nciodm:CDISCSynonym>mg*s/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>sec*mg/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>s*g/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>g*s/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>s*mg/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Seconds times milligrams per milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Second Times Milligram per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="s*mmol/mL" nciodm:ExtCodeID="C85808">
+          <nciodm:CDISCSynonym>mmol*s/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>sec*mmol/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>s*mol/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mol*s/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>sec*mol/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mol*sec/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>s*mmol/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Seconds times millimoles per milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Second Times Millimole per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="s*mol/mL" nciodm:ExtCodeID="C85809">
+          <nciodm:CDISCSynonym>mol*s/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>sec*mol/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mol*sec/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>s*mol/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Seconds times moles per milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Second Times Mole per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="s*ng/mL" nciodm:ExtCodeID="C85810">
+          <nciodm:CDISCSynonym>ng*s/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>sec*ng/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ng*sec/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>s*ug/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ug*s/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>sec*ug/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ug*sec/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>s*ng/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Seconds times nanograms per milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Second Times Nanogram per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="s*nmol/mL" nciodm:ExtCodeID="C85811">
+          <nciodm:CDISCSynonym>nmol*s/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>sec*nmol/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>nmol*sec/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>s*umol/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>umol*s/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>sec*umol/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>umol*sec/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>s*nmol/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Seconds times nanomoles per milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Second Times Nanomole per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="s*pg/mL" nciodm:ExtCodeID="C85812">
+          <nciodm:CDISCSynonym>pg*s/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>sec*pg/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>pg*sec/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>s*ng/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ng*s/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>sec*ng/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ng*sec/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>s*pg/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Seconds times picograms per milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Second Times Picogram per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="s*pmol/mL" nciodm:ExtCodeID="C85813">
+          <nciodm:CDISCSynonym>nmol*s/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>s*nmol/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>sec*pmol/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>pmol*s/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>pmol*sec/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>s*pmol/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Seconds times picomoles per milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Second Times Picomole per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="s*ug/mL" nciodm:ExtCodeID="C85805">
+          <nciodm:CDISCSynonym>ug*s/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>s*mcg/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ug*sec/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>sec*ug/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>sec*mcg/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mcg*sec/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>s*mg/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mg*s/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Seconds times micrograms per milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Second Times Microgram per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="s*umol/mL" nciodm:ExtCodeID="C85806">
+          <nciodm:CDISCSynonym>umol*s/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>s*mcmol/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>sec*umol/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>umol*sec/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mcmol*sec/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>sec*mcmol/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>s*mmol/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mmol*s/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>s*umol/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Seconds times micromoles per milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Second Times Micromole per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ug" nciodm:ExtCodeID="C48152">
+          <nciodm:CDISCSynonym>Microgram</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A unit of mass equal to one millionth of a gram or one thousandth of a milligram.(NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Microgram</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ug/day" nciodm:ExtCodeID="C71205">
+          <nciodm:CDISCSynonym>Microgram per Day</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A unit of mass flow rate equivalent to the rate at which one millionth of a gram of matter travels to a given object or space over a period of time equal to twenty four hours. Microgram per day is also a dose administration rate unit equal to the rate at which one millionth of a gram of a product is administered per unit of time equal to twenty four hours.(NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Microgram per Day</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ug/h" nciodm:ExtCodeID="C67394">
+          <nciodm:CDISCSynonym>Micrograms per Hour</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A unit of mass flow rate equivalent to the rate at which one millionth of a gram of matter travels to a given object or space over a period of time equal to one hour.(NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Microgram per Hour</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ug/inh" nciodm:ExtCodeID="C85703">
+          <nciodm:CDISCSynonym>mcg/inh</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Micrograms per inhalation.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Microgram per Inhalation</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ug/min" nciodm:ExtCodeID="C71211">
+          <nciodm:CDISCSynonym>Micrograms per Minute</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A unit of mass flow rate equivalent to the rate at which one millionth of a gram of matter travels to a given object or space over a period of time equal to one minute. Microgram per minute is also a dose administration rate unit equal to the rate at which one millionth of a gram of a product is administered per unit of time equal to one minute.(NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Microgram per Minute</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ug/mL" nciodm:ExtCodeID="C64572">
+          <nciodm:CDISCSynonym>g/m3</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Gram per Cubic Meter</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mg/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Microgram per Milliliter</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Milligram per Liter</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A unit of mass concentration equal to the concentration of one gram of a substance per unit volume of the mixture equal to one cubic meter. The concept also refers to the metric unit of mass density (volumic mass) defined as the density of substance which mass equal to one gram occupies the volume one cubic meter.(NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Microgram per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ug/puff" nciodm:ExtCodeID="C85704">
+          <nciodm:CDISCSynonym>mcg/puff</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Micrograms per puff.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Microgram per Puff</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ug/s" nciodm:ExtCodeID="C85705">
+          <nciodm:CDISCSynonym>mcg/sec</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mcg/s</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ug/sec</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ug/s</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Micrograms per second.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Microgram per Second</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="uIU/mL" nciodm:ExtCodeID="C67405">
+          <nciodm:CDISCSynonym>mIU/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mcIU/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>uIU/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Microinternational units per milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Microinternational Unit per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="uL" nciodm:ExtCodeID="C48153">
+          <nciodm:CDISCSynonym>mcL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A unit of volume accepted for use with the SI and equal to one millionth of a liter (10E-6 liter).(NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Microliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="umol/day" nciodm:ExtCodeID="C67406">
+          <nciodm:CDISCSynonym>Micromoles per Day</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A unit of amount of substance flow rate equivalent to the rate at which one millionth of a mole of substance travels to a given object or space over a period of time equal to 24 hours.(NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Micromole per 24 Hours</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="umol/h" nciodm:ExtCodeID="C85707">
+          <nciodm:CDISCSynonym>mcmol/h</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>umol/h</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Micromoles per hour.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Micromole per Hour</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="umol/min" nciodm:ExtCodeID="C85708">
+          <nciodm:CDISCSynonym>mcmol/min</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>umol/min</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Micromoles per minute.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Micromole per Minute</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="umol/mL" nciodm:ExtCodeID="C64387">
+          <nciodm:CDISCSynonym>Micromole per Milliliter</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Millimole per Liter</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mol/m3</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Mole per Cubic Meter</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mmol/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A unit of concentration (molarity unit) equal to one thousandth of a mole (10E-3 mole) of solute per one liter of solution.(NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Millimole per Liter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="umol/s" nciodm:ExtCodeID="C85709">
+          <nciodm:CDISCSynonym>umol/sec</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mcmol/s</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mcmol/sec</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>umol/s</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Micromoles per second.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Micromole per Second</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="/h" nciodm:ExtCodeID="C66966">
+          <nciodm:CDISCSynonym>Per Hour</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A rate of occurrences of something within a period of time equal to sixty minutes.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Per Hour</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <nciodm:CDISCSubmissionValue>PKUNIT</nciodm:CDISCSubmissionValue>
+        <nciodm:CDISCSynonym>PK Parameter Units of Measure</nciodm:CDISCSynonym>
+        <nciodm:PreferredTerm>CDISC SDTM Pharmacokinetic Parameter Unit of Measure Terminology</nciodm:PreferredTerm>
+      </CodeList>
+      

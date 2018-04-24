@@ -1,0 +1,22 @@
+<CodeList xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" OID="CL.C78738.NCF" Name="Never/Current/Former Classification" DataType="text" nciodm:ExtCodeID="C78738" nciodm:CodeListExtensible="Yes">
+        <Description>
+          <TranslatedText xml:lang="en">A classification of usage or experience that falls into three categories; never, current, or former.</TranslatedText>
+        </Description>
+        <EnumeratedItem CodedValue="NEVER" nciodm:ExtCodeID="C70543">
+          <nciodm:CDISCDefinition>Not ever; at no time in the past.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Never</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CURRENT" nciodm:ExtCodeID="C25471">
+          <nciodm:CDISCDefinition>Occurring in or belonging to the present time. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Current</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="FORMER" nciodm:ExtCodeID="C25627">
+          <nciodm:CDISCSynonym>Previous</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Occurring prior to something else. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Previous</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <nciodm:CDISCSubmissionValue>NCF</nciodm:CDISCSubmissionValue>
+        <nciodm:CDISCSynonym>Never/Current/Former Classification</nciodm:CDISCSynonym>
+        <nciodm:PreferredTerm>CDISC SDTM Never/Current/Former Classification Terminology</nciodm:PreferredTerm>
+      </CodeList>
+      

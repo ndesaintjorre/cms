@@ -1,0 +1,1240 @@
+<CodeList xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" OID="CL.C66786.COUNTRY" Name="Country" DataType="text" nciodm:ExtCodeID="C66786" nciodm:CodeListExtensible="No">
+        <Description>
+          <TranslatedText xml:lang="en">A collective generic term that refers here to a wide variety of dependencies, areas of special sovereignty, uninhabited islands, and other entities in addition to the traditional countries or independent states. (NCI)</TranslatedText>
+        </Description>
+        <EnumeratedItem CodedValue="ABW" nciodm:ExtCodeID="C17884">
+          <nciodm:CDISCSynonym>ARUBA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Island in the Caribbean Sea, north of Venezuela.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Aruba</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AFG" nciodm:ExtCodeID="C16267">
+          <nciodm:CDISCSynonym>AFGHANISTAN</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Southern Asia, north and west of Pakistan, east of Iran.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Afghanistan</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AGO" nciodm:ExtCodeID="C16292">
+          <nciodm:CDISCSynonym>ANGOLA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Southern Africa, bordering the South Atlantic Ocean, between Namibia and Democratic Republic of the Congo.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Angola</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AIA" nciodm:ExtCodeID="C20133">
+          <nciodm:CDISCSynonym>ANGUILLA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An island in the Caribbean Sea, east of Puerto Rico.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Anguilla</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ALA" nciodm:ExtCodeID="C44481">
+          <nciodm:CDISCSynonym>ALAND ISLANDS</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An archipelago in the Baltic Sea at the entrance to the Gulf of Bothnia between Sweden and Finland.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Aland Islands</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ALB" nciodm:ExtCodeID="C16271">
+          <nciodm:CDISCSynonym>ALBANIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Southeastern Europe, bordering the Adriatic Sea and Ionian Sea, between Greece and Serbia and Montenegro.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Albania</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AND" nciodm:ExtCodeID="C16289">
+          <nciodm:CDISCSynonym>ANDORRA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Southwestern Europe, between France and Spain.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Andorra</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ANT" nciodm:ExtCodeID="C16904">
+          <nciodm:CDISCSynonym>NETHERLANDS ANTILLES</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in the Caribbean, comprising two island groups in the Caribbean Sea - one includes Curacao and Bonaire north of Venezuela; the other is east of the Virgin Islands.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Netherlands Antilles</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ARE" nciodm:ExtCodeID="C17232">
+          <nciodm:CDISCSynonym>UNITED ARAB EMIRATES</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in the Middle East, bordering the Gulf of Oman and the Persian Gulf, between Oman and Saudi Arabia.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>United Arab Emirates</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ARG" nciodm:ExtCodeID="C16305">
+          <nciodm:CDISCSynonym>ARGENTINA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Southern South America, bordering the South Atlantic Ocean, between Chile and Uruguay.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Argentina</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ARM" nciodm:ExtCodeID="C16306">
+          <nciodm:CDISCSynonym>ARMENIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Southwestern Asia, east of Turkey.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Armenia</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ASM" nciodm:ExtCodeID="C17739">
+          <nciodm:CDISCSynonym>AMERICAN SAMOA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A group of islands in the South Pacific Ocean, about half way between Hawaii and New Zealand.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>American Samoa</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ATA" nciodm:ExtCodeID="C18007">
+          <nciodm:CDISCSynonym>ANTARCTICA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The continent lying mostly south of the Antarctic Circle.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Antarctica</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ATF" nciodm:ExtCodeID="C20105">
+          <nciodm:CDISCSynonym>FRENCH SOUTHERN TERRITORIES</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Islands in the southern Indian Ocean, south of Africa, about equidistant between Africa, Antarctica, and Australia.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>French Southern Territories</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ATG" nciodm:ExtCodeID="C16303">
+          <nciodm:CDISCSynonym>ANTIGUA AND BARBUDA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Islands between the Caribbean Sea and the North Atlantic Ocean, east-southeast of Puerto Rico.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Antigua and Barbuda</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AUS" nciodm:ExtCodeID="C16311">
+          <nciodm:CDISCSynonym>AUSTRALIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The continent between the Indian Ocean and the South Pacific Ocean.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Australia</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AUT" nciodm:ExtCodeID="C16312">
+          <nciodm:CDISCSynonym>AUSTRIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Central Europe, north of Italy and Slovenia.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Austria</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AZE" nciodm:ExtCodeID="C16316">
+          <nciodm:CDISCSynonym>AZERBAIJAN</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Southwestern Asia, bordering the Caspian Sea, between Iran and Russia.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Azerbaijan</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BDI" nciodm:ExtCodeID="C16371">
+          <nciodm:CDISCSynonym>BURUNDI</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Central Africa, east of Democratic Republic of the Congo.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Burundi</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BEL" nciodm:ExtCodeID="C16329">
+          <nciodm:CDISCSynonym>BELGIUM</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Western Europe, bordering the North Sea, between France and the Netherlands.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Belgium</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BEN" nciodm:ExtCodeID="C16333">
+          <nciodm:CDISCSynonym>BENIN REPUBLIC</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Western Africa, bordering the North Atlantic Ocean, between Nigeria and Togo.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Benin Republic</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BFA" nciodm:ExtCodeID="C16369">
+          <nciodm:CDISCSynonym>BURKINA FASO</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Western Africa, north of Ghana.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Burkina Faso</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BGD" nciodm:ExtCodeID="C16323">
+          <nciodm:CDISCSynonym>BANGLADESH</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Southern Asia, bordering the Bay of Bengal, between Burma and India.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Bangladesh</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BGR" nciodm:ExtCodeID="C16368">
+          <nciodm:CDISCSynonym>BULGARIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Southeastern Europe, bordering the Black Sea, between Romania and Turkey.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Bulgaria</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BHR" nciodm:ExtCodeID="C16322">
+          <nciodm:CDISCSynonym>BAHRAIN</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An archipelago in the Persian Gulf, east of Saudi Arabia.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Bahrain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BHS" nciodm:ExtCodeID="C16321">
+          <nciodm:CDISCSynonym>BAHAMAS</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A chain of islands in the North Atlantic Ocean, southeast of Florida.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Bahamas</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BIH" nciodm:ExtCodeID="C16361">
+          <nciodm:CDISCSynonym>BOSNIA-HERZEGOVINA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Southeastern Europe, bordering the Adriatic Sea and Croatia.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Bosnia-Herzegovina</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BLM" nciodm:ExtCodeID="C83609">
+          <nciodm:CDISCSynonym>SAINT BARTHELEMY</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An island in the Caribbean sea, between Saint Martin and Saint Kitts and Nevis.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Saint Barthelemy</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BLR" nciodm:ExtCodeID="C16372">
+          <nciodm:CDISCSynonym>BELARUS</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Eastern Europe, east of Poland.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Belarus</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BLZ" nciodm:ExtCodeID="C16331">
+          <nciodm:CDISCSynonym>BELIZE</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Central America, bordering the Caribbean Sea, between Guatemala and Mexico.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Belize</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BMU" nciodm:ExtCodeID="C16334">
+          <nciodm:CDISCSynonym>BERMUDA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A group of islands in the North Atlantic Ocean, east of South Carolina.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Bermuda</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BOL" nciodm:ExtCodeID="C16359">
+          <nciodm:CDISCSynonym>BOLIVIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Central South America, southwest of Brazil.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Bolivia</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BRA" nciodm:ExtCodeID="C16364">
+          <nciodm:CDISCSynonym>BRAZIL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Eastern South America, bordering the Atlantic Ocean.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Brazil</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BRB" nciodm:ExtCodeID="C16324">
+          <nciodm:CDISCSynonym>BARBADOS</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An island between the Caribbean Sea and the North Atlantic Ocean, northeast of Venezuela.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Barbados</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BRN" nciodm:ExtCodeID="C16367">
+          <nciodm:CDISCSynonym>BRUNEI</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Southeastern Asia, bordering the South China Sea and Malaysia.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Brunei Darussalam</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BTN" nciodm:ExtCodeID="C16336">
+          <nciodm:CDISCSynonym>BHUTAN</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Southern Asia, between China and India.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Bhutan</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BVT" nciodm:ExtCodeID="C20104">
+          <nciodm:CDISCSynonym>BOUVET ISLAND</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An island in the South Atlantic Ocean, south-southwest of the Cape of Good Hope (South Africa).</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Bouvet Island</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BWA" nciodm:ExtCodeID="C16363">
+          <nciodm:CDISCSynonym>BOTSWANA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Southern Africa, north of South Africa.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Botswana</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CAF" nciodm:ExtCodeID="C16409">
+          <nciodm:CDISCSynonym>CENTRAL AFRICAN REPUBLIC</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Central Africa, north of Democratic Republic of the Congo.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Central African Republic</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CAN" nciodm:ExtCodeID="C16380">
+          <nciodm:CDISCSynonym>CANADA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Northern North America, bordering the North Atlantic Ocean on the east, North Pacific Ocean on the west, and the Arctic Ocean on the north, north of the conterminous US.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Canada</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CCK" nciodm:ExtCodeID="C16445">
+          <nciodm:CDISCSynonym>COCOS (KEELING) ISLANDS</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A group of islands in the Indian Ocean, south of Indonesia, about halfway from Australia to Sri Lanka.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Cocos (Keeling) Islands</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CHE" nciodm:ExtCodeID="C17181">
+          <nciodm:CDISCSynonym>SWITZERLAND</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Central Europe, east of France, north of Italy.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Switzerland</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CHL" nciodm:ExtCodeID="C16427">
+          <nciodm:CDISCSynonym>CHILE</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Southern South America, bordering the South Atlantic Ocean and South Pacific Ocean, between Argentina and Peru.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Chile</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CHN" nciodm:ExtCodeID="C16428">
+          <nciodm:CDISCSynonym>CHINA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Eastern Asia, bordering the East China Sea, Korea Bay, Yellow Sea, and South China Sea, between North Korea and Vietnam.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>China</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CIV" nciodm:ExtCodeID="C16762">
+          <nciodm:CDISCSynonym>COTE D'IVOIRE</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Western Africa, bordering the North Atlantic Ocean, between Ghana and Liberia.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Cote d'Ivoire</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CMR" nciodm:ExtCodeID="C16379">
+          <nciodm:CDISCSynonym>CAMEROON</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Western Africa, bordering the Bight of Biafra, between Equatorial Guinea and Nigeria.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Cameroon</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="COD" nciodm:ExtCodeID="C17266">
+          <nciodm:CDISCSynonym>DEMOCRATIC REPUBLIC OF THE CONGO</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Central Africa, northeast of Angola.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Democratic Republic of the Congo</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="COG" nciodm:ExtCodeID="C16467">
+          <nciodm:CDISCSynonym>CONGO</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Western Africa, bordering the South Atlantic Ocean, between Angola and Gabon.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Congo</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="COK" nciodm:ExtCodeID="C16469">
+          <nciodm:CDISCSynonym>COOK ISLANDS</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A group of islands in the South Pacific Ocean, about one-half of the way from Hawaii to New Zealand.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Cook Islands</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="COL" nciodm:ExtCodeID="C16449">
+          <nciodm:CDISCSynonym>COLOMBIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Northern South America, bordering the Caribbean Sea, between Panama and Venezuela, and bordering the North Pacific Ocean, between Ecuador and Panama.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Colombia</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="COM" nciodm:ExtCodeID="C16458">
+          <nciodm:CDISCSynonym>COMOROS</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A group of islands in the Mozambique Channel, about two-thirds of the way between northern Madagascar and northern Mozambique.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Comoros</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CPV" nciodm:ExtCodeID="C16382">
+          <nciodm:CDISCSynonym>CAPE VERDE</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A group of islands in the North Atlantic Ocean, west of Senegal.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Cape Verde</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CRI" nciodm:ExtCodeID="C16470">
+          <nciodm:CDISCSynonym>COSTA RICA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Central America, bordering both the Caribbean Sea and the North Pacific Ocean, between Nicaragua and Panama.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Costa Rica</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CUB" nciodm:ExtCodeID="C16477">
+          <nciodm:CDISCSynonym>CUBA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An island between the Caribbean Sea and the North Atlantic Ocean, 150 km south of Key West, Florida.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Cuba</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CXR" nciodm:ExtCodeID="C44482">
+          <nciodm:CDISCSynonym>CHRISTMAS ISLAND</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An Australian-administered island in the eastern Indian Ocean south of Java, Indonesia.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Christmas Island</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CYM" nciodm:ExtCodeID="C16391">
+          <nciodm:CDISCSynonym>CAYMAN ISLANDS</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An island group in the Caribbean Sea, nearly one-half of the way from Cuba to Honduras.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Cayman Islands</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CYP" nciodm:ExtCodeID="C16480">
+          <nciodm:CDISCSynonym>CYPRUS</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An island in the Mediterranean Sea, south of Turkey.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Cyprus</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CZE" nciodm:ExtCodeID="C17668">
+          <nciodm:CDISCSynonym>CZECH REPUBLIC</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Central Europe, southeast of Germany.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Czech Republic</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="DEU" nciodm:ExtCodeID="C16636">
+          <nciodm:CDISCSynonym>GERMANY</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Central Europe, bordering the Baltic Sea and the North Sea, between the Netherlands and Poland, south of Denmark.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Germany</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="DJI" nciodm:ExtCodeID="C16506">
+          <nciodm:CDISCSynonym>DJIBOUTI</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Eastern Africa, bordering the Gulf of Aden and the Red Sea, between Eritrea and Somalia.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Djibouti</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="DMA" nciodm:ExtCodeID="C16519">
+          <nciodm:CDISCSynonym>DOMINICA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An island between the Caribbean Sea and the North Atlantic Ocean, about one-half of the way from Puerto Rico to Trinidad and Tobago.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Dominica</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="DNK" nciodm:ExtCodeID="C16496">
+          <nciodm:CDISCSynonym>DENMARK</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Northern Europe, bordering the Baltic Sea and the North Sea, on a peninsula north of Germany (Jutland); also includes two major islands (Sjaelland and Fyn).</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Denmark</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="DOM" nciodm:ExtCodeID="C16520">
+          <nciodm:CDISCSynonym>DOMINICAN REPUBLIC</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country comprising the eastern two-thirds of the island of Hispaniola, between the Caribbean Sea and the North Atlantic Ocean, east of Haiti.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Dominican Republic</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="DZA" nciodm:ExtCodeID="C16274">
+          <nciodm:CDISCSynonym>ALGERIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Northern Africa, bordering the Mediterranean Sea, between Morocco and Tunisia.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Algeria</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ECU" nciodm:ExtCodeID="C16528">
+          <nciodm:CDISCSynonym>ECUADOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Western South America, bordering the Pacific Ocean at the Equator, between Colombia and Peru.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Ecuador</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="EGY" nciodm:ExtCodeID="C16530">
+          <nciodm:CDISCSynonym>EGYPT</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Northern Africa, bordering the Mediterranean Sea, between Libya and the Gaza Strip.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Egypt</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ERI" nciodm:ExtCodeID="C16558">
+          <nciodm:CDISCSynonym>ERITREA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Eastern Africa, bordering the Red Sea, between Djibouti and Sudan.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Eritrea</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ESH" nciodm:ExtCodeID="C20113">
+          <nciodm:CDISCSynonym>WESTERN SAHARA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Northern Africa, bordering the North Atlantic Ocean, between Mauritania and Morocco.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Western Sahara</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ESP" nciodm:ExtCodeID="C17152">
+          <nciodm:CDISCSynonym>SPAIN</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Southwestern Europe, bordering the Bay of Biscay, Mediterranean Sea, North Atlantic Ocean, and Pyrenees Mountains, southwest of France.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Spain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="EST" nciodm:ExtCodeID="C16562">
+          <nciodm:CDISCSynonym>ESTONIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Eastern Europe, bordering the Baltic Sea and Gulf of Finland, between Latvia and Russia.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Estonia</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ETH" nciodm:ExtCodeID="C16563">
+          <nciodm:CDISCSynonym>ETHIOPIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Eastern Africa, west of Somalia.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Ethiopia</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="FIN" nciodm:ExtCodeID="C16584">
+          <nciodm:CDISCSynonym>FINLAND</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Northern Europe, bordering the Baltic Sea, Gulf of Bothnia, and Gulf of Finland, between Sweden and Russia.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Finland</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="FJI" nciodm:ExtCodeID="C16582">
+          <nciodm:CDISCSynonym>FIJI</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An island group in the South Pacific Ocean, about two-thirds of the way from Hawaii to New Zealand.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Fiji</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="FLK" nciodm:ExtCodeID="C17954">
+          <nciodm:CDISCSynonym>FALKLAND ISLANDS</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Islands in the South Atlantic Ocean, east of southern Argentina.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Falkland Islands</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="FRA" nciodm:ExtCodeID="C16592">
+          <nciodm:CDISCSynonym>FRANCE</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Western Europe, bordering the Bay of Biscay and English Channel, between Belgium and Spain, southeast of the UK; bordering the Mediterranean Sea, between Italy and Spain.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>France</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="FRO" nciodm:ExtCodeID="C16573">
+          <nciodm:CDISCSynonym>FAROE ISLANDS</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An island group between the Norwegian Sea and the North Atlantic Ocean, about one-half of the way from Iceland to Norway.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Faroe Islands</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="FSM" nciodm:ExtCodeID="C17881">
+          <nciodm:CDISCSynonym>MICRONESIA, FEDERATED STATES OF</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An island group in the North Pacific Ocean, about three-quarters of the way from Hawaii to Indonesia.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Federated States of Micronesia</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GAB" nciodm:ExtCodeID="C16596">
+          <nciodm:CDISCSynonym>GABON</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Western Africa, bordering the Atlantic Ocean at the Equator, between Republic of the Congo and Equatorial Guinea.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Gabon</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GBR" nciodm:ExtCodeID="C17233">
+          <nciodm:CDISCSynonym>UNITED KINGDOM</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Western Europe, comprising islands, including the northern one-sixth of the island of Ireland, between the North Atlantic Ocean and the North Sea, northwest of France.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>United Kingdom</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GEO" nciodm:ExtCodeID="C16634">
+          <nciodm:CDISCSynonym>GEORGIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Southwestern Asia, bordering the Black Sea, between Turkey and Russia.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Georgia</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GGY" nciodm:ExtCodeID="C64375">
+          <nciodm:CDISCSynonym>GUERNSEY</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The island of Guernsey and the other Channel Islands represent the last remnants of the medieval Dukedom of Normandy, which held sway in both France and England. Guernsey is a British crown dependency, but is not part of the UK.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Guernsey</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GHA" nciodm:ExtCodeID="C26330">
+          <nciodm:CDISCSynonym>GHANA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Western Africa, bordering the Gulf of Guinea, between Cote d'Ivoire and Togo.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Ghana</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GIB" nciodm:ExtCodeID="C16638">
+          <nciodm:CDISCSynonym>GIBRALTAR</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A dependency in Southwestern Europe, bordering the Strait of Gibraltar, on the southern coast of Spain.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Gibraltar</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GIN" nciodm:ExtCodeID="C16655">
+          <nciodm:CDISCSynonym>GUINEA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Western Africa, bordering the North Atlantic Ocean, between Guinea-Bissau and Sierra Leone.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Guinea</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GLP" nciodm:ExtCodeID="C16651">
+          <nciodm:CDISCSynonym>GUADELOUPE</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Islands in the eastern Caribbean Sea, southeast of Puerto Rico.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Guadeloupe</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GMB" nciodm:ExtCodeID="C16598">
+          <nciodm:CDISCSynonym>GAMBIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Western Africa, bordering the North Atlantic Ocean and Senegal.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Gambia</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GNB" nciodm:ExtCodeID="C16656">
+          <nciodm:CDISCSynonym>GUINEA-BISSAU</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Western Africa, bordering the North Atlantic Ocean, between Guinea and Senegal.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Guinea-Bissau</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GNQ" nciodm:ExtCodeID="C16557">
+          <nciodm:CDISCSynonym>EQUATORIAL GUINEA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Western Africa, bordering the Bight of Biafra, between Cameroon and Gabon; composed of a mainland portion and five inhabited islands.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Equatorial Guinea</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GRC" nciodm:ExtCodeID="C16645">
+          <nciodm:CDISCSynonym>GREECE</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Southern Europe, bordering the Aegean Sea, Ionian Sea, and the Mediterranean Sea, between Albania and Turkey.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Greece</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GRD" nciodm:ExtCodeID="C16647">
+          <nciodm:CDISCSynonym>GRENADA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An island between the Caribbean Sea and Atlantic Ocean, north of Trinidad and Tobago.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Grenada</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GRL" nciodm:ExtCodeID="C16646">
+          <nciodm:CDISCSynonym>GREENLAND</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An island between the Arctic Ocean and the North Atlantic Ocean, northeast of Canada.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Greenland</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GTM" nciodm:ExtCodeID="C16654">
+          <nciodm:CDISCSynonym>GUATEMALA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Central America, bordering the Caribbean Sea, between Honduras and Belize and bordering the North Pacific Ocean, between El Salvador and Mexico.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Guatemala</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GUF" nciodm:ExtCodeID="C16593">
+          <nciodm:CDISCSynonym>FRENCH GUIANA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Northern South America, bordering the North Atlantic Ocean, between Brazil and Suriname.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>French Guiana</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GUM" nciodm:ExtCodeID="C16652">
+          <nciodm:CDISCSynonym>GUAM</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Island in the North Pacific Ocean, about three-quarters of the way from Hawaii to the Philippines.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Guam</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GUY" nciodm:ExtCodeID="C16657">
+          <nciodm:CDISCSynonym>GUYANA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Northern South America, bordering the North Atlantic Ocean, between Suriname and Venezuela.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Guyana</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HKG" nciodm:ExtCodeID="C16695">
+          <nciodm:CDISCSynonym>HKG</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>HONG KONG</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A special administrative region of China, bordering the South China Sea and China.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hong Kong</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HMD" nciodm:ExtCodeID="C20106">
+          <nciodm:CDISCSynonym>HEARD ISLAND AND MCDONALD ISLANDS</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Islands in the Indian Ocean, about two-thirds of the way from Madagascar to Antarctica.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Heard Island and McDonald Islands</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HND" nciodm:ExtCodeID="C16694">
+          <nciodm:CDISCSynonym>HONDURAS</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Central America, bordering the Caribbean Sea, between Guatemala and Nicaragua and bordering the North Pacific Ocean, between El Salvador and Nicaragua.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Honduras</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HRV" nciodm:ExtCodeID="C16474">
+          <nciodm:CDISCSynonym>CROATIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Southeastern Europe, bordering the Adriatic Sea, between Bosnia and Herzegovina and Slovenia.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Croatia</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HTI" nciodm:ExtCodeID="C16660">
+          <nciodm:CDISCSynonym>HAITI</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country comprising the western one-third of the island of Hispaniola, between the Caribbean Sea and the North Atlantic Ocean, west of the Dominican Republic.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Haiti</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HUN" nciodm:ExtCodeID="C16699">
+          <nciodm:CDISCSynonym>HUNGARY</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Central Europe, northwest of Romania.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hungary</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="IDN" nciodm:ExtCodeID="C16728">
+          <nciodm:CDISCSynonym>INDONESIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Southeastern Asia, comprising the archipelago between the Indian Ocean and the Pacific Ocean.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Indonesia</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="IND" nciodm:ExtCodeID="C16727">
+          <nciodm:CDISCSynonym>INDIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Southern Asia, bordering the Arabian Sea and the Bay of Bengal, between Burma and Pakistan.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>India</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="IMN" nciodm:ExtCodeID="C44480">
+          <nciodm:CDISCSynonym>ISLE OF MAN</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An island in the Irish Sea, between Great Britain and Ireland.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Isle of Man</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="IOT" nciodm:ExtCodeID="C16365">
+          <nciodm:CDISCSynonym>BRITISH INDIAN OCEAN TERRITORY</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An archipelago in the Indian Ocean, about one-half the way from Africa to Indonesia.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>British Indian Ocean Territory</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="IRL" nciodm:ExtCodeID="C16757">
+          <nciodm:CDISCSynonym>IRELAND</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Western Europe, occupying five-sixths of the island of Ireland in the North Atlantic Ocean, west of Great Britain.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Ireland</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="IRN" nciodm:ExtCodeID="C16755">
+          <nciodm:CDISCSynonym>IRAN</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in the Middle East, bordering the Gulf of Oman, the Persian Gulf, and the Caspian Sea, between Iraq and Pakistan.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Iran</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="IRQ" nciodm:ExtCodeID="C16756">
+          <nciodm:CDISCSynonym>IRAQ</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in the Middle East, bordering the Persian Gulf, between Iran and Kuwait.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Iraq</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ISL" nciodm:ExtCodeID="C16704">
+          <nciodm:CDISCSynonym>ICELAND</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Northern Europe, island between the Greenland Sea and the North Atlantic Ocean, northwest of the UK.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Iceland</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ISR" nciodm:ExtCodeID="C16760">
+          <nciodm:CDISCSynonym>ISRAEL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in the Middle East, bordering the Mediterranean Sea, between Egypt and Lebanon.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Israel</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ITA" nciodm:ExtCodeID="C16761">
+          <nciodm:CDISCSynonym>ITALY</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Southern Europe, occupying a peninsula extending into the central Mediterranean Sea, northeast of Tunisia.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Italy</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="JAM" nciodm:ExtCodeID="C16763">
+          <nciodm:CDISCSynonym>JAMAICA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An island in the Caribbean Sea, south of Cuba.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Jamaica</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="JOR" nciodm:ExtCodeID="C16765">
+          <nciodm:CDISCSynonym>JORDAN</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in the Middle East, northwest of Saudi Arabia.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Jordan</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="JPN" nciodm:ExtCodeID="C16764">
+          <nciodm:CDISCSynonym>JAPAN</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Eastern Asia, occupying an island chain between the North Pacific Ocean and the Sea of Japan, east of the Korean Peninsula.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Japan</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="JRE" nciodm:ExtCodeID="C64374">
+          <nciodm:CDISCSynonym>JERSEY</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Jersey and the other Channel Islands represent the last remnants of the medieval Dukedom of Normandy that held sway in both France and England. Jersey is a British crown dependency, but is not part of the UK.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Jersey</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="KAZ" nciodm:ExtCodeID="C20107">
+          <nciodm:CDISCSynonym>KAZAKHSTAN</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Central Asia, northwest of China.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Kazakhstan</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="KEN" nciodm:ExtCodeID="C16769">
+          <nciodm:CDISCSynonym>KENYA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Eastern Africa, bordering the Indian Ocean, between Somalia and Tanzania.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Kenya</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="KGZ" nciodm:ExtCodeID="C16771">
+          <nciodm:CDISCSynonym>KYRGYZSTAN</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Central Asia, west of China.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Kyrgyzstan</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="KHM" nciodm:ExtCodeID="C16378">
+          <nciodm:CDISCSynonym>CAMBODIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Southeastern Asia, bordering the Gulf of Thailand, between Thailand, Vietnam, and Laos.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Cambodia</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="KIR" nciodm:ExtCodeID="C16639">
+          <nciodm:CDISCSynonym>KIRIBATI</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A group of 33 coral atolls in the Pacific Ocean, straddling the equator; the capital Tarawa is about one-half of the way from Hawaii to Australia.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Kiribati</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="KNA" nciodm:ExtCodeID="C17885">
+          <nciodm:CDISCSynonym>SAINT KITTS AND NEVIS</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Islands in the Caribbean Sea, about one-third of the way from Puerto Rico to Trinidad and Tobago.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Saint Kitts and Nevis</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="KOR" nciodm:ExtCodeID="C16774">
+          <nciodm:CDISCSynonym>SOUTH KOREA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Eastern Asia, occupying the southern half of the Korean Peninsula, bordering the Sea of Japan and the Yellow Sea.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>South Korea</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="KWT" nciodm:ExtCodeID="C16775">
+          <nciodm:CDISCSynonym>KUWAIT</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in the Middle East, bordering the Persian Gulf, between Iraq and Saudi Arabia.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Kuwait</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LAO" nciodm:ExtCodeID="C16780">
+          <nciodm:CDISCSynonym>LAO PEOPLE'S DEMOCRATIC REPUBLIC</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Southeastern Asia, northeast of Thailand, west of Vietnam.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Lao People's Democratic Republic</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LBN" nciodm:ExtCodeID="C16784">
+          <nciodm:CDISCSynonym>LEBANON</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in the Middle East, bordering the Mediterranean Sea, between Israel and Syria.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Lebanon</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LBR" nciodm:ExtCodeID="C16791">
+          <nciodm:CDISCSynonym>LIBERIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Western Africa, bordering the North Atlantic Ocean, between Cote d'Ivoire and Sierra Leone.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Liberia</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LBY" nciodm:ExtCodeID="C16793">
+          <nciodm:CDISCSynonym>LIBYAN ARAB JAMAHIRIYA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Northern Africa, bordering the Mediterranean Sea, between Egypt and Tunisia.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Libyan Arab Jamahiriya</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LCA" nciodm:ExtCodeID="C17113">
+          <nciodm:CDISCSynonym>SAINT LUCIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in the Caribbean, occupying an island between the Caribbean Sea and North Atlantic Ocean, north of Trinidad and Tobago.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Saint Lucia</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LIE" nciodm:ExtCodeID="C16794">
+          <nciodm:CDISCSynonym>LIECHTENSTEIN</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Central Europe, between Austria and Switzerland.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Liechtenstein</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LKA" nciodm:ExtCodeID="C17163">
+          <nciodm:CDISCSynonym>SRI LANKA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Southern Asia, occupying an island in the Indian Ocean, south of India.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Sri Lanka</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LSO" nciodm:ExtCodeID="C16787">
+          <nciodm:CDISCSynonym>LESOTHO</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Southern Africa, an enclave of South Africa.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Lesotho</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LTU" nciodm:ExtCodeID="C16799">
+          <nciodm:CDISCSynonym>LITHUANIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Eastern Europe, bordering the Baltic Sea, between Latvia and Russia.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Lithuania</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LUX" nciodm:ExtCodeID="C16803">
+          <nciodm:CDISCSynonym>LUXEMBOURG</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Western Europe, between France, Belgium, and Germany.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Luxembourg</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LVA" nciodm:ExtCodeID="C16783">
+          <nciodm:CDISCSynonym>LATVIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Eastern Europe, bordering the Baltic Sea, between Estonia and Lithuania.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Latvia</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MAC" nciodm:ExtCodeID="C16807">
+          <nciodm:CDISCSynonym>MACAO</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Eastern Asia, bordering the South China Sea and China.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Macao</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MAF" nciodm:ExtCodeID="C83610">
+          <nciodm:CDISCSynonym>SAINT MARTIN, FRENCH</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An island in the Caribbean sea, between Anguilla and Saint Barthelemy.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Saint Martin, French</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MAR" nciodm:ExtCodeID="C16878">
+          <nciodm:CDISCSynonym>MOROCCO</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Northern Africa, bordering the North Atlantic Ocean and the Mediterranean Sea, between Algeria and Western Sahara.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Morocco</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MCO" nciodm:ExtCodeID="C16874">
+          <nciodm:CDISCSynonym>MONACO</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Western Europe, bordering the Mediterranean Sea on the southern coast of France, near the border with Italy.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Monaco</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MDA" nciodm:ExtCodeID="C16871">
+          <nciodm:CDISCSynonym>MOLDOVA, REPUBLIC OF</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Eastern Europe, northeast of Romania.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Moldova</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MDG" nciodm:ExtCodeID="C16808">
+          <nciodm:CDISCSynonym>MADAGASCAR</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Southern Africa, occupying an island in the Indian Ocean, east of Mozambique.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Madagascar</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MDV" nciodm:ExtCodeID="C16815">
+          <nciodm:CDISCSynonym>MALDIVES</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Southern Asia, occupying a group of atolls in the Indian Ocean, south-southwest of India.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Maldives</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MEX" nciodm:ExtCodeID="C16850">
+          <nciodm:CDISCSynonym>MEXICO</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Central America, bordering the Caribbean Sea and the Gulf of Mexico, between Belize and the US and bordering the North Pacific Ocean, between Guatemala and the US.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Mexico</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MHL" nciodm:ExtCodeID="C16822">
+          <nciodm:CDISCSynonym>MARSHALL ISLANDS</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A group of atolls and reefs in the North Pacific Ocean, about one-half of the way from Hawaii to Australia.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Marshall Islands</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MKD" nciodm:ExtCodeID="C17654">
+          <nciodm:CDISCSynonym>REPUBLIC OF MACEDONIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Southeastern Europe, north of Greece.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Republic of Macedonia</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MLI" nciodm:ExtCodeID="C16816">
+          <nciodm:CDISCSynonym>MALI</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Western Africa, southwest of Algeria.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Mali</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MLT" nciodm:ExtCodeID="C16817">
+          <nciodm:CDISCSynonym>MALTA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Southern Europe, occupying islands in the Mediterranean Sea, south of Sicily (Italy).</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Malta</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MMR" nciodm:ExtCodeID="C16370">
+          <nciodm:CDISCSynonym>MYANMAR</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Southeastern Asia, bordering the Andaman Sea and the Bay of Bengal, between Bangladesh and Thailand.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Myanmar</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MNE" nciodm:ExtCodeID="C64378">
+          <nciodm:CDISCSynonym>MONTENEGRO</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A republic in Southeastern Europe, bordering the Adriatic Sea, between Albania and Bosnia and Herzegovina. Formerly part of Serbia and Montenegro (Federation Republic of Yugoslavia).</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Montenegro</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MNG" nciodm:ExtCodeID="C16875">
+          <nciodm:CDISCSynonym>MONGOLIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Northern Asia, between China and Russia.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Mongolia</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MNP" nciodm:ExtCodeID="C17882">
+          <nciodm:CDISCSynonym>NORTHERN MARIANA ISLANDS</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in the Pacific, comprising islands in the North Pacific Ocean, about three-quarters of the way from Hawaii to the Philippines.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Northern Mariana Islands</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MOZ" nciodm:ExtCodeID="C16882">
+          <nciodm:CDISCSynonym>MOZAMBIQUE</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Southern Africa, bordering the Mozambique Channel, between South Africa and Tanzania.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Mozambique</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MRT" nciodm:ExtCodeID="C16826">
+          <nciodm:CDISCSynonym>MAURITANIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Northern Africa, bordering the North Atlantic Ocean, between Senegal and Western Sahara.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Mauritania</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MSR" nciodm:ExtCodeID="C16876">
+          <nciodm:CDISCSynonym>MONTSERRAT</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in the Caribbean, occupying an island in the Caribbean Sea, southeast of Puerto Rico.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Montserrat</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MTQ" nciodm:ExtCodeID="C16823">
+          <nciodm:CDISCSynonym>MARTINIQUE</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An island in the Caribbean Sea, north of Trinidad and Tobago.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Martinique</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MUS" nciodm:ExtCodeID="C16827">
+          <nciodm:CDISCSynonym>MAURITIUS</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Southern Africa, occupying an island in the Indian Ocean, east of Madagascar.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Mauritius</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MWI" nciodm:ExtCodeID="C16813">
+          <nciodm:CDISCSynonym>MALAWI</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Southern Africa, east of Zambia.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Malawi</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MYS" nciodm:ExtCodeID="C16814">
+          <nciodm:CDISCSynonym>MALAYSIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Southeastern Asia, occupying a peninsula and the northern one-third of the island of Borneo, bordering Indonesia and the South China Sea, south of Vietnam.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Malaysia</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MYT" nciodm:ExtCodeID="C16828">
+          <nciodm:CDISCSynonym>MAYOTTE</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Southern Africa, occupying an island in the Mozambique Channel, about one-half of the way from northern Madagascar to northern Mozambique.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Mayotte</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="NAM" nciodm:ExtCodeID="C16891">
+          <nciodm:CDISCSynonym>NAMIBIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Southern Africa, bordering the South Atlantic Ocean, between Angola and South Africa.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Namibia</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="NCL" nciodm:ExtCodeID="C16913">
+          <nciodm:CDISCSynonym>NEW CALEDONIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in the Pacific, comprised of islands in the South Pacific Ocean, east of Australia.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>New Caledonia</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="NER" nciodm:ExtCodeID="C16916">
+          <nciodm:CDISCSynonym>NIGER</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Western Africa, southeast of Algeria.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Niger</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="NFK" nciodm:ExtCodeID="C16919">
+          <nciodm:CDISCSynonym>NORFOLK ISLAND</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in the Pacific, occupying an island in the South Pacific Ocean, east of Australia.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Norfolk Island</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="NGA" nciodm:ExtCodeID="C16917">
+          <nciodm:CDISCSynonym>NIGERIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Western Africa, bordering the Gulf of Guinea, between Benin and Cameroon.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Nigeria</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="NIC" nciodm:ExtCodeID="C16915">
+          <nciodm:CDISCSynonym>NICARAGUA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Central America, bordering both the Caribbean Sea and the North Pacific Ocean, between Costa Rica and Honduras.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Nicaragua</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="NIU" nciodm:ExtCodeID="C16918">
+          <nciodm:CDISCSynonym>NIUE</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in the Pacific, occupying an island in the South Pacific Ocean, east of Tonga.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Niue</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="NLD" nciodm:ExtCodeID="C16903">
+          <nciodm:CDISCSynonym>NETHERLANDS</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Western Europe, bordering the North Sea, between Belgium and Germany.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Netherlands</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="NOR" nciodm:ExtCodeID="C16920">
+          <nciodm:CDISCSynonym>NORWAY</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Northern Europe, bordering the North Sea and the North Atlantic Ocean, west of Sweden.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Norway</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="NPL" nciodm:ExtCodeID="C16901">
+          <nciodm:CDISCSynonym>NEPAL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Southern Asia, between China and India.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Nepal</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="NRU" nciodm:ExtCodeID="C16896">
+          <nciodm:CDISCSynonym>NAURU</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Oceania, occupying an island in the South Pacific Ocean, south of the Marshall Islands.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Nauru</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="NZL" nciodm:ExtCodeID="C16914">
+          <nciodm:CDISCSynonym>NEW ZEALAND</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in the Pacific, comprised of islands in the South Pacific Ocean, southeast of Australia.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>New Zealand</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="OMN" nciodm:ExtCodeID="C16933">
+          <nciodm:CDISCSynonym>OMAN</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in the Middle East, bordering the Arabian Sea, Gulf of Oman, and Persian Gulf, between Yemen and the United Arab Emirates.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Oman</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PAK" nciodm:ExtCodeID="C16949">
+          <nciodm:CDISCSynonym>PAKISTAN</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Southern Asia, bordering the Arabian Sea, between India on the east and Iran and Afghanistan on the west and China in the north.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Pakistan</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PAN" nciodm:ExtCodeID="C16951">
+          <nciodm:CDISCSynonym>PANAMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Central America, bordering both the Caribbean Sea and the North Pacific Ocean, between Colombia and Costa Rica.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Panama</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PCN" nciodm:ExtCodeID="C16993">
+          <nciodm:CDISCSynonym>PITCAIRN</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in the Pacific, comprised of islands in the South Pacific Ocean, about midway between Peru and New Zealand.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Pitcairn Island</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PER" nciodm:ExtCodeID="C16972">
+          <nciodm:CDISCSynonym>PERU</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Western South America, bordering the South Pacific Ocean, between Chile and Ecuador.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Peru</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PHL" nciodm:ExtCodeID="C16978">
+          <nciodm:CDISCSynonym>PHILIPPINES</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Southeastern Asia, comprised of an archipelago between the Philippine Sea and the South China Sea, east of Vietnam.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Philippines</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PLW" nciodm:ExtCodeID="C17733">
+          <nciodm:CDISCSynonym>PALAU</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in the Pacific, comprising a group of islands in the North Pacific Ocean, southeast of the Philippines.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Palau</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PNG" nciodm:ExtCodeID="C16952">
+          <nciodm:CDISCSynonym>PAPUA NEW GUINEA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Southeastern Asia, comprising a group of islands and including the eastern half of the island of New Guinea, between the Coral Sea and the South Pacific Ocean, east of Indonesia.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Papua New Guinea</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="POL" nciodm:ExtCodeID="C17002">
+          <nciodm:CDISCSynonym>POLAND</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Central Europe, east of Germany.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Poland</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PRI" nciodm:ExtCodeID="C17043">
+          <nciodm:CDISCSynonym>PUERTO RICO</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An island between the Caribbean Sea and the North Atlantic Ocean, east of the Dominican Republic.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Puerto Rico</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PRK" nciodm:ExtCodeID="C16773">
+          <nciodm:CDISCSynonym>NORTH KOREA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Eastern Asia, occupying the northern half of the Korean Peninsula, bordering the Korea Bay and the Sea of Japan, between China and South Korea.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>North Korea</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PRT" nciodm:ExtCodeID="C17006">
+          <nciodm:CDISCSynonym>PORTUGAL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Southwestern Europe, bordering the North Atlantic Ocean, west of Spain.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Portugal</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PRY" nciodm:ExtCodeID="C16953">
+          <nciodm:CDISCSynonym>PARAGUAY</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Central South America, northeast of Argentina.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Paraguay</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PSE" nciodm:ExtCodeID="C20110">
+          <nciodm:CDISCSynonym>PALESTINIAN TERRITORY, OCCUPIED</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A collective name for the West Bank and the Gaza Strip, two territories in Palestine.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Palestinian Territory, Occupied</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PYF" nciodm:ExtCodeID="C16594">
+          <nciodm:CDISCSynonym>FRENCH POLYNESIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An archipelago in the South Pacific Ocean, about one-half of the way from South America to Australia.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>French Polynesia</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="QAT" nciodm:ExtCodeID="C17045">
+          <nciodm:CDISCSynonym>QATAR</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in the Middle East, occupying a peninsula bordering the Persian Gulf and Saudi Arabia.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Qatar</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="REU" nciodm:ExtCodeID="C17095">
+          <nciodm:CDISCSynonym>REUNION</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Southern Africa, occupying an island in the Indian Ocean, east of Madagascar.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Reunion</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ROU" nciodm:ExtCodeID="C17108">
+          <nciodm:CDISCSynonym>ROMANIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Southeastern Europe, bordering the Black Sea, between Bulgaria and Ukraine.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Romania</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="RUS" nciodm:ExtCodeID="C17111">
+          <nciodm:CDISCSynonym>RUSSIAN FEDERATION</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Northern Asia (that part west of the Urals is sometimes included with Europe), bordering the Arctic Ocean, between Europe and the North Pacific Ocean.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Russia</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="RWA" nciodm:ExtCodeID="C17112">
+          <nciodm:CDISCSynonym>RWANDA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Central Africa, east of Democratic Republic of the Congo.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Rwanda</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SAU" nciodm:ExtCodeID="C17117">
+          <nciodm:CDISCSynonym>SAUDI ARABIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in the Middle East, bordering the Persian Gulf and the Red Sea, north of Yemen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Saudi Arabia</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SCG" nciodm:ExtCodeID="C64377">
+          <nciodm:CDISCSynonym>SERBIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A republic in Southeastern Europe, bordering the Adriatic Sea, between Albania and Bosnia and Herzegovina. Formerly part of Serbia and Montenegro (Federation Republic of Yugoslavia).</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Serbia</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SDN" nciodm:ExtCodeID="C17170">
+          <nciodm:CDISCSynonym>SUDAN</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Northern Africa, bordering the Red Sea, between Egypt and Eritrea.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Sudan</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SEN" nciodm:ExtCodeID="C17121">
+          <nciodm:CDISCSynonym>SENEGAL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Western Africa, bordering the North Atlantic Ocean, between Guinea-Bissau and Mauritania.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Senegal</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SGP" nciodm:ExtCodeID="C17134">
+          <nciodm:CDISCSynonym>SINGAPORE</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Southeastern Asia, comprised of islands between Malaysia and Indonesia.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Singapore</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SGS" nciodm:ExtCodeID="C20111">
+          <nciodm:CDISCSynonym>SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A group of islands in the South Atlantic Ocean, east of the tip of South America.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>South Georgia and the South Sandwich Islands</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SHN" nciodm:ExtCodeID="C17164">
+          <nciodm:CDISCSynonym>SAINT HELENA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Islands in the South Atlantic Ocean, about midway between South America and Africa.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Saint Helena</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SJM" nciodm:ExtCodeID="C17178">
+          <nciodm:CDISCSynonym>SVALBARD AND JAN MAYEN</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Islands between the Arctic Ocean, Barents Sea, Greenland Sea, and Norwegian Sea, northeast of Iceland and north of Norway.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Svalbard and Jan Mayen</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SLB" nciodm:ExtCodeID="C17148">
+          <nciodm:CDISCSynonym>SOLOMON ISLANDS</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A group of islands in the South Pacific Ocean, east of Papua New Guinea.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Solomon Islands</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SLE" nciodm:ExtCodeID="C17130">
+          <nciodm:CDISCSynonym>SIERRA LEONE</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Western Africa, bordering the North Atlantic Ocean, between Guinea and Liberia.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Sierra Leone</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SLV" nciodm:ExtCodeID="C16532">
+          <nciodm:CDISCSynonym>EL SALVADOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Central America, bordering the North Pacific Ocean, between Guatemala and Honduras.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>El Salvador</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SMR" nciodm:ExtCodeID="C17115">
+          <nciodm:CDISCSynonym>SAN MARINO</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Southern Europe, an enclave in central Italy.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>San Marino</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SOM" nciodm:ExtCodeID="C17149">
+          <nciodm:CDISCSynonym>SOMALIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Eastern Africa, bordering the Gulf of Aden and the Indian Ocean, east of Ethiopia.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Somalia</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SPM" nciodm:ExtCodeID="C17165">
+          <nciodm:CDISCSynonym>SAINT PIERRE AND MIQUELON</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Northern North America, comprised of islands in the North Atlantic Ocean, south of Newfoundland (Canada).</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Saint Pierre and Miquelon</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="STP" nciodm:ExtCodeID="C17116">
+          <nciodm:CDISCSynonym>SAO TOME AND PRINCIPE</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Western Africa, comprised of islands in the Gulf of Guinea, straddling the Equator, west of Gabon.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Sao Tome and Principe</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SUR" nciodm:ExtCodeID="C17175">
+          <nciodm:CDISCSynonym>SURINAME</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Northern South America, bordering the North Atlantic Ocean, between French Guiana and Guyana.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Suriname</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SVK" nciodm:ExtCodeID="C17669">
+          <nciodm:CDISCSynonym>SLOVAKIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Central Europe, south of Poland.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Slovakia</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SVN" nciodm:ExtCodeID="C17138">
+          <nciodm:CDISCSynonym>SLOVENIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Central Europe, bordering the Adriatic Sea, between Austria and Croatia.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Slovenia</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SWE" nciodm:ExtCodeID="C17180">
+          <nciodm:CDISCSynonym>SWEDEN</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Northern Europe, bordering the Baltic Sea, Gulf of Bothnia, Kattegat, and Skagerrak, between Finland and Norway.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Sweden</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SWZ" nciodm:ExtCodeID="C17179">
+          <nciodm:CDISCSynonym>SWAZILAND</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Southern Africa, between Mozambique and South Africa.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Swaziland</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SYC" nciodm:ExtCodeID="C17129">
+          <nciodm:CDISCSynonym>SEYCHELLES</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Eastern Africa, comprised of a group of islands in the Indian Ocean, northeast of Madagascar.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Seychelles</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SYR" nciodm:ExtCodeID="C17182">
+          <nciodm:CDISCSynonym>SYRIAN ARAB REPUBLIC</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in the Middle East, bordering the Mediterranean Sea, between Lebanon and Turkey.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Syria</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TCA" nciodm:ExtCodeID="C17224">
+          <nciodm:CDISCSynonym>TURKS AND CAICOS ISLANDS</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Two island groups in the North Atlantic Ocean, southeast of The Bahamas.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Turks and Caicos Islands</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TCD" nciodm:ExtCodeID="C16412">
+          <nciodm:CDISCSynonym>CHAD</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Central Africa, south of Libya.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Chad</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TGO" nciodm:ExtCodeID="C17202">
+          <nciodm:CDISCSynonym>TOGO</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Western Africa, bordering the Bight of Benin, between Benin and Ghana.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Togo</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="THA" nciodm:ExtCodeID="C17192">
+          <nciodm:CDISCSynonym>THAILAND</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Southeastern Asia, bordering the Andaman Sea and the Gulf of Thailand, southeast of Burma.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Thailand</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TJK" nciodm:ExtCodeID="C17183">
+          <nciodm:CDISCSynonym>TAJIKISTAN</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Central Asia, west of China.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Tajikistan</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TKL" nciodm:ExtCodeID="C17704">
+          <nciodm:CDISCSynonym>TOKELAU</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A group of three atolls in the South Pacific Ocean, about one-half of the way from Hawaii to New Zealand.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Tokelau</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TKM" nciodm:ExtCodeID="C17223">
+          <nciodm:CDISCSynonym>TURKMENISTAN</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Central Asia, bordering the Caspian Sea, between Iran and Kazakhstan.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Turkmenistan</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TLS" nciodm:ExtCodeID="C17200">
+          <nciodm:CDISCSynonym>TIMOR-LESTE</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Southeastern Asia, northwest of Australia in the Lesser Sunda Islands at the eastern end of the Indonesian archipelago. East Timor includes the eastern half of the island of Timor, the Oecussi (Ambeno) region on the northwest portion of the island of Timor, and the islands of Pulau Atauro and Pulau Jaco.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Timor-Leste</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TON" nciodm:ExtCodeID="C17205">
+          <nciodm:CDISCSynonym>TONGA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An archipelago in the South Pacific Ocean, about two-thirds of the way from Hawaii to New Zealand.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Tonga</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TTO" nciodm:ExtCodeID="C17217">
+          <nciodm:CDISCSynonym>TRINIDAD AND TOBAGO</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Islands between the Caribbean Sea and the North Atlantic Ocean, northeast of Venezuela.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Trinidad and Tobago</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TUN" nciodm:ExtCodeID="C17221">
+          <nciodm:CDISCSynonym>TUNISIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Northern Africa, bordering the Mediterranean Sea, between Algeria and Libya.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Tunisia</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TUR" nciodm:ExtCodeID="C17222">
+          <nciodm:CDISCSynonym>TURKEY</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in southeastern Europe and southwestern Asia (that portion of Turkey west of the Bosporus is geographically part of Europe), bordering the Black Sea, between Bulgaria and Georgia, and bordering the Aegean Sea and the Mediterranean Sea, between Greece and Syria.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Turkey</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TUV" nciodm:ExtCodeID="C17225">
+          <nciodm:CDISCSynonym>TUVALU</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An island group consisting of nine coral atolls in the South Pacific Ocean, about one-half of the way from Hawaii to Australia.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Tuvalu</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TWN" nciodm:ExtCodeID="C17184">
+          <nciodm:CDISCSynonym>TAIWAN</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A group of islands bordering the East China Sea, Philippine Sea, South China Sea, and Taiwan Strait, north of the Philippines, off the southeastern coast of China.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Taiwan</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TZA" nciodm:ExtCodeID="C17185">
+          <nciodm:CDISCSynonym>TANZANIA, UNITED REPUBLIC OF</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Eastern Africa, bordering the Indian Ocean, between Kenya and Mozambique.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Tanzania</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="UGA" nciodm:ExtCodeID="C17228">
+          <nciodm:CDISCSynonym>UGANDA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Eastern Africa, west of Kenya.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Uganda</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="UKR" nciodm:ExtCodeID="C17229">
+          <nciodm:CDISCSynonym>UKRAINE</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Eastern Europe, bordering the Black Sea, between Poland and Russia.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Ukraine</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="UMI" nciodm:ExtCodeID="C20112">
+          <nciodm:CDISCSynonym>UNITED STATES MINOR OUTLYING ISLANDS</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The U.S. Minor Outlying Islands consist of Baker Island, Howland Island, Jarvis Island, Johnston Atoll, Kingman Reef, Midway Island, Navassa Island, Palmyra Atoll, and Wake Island (Wake Atoll).</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>United States Minor Outlying Islands</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="URY" nciodm:ExtCodeID="C17244">
+          <nciodm:CDISCSynonym>URUGUAY</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Southern South America, bordering the South Atlantic Ocean, between Argentina and Brazil.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Uruguay</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="USA" nciodm:ExtCodeID="C17234">
+          <nciodm:CDISCSynonym>UNITED STATES</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in North America, bordering both the North Atlantic Ocean and the North Pacific Ocean, between Canada and Mexico.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>United States</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="UZB" nciodm:ExtCodeID="C17246">
+          <nciodm:CDISCSynonym>UZBEKISTAN</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Central Asia, north of Afghanistan.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Uzbekistan</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="VAT" nciodm:ExtCodeID="C17249">
+          <nciodm:CDISCSynonym>VATICAN CITY STATE</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An enclave of Rome (Italy).</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Holy See</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="VCT" nciodm:ExtCodeID="C17114">
+          <nciodm:CDISCSynonym>SAINT VINCENT AND THE GRENADINES</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in the Caribbean, comprised of islands in the Caribbean Sea, north of Trinidad and Tobago.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Saint Vincent and the Grenadines</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="VEN" nciodm:ExtCodeID="C17250">
+          <nciodm:CDISCSynonym>VENEZUELA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Northern South America, bordering the Caribbean Sea and the North Atlantic Ocean, between Colombia and Guyana.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Venezuela</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="VGB" nciodm:ExtCodeID="C17653">
+          <nciodm:CDISCSynonym>VIRGIN ISLANDS, BRITISH</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Islands between the Caribbean Sea and the North Atlantic Ocean, east of Puerto Rico.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>British Virgin Islands</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="VIR" nciodm:ExtCodeID="C17255">
+          <nciodm:CDISCSynonym>VIRGIN ISLANDS, U.S.</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Islands between the Caribbean Sea and the North Atlantic Ocean, east of Puerto Rico.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>United States Virgin Islands</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="VNM" nciodm:ExtCodeID="C17252">
+          <nciodm:CDISCSynonym>VIETNAM</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Southeastern Asia, bordering the Gulf of Thailand, Gulf of Tonkin, and South China Sea, alongside China, Laos, and Cambodia.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Vietnam</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="VUT" nciodm:ExtCodeID="C17247">
+          <nciodm:CDISCSynonym>VANUATU</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A group of islands in the South Pacific Ocean, about three-quarters of the way from Hawaii to Australia.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Vanuatu</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="WLF" nciodm:ExtCodeID="C17259">
+          <nciodm:CDISCSynonym>WALLIS AND FUTUNA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Islands in the South Pacific Ocean, about two-thirds of the way from Hawaii to New Zealand.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Wallis and Futuna Islands</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="WSM" nciodm:ExtCodeID="C17740">
+          <nciodm:CDISCSynonym>SAMOA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A group of islands in the South Pacific Ocean, about one-half of the way from Hawaii to New Zealand.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Samoa</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="YEM" nciodm:ExtCodeID="C17264">
+          <nciodm:CDISCSynonym>YEMEN</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in the Middle East, bordering the Arabian Sea, Gulf of Aden, and Red Sea, between Oman and Saudi Arabia.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Yemen</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ZAF" nciodm:ExtCodeID="C17151">
+          <nciodm:CDISCSynonym>SOUTH AFRICA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Southern Africa, at the southern tip of the continent of Africa.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>South Africa</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ZMB" nciodm:ExtCodeID="C17267">
+          <nciodm:CDISCSynonym>ZAMBIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Southern Africa, east of Angola.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Zambia</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ZWE" nciodm:ExtCodeID="C17268">
+          <nciodm:CDISCSynonym>ZIMBABWE</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A country in Southern Africa, between South Africa and Zambia.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Zimbabwe</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <nciodm:CDISCSubmissionValue>COUNTRY</nciodm:CDISCSubmissionValue>
+        <nciodm:CDISCSynonym>Country</nciodm:CDISCSynonym>
+        <nciodm:PreferredTerm>CDISC SDTM Country Terminology</nciodm:PreferredTerm>
+      </CodeList>
+      

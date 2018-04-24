@@ -1,0 +1,69 @@
+<CodeList xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" OID="CL.C71148.POSITION" Name="Position" DataType="text" nciodm:ExtCodeID="C71148" nciodm:CodeListExtensible="Yes">
+        <Description>
+          <TranslatedText xml:lang="en">Terminology codelist used with Body Position within CDISC.</TranslatedText>
+        </Description>
+        <EnumeratedItem CodedValue="SITTING" nciodm:ExtCodeID="C62122">
+          <nciodm:CDISCSynonym>Sitting</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The state or act of one who sits; the posture of one who occupies a seat. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Sitting</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PRONE" nciodm:ExtCodeID="C62165">
+          <nciodm:CDISCSynonym>Prone</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An anterior recumbent body position whereby the person lies on its stomach and faces downward. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Prone Position</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="STANDING" nciodm:ExtCodeID="C62166">
+          <nciodm:CDISCSynonym>Standing</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The act of assuming or maintaining an erect upright position. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Standing</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SUPINE" nciodm:ExtCodeID="C62167">
+          <nciodm:CDISCSynonym>Supine</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A posterior recumbent body position whereby the person lies on its back and faces upward. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Supine Position</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TRENDELENBURG" nciodm:ExtCodeID="C62168">
+          <nciodm:CDISCSynonym>Trendelenburg</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A supine position with the person inclined at an angle of 45 degrees so that the pelvis is higher than the head. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Trendelenburg</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="REVERSE TRENDELENBURG" nciodm:ExtCodeID="C62169">
+          <nciodm:CDISCSynonym>Reverse Trendelenburg</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A supine position with the person inclined at an angle of 45 degrees so that the head is higher than the pelvis. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Reverse Trendelenburg</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="RIGHT LATERAL DECUBITUS" nciodm:ExtCodeID="C62171">
+          <nciodm:CDISCSynonym>Right lateral decubitus</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A recumbent right lateral side position. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Right Lateral Decubitus Position</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LEFT LATERAL DECUBITUS" nciodm:ExtCodeID="C62172">
+          <nciodm:CDISCSynonym>Left lateral decubitus</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A recumbent left lateral side position. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Left Lateral Decubitus Position</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="FOWLERS" nciodm:ExtCodeID="C62173">
+          <nciodm:CDISCSynonym>Fowlers</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A semi-sitting position whereby the head of an adjustable bed is elevated to the desired height, about 60-90 cm, to produce angulation of the body, usually 45 degrees to 60 degrees. Knees may or may not be bent. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Fowler's Position</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SEMI-FOWLERS" nciodm:ExtCodeID="C62174">
+          <nciodm:CDISCSynonym>Semi-Fowlers</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A semi-sitting or semi-reclined body position whereby the head is elevated on an angle of approximately 30 degrees. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Semi-Fowler's Position</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="UNCONSTRAINED" nciodm:ExtCodeID="C90480">
+          <nciodm:CDISCSynonym>Unconstrained</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The ability to move body parts and limbs without physical restriction. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Unconstrained Body Movement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SLING" nciodm:ExtCodeID="C92604">
+          <nciodm:CDISCSynonym>Sling</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A position in which the subject's body is supported by a sling.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Patient in Body Sling</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <nciodm:CDISCSubmissionValue>POSITION</nciodm:CDISCSubmissionValue>
+        <nciodm:CDISCSynonym>Position</nciodm:CDISCSynonym>
+        <nciodm:PreferredTerm>CDISC SDTM Body Position Terminology</nciodm:PreferredTerm>
+      </CodeList>
+      

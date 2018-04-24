@@ -1,0 +1,161 @@
+<CodeList xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" OID="CL.C67152.TSPARM" Name="Trial Summary Parameter Test Name" DataType="text" nciodm:ExtCodeID="C67152" nciodm:CodeListExtensible="Yes">
+        <Description>
+          <TranslatedText xml:lang="en">Individual characteristics of a clinical trial, e.g. description of trial design, trial blinding schema, and primary objective of trial. (NCI)</TranslatedText>
+        </Description>
+        <EnumeratedItem CodedValue="Added on to Existing Treatments" nciodm:ExtCodeID="C49703">
+          <nciodm:CDISCSynonym>Added on to Existing Treatments</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The addition of a therapeutic product to the existing regimen in a clinical trial, where both entities remain as discrete products.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Test Product Added to Existing Treatment</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Planned Maximum Age of Subjects" nciodm:ExtCodeID="C49694">
+          <nciodm:CDISCSynonym>Planned Maximum Age of Subjects</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The anticipated maximum age of the subjects to be entered in a clinical trial. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Planned Maximum Age of Subjects</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Planned Minimum Age of Subjects" nciodm:ExtCodeID="C49693">
+          <nciodm:CDISCSynonym>Planned Minimum Age of Subjects</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The anticipated minimum age of the subjects to be entered in a clinical trial. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Planned Minimum Age of Subjects</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Age Span" nciodm:ExtCodeID="C20587">
+          <nciodm:CDISCSynonym>Age Span</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Subgroups of populations based on age. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Age Group</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Age Unit" nciodm:ExtCodeID="C50400">
+          <nciodm:CDISCSynonym>Age Unit</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Those units of time that are routinely used to express the age of a person. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Age Unit</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Dose per Administration" nciodm:ExtCodeID="C25488">
+          <nciodm:CDISCSynonym>Dose per Administration</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The amount of drug administered to a patient or test subject at one time or the total quantity administered. [AMA Manual of Style] (CDISC Glossary)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Dose</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Trial Length" nciodm:ExtCodeID="C49697">
+          <nciodm:CDISCSynonym>Trial Length</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The anticipated length of a clinical trial measured as a unit of time. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Trial Length</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Planned Number of Subjects" nciodm:ExtCodeID="C49692">
+          <nciodm:CDISCSynonym>Planned Number of Subjects</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The number of subjects entered in a clinical trial. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Planned Subject Number</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Trial is Randomized" nciodm:ExtCodeID="C25196">
+          <nciodm:CDISCSynonym>Trial is Randomized</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The process of assigning trial subjects to treatment or control groups using an element of chance to determine the assignments in order to reduce bias. NOTE: Unequal randomization is used to allocate subjects into groups at a differential rate; for example, three subjects may be assigned to a treatment group for every one assigned to the control group. [ICH E6 1.48] See also balanced study. (CDISC glossary)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Randomization</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Route of Administration" nciodm:ExtCodeID="C38114">
+          <nciodm:CDISCSynonym>Route of Administration</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The course by which a substance was administered in order to reach the site of action in the body.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Route of Administration</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Sex of Participants" nciodm:ExtCodeID="C49696">
+          <nciodm:CDISCSynonym>Sex of Participants</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The specific sex, either male, female, or mixed of the subject group being studied. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Sex of Study Group</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Study Stop Rules" nciodm:ExtCodeID="C49698">
+          <nciodm:CDISCSynonym>Study Stop Rules</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The rule, regulation and/or condition that determines the point in time when a clinical trial will be terminated. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Study Stop Rules</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Trial Blinding Schema" nciodm:ExtCodeID="C49658">
+          <nciodm:CDISCSynonym>Trial Blinding Schema</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The name of a code list that contains terms to define the type of blinding for the trial. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Trial Blinding Schema</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Control Type" nciodm:ExtCodeID="C49647">
+          <nciodm:CDISCSynonym>Control Type</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Comparator against which the study treatment is evaluated (e.g., concurrent (placebo, no treatment, dose-response, active), external (historical, published literature).</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Control Type</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Diagnosis Group" nciodm:ExtCodeID="C49650">
+          <nciodm:CDISCSynonym>Diagnosis Group</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A grouping of individuals on the basis of a shared procedure or disease, or lack thereof (e.g. healthy volunteers, type 2 diabetic subjects, subjects with renal cell cancer). Standardized naming systems are available that define the groups within which a subject should be placed. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Diagnosis Group</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Trial Indication Type" nciodm:ExtCodeID="C49652">
+          <nciodm:CDISCSynonym>Trial Indication Type</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The name of a code list that contains terms to define the type of trial, e.g. cure or prevention. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Trial Indication Type</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Trial Title" nciodm:ExtCodeID="C49802">
+          <nciodm:CDISCSynonym>Trial Title</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The name of a clinical trial. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Trial Title</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Trial Phase Classification" nciodm:ExtCodeID="C48281">
+          <nciodm:CDISCSynonym>Trial Phase Classification</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Clinical trials are broken into three or four phases: Phase I tests a new drug or treatment for safety in a small group; Phase II expands the study to a larger group of people; Phase III expands the study to an even larger group of people to measure whether the treatment actually benefits patients, and whether its benefits exceed its risks; and Phase IV takes place after the drug or treatment has been licensed and marketed. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Trial Phase</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Trial Type" nciodm:ExtCodeID="C49660">
+          <nciodm:CDISCSynonym>Trial Type</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The type of clinical trial performed e.g. efficacy, safety. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Trial Type</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Current Therapy or Treatment" nciodm:ExtCodeID="C85582">
+          <nciodm:CDISCSynonym>Current Therapy or Treatment</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The literal identifier of the therapy or medication that is currently being given per protocol. This does not include treatment that has been given in the past.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Current Therapy</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Trial Primary Objective" nciodm:ExtCodeID="C85826">
+          <nciodm:CDISCSynonym>Trial Primary Objective</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The principal purpose of the trial.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Trial Primary Objective</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Trial Secondary Objective" nciodm:ExtCodeID="C85827">
+          <nciodm:CDISCSynonym>Trial Secondary Objective</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The auxiliary purpose of the trial.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Trial Secondary Objective</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Clinical Study Sponsor" nciodm:ExtCodeID="C70793">
+          <nciodm:CDISCSynonym>Clinical Study Sponsor</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Study Sponsor</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Sponsor</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An entity that is responsible for the initiation, management, and/or financing of a clinical study.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Clinical Study Sponsor</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Comparative Treatment Name" nciodm:ExtCodeID="C68612">
+          <nciodm:CDISCSynonym>Comparative Treatment Name</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A therapeutically active agent that is intended to provide reference measurements for the experimental protocol of a clinical trial.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Active Comparator Drug</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Dose Units" nciodm:ExtCodeID="C73558">
+          <nciodm:CDISCSynonym>Dose Units</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The unit of measure for the dosage form.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Dosage Form Unit</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Dosing Frequency" nciodm:ExtCodeID="C89081">
+          <nciodm:CDISCSynonym>Dosing Frequency</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The number of doses administered per a specific interval.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Dose Frequency</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Trial Indication" nciodm:ExtCodeID="C41184">
+          <nciodm:CDISCSynonym>Trial Indication</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The basis for initiation of a treatment for a disease or of a diagnostic test (causal, or symptomatic, or disease-specific indication).</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Indication</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Investigational Therapy or Treatment" nciodm:ExtCodeID="C41161">
+          <nciodm:CDISCSynonym>Investigational Therapy or Treatment</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The investigational product under study.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Protocol Agent</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Ratio for Randomization" nciodm:ExtCodeID="C92431">
+          <nciodm:CDISCSynonym>Ratio for Randomization</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The relative proportion of trial subjects between treatment or control groups.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Randomization Ratio</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Stratification for Randomization" nciodm:ExtCodeID="C16153">
+          <nciodm:CDISCSynonym>Stratification for Randomization</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Selected pre-treatment factors by which patients are segregated to assure balance of these factors before randomization to the intervention arms of a clinical protocol.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Stratification Factors</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <nciodm:CDISCSubmissionValue>TSPARM</nciodm:CDISCSubmissionValue>
+        <nciodm:CDISCSynonym>Trial Summary Parameter Test Name</nciodm:CDISCSynonym>
+        <nciodm:PreferredTerm>CDISC SDTM Trial Summary Parameter Terminology by Name</nciodm:PreferredTerm>
+      </CodeList>
+      

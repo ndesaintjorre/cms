@@ -1,0 +1,347 @@
+<CodeList xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" OID="CL.C85492.METHOD" Name="Method" DataType="text" nciodm:ExtCodeID="C85492" nciodm:CodeListExtensible="Yes">
+        <Description>
+          <TranslatedText xml:lang="en">Method is any technique or procedure (an action) that determines how an observation or clinical finding was made.</TranslatedText>
+        </Description>
+        <EnumeratedItem CodedValue="ACID FAST STAIN" nciodm:ExtCodeID="C23015">
+          <nciodm:CDISCDefinition>A microscopy staining method used to examine a specimen for the presence of acid-fast microorganisms, specifically mycobacteria.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Acid Fast Bacillae Staining Method</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ACRIDINE ORANGE STAIN" nciodm:ExtCodeID="C85554">
+          <nciodm:CDISCDefinition>A microscopy staining method that utilizes acridine orange, a fluorescent cationic dye that is selective for nucleic acids, to determine the presence of viable cells or microorganisms in a sample. Acridine orange interacts with RNA and DNA and the lysosomal compartment of cells.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Acridine Orange Staining Method</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AGAR DILUTION" nciodm:ExtCodeID="C85555">
+          <nciodm:CDISCDefinition>A method to determine microbial susceptibility to antibiotics in which test bacteria is inoculated onto agar plates with serial dilutions of know quantities of antibiotics. The minimum inhibitory concentration of antibiotic is assessed.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Agar Dilution Method</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ANTIBIOTIC AGAR SCREEN" nciodm:ExtCodeID="C85557">
+          <nciodm:CDISCDefinition>A method used to detect organisms that have resistance to a single concentration of antibiotics in an agar matrix.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Antibiotic Agar Screening Method</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ANTIMICROBIAL COMBINATION TESTING" nciodm:ExtCodeID="C85558">
+          <nciodm:CDISCDefinition>A method to determine the microbial susceptibility to two or more antibiotics. Numerical result translated into indifference, antagonism, synergism, or additive.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Antimicrobial Combination Testing Method</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ATOMIC ABSORPTION SPECTROMETRY" nciodm:ExtCodeID="C85574">
+          <nciodm:CDISCDefinition>A spectrometric method that determines the type and concentration of metal elements in a sample, based upon the principle that each elemental metal absorbs a particular wavelength of ultraviolet light when exposed to heat.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Atomic Absorption Spectroscopy</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AUDIOMETRY" nciodm:ExtCodeID="C38036">
+          <nciodm:CDISCDefinition>Testing conducted utilizing a manual or microprocessor audiometer to test for hearing loss.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Audiometric Test</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AUSCULTATION" nciodm:ExtCodeID="C85573">
+          <nciodm:CDISCDefinition>Listening with a device, such as a stethoscope, to anatomical locations that produce audible sounds like the heart, lungs and abdomen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Ascultation</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BETA LACTAMASE" nciodm:ExtCodeID="C85576">
+          <nciodm:CDISCDefinition>A test that detects beta lactamase produced by Staphylococcus species, Haemophilus species, Moraxella catarrhalis, and Neisseria gonorrhoeae.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Beta Lactamase Screening Method</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CALCOFLUOR WHITE STAIN" nciodm:ExtCodeID="C85577">
+          <nciodm:CDISCDefinition>A microscopy staining method that utilizes calcofluor, a fluorescent dye that preferentially stains chitin and cellulose on the cell walls of fungi, parasites, and some cysts of the Pneumocystis genus.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Calcofluor White Staining Method</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CELLULOSE TAPE" nciodm:ExtCodeID="C85578">
+          <nciodm:CDISCDefinition>A microbiological technique for specimen collection and mounting for microscopic examination that utilizes a cellulose-based adhesive ribbon.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Cellulose Tape Method</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CHROMATOGRAPHY" nciodm:ExtCodeID="C16431">
+          <nciodm:CDISCDefinition>A technique for the separation of complex mixtures that relies on the differential affinities of substances for a gas or liquid mobile medium and for a stationary adsorbing medium through which they pass.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Chromatography</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CISH" nciodm:ExtCodeID="C40960">
+          <nciodm:CDISCSynonym>Chromogenic in Situ Hybridization</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A laboratory procedure that combines the sequence-specific detection aspects of FISH with the simple detection methods of immunohistochemistry. Briefly, sequence-specific probes are hybridized to cells fixed on slides and the sequestered probe is visualized by a peroxidase reaction. It has the advantage of being a less costly assay that does not require fluorescence microscopy with results that are stable over time.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Chromogenic in situ Hybridization</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CT SCAN" nciodm:ExtCodeID="C17204">
+          <nciodm:CDISCSynonym>Computed Tomography</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>CT</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A series of detailed pictures of areas inside the body; the pictures are created by a computer linked to an x-ray machine.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Computed Tomography</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="DARK FIELD MICROSCOPY" nciodm:ExtCodeID="C85837">
+          <nciodm:CDISCDefinition>A microscopic technique in which the light that does not come into contact with the structure or details of interest is subtracted from the ocular image. This yields an image in which the structure or details are alight while the areas where the structures or details are absent are dark.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Dark Field Microscopy</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="DISK DIFFUSION" nciodm:ExtCodeID="C85595">
+          <nciodm:CDISCDefinition>A method to determine microbial susceptibility to antibiotics in which filter paper disks containing known concentrations of antibiotics are placed on the agar surface that has been previously inoculated with the bacteria of interest. Microbial susceptibility is assessed by measuring the area around the disk that is free of microbial growth.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Disk Diffusion Method</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="EIA" nciodm:ExtCodeID="C17455">
+          <nciodm:CDISCSynonym>Enzyme Immunoassay</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Any of several immunoassay methods that use an enzyme covalently linked to an antigen or antibody as a label; the most common types are enzyme-linked immunosorbent assay (ELISA) and enzyme-multiplied immunoassay technique (EMIT).</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Enzyme Immunoassay</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ELECTROPHORESIS" nciodm:ExtCodeID="C16536">
+          <nciodm:CDISCDefinition>The motion of charged particles in a colloid under the influence of an electric field; particles with a positive charge go to the cathode and negative to the anode.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Electrophoresis</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ELISA" nciodm:ExtCodeID="C16553">
+          <nciodm:CDISCSynonym>Enzyme-linked Immunosorbent Assay</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An immunoassay for detecting and measuring antigens or antibodies in a solution; the solution is run over a surface to which immobilized antibodies specific to the substance have been attached, and if the substance is present, it will bind to the antibody layer, and its presence is verified and visualized with an application of antibodies that have been tagged in some way.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>ELISA</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ENDOSCOPY" nciodm:ExtCodeID="C16546">
+          <nciodm:CDISCDefinition>An examination of the body using an endoscope.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Endoscopic Procedure</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="EPSILOMETER" nciodm:ExtCodeID="C85596">
+          <nciodm:CDISCDefinition>A method to determine microbial susceptibility to antibiotics in which a plastic strip impregnated with the antibiotic of interest is placed on an agar plate that has been inoculated with bacteria. The antibiotic diffuses from the strip producing a concentration gradient of drug on the agar. The point at which the elliptical shaped area of growth inhibition meets the strip is the minimum inhibitory concentration of the drug of interest.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Epsilometry</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="FISH" nciodm:ExtCodeID="C17563">
+          <nciodm:CDISCSynonym>Fluorescence in Situ Hybridization</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A physical mapping approach that uses fluorescent tags to detect hybridization of probes within metaphase chromosomes or less condensed somatic interphase chromatin. This technique can be used for identification of chromosomal abnormalities and for gene mapping.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Fluorescence in situ Hybridization</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="FLUORESCENT IMMUNOASSAY" nciodm:ExtCodeID="C17370">
+          <nciodm:CDISCDefinition>A bioassay in which fluorescent-coupled antibodies or antigens are used to quantify or qualify a biological response to a stimulus.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Fluorescent Antibody Procedure</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="FLUORESCENT MICROSCOPY" nciodm:ExtCodeID="C16856">
+          <nciodm:CDISCDefinition>Microscopy of specimens stained with fluorescent dye (usually fluorescein isothiocyanate) or of naturally fluorescent materials, which emit light when exposed to ultraviolet or blue light.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Fluorescence Microscopy</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GIEMSA STAIN" nciodm:ExtCodeID="C85598">
+          <nciodm:CDISCDefinition>A microscopy staining method that utilizes Giemsa, a mixture of ethylene blue and eosin, which forms purplish-black crystals when dried. This stain preferentially binds to the phosphate groups of DNA and aggregates at areas with an increase in adenine-thymine binding, thus leading to chromosomal staining patterns that lend themselves to g-banding analysis. Additionally Giemsa can be used as a differential stain to determine microbial cell adherence to human cells as well as in the diagnosis of malaria, spirochete, and protozoal infections.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Giemsa Staining Method</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GRADIENT DIFFUSION" nciodm:ExtCodeID="C85599">
+          <nciodm:CDISCDefinition>A method to determine microbial susceptibility to antibiotics in which an agar plate, which has a concentration gradient of the drug within the agar, is streaked with the microorganism of interest. Microbial susceptibility as well as minimum inhibitory concentration of antibiotic is assessed.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Gradient Diffusion Method</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GRAM STAIN" nciodm:ExtCodeID="C23014">
+          <nciodm:CDISCDefinition>A microscopy staining method for staining and identifying bacteria, based on the differential retention of a crystal violet-iodine complex within the cell membrane. Gram-positive organisms will appear blue-black or purple while Gram-negative organisms will appear red.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Gram Staining Method</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HEMATOXYLIN AND EOSIN STAIN" nciodm:ExtCodeID="C23011">
+          <nciodm:CDISCSynonym>H&amp;E Stain</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A microscopy staining method that utilizes two separate dyes, one staining the nucleus and the other staining the cytoplasm and connective tissue. Hematoxylin is a dark purplish dye that stains the chromatin (nuclear material) within the nucleus. Eosin is an orangish-pink to red dye that stains the cytoplasmic material including connective tissue and collagen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hematoxylin and Eosin Staining Method</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HIGH LEVEL AMINOGLYCOSIDE SCREEN" nciodm:ExtCodeID="C85556">
+          <nciodm:CDISCDefinition>A method to determine microbial susceptibility to high concentrations of aminoglycoside antibiotics.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Aminoglycoside Screening Method</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HPLC" nciodm:ExtCodeID="C16434">
+          <nciodm:CDISCSynonym>High Performance Liquid Chromatography</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Frequently referred to simply as HPLC, this form of column chromatography is used frequently in biochemistry. The analyte is forced through a column by liquid at high pressure, which decreases the time the separated components remain on the stationary phase. Less time on the column then translates to narrower peaks in the resulting chromatogram and thence to better selectivity and sensitivity.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>High Performance Liquid Chromatography</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HPLC/MS" nciodm:ExtCodeID="C18475">
+          <nciodm:CDISCSynonym>High Performance Liquid Chromatography/Mass Spectrometry</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An analytical technique wherein high performance liquid chromatography is coupled to mass spectrometry in order to separate, identify, and quantify substances in a sample.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Liquid Chromatography Mass Spectrometry</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="IHC" nciodm:ExtCodeID="C23020">
+          <nciodm:CDISCSynonym>Immunohistochemistry</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Immunohistochemical staining techniques allow for the visualization of antigens via the sequential application of a specific antibody to the antigen (primary antibody), a secondary antibody to the primary antibody and an enzyme complex with a chromogenic substrate. The enzymatic activation of the chromogen results in a visible reaction product at the antigen site. The specimen may then be counterstained and coverslipped. Results are interpreted using a light microscope and aid in the differential diagnosis of pathophysiological processes, which may or may not be associated with a particular antigen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Immunohistochemistry Staining Method</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="INDIA INK STAIN" nciodm:ExtCodeID="C85642">
+          <nciodm:CDISCDefinition>A microscopy staining method that utilizes India Ink, a water soluble carbon-based black ink, to determine the presence of microorganisms that are surrounded by a gelatinous capsule. This is a negative staining method in which background is stained in black and the microbes and microscopic structures of interest remain white.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>India Ink Staining Method</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="INFRARED SPECTROMETRY" nciodm:ExtCodeID="C85643">
+          <nciodm:CDISCDefinition>A spectrometric method that determines the type and concentration of elements or chemicals in a sample, based upon the principle that the atoms in a sample will vibrate or rotate at a specific frequency when exposed to infrared light.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Infrared Spectrometry</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="IODINE STAIN" nciodm:ExtCodeID="C85649">
+          <nciodm:CDISCDefinition>A microscopy staining method that utilizes Iodine, an element belonging to the halogen group, which specifically stains polysaccharides such as cellulose, chitin, glycogen, and starch a blue color.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Iodine Staining Method</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="IRON HEMATOXYLIN STAIN" nciodm:ExtCodeID="C85650">
+          <nciodm:CDISCDefinition>A microscopy staining method that utilizes a mixture of iron and hematoxylin to visualize intracellular structures in a microscopic sample. In this dye system, iron acts as a mordant to hematoxylin rendering it insoluble, thereby allowing irreversible blue-black colored dyeing to the cell nucleus.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Iron Hematoxylin Staining Method</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="KINYOUN STAIN" nciodm:ExtCodeID="C85651">
+          <nciodm:CDISCDefinition>A microscopy acid fast staining method that utilizes kinyoun carbol fuchsin, a dye containing basic fuchsin in solution with ethyl alcohol and aqueous phenol. This acid fast staining technique does not require heating during the primary staining step involving the carbol fuchsin.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Kinyoun Staining Method</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LIGHT MICROSCOPY" nciodm:ExtCodeID="C17995">
+          <nciodm:CDISCDefinition>Light microscopy is a technique for producing visible images of structures or details which are too small to be otherwise seen by the human eye. It involves passing light transmitted through or reflected from the subject through a series of lenses to be detected directly by the eye, imaged on a photographic plate, or captured digitally.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Light Microscopy</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MACRO BROTH DILUTION" nciodm:ExtCodeID="C85697">
+          <nciodm:CDISCDefinition>A method to determine the minimum inhibitory concentration (MIC) of antibiotics in which growth media is pipetted into a test tube. Each tube contains a known concentration of drug and is inoculated with a known quantity of bacteria. The tubes are incubated for a specified period of time and each is assessed for bacterial cell growth. The drug concentration in the first tube showing no growth is known as the MIC for that antibiotic.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Macro Broth Dilution Method</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MASS SPECTROMETRY" nciodm:ExtCodeID="C17156">
+          <nciodm:CDISCDefinition>An analytical technique wherein ions are separate according to their ratio of charge to mass. From the mass spectrum produced, the atomic weight of the particle can be deduced.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Mass Spectrometry</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MICRO BROTH DILUTION" nciodm:ExtCodeID="C85701">
+          <nciodm:CDISCDefinition>A method to determine the minimum inhibitory concentration (MIC) of antibiotics in which growth media is pipetted into a multi-well plate. Each well contains a known concentration of drug which is inoculated with a known quantity of bacteria. The plate is incubated for a specified period of time and each well is assessed for bacterial cell growth. The drug concentration in the first well showing no growth is known as the MIC for that antibiotic.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Micro Broth Dilution Method</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MICROBIAL CONCENTRATION" nciodm:ExtCodeID="C85702">
+          <nciodm:CDISCDefinition>Any technique in which a sample is condensed in order to afford greater sensitivity for the detection of microorganisms.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Microbial Concentration Method</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MODIFIED ACID FAST STAIN" nciodm:ExtCodeID="C85736">
+          <nciodm:CDISCDefinition>A microscopy staining method, that does not utilize heat in the slide preparation, used to examine a specimen for the presence of acid-fast microorganisms, specifically nocardia.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Modified Acid Fast Staining Method</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MRI" nciodm:ExtCodeID="C16809">
+          <nciodm:CDISCSynonym>Magnetic Resonance Imaging</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Imaging that uses radiofrequency waves and a strong magnetic field rather than x-rays to provide amazingly clear and detailed pictures of internal organs and tissues. The technique is valuable for the diagnosis of many pathologic conditions, including cancer, heart and vascular disease, stroke, and joint and musculoskeletal disorders.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Magnetic Resonance Imaging</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="OBSERVATION" nciodm:ExtCodeID="C25598">
+          <nciodm:CDISCDefinition>Watching something and taking note of what happens.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Observation</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="OPTICAL DENSITY MEASUREMENT" nciodm:ExtCodeID="C85776">
+          <nciodm:CDISCDefinition>A quantification of the amount of light that is absorbed by or transmitted through a substance.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Optical Density Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PALPATION" nciodm:ExtCodeID="C16950">
+          <nciodm:CDISCDefinition>A method of feeling with the hands during a physical examination. The health care provider touches and feels the patient's body to examine the size, consistency, texture, location and tenderness of an organ or body part.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Palpation</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PERCUSSION" nciodm:ExtCodeID="C62298">
+          <nciodm:CDISCDefinition>A diagnostic test performed on a tooth by tapping on the crown with a dental instrument.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Percussion</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PHASE CONTRAST MICROSCOPY" nciodm:ExtCodeID="C16857">
+          <nciodm:CDISCDefinition>A microscopic technique in which the amplitude shift that occurs when light passes through a specimen highlights structures or details within the specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Phase-Contrast Microscopy</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="RIA" nciodm:ExtCodeID="C17057">
+          <nciodm:CDISCSynonym>Radioimmunoassay</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Radioimmunoassay (RIA) is an immunological technique, which quantitatively determines antigen and antibody concentrations, using a radioactively labeled substance (radioligand), either directly or indirectly.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Radioimmunoassay</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="RYAN BLUE STAIN" nciodm:ExtCodeID="C85801">
+          <nciodm:CDISCDefinition>A microscopy staining method that utilizes a modified trichrome stain to determine the presence of microspordial, sporulating species. This staining technique substitutes aniline blue for the fast green counterstain of the original trichrome staining method and decreased levels of phosphotungstic acid in the reagent.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Ryan Blue Staining Method</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SCANNING ELECTRON MICROSCOPY" nciodm:ExtCodeID="C16855">
+          <nciodm:CDISCDefinition>An electron microscopy imaging technique that is utilized to examine structural components of a sample by passing electrons through a specimen that has been coated with a heavy metal.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Scanning Electron Microscopy</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SLIT LAMP" nciodm:ExtCodeID="C75583">
+          <nciodm:CDISCDefinition>Examination of the anterior segment of the eye using a medical instrument called a slit lamp.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Slit Lamp Examination</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SPIRAL CT" nciodm:ExtCodeID="C20645">
+          <nciodm:CDISCSynonym>Spiral Computed Tomography</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A method of examining body organs by scanning them with X rays and using a computer to construct a series of cross-sectional scans along a single axis.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Spiral CT</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="THICK SMEAR" nciodm:ExtCodeID="C85819">
+          <nciodm:CDISCDefinition>A blood smear technique used to make a thick blood smear on a microscope slide which is generally used to look for blood parasites such as those causing malaria.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Thick Smear Technique</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="THIN SMEAR" nciodm:ExtCodeID="C85820">
+          <nciodm:CDISCDefinition>A blood smear technique used to make a thin blood smear on a microscope slide which is generally used to look for blood parasites such as those causing malaria.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Thin Smear Technique</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TRANSMISSION ELECTRON MICROSCOPY" nciodm:ExtCodeID="C18216">
+          <nciodm:CDISCDefinition>An electron microscopy imaging technique that is utilized to examine structural components of a sample by passing electrons through the specimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Transmission Electron Microscopy</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TRICHROME STAIN" nciodm:ExtCodeID="C23012">
+          <nciodm:CDISCDefinition>A microscopy staining method that utilizes two or more colored, acidic dyes of contrasting colors. Masson trichrome is a mixture of three dyes including aniline blue, Beibrich scarlet and Weigert's iron hematoxylin. Other related, modified trichrome staining methods include Lillie's trichrome, Gomori's trichrome and Mallory's trichrome.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Trichrome Staining Method</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ULTRASOUND" nciodm:ExtCodeID="C17230">
+          <nciodm:CDISCDefinition>A technique in which high-frequency sound waves are bounced off internal organs and the echo pattern is converted into a 2 dimensional picture of the structures beneath the transducer.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Ultrasound Imaging</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="WEBER GREEN STAIN" nciodm:ExtCodeID="C85828">
+          <nciodm:CDISCDefinition>A microscopy staining method that utilizes a modified trichrome stain to determine the presence of microspordial, sporulating species. The staining method utilizes chromotrope 2R, a red acidic dye, the counterstain fast green, and phosphotungstic acid.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Weber Green Staining Method</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="WRIGHT STAIN" nciodm:ExtCodeID="C85829">
+          <nciodm:CDISCDefinition>A microscopy staining method that utilizes the Romanowsky stains, eosin and methylene blue, solubilized in methanol. In this staining protocol, methanol is also utilized as a fixative agent prior to staining.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Wright Staining Method</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="WRIGHT-GIEMSA STAIN" nciodm:ExtCodeID="C23041">
+          <nciodm:CDISCDefinition>A microscopy staining method that is a combination of the Wright and Giemsa staining protocols and utilizes the Romanowsky stains, which are mixtures of eosin and thiazine dyes such as methylene blue. It produces darker blue and magenta shades than the giemsa stain alone, which may provide better contrast in microscopy.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Wright-Giemsa Staining Method</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="XRAY" nciodm:ExtCodeID="C38101">
+          <nciodm:CDISCSynonym>Radiography</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A radiographic procedure using the emission of x-rays to form an image of the structure penetrated by the radiation.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Radiography</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="X-RAY FLUORESCENCE SPECTROMETRY" nciodm:ExtCodeID="C85830">
+          <nciodm:CDISCDefinition>A spectrometric method that determines the type and concentration of elements or chemicals in a sample, based upon the principle that each element emits fluorescent light of a particular wavelength when exposed to an X-ray.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>X-Ray Fluorescence Spectrometry</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ZIEHL NEELSEN ACID FAST STAIN" nciodm:ExtCodeID="C85831">
+          <nciodm:CDISCDefinition>A microscopy acid fast staining method that utilizes Ziehl-Neelsen carbol fuchsin, acid alcohol and methylene blue, to determine the presence of acid fast microorganisms. This acid fast staining technique requires heating during the primary staining step involving the carbol fuchsin.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Ziehl Neelsen Acid Fast Staining Method</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ALCIAN BLUE AND PERIODIC ACID SCHIFF STAIN" nciodm:ExtCodeID="C92304">
+          <nciodm:CDISCDefinition>A microscopy staining method that utilizes periodic acid, an oxoacid of iodine, Schiff reagent, the reaction product of fuchsine and sodium bisulfite, and Alcian blue, a water soluble copper phthalocyanine dye. This staining method is used to differentially stain glycoproteins.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Alcian Blue and Periodic Acid Schiff Staining Method</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ALCIAN BLUE STAIN" nciodm:ExtCodeID="C92299">
+          <nciodm:CDISCDefinition>A microscopy staining method that utilizes alcian blue, a cationic, water soluble copper-containing phthalocyanine dye to determine the presence of acid mucopolysaccharides and glycosaminoglycans.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Alcian Blue Staining Method</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LEAD CITRATE STAIN" nciodm:ExtCodeID="C92301">
+          <nciodm:CDISCDefinition>A microscopy staining method that utilizes lead citrate, a mixture of lead nitrate and sodium citrate, and has applications for electron microscopy staining.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Lead Citrate Staining Method</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LUXOL FAST BLUE AND CRESYL VIOLET STAIN" nciodm:ExtCodeID="C92300">
+          <nciodm:CDISCDefinition>A microscopy staining method that utilizes luxol fast blue, an alcohol soluble copper phthalocyanine dye, and cresyl violet, an organic compound that is commonly used as a counter stain, to determine the presence of myelin as well as helicobacter and campylobacter bacterial species.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Luxol Fast Blue and Cresyl Violet Staining Method</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PERIODIC ACID SCHIFF STAIN" nciodm:ExtCodeID="C23019">
+          <nciodm:CDISCDefinition>A microscopy staining method that utilizes Schiff's reagent, a solution composed of pararosanilin treated with sulfurous acid, which selectively reacts with and stains aldehydes pink to determine the presence of glycogen, mucin, mucoprotein, glycoprotein, as well as fungi. Periodic Acid Schiff staining is useful for outlining tissue structures such as basement membranes, capsules and blood vessels.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Periodic Acid Schiff Staining Method</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TOLUIDINE BLUE STAIN" nciodm:ExtCodeID="C92302">
+          <nciodm:CDISCDefinition>A microscopy staining method that utilizes toluidine blue, a solution composed of tolonium chloride, to determine the presence of mast cells, lignin, proteoglycans and glycosaminoglycans.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Toluidine Blue Staining Method</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="URANYL ACETATE STAIN" nciodm:ExtCodeID="C92303">
+          <nciodm:CDISCDefinition>A microscopy staining method that utilizes uranyl acetate, a water insoluble yellow crystalline solid, which is used as a negative stain in electron microscopy.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Uranyl Acetate Staining Method</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TOTAL BODY IRRADIATION" nciodm:ExtCodeID="C15350">
+          <nciodm:CDISCDefinition>A therapeutic procedure that involves the irradiation of the whole body with ionizing or non-ionizing radiation. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Total-Body Irradiation</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ANGIOGRAM" nciodm:ExtCodeID="C16805">
+          <nciodm:CDISCDefinition>An X-ray representation of blood vessels made after the injection of a radiopaque substance.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Angiogram</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MAMMOGRAPHY" nciodm:ExtCodeID="C16818">
+          <nciodm:CDISCDefinition>A type of radiography used specifically to examine breast tissue. The procedure utilizes a low-dose of x-rays or radiation to generate an image.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Mammography</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PET/CT SCAN" nciodm:ExtCodeID="C17007">
+          <nciodm:CDISCDefinition>An imaging technique that utilizes positron emission tomography and computed tomography in a single machine.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>PET-CT</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="DXA SCAN" nciodm:ExtCodeID="C48789">
+          <nciodm:CDISCDefinition>A technique for scanning bone and measuring bone mineral density (BMD).</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Dual X-Ray Absorptometry</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SCINTIGRAPHY" nciodm:ExtCodeID="C62667">
+          <nciodm:CDISCDefinition>An imaging technique that uses a small dose of a radioactive chemical (isotope) called a tracer that can detect sites of cancer growth, trauma, infection or degenerative disorders. The tracer, which is either injected into a vein or swallowed, travels through the bloodstream to the target organ, and emits gamma rays, which are detected by a gamma camera and analyzed by a computer to form an image of the target organ. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Radionuclide Imaging</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PHOTOGRAPHY" nciodm:ExtCodeID="C94527">
+          <nciodm:CDISCDefinition>The process by which an image is acquired by recording light emissions.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Photography</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PANENDOSCOPY" nciodm:ExtCodeID="C94528">
+          <nciodm:CDISCDefinition>An endoscopic examination of the pharynx, larynx, trachea and esophagus.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Panendoscopy</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TOTAL BODY RADIOGRAPHY" nciodm:ExtCodeID="C96640">
+          <nciodm:CDISCDefinition>A diagnostic radiologic test that involves the examination of the entire body in a single procedure.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Total Body Radiography</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <nciodm:CDISCSubmissionValue>METHOD</nciodm:CDISCSubmissionValue>
+        <nciodm:CDISCSynonym>Method</nciodm:CDISCSynonym>
+        <nciodm:PreferredTerm>CDISC SDTM Method Terminology</nciodm:PreferredTerm>
+      </CodeList>
+      

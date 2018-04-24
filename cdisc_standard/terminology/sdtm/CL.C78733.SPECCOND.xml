@@ -1,0 +1,49 @@
+<CodeList xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" OID="CL.C78733.SPECCOND" Name="Specimen Condition" DataType="text" nciodm:ExtCodeID="C78733" nciodm:CodeListExtensible="Yes">
+        <Description>
+          <TranslatedText xml:lang="en">The physical state or quality of a biological specimen.</TranslatedText>
+        </Description>
+        <EnumeratedItem CodedValue="FROZEN" nciodm:ExtCodeID="C70717">
+          <nciodm:CDISCSynonym>Frozen Specimen</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A specimen that has been subjected to and immobilized by severe cold. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Frozen Specimen</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HEMOLIZED" nciodm:ExtCodeID="C70720">
+          <nciodm:CDISCSynonym>Hemolysis in Specimen</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A specimen that has undergone the destruction of red blood cells followed by the release of the hemoglobin. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hemolysis in Specimen</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LIPEMIC" nciodm:ExtCodeID="C70715">
+          <nciodm:CDISCSynonym>Lipemic Specimen</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A specimen that consists of or contains excessive amounts of fat and fatty substances. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Lipemic Specimen</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="REFRIGERATED" nciodm:ExtCodeID="C70718">
+          <nciodm:CDISCSynonym>Refrigerated Specimen</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A specimen that has been kept or preserved at a low temperature in a refrigerator. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Refrigerated Specimen</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ROOM TEMPERATURE" nciodm:ExtCodeID="C70719">
+          <nciodm:CDISCSynonym>Specimen at Room Temperature</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A specimen that has been subjected to and adjusted to the average ambient temperature of a room, usually considered to be around 20 degrees C (68 degrees F). (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Specimen at Room Temperature</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CALCIFIED" nciodm:ExtCodeID="C78723">
+          <nciodm:CDISCSynonym>Calcified Specimen</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A specimen that has undergone calcification. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Calcified Specimen</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CLOTTED" nciodm:ExtCodeID="C78724">
+          <nciodm:CDISCSynonym>Clotted Specimen</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A specimen that has become coagulated. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Clotted Specimen</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AUTOLIZED" nciodm:ExtCodeID="C78725">
+          <nciodm:CDISCSynonym>Autolized Specimen</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A specimen that has undergone autolysis, or self-digestion by the specimen's own digestive enzymes. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Autolized Specimen</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <nciodm:CDISCSubmissionValue>SPECCOND</nciodm:CDISCSubmissionValue>
+        <nciodm:CDISCSynonym>Specimen Condition</nciodm:CDISCSynonym>
+        <nciodm:PreferredTerm>CDISC SDTM Specimen Condition Terminology</nciodm:PreferredTerm>
+      </CodeList>
+      

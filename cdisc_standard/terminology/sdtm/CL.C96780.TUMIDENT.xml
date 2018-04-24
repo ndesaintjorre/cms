@@ -1,0 +1,21 @@
+<CodeList xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" OID="CL.C96780.TUMIDENT" Name="Tumor Identification Results" DataType="text" nciodm:ExtCodeID="C96780" nciodm:CodeListExtensible="Yes">
+        <Description>
+          <TranslatedText xml:lang="en">Terminology relevant to tumor identification results.</TranslatedText>
+        </Description>
+        <EnumeratedItem CodedValue="TARGET" nciodm:ExtCodeID="C94520">
+          <nciodm:CDISCDefinition>The identification of a tumor that is present at baseline, is measurable and is the primary target of the therapeutic intervention.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Target Lesion Identification</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="NON-TARGET" nciodm:ExtCodeID="C94521">
+          <nciodm:CDISCDefinition>The identification of a tumor or site of disease that is present at baseline and not considered a target tumor, but may be part of the objective assessment of the response to the therapeutic intervention.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Non-Target Lesion Identification</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="NEW" nciodm:ExtCodeID="C94522">
+          <nciodm:CDISCDefinition>The identification of a tumor which has not been previously seen or characterized.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>New Lesion Identification</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <nciodm:CDISCSubmissionValue>TUMIDENT</nciodm:CDISCSubmissionValue>
+        <nciodm:CDISCSynonym>Tumor Identification Results</nciodm:CDISCSynonym>
+        <nciodm:PreferredTerm>CDISC SDTM Tumor Identification Result Terminology</nciodm:PreferredTerm>
+      </CodeList>
+      

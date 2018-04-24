@@ -1,0 +1,13 @@
+<CodeList xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" OID="CL.C66787.TDIGRP" Name="Diagnosis Group" DataType="text" nciodm:ExtCodeID="C66787" nciodm:CodeListExtensible="Yes">
+        <Description>
+          <TranslatedText xml:lang="en">A grouping of individuals on the basis of a shared procedure or disease, or lack thereof (e.g. healthy volunteers, type 2 diabetic subjects, subjects with renal cell cancer). Standardized naming systems are available that define the groups within which a subject should be placed. (NCI)</TranslatedText>
+        </Description>
+        <EnumeratedItem CodedValue="HEALTHY SUBJECTS" nciodm:ExtCodeID="C49651">
+          <nciodm:CDISCDefinition>An individual who is or becomes a participant in a research study and has no significant health-related issues. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Healthy Subject</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <nciodm:CDISCSubmissionValue>TDIGRP</nciodm:CDISCSubmissionValue>
+        <nciodm:CDISCSynonym>Diagnosis Group</nciodm:CDISCSynonym>
+        <nciodm:PreferredTerm>CDISC SDTM Diagnosis Group Terminology</nciodm:PreferredTerm>
+      </CodeList>
+      

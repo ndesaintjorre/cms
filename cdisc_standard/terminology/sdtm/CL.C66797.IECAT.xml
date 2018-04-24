@@ -1,0 +1,17 @@
+<CodeList xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" OID="CL.C66797.IECAT" Name="Category for Inclusion/Exclusion" DataType="text" nciodm:ExtCodeID="C66797" nciodm:CodeListExtensible="No">
+        <Description>
+          <TranslatedText xml:lang="en">A collection of criteria on which subjects are evaluated and that must be met by all study subjects. (NCI)</TranslatedText>
+        </Description>
+        <EnumeratedItem CodedValue="EXCLUSION" nciodm:ExtCodeID="C25370">
+          <nciodm:CDISCDefinition>List of characteristics in a protocol, any one of which may exclude a potential subject from participation in a study. (CDISC glossary)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Exclusion</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="INCLUSION" nciodm:ExtCodeID="C25532">
+          <nciodm:CDISCDefinition>The criteria in a protocol that prospective subjects must meet to be eligible for participation in a study. NOTE: Exclusion and inclusion criteria define the study population. See also exclusion criteria. (CDISC glossary)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Inclusion</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <nciodm:CDISCSubmissionValue>IECAT</nciodm:CDISCSubmissionValue>
+        <nciodm:CDISCSynonym>Category for Inclusion/Exclusion</nciodm:CDISCSynonym>
+        <nciodm:PreferredTerm>CDISC SDTM Category of Inclusion And Or Exclusion Terminology</nciodm:PreferredTerm>
+      </CodeList>
+      

@@ -1,0 +1,21 @@
+<CodeList xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" OID="CL.C66733.SIZE" Name="Size" DataType="text" nciodm:ExtCodeID="C66733" nciodm:CodeListExtensible="Yes">
+        <Description>
+          <TranslatedText xml:lang="en">The physical magnitude of something. (NCI)</TranslatedText>
+        </Description>
+        <EnumeratedItem CodedValue="LARGE" nciodm:ExtCodeID="C49508">
+          <nciodm:CDISCDefinition>Of considerable or relatively great size, extent, or capacity. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Large</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MEDIUM" nciodm:ExtCodeID="C49507">
+          <nciodm:CDISCDefinition>Mid-way between small and large in number, quantity, magnitude or extent. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Medium</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SMALL" nciodm:ExtCodeID="C25376">
+          <nciodm:CDISCDefinition>Limited in number, quantity, magnitude or extent. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Small</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <nciodm:CDISCSubmissionValue>SIZE</nciodm:CDISCSubmissionValue>
+        <nciodm:CDISCSynonym>Size</nciodm:CDISCSynonym>
+        <nciodm:PreferredTerm>CDISC SDTM Size Terminology</nciodm:PreferredTerm>
+      </CodeList>
+      

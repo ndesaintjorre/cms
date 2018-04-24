@@ -1,0 +1,178 @@
+<CodeList xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" OID="CL.C78734.SPECTYPE" Name="Specimen Type" DataType="text" nciodm:ExtCodeID="C78734" nciodm:CodeListExtensible="Yes">
+        <Description>
+          <TranslatedText xml:lang="en">The name and description of a biological specimen.</TranslatedText>
+        </Description>
+        <EnumeratedItem CodedValue="ADIPOSE TISSUE" nciodm:ExtCodeID="C12472">
+          <nciodm:CDISCDefinition>A specialized form of connective tissue consisting primarily of adipocytes (fat cells), surrounded by a meshwork of collagen fibers. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Adipose Tissue</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AMNIOTIC FLUID" nciodm:ExtCodeID="C13188">
+          <nciodm:CDISCDefinition>The fluid within the amniotic cavity which surrounds and protects the developing embryo. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Amniotic Fluid</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AQUEOUS HUMOR" nciodm:ExtCodeID="C13190">
+          <nciodm:CDISCDefinition>The watery fluid which is present in the anterior and posterior chambers of the eye. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Aqueous Humor</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ARTERIAL BLOOD" nciodm:ExtCodeID="C78729">
+          <nciodm:CDISCDefinition>Oxygenated blood which is transported with nutrients to body tissues through the arterial system. The exception is blood within the pulmonary artery which carries deoxygenated blood to the lungs. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Arterial Blood</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ATHEROSCLEROTIC PLAQUE" nciodm:ExtCodeID="C78739">
+          <nciodm:CDISCDefinition>Fatty tissue which is deposited in the inner lining of the arterial wall. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Atherosclerotic Plaque</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BILE" nciodm:ExtCodeID="C13192">
+          <nciodm:CDISCDefinition>Fluid composed of waste products, bile acids, salts, cholesterol, and electrolytes. It is secreted by the liver parenchyma and stored in the gallbladder. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Bile</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BLOOD" nciodm:ExtCodeID="C12434">
+          <nciodm:CDISCDefinition>A liquid tissue with the primary function of transporting oxygen and carbon dioxide. It supplies the tissues with nutrients, removes waste products, and contains various components of the immune system defending the body against infection.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Blood</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BONE" nciodm:ExtCodeID="C12366">
+          <nciodm:CDISCDefinition>Calcified connective tissue that forms the skeletal components of the body. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Bone</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BONE MARROW" nciodm:ExtCodeID="C12431">
+          <nciodm:CDISCDefinition>The tissue occupying the spaces of bone. It consists of blood vessel sinuses and a network of hematopoietic cells which give rise to the red cells, white cells, and megakaryocytes. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Bone Marrow</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BREAST MILK" nciodm:ExtCodeID="C13257">
+          <nciodm:CDISCDefinition>Milk produced by females for the purpose of feeding their young. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Breast Milk</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CALCULUS" nciodm:ExtCodeID="C35708">
+          <nciodm:CDISCDefinition>Accumulated material from the secretions of an organ. It is solid and representative examples include gallbladder stones, kidney stones, and salivary gland stones. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Stone</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CEREBROSPINAL FLUID" nciodm:ExtCodeID="C12692">
+          <nciodm:CDISCDefinition>The fluid that is contained within the brain ventricles, the subarachnoid space and the central canal of the spinal cord. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Cerebrospinal Fluid</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CERUMEN" nciodm:ExtCodeID="C32293">
+          <nciodm:CDISCDefinition>A wax secreted by glands in the ear canal.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Cerumen</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="COLOSTRUM" nciodm:ExtCodeID="C32348">
+          <nciodm:CDISCDefinition>A thick, protein-rich substance secreted by the breasts during the second half of pregnancy and for a few days after birth before the breast milk comes in.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Colostrum</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="EMESIS" nciodm:ExtCodeID="C77666">
+          <nciodm:CDISCSynonym>Vomit</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Stomach contents that have returned to the mouth or are ejected beyond the mouth. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Vomitus</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="EXPIRED AIR" nciodm:ExtCodeID="C78741">
+          <nciodm:CDISCDefinition>The air that moves out of the chest during expiration. It contains a higher percentage of carbon dioxide and a lower percentage of oxygen compared to the inhaled air. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Expired Air</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="EXUDATE" nciodm:ExtCodeID="C13233">
+          <nciodm:CDISCDefinition>Fluid, cells or cellular debris that escapes from the blood vessels and accumulates in nearby tissues. It is the result of inflammation and is rich in proteins.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Exudate</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="FLUID" nciodm:ExtCodeID="C13236">
+          <nciodm:CDISCDefinition>Liquid substances produced by the body.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Body Fluid or Substance</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HAIR" nciodm:ExtCodeID="C32705">
+          <nciodm:CDISCDefinition>The filamentous outgrowth of the epidermis. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hair</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LOCHIA" nciodm:ExtCodeID="C78742">
+          <nciodm:CDISCDefinition>Vaginal discharge occurring during the post-partum period. It consists of a mixture of blood, mucus, and placental remnants. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Lochia</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LUNG SURFACTANT" nciodm:ExtCodeID="C13273">
+          <nciodm:CDISCSynonym>Surfactant</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Pulmonary surfactant lines the lung epithelium and lowers surface tension to prevent collapse at end-expiration. Deficiency of pulmonary surfactant results in respiratory distress syndrome (RDS) in premature infants. Lung surfactant is synthesized in alveolar type II cells, stored in lamellar bodies and secreted via exocytosis. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Lung Surfactant</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LYMPH" nciodm:ExtCodeID="C13252">
+          <nciodm:CDISCDefinition>A clear, transparent, sometimes faintly yellow and slightly opalescent fluid that is collected from the tissues throughout the body, flows in the lymphatic vessels (through the lymph nodes), and is eventually added to the venous blood circulation. Lymph consists of a clear liquid portion, varying numbers of white blood cells (chiefly lymphocytes), and a few red blood cells. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Lymph</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MECONIUM" nciodm:ExtCodeID="C78743">
+          <nciodm:CDISCDefinition>The newborn's first intestinal discharge. It is a dark-green, thick substance composed of mucus, intestinal secretions, hair, and intestinal mucosa cells. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Meconium</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MENSTRUAL BLOOD" nciodm:ExtCodeID="C78740">
+          <nciodm:CDISCDefinition>The discharged blood from the uterus during the reproductive years. The discharge occurs approximately once a month. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Menstrual Blood</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MUCUS" nciodm:ExtCodeID="C13259">
+          <nciodm:CDISCDefinition>The thick fluid secreted by the mucus glands in the aerodigestive tract and the vagina. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Mucus</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="NAIL" nciodm:ExtCodeID="C33156">
+          <nciodm:CDISCDefinition>The cutaneous plate on the dorsal surface of the distal end of a finger or toe. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Nail</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PLASMA" nciodm:ExtCodeID="C13356">
+          <nciodm:CDISCDefinition>Plasma is the fluid (acellular) portion of the circulating blood, as distinguished from the serum that is the fluid portion of the blood obtained by removal of the fibrin clot and blood cells after coagulation.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Plasma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PUS" nciodm:ExtCodeID="C50718">
+          <nciodm:CDISCDefinition>A yellowish substance produced during bacterial inflammation. It contains necrotic cells and cells fighting the infection. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Pus</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SALIVA" nciodm:ExtCodeID="C13275">
+          <nciodm:CDISCDefinition>A clear liquid secreted into the mouth by the salivary glands and mucous glands of the mouth; moistens the mouth and starts the digestion of starches. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Saliva</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SEBUM" nciodm:ExtCodeID="C13276">
+          <nciodm:CDISCDefinition>A thick, oily substance produced by the sebaceous glands located in the dermis. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Sebum</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SEMEN" nciodm:ExtCodeID="C13277">
+          <nciodm:CDISCSynonym>Seminal Plasma</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The thick, whitish secretion of the male reproductive organs. It is composed of spermatozoa in their nutrient plasma, secretions from the prostate, seminal vesicles, and various other glands, epithelial cells, and minor constituents.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Semen</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SEMINAL FLUID" nciodm:ExtCodeID="C33529">
+          <nciodm:CDISCDefinition>Part of the ejaculated fluid. It contains secretions from the seminal vesicles, Cowper gland, and prostate gland.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Seminal Fluid</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SERUM" nciodm:ExtCodeID="C13325">
+          <nciodm:CDISCDefinition>The clear portion of the blood that remains after the removal of the blood cells and the clotting proteins. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Serum</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SMEGMA" nciodm:ExtCodeID="C33574">
+          <nciodm:CDISCDefinition>A white secretion of the sebaceous glands of the foreskin. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Smegma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SPUTUM" nciodm:ExtCodeID="C13278">
+          <nciodm:CDISCDefinition>Material containing mucus, cellular debris, microorganisms and sometimes blood or pus. It is ejected through the mouth from the lungs, bronchi, and trachea. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Sputum</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="STOOL" nciodm:ExtCodeID="C13234">
+          <nciodm:CDISCSynonym>Feces</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The material discharged from the bowel during defecation. It consists of undigested food, intestinal mucus, epithelial cells, and bacteria. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Feces</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PERSPIRATION" nciodm:ExtCodeID="C13280">
+          <nciodm:CDISCSynonym>Sweat</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The liquid secreted by the sweat glands. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Sweat</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TISSUE" nciodm:ExtCodeID="C12801">
+          <nciodm:CDISCDefinition>An anatomical structure consisting of similarly specialized cells and intercellular matrix, aggregated according to genetically determined spatial relationships, performing a specific function. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Tissue</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TRANSUDATE" nciodm:ExtCodeID="C78744">
+          <nciodm:CDISCDefinition>The fluid that passes through the wall of the veins and capillaries to the surrounding tissues because of increased intravascular pressure. It has low protein content. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Transudate</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="URINE" nciodm:ExtCodeID="C13283">
+          <nciodm:CDISCDefinition>The fluid that is excreted by the kidneys. It is stored in the bladder and discharged through the urethra. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Urine</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="VENOUS BLOOD" nciodm:ExtCodeID="C78730">
+          <nciodm:CDISCDefinition>Deoxygenated blood containing urea and other waste products which is transported through the venous system to the heart and lungs. The exception is blood within the pulmonary vein which is oxygenated and travels from the lungs to the left atrium of the heart. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Venous Blood</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <nciodm:CDISCSubmissionValue>SPECTYPE</nciodm:CDISCSubmissionValue>
+        <nciodm:CDISCSynonym>Specimen Type</nciodm:CDISCSynonym>
+        <nciodm:PreferredTerm>CDISC SDTM Specimen Type Terminology</nciodm:PreferredTerm>
+      </CodeList>
+      

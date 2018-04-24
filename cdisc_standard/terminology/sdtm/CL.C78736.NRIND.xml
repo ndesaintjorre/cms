@@ -1,0 +1,25 @@
+<CodeList xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" OID="CL.C78736.NRIND" Name="Reference Range Indicator" DataType="text" nciodm:ExtCodeID="C78736" nciodm:CodeListExtensible="Yes">
+        <Description>
+          <TranslatedText xml:lang="en">A description of the results relative to the normal or expected range of values.</TranslatedText>
+        </Description>
+        <EnumeratedItem CodedValue="NORMAL" nciodm:ExtCodeID="C78727">
+          <nciodm:CDISCDefinition>Reported values within the typical or expected range. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Normal Reference Range</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ABNORMAL" nciodm:ExtCodeID="C78802">
+          <nciodm:CDISCDefinition>Reported values outside the typical or expected range. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Abnormal Reference Range</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HIGH" nciodm:ExtCodeID="C78800">
+          <nciodm:CDISCDefinition>Reported values above the typical or expected range. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Value Above Reference Range</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LOW" nciodm:ExtCodeID="C78801">
+          <nciodm:CDISCDefinition>Reported values below the typical or expected range. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Value Below Reference Range</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <nciodm:CDISCSubmissionValue>NRIND</nciodm:CDISCSubmissionValue>
+        <nciodm:CDISCSynonym>Reference Range Indicator</nciodm:CDISCSynonym>
+        <nciodm:PreferredTerm>CDISC SDTM Reference Range Indicator</nciodm:PreferredTerm>
+      </CodeList>
+      

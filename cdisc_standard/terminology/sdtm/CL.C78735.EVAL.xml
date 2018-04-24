@@ -1,0 +1,72 @@
+<CodeList xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" OID="CL.C78735.EVAL" Name="Evaluator" DataType="text" nciodm:ExtCodeID="C78735" nciodm:CodeListExtensible="Yes">
+        <Description>
+          <TranslatedText xml:lang="en">The role that the individual or entity plays with respect to a specific situation or person.</TranslatedText>
+        </Description>
+        <EnumeratedItem CodedValue="CAREGIVER" nciodm:ExtCodeID="C17445">
+          <nciodm:CDISCDefinition>The primary person in charge of the care of a patient, usually a family member or a designated health care professional. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Caregiver</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CHILD" nciodm:ExtCodeID="C42708">
+          <nciodm:CDISCDefinition>A son or a daughter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Child</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PARENT" nciodm:ExtCodeID="C42709">
+          <nciodm:CDISCDefinition>A mother or a father.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Parent</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CLINICAL RESEARCH COORDINATOR" nciodm:ExtCodeID="C51811">
+          <nciodm:CDISCDefinition>A person to whom a clinical investigator delegates routine administrative requirements of a protocol. The duties and responsibilities of a clinical research coordinator may vary across different infrastructures. Generally, the coordinator manages the subject's clinical trial participation and provides a vital linkage between the subject, the investigator, and the sponsor. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Clinical Coordinator</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CLINICAL RESEARCH ASSOCIATE" nciodm:ExtCodeID="C25465">
+          <nciodm:CDISCSynonym>Research Associate</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A person who is employed by a study sponsor or by a contract research organization (CRO), operates independently from the clinical study site and functions as a monitor, and/or auditor, and/or a project director within a particular trial or institution. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Clinical Research Associate</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CLINICAL STUDY SPONSOR" nciodm:ExtCodeID="C70793">
+          <nciodm:CDISCSynonym>Clinical Study Sponsor</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Study Sponsor, Sponsor</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An entity that is responsible for the initiation, management, and/or financing of a clinical study.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Clinical Study Sponsor</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HEALTH CARE PROFESSIONAL" nciodm:ExtCodeID="C53287">
+          <nciodm:CDISCDefinition>A person qualified to be engaged in activity directed at preservation of mental and physical health by diseases prevention and treatment as a source of livelihood. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Health Care Professional</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="INDEPENDENT ASSESSOR" nciodm:ExtCodeID="C78720">
+          <nciodm:CDISCDefinition>An individual qualified to perform an evaluation who is masked from a subject's data in order to minimize bias or maximize consistency and quality. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Independent Rater</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="INVESTIGATOR" nciodm:ExtCodeID="C25936">
+          <nciodm:CDISCDefinition>A person responsible for the conduct of the clinical trial at a trial site. If a trial is conducted by a team of individuals at the trial site, the investigator is the responsible leader of the team and may be called the principle investigator.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Investigator</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="FRIEND" nciodm:ExtCodeID="C72884">
+          <nciodm:CDISCDefinition>A person whom an individual knows, likes, and trusts. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Friend</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="STUDY SUBJECT" nciodm:ExtCodeID="C41189">
+          <nciodm:CDISCDefinition>An individual who is observed, analyzed, examined, investigated, experimented upon, or/and treated in the course of a particular study.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Study Subject</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SPOUSE" nciodm:ExtCodeID="C62649">
+          <nciodm:CDISCDefinition>A person's partner in marriage. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Spouse</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="DOMESTIC PARTNER" nciodm:ExtCodeID="C53262">
+          <nciodm:CDISCDefinition>A person who is a member of an unmarried couple, including same sex couples living together in longstanding relationships, that are registered or unregistered. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Domestic Partnership</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ADJUDICATION COMMITTEE" nciodm:ExtCodeID="C78726">
+          <nciodm:CDISCDefinition>An external committee whose purpose is to evaluate study data and decide whether a study endpoint or other criterion has been met. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Adjudication Committee</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GUARDIAN" nciodm:ExtCodeID="C51828">
+          <nciodm:CDISCDefinition>An individual who is authorized under applicable State or local law to consent on behalf of a child or incapable person to general medical care including participation in clinical research. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Guardian</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <nciodm:CDISCSubmissionValue>EVAL</nciodm:CDISCSubmissionValue>
+        <nciodm:CDISCSynonym>Evaluator</nciodm:CDISCSynonym>
+        <nciodm:PreferredTerm>CDISC SDTM Evaluator Terminology</nciodm:PreferredTerm>
+      </CodeList>
+      

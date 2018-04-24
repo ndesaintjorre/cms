@@ -1,0 +1,45 @@
+<CodeList xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" OID="CL.C76348.MARISTAT" Name="Marital Status" DataType="text" nciodm:ExtCodeID="C76348" nciodm:CodeListExtensible="Yes">
+        <Description>
+          <TranslatedText xml:lang="en">A demographic parameter indicating a person's current conjugal status.</TranslatedText>
+        </Description>
+        <EnumeratedItem CodedValue="ANNULLED" nciodm:ExtCodeID="C76240">
+          <nciodm:CDISCDefinition>Marriage contract has been declared null and to not have existed. (HL7)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Annulled</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="DIVORCED" nciodm:ExtCodeID="C51776">
+          <nciodm:CDISCDefinition>Marriage contract has been declared dissolved and inactive. (HL7)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Divorced</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="INTERLOCUTORY" nciodm:ExtCodeID="C76241">
+          <nciodm:CDISCDefinition>Temporary order issued during the course of litigation. (HL7)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Interlocutory</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LEGALLY SEPARATED" nciodm:ExtCodeID="C51777">
+          <nciodm:CDISCDefinition>A person living apart from his/her spouse by legal arrangement. (HL7)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Separated</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MARRIED" nciodm:ExtCodeID="C51773">
+          <nciodm:CDISCDefinition>A current marriage contract is active. (HL7)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Married</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="NEVER MARRIED" nciodm:ExtCodeID="C51774">
+          <nciodm:CDISCDefinition>No marriage contract has ever been entered. (HL7)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Never Married</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="WIDOWED" nciodm:ExtCodeID="C51775">
+          <nciodm:CDISCDefinition>The spouse has died. (HL7)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Widowed</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="POLYGAMOUS" nciodm:ExtCodeID="C76242">
+          <nciodm:CDISCDefinition>More than 1 current spouse. (HL7)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Polygamous</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="DOMESTIC PARTNER" nciodm:ExtCodeID="C53262">
+          <nciodm:CDISCDefinition>Person declares that a domestic partnership relationship exists. (HL7)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Domestic Partnership</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <nciodm:CDISCSubmissionValue>MARISTAT</nciodm:CDISCSubmissionValue>
+        <nciodm:CDISCSynonym>Marital Status</nciodm:CDISCSynonym>
+        <nciodm:PreferredTerm>Marital Status Terminology</nciodm:PreferredTerm>
+      </CodeList>
+      

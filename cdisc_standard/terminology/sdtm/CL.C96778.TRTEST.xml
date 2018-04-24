@@ -1,0 +1,99 @@
+<CodeList xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" OID="CL.C96778.TRTEST" Name="Oncology Tumor Properties Test Name" DataType="text" nciodm:ExtCodeID="C96778" nciodm:CodeListExtensible="Yes">
+        <Description>
+          <TranslatedText xml:lang="en">Terminology relevant to the test names that describe the measurement of a tumor.</TranslatedText>
+        </Description>
+        <EnumeratedItem CodedValue="Area" nciodm:ExtCodeID="C25244">
+          <nciodm:CDISCSynonym>Area</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The extent of a 2-dimensional surface enclosed within a boundary. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Area</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Diameter" nciodm:ExtCodeID="C25285">
+          <nciodm:CDISCSynonym>Diameter</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The length of a straight line passing through the center of a circle or sphere and connecting two points on the circumference. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Diameter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Volume" nciodm:ExtCodeID="C25335">
+          <nciodm:CDISCSynonym>Volume</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The amount of three dimensional space occupied by an object or the capacity of a space or container. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Volume</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Short Axis" nciodm:ExtCodeID="C94982">
+          <nciodm:CDISCSynonym>Short Axis</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The plane through a body or figure that is at the shortest width of that body or figure.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Short Axis</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Average Metabolic Standard Uptake Value" nciodm:ExtCodeID="C96566">
+          <nciodm:CDISCSynonym>Average Metabolic Standard Uptake Value</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A semiquantitative analysis of the average uptake of analyte by body tissue in relation to the total administered dose of the analyte.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Average Metabolic Standard Uptake Value</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Percent Change From Baseline" nciodm:ExtCodeID="C96621">
+          <nciodm:CDISCSynonym>Percent Change From Baseline</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The value of the current measurement divided by the initial value, taken at some baseline event or timepoint, multiplied by 100.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Percent Change From Baseline</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Percent Change From Nadir" nciodm:ExtCodeID="C96622">
+          <nciodm:CDISCSynonym>Percent Change From Nadir</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The value of the current measurement divided by the lowest value previously recorded multiplied by 100.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Percent Change From Nadir</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Radiodensity" nciodm:ExtCodeID="C96627">
+          <nciodm:CDISCSynonym>Radiodensity</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The transparency of a material to the passage of X-rays and other forms of radiation.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Radiodensity</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Sum of Area" nciodm:ExtCodeID="C96630">
+          <nciodm:CDISCSynonym>Sum of Area</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A calculation of the aggregated area values.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Sum of Areas</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Sum of Diameter" nciodm:ExtCodeID="C96631">
+          <nciodm:CDISCSynonym>Sum of Diameter</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A calculation of the aggregated diameter values.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Sum of Diameters</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Sum of Longest Diameter" nciodm:ExtCodeID="C96632">
+          <nciodm:CDISCSynonym>Sum of Longest Diameter</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A calculation of the aggregated longest diameter values.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Sum of Longest Diameters</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Sum of Longest Perpendicular" nciodm:ExtCodeID="C96633">
+          <nciodm:CDISCSynonym>Sum of Longest Perpendicular</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A calculation of the aggregated longest perpendicular values.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Sum of Longest Perpendiculars</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Sum of Viable Diameter" nciodm:ExtCodeID="C96634">
+          <nciodm:CDISCSynonym>Sum of Viable Diameter</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A calculation of the aggregated diameter values taken from the viable portion of the tumor mass.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Sum of Viable Diameters</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Sum of Volume" nciodm:ExtCodeID="C96635">
+          <nciodm:CDISCSynonym>Sum of Volume</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A calculation of the aggregated volume values.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Sum of Volumes</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Tumor State" nciodm:ExtCodeID="C96643">
+          <nciodm:CDISCSynonym>Tumor State</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A condition or state of a tumor at a particular time.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Tumor Status</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Viable Diameter" nciodm:ExtCodeID="C96646">
+          <nciodm:CDISCSynonym>Viable Diameter</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The diameter of the portion of the tumor mass that is capable of growth, proliferation and metastasis.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Viable Tumor Diameter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Longest Diameter" nciodm:ExtCodeID="C96684">
+          <nciodm:CDISCSynonym>Longest Diameter</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The longest possible length of a straight line passing through the center of a circular or spheroid object that connects two points on the circumference.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Longest Diameter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Longest Perpendicular" nciodm:ExtCodeID="C96685">
+          <nciodm:CDISCSynonym>Longest Perpendicular</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The longest possible straight line or plane through a body or figure that is at a right angle to a given line or plane.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Longest Perpendicular</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <nciodm:CDISCSubmissionValue>TRTEST</nciodm:CDISCSubmissionValue>
+        <nciodm:CDISCSynonym>Oncology Tumor Properties Test Name</nciodm:CDISCSynonym>
+        <nciodm:PreferredTerm>CDISC SDTM Oncology Tumor Properties Test Name Terminology</nciodm:PreferredTerm>
+      </CodeList>
+    

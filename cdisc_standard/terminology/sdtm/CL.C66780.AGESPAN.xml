@@ -1,0 +1,41 @@
+<CodeList xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" OID="CL.C66780.AGESPAN" Name="Age Span" DataType="text" nciodm:ExtCodeID="C66780" nciodm:CodeListExtensible="Yes">
+        <Description>
+          <TranslatedText xml:lang="en">Subgroups of populations based on age. (NCI)</TranslatedText>
+        </Description>
+        <EnumeratedItem CodedValue="ADOLESCENT (12-17 YEARS)" nciodm:ExtCodeID="C27954">
+          <nciodm:CDISCDefinition>A juvenile between the onset of puberty and maturity; in the state of development between puberty and maturity. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Adolescent</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ADULT (18-65)" nciodm:ExtCodeID="C49685">
+          <nciodm:CDISCDefinition>A person from 18 years to 65 years of age. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Adult 18-65 Years Old</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CHILDREN (2-11 YEARS)" nciodm:ExtCodeID="C49683">
+          <nciodm:CDISCDefinition>A person from 2 years to 11 years of age. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Children 2-11 Years Old</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ELDERLY (&gt; 65)" nciodm:ExtCodeID="C16268">
+          <nciodm:CDISCDefinition>An age group comprised by people 65 years of age and older. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Elderly</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="IN UTERO" nciodm:ExtCodeID="C49641">
+          <nciodm:CDISCDefinition>The period of time during which the embryo or fetus is present in the uterus of the female. Also describes the location of the embryo or fetus as being in the uterus in contrast to outside the uterus (ex utero). (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>In Utero</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="INFANT AND TODDLER (28 DAYS - 23 MONTHS)" nciodm:ExtCodeID="C49643">
+          <nciodm:CDISCDefinition>A person from 28 days to 23 months of age. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Infant And Toddler</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="NEWBORN (0-27 DAYS)" nciodm:ExtCodeID="C16731">
+          <nciodm:CDISCDefinition>An infant during the first month after birth. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Newborn</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PRETERM NEWBORN INFANTS" nciodm:ExtCodeID="C49642">
+          <nciodm:CDISCDefinition>An infant born prior to completion of the normal gestation period. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Preterm Newborn Infant</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <nciodm:CDISCSubmissionValue>AGESPAN</nciodm:CDISCSubmissionValue>
+        <nciodm:CDISCSynonym>Age Span</nciodm:CDISCSynonym>
+        <nciodm:PreferredTerm>CDISC SDTM Age Group Terminology</nciodm:PreferredTerm>
+      </CodeList>
+      

@@ -1,0 +1,19 @@
+<CodeList xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" OID="CL.C78731.DATEST" Name="Drug Accountability Test Name" DataType="text" nciodm:ExtCodeID="C78731" nciodm:CodeListExtensible="Yes">
+        <Description>
+          <TranslatedText xml:lang="en">The name of the test for the drug accountability assessment.</TranslatedText>
+        </Description>
+        <EnumeratedItem CodedValue="Dispensed Amount" nciodm:ExtCodeID="C78721">
+          <nciodm:CDISCSynonym>Dispensed Amount</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The quantity of a product that has been dispensed. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Dispensed Amount</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Returned Amount" nciodm:ExtCodeID="C78722">
+          <nciodm:CDISCSynonym>Returned Amount</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The quantity of a product that has been returned. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Returned Amount</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <nciodm:CDISCSubmissionValue>DATEST</nciodm:CDISCSubmissionValue>
+        <nciodm:CDISCSynonym>Drug Accountability Test Name</nciodm:CDISCSynonym>
+        <nciodm:PreferredTerm>CDISC SDTM Drug Accountability Test Terminology by Name</nciodm:PreferredTerm>
+      </CodeList>
+      

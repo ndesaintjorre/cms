@@ -1,0 +1,59 @@
+<CodeList xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" OID="CL.C95121.PHSPRPCD" Name="Physical Properties Test Code" DataType="text" nciodm:ExtCodeID="C95121" nciodm:CodeListExtensible="Yes">
+        <Description>
+          <TranslatedText xml:lang="en">Terminology relevant to the test codes that describe the physical characteristics of an entity.</TranslatedText>
+        </Description>
+        <EnumeratedItem CodedValue="SHAPE" nciodm:ExtCodeID="C25677">
+          <nciodm:CDISCSynonym>Shape</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The spatial arrangement of something as distinct from its substance. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Shape</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="DEPTH" nciodm:ExtCodeID="C25333">
+          <nciodm:CDISCSynonym>Depth</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The extent downward or inward; the perpendicular measurement from the surface downward to determine deepness. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Depth</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="DIAMETER" nciodm:ExtCodeID="C25285">
+          <nciodm:CDISCSynonym>Diameter</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The length of a straight line passing through the center of a circle or sphere and connecting two points on the circumference. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Diameter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LENGTH" nciodm:ExtCodeID="C25334">
+          <nciodm:CDISCSynonym>Length</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The linear extent in space from one end of something to the other end, or the extent of something from beginning to end. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Length</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="WIDTH" nciodm:ExtCodeID="C25345">
+          <nciodm:CDISCSynonym>Width</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The extent or measurement of something from side to side. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Width</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CONSIST" nciodm:ExtCodeID="C95110">
+          <nciodm:CDISCSynonym>Consistency</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A description about the firmness or make-up of an entity.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Consistency</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="COLOR" nciodm:ExtCodeID="C37927">
+          <nciodm:CDISCSynonym>Color</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The appearance of objects (or light sources) described in terms of a person's perception of their hue and lightness (or brightness) and saturation. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Color</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HAIRCOV" nciodm:ExtCodeID="C95109">
+          <nciodm:CDISCSynonym>Hair Cover</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A description of the quantity or quality of the hair or fur covering a biological entity. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hair or Fur Cover</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ULCER" nciodm:ExtCodeID="C25757">
+          <nciodm:CDISCSynonym>Ulceration</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The formation or development of an ulcer. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Ulceration</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="DESCR" nciodm:ExtCodeID="C25365">
+          <nciodm:CDISCSynonym>Description</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A written or verbal account, representation, statement, or explanation of something. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Description</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <nciodm:CDISCSubmissionValue>PHSPRPCD</nciodm:CDISCSubmissionValue>
+        <nciodm:CDISCSynonym>Physical Properties Test Code</nciodm:CDISCSynonym>
+        <nciodm:PreferredTerm>CDISC SDTM Physical Properties Test Code Terminology</nciodm:PreferredTerm>
+      </CodeList>
+      

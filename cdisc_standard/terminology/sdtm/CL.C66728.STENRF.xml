@@ -1,0 +1,40 @@
+<CodeList xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" OID="CL.C66728.STENRF" Name="Relation to Reference Period" DataType="text" nciodm:ExtCodeID="C66728" nciodm:CodeListExtensible="No">
+        <Description>
+          <TranslatedText xml:lang="en">The relative relationship of a timepoint to a reference timepoint.</TranslatedText>
+        </Description>
+        <EnumeratedItem CodedValue="AFTER" nciodm:ExtCodeID="C38008">
+          <nciodm:CDISCDefinition>The time period following a point or another period of time. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Status Post</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BEFORE" nciodm:ExtCodeID="C25629">
+          <nciodm:CDISCDefinition>Earlier in time or order. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Prior</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="DURING" nciodm:ExtCodeID="C25490">
+          <nciodm:CDISCDefinition>At some point in a given period of time. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>During</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="DURING/AFTER" nciodm:ExtCodeID="C49640">
+          <nciodm:CDISCDefinition>Within a certain period of time or after a certain point or period in time. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>During Or After</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="U" nciodm:ExtCodeID="C17998">
+          <nciodm:CDISCSynonym>U</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Unknown</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Not known, not observed, not recorded, or refused. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Unknown</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="COINCIDENT" nciodm:ExtCodeID="C25456">
+          <nciodm:CDISCDefinition>Occurring or operating at the same time.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Concurrent</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ONGOING" nciodm:ExtCodeID="C53279">
+          <nciodm:CDISCSynonym>Continuous</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Remain in force or carry on without letup; keep or maintain in unaltered condition; exist in time or space without stop or interruption. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Continue</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <nciodm:CDISCSubmissionValue>STENRF</nciodm:CDISCSubmissionValue>
+        <nciodm:CDISCSynonym>Relation to Reference Period</nciodm:CDISCSynonym>
+        <nciodm:PreferredTerm>CDISC SDTM Relation to Reference Period Terminology</nciodm:PreferredTerm>
+      </CodeList>
+      

@@ -1,0 +1,80 @@
+<CodeList xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" OID="CL.C66737.TPHASE" Name="Trial Phase" DataType="text" nciodm:ExtCodeID="C66737" nciodm:CodeListExtensible="Yes">
+        <Description>
+          <TranslatedText xml:lang="en">Clinical trials are broken into three or four phases: Phase I tests a new drug or treatment for safety in a small group; Phase II expands the study to a larger group of people; Phase III expands the study to an even larger group of people to measure whether the treatment actually benefits patients, and whether its benefits exceed its risks; and Phase IV takes place after the drug or treatment has been licensed and marketed. (NCI)</TranslatedText>
+        </Description>
+        <EnumeratedItem CodedValue="Phase I Trial" nciodm:ExtCodeID="C15600">
+          <nciodm:CDISCSynonym>Trial Phase 1</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>1</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The initial introduction of an investigational new drug into humans. Phase 1 studies are typically closely monitored and may be conducted in patients or normal volunteer subjects. NOTE: These studies are designed to determine the metabolism and pharmacologic actions of the drug in humans, the side effects associated with increasing doses, and, if possible, to gain early evidence on effectiveness. During Phase 1, sufficient information about the drug's pharmacokinetics and pharmacological effects should be obtained to permit the design of well-controlled, scientifically valid, Phase 2 studies. The total number of subjects and patients included in Phase I studies varies with the drug, but is generally in the range of 20 to 80. Phase 1 studies also include studies of drug metabolism, structure-activity relationships, and mechanism of action in humans, as well as studies in which investigational drugs are used as research tools to explore biological phenomena or disease processes. [After FDA CDER Handbook, ICH E8] (CDISC glossary)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Phase I Trial</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Phase I/II Trial" nciodm:ExtCodeID="C15693">
+          <nciodm:CDISCSynonym>Trial Phase 1-2</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>1-2</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A class of clinical study that combines elements characteristic of traditional Phase I and Phase II trials. See also Phase I, Phase II.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Phase I/II Trial</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Phase II Trial" nciodm:ExtCodeID="C15601">
+          <nciodm:CDISCSynonym>Trial Phase 2</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>2</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Phase 2. Controlled clinical studies conducted to evaluate the effectiveness of the drug for a particular indication or indications in patients with the disease or condition under study and to determine the common short-term side effects and risks associated with the drug. NOTE: Phase 2 studies are typically well controlled, closely monitored, and conducted in a relatively small number of patients, usually involving no more than several hundred subjects. [After FDA CDER Handbook, ICH E8] (CDISC glossary)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Phase II Trial</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Phase II/III Trial" nciodm:ExtCodeID="C15694">
+          <nciodm:CDISCSynonym>Trial Phase 2-3</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>2-3</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A class of clinical study that combines elements characteristic of traditional Phase II and Phase III trials.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Phase II/III Trial</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Phase IIa Trial" nciodm:ExtCodeID="C49686">
+          <nciodm:CDISCSynonym>Trial Phase 2A</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>2A</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A clinical research protocol generally referred to as a pilot or feasibility trial that aims to prove the concept of the new intervention in question. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Phase IIa Trial</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Phase IIb Trial" nciodm:ExtCodeID="C49688">
+          <nciodm:CDISCSynonym>Trial Phase 2B</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>2B</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A clinical research protocol generally referred to as a well-controlled and pivotal trial that aims to prove the mechanism of action of the new intervention in question. A pivotal study will generally be well-controlled, randomized, of adequate size, and whenever possible, double-blind. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Phase IIb Trial</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Phase III Trial" nciodm:ExtCodeID="C15602">
+          <nciodm:CDISCSynonym>Trial Phase 3</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>3</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Phase 3. Studies are expanded controlled and uncontrolled trials. They are performed after preliminary evidence suggesting effectiveness of the drug has been obtained, and are intended to gather the additional information about effectiveness and safety that is needed to confirm efficacy and evaluate the overall benefit-risk relationship of the drug and to provide an adequate basis for physician labeling. NOTE: Phase 3 studies usually include from several hundred to several thousand subjects. [After FDA CDER Handbook, ICH E8] (CDISC glossary)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Phase III Trial</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Phase IIIa Trial" nciodm:ExtCodeID="C49687">
+          <nciodm:CDISCSynonym>Trial Phase 3A</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>3A</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A classification typically assigned retrospectively to a Phase III trial upon determination by regulatory authorities of a need for a Phase III B trial.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Phase IIIa Trial</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Phase IIIb Trial" nciodm:ExtCodeID="C49689">
+          <nciodm:CDISCSynonym>Trial Phase 3B</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>3B</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A subcategory of Phase III trials done near the time of approval to elicit additional findings. NOTE: Dossier review may continue while associated Phase IIIB trials are conducted. These trials may be required as a condition of regulatory authority approval.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Phase IIIb Trial</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Phase IV Trial" nciodm:ExtCodeID="C15603">
+          <nciodm:CDISCSynonym>Trial Phase 4</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>4</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Phase 4. Postmarketing (Phase 4) studies to delineate additional information about the drug's risks, benefits, and optimal use that may be requested by regulatory authorities in conjunction with marketing approval. NOTE: These studies could include, but would not be limited to, studying different doses or schedules of administration than were used in Phase 2 studies, use of the drug in other patient populations or other stages of the disease, or use of the drug over a longer period of time. [After FDA CDER Handbook, ICH E8] (CDISC glossary)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Phase IV Trial</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Phase V Trial" nciodm:ExtCodeID="C47865">
+          <nciodm:CDISCSynonym>Trial Phase 5</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>5</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Postmarketing surveillance is sometimes referred to as Phase V.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Phase V Trial</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="NA" nciodm:ExtCodeID="C48660">
+          <nciodm:CDISCSynonym>NA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Determination of a value is not relevant in the current context. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Not Applicable</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <nciodm:CDISCSubmissionValue>TPHASE</nciodm:CDISCSubmissionValue>
+        <nciodm:CDISCSynonym>Trial Phase</nciodm:CDISCSynonym>
+        <nciodm:PreferredTerm>CDISC SDTM Trial Phase Terminology</nciodm:PreferredTerm>
+      </CodeList>
+      

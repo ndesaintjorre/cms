@@ -1,0 +1,35 @@
+<CodeList xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" OID="CL.C96782.RSTESTCD" Name="Tumor Response Assessment Test Code" DataType="text" nciodm:ExtCodeID="C96782" nciodm:CodeListExtensible="Yes">
+        <Description>
+          <TranslatedText xml:lang="en">Terminology relevant to the test codes that describe an assessment of tumor response to treatment or therapy.</TranslatedText>
+        </Description>
+        <EnumeratedItem CodedValue="BESTRESP" nciodm:ExtCodeID="C94536">
+          <nciodm:CDISCSynonym>Best Overall Response</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Best Response</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An assessment of the most clinically favorable overall response of the disease to the therapy.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Best Overall Response</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="NRADPROG" nciodm:ExtCodeID="C96608">
+          <nciodm:CDISCSynonym>Non-Radiological Progression</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A non-radiological determination of disease progression based on symptoms or other findings.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Non-Radiological Progression</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="NTRGRESP" nciodm:ExtCodeID="C96609">
+          <nciodm:CDISCSynonym>Non-target Response</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An assessment of the response of a non-target tumor(s) to the therapy.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Non-target Response</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="OVRLRESP" nciodm:ExtCodeID="C96613">
+          <nciodm:CDISCSynonym>Overall Response</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An assessment of the overall response of the disease to the therapy. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Overall Response</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TRGRESP" nciodm:ExtCodeID="C96637">
+          <nciodm:CDISCSynonym>Target Response</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An assessment of the response of a target tumor(s) to the therapy.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Target Response</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <nciodm:CDISCSubmissionValue>RSTESTCD</nciodm:CDISCSubmissionValue>
+        <nciodm:CDISCSynonym>Tumor Response Assessment Test Code</nciodm:CDISCSynonym>
+        <nciodm:PreferredTerm>CDISC SDTM Tumor Response Assessment Test Code Terminology</nciodm:PreferredTerm>
+      </CodeList>
+      

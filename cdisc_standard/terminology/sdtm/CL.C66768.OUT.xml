@@ -1,0 +1,37 @@
+<CodeList xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" OID="CL.C66768.OUT" Name="Outcome of Event" DataType="text" nciodm:ExtCodeID="C66768" nciodm:CodeListExtensible="No">
+        <Description>
+          <TranslatedText xml:lang="en">A condition or event that is attributed to the adverse event and is the result or conclusion of the adverse event. (NCI)</TranslatedText>
+        </Description>
+        <EnumeratedItem CodedValue="FATAL" nciodm:ExtCodeID="C48275">
+          <nciodm:CDISCSynonym>Grade 5</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>5</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The termination of life as a result of an adverse event. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Death Related to Adverse Event</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="NOT RECOVERED/NOT RESOLVED" nciodm:ExtCodeID="C49494">
+          <nciodm:CDISCDefinition>One of the possible results of an adverse event outcome that indicates that the event has not improved or recuperated. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Not Recovered or Not Resolved</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="RECOVERED/RESOLVED" nciodm:ExtCodeID="C49498">
+          <nciodm:CDISCDefinition>One of the possible results of an adverse event outcome that indicates that the event has improved or recuperated. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Recovered or Resolved</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="RECOVERED/RESOLVED WITH SEQUELAE" nciodm:ExtCodeID="C49495">
+          <nciodm:CDISCDefinition>One of the possible results of an adverse event outcome where the subject recuperated but retained pathological conditions resulting from the prior disease or injury. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Recovered or Resolved with Sequelae</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="RECOVERING/RESOLVING" nciodm:ExtCodeID="C49496">
+          <nciodm:CDISCDefinition>One of the possible results of an adverse event outcome that indicates that the event is improving. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Recovering or Resolving</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="UNKNOWN" nciodm:ExtCodeID="C17998">
+          <nciodm:CDISCSynonym>U</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Unknown</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Not known, not observed, not recorded, or refused. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Unknown</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <nciodm:CDISCSubmissionValue>OUT</nciodm:CDISCSubmissionValue>
+        <nciodm:CDISCSynonym>Outcome of Event</nciodm:CDISCSynonym>
+        <nciodm:PreferredTerm>CDISC SDTM Adverse Event Outcome Terminology</nciodm:PreferredTerm>
+      </CodeList>
+      

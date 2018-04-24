@@ -1,0 +1,2058 @@
+<CodeList xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" OID="CL.C74456.LOC" Name="Anatomical Location" DataType="text" nciodm:ExtCodeID="C74456" nciodm:CodeListExtensible="Yes">
+        <Description>
+          <TranslatedText xml:lang="en">Terminology codelist used for anatomical location within CDISC.</TranslatedText>
+        </Description>
+        <EnumeratedItem CodedValue="LIP" nciodm:ExtCodeID="C12220">
+          <nciodm:CDISCSynonym>Lip</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Fleshy fold which surrounds the opening of the mouth. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Lip</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HARD PALATE" nciodm:ExtCodeID="C12230">
+          <nciodm:CDISCSynonym>Hard Palate</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The bony anterior part of the roof of the mouth separating the nose from the mouth. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hard Palate</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HYPOPHARYNX" nciodm:ExtCodeID="C12246">
+          <nciodm:CDISCSynonym>Hypopharynx</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The lower part of the pharynx that connects to the esophagus. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hypopharynx</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GASTRIC CARDIA" nciodm:ExtCodeID="C12256">
+          <nciodm:CDISCSynonym>Gastric Cardia</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area around the esophagogastric mucosal junction where the esophageal mucosa transitions into the gastric mucosa. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Gastric Cardia</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="FUNDUS OF THE STOMACH" nciodm:ExtCodeID="C12257">
+          <nciodm:CDISCSynonym>Fundus of the Stomach</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The portion of the stomach that lies above the cardiac notch. It allows for the accumulation of gases produced by chemical digestion. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Fundus of the Stomach</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BODY OF STOMACH" nciodm:ExtCodeID="C12258">
+          <nciodm:CDISCSynonym>Body of Stomach</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The main section of the digestive tube that connects the esophagus to the small intestine. The body proper excludes the upper and lower sections of the fundus and pyloric portion respectively. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Body of Stomach</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ANTRUM PYLORI" nciodm:ExtCodeID="C12259">
+          <nciodm:CDISCSynonym>Antrum Pylori</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The initial part of the pyloric canal of the stomach. This site contains endocrine cells that produce gastrin and somatostatin. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Antrum Pylori</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GREATER CURVATURE OF THE STOMACH" nciodm:ExtCodeID="C12262">
+          <nciodm:CDISCSynonym>Greater Curvature of the Stomach</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The lateral and inferior border of the stomach. Attached to it is the greater omentum. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Greater Curvature of the Stomach</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MIDDLE EAR" nciodm:ExtCodeID="C12274">
+          <nciodm:CDISCSynonym>Middle Ear</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The part of the ear including the eardrum and ossicles. The middle ear leads to the inner ear. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Middle Ear</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MAXILLARY SINUS" nciodm:ExtCodeID="C12275">
+          <nciodm:CDISCSynonym>Maxillary Sinus</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A pyramidal-shaped, thin-walled, air-filled cavity located in the maxilla. It is lined by mucus membrane and periosteum (mucoperiosteum) which contains cilia. It is adjacent to the nasal cavity and communicates with the middle meatus of the nose. It is the largest paranasal sinus and is composed of three recesses: alveolar, zygomatic, and infraorbital. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Maxillary Sinus</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ETHMOID SINUS" nciodm:ExtCodeID="C12276">
+          <nciodm:CDISCSynonym>Ethmoid Sinus</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A sinus of the meatuses of the nasal cavity. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Ethmoid Sinus</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="FRONTAL SINUS" nciodm:ExtCodeID="C12277">
+          <nciodm:CDISCSynonym>Frontal Sinus</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The paired, mucosal lined air spaces located above the orbit and communicating with the nasal passages. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Frontal Sinus</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SUBGLOTTIS" nciodm:ExtCodeID="C12280">
+          <nciodm:CDISCSynonym>Subglottis</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area of the larynx below the vocal cords down to the trachea. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Subglottis</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MANDIBLE" nciodm:ExtCodeID="C12290">
+          <nciodm:CDISCSynonym>Mandible</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The lower jaw bone holding the lower teeth. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Mandible</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SKIN OF THE TRUNK" nciodm:ExtCodeID="C12295">
+          <nciodm:CDISCSynonym>Skin of the Trunk</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The skin or integument surrounding the trunk of the body. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Skin of the Trunk</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="NIPPLE" nciodm:ExtCodeID="C12299">
+          <nciodm:CDISCSynonym>Nipple</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The pigmented protuberance on the surface of the breast through which milk is drawn from the breast. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Nipple</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CERVIX UTERI" nciodm:ExtCodeID="C12311">
+          <nciodm:CDISCSynonym>Cervix Uteri</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The lower part of the uterus occupying the region between the isthmus of the uterus and the vagina. It is divided into supravaginal and vaginal portions. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Cervix Uteri</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MYOMETRIUM" nciodm:ExtCodeID="C12314">
+          <nciodm:CDISCSynonym>Myometrium</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The smooth muscle lining the uterus. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Myometrium</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PARAMETRIUM" nciodm:ExtCodeID="C12320">
+          <nciodm:CDISCSynonym>Parametrium</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The subserous connective tissue of the pelvic floor of the supracervical portion of the uterus. The parametrium extends laterally between the layers of the broad ligament. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Parametrium</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CONJUNCTIVA" nciodm:ExtCodeID="C12341">
+          <nciodm:CDISCSynonym>Conjunctiva</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A thin, transparent tissue divided into the palpebral conjunctiva (covering the inner side of the eye lid) and the bulbar conjunctiva (covering the eyeball). (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Conjunctiva</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CORNEA" nciodm:ExtCodeID="C12342">
+          <nciodm:CDISCSynonym>Cornea</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A dome-shaped, transparent, avascular tissue covering the front of the eye. It is composed of five layers: squamous epithelium, Bowman's membrane, stroma, Descemet's membrane, and endothelium. Refraction of light contributing to eye's focusing ability is its characteristic function. It contains unmyelinated nerve endings which are responsible for the high sensitivity of the tissue. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Cornea</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="RETINA" nciodm:ExtCodeID="C12343">
+          <nciodm:CDISCSynonym>Retina</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A light-sensitive membrane that lines the back wall of the eyeball. The retina is continuous with the optic nerve and this way transmits optical images to the brain. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Retina</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ORBIT" nciodm:ExtCodeID="C12347">
+          <nciodm:CDISCSynonym>Orbit</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The bony cavity of the skull which contains the eye, anterior portion of the optic nerve, ocular muscles and ocular adnexa. Seven bones contribute to the structure of the orbit: the frontal, maxillary, zygomatic, sphenoid, lacrimal, ethmoid, and palatine bones. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Orbit</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="FRONTAL LOBE" nciodm:ExtCodeID="C12352">
+          <nciodm:CDISCSynonym>Frontal Lobe</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The part of the brain located anterior to the parietal lobes at the front of each cerebral hemisphere. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Frontal Lobe</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PARIETAL LOBE" nciodm:ExtCodeID="C12354">
+          <nciodm:CDISCSynonym>Parietal Lobe</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>One of the lobes of the cerebral hemisphere located superiorly to the occipital lobe and posteriorly to the frontal lobe. Cognition and visuospatial processing are its main function. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Parietal Lobe</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BRAIN VENTRICLE" nciodm:ExtCodeID="C12356">
+          <nciodm:CDISCSynonym>Brain Ventricle</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The four connected cavities (hollow spaces) centrally located within the brain that connect posteriorly with the central canal of the spinal cord. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Brain Ventricle</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PELVIC LYMPH NODE" nciodm:ExtCodeID="C12363">
+          <nciodm:CDISCSynonym>Pelvic Lymph Node</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Any lymph node within the pelvic region. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Pelvic Lymph Node</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BONE" nciodm:ExtCodeID="C12366">
+          <nciodm:CDISCSynonym>Bone</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Connective tissue that forms the skeletal components of the body. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Bone</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ARTERY" nciodm:ExtCodeID="C12372">
+          <nciodm:CDISCSynonym>Artery</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A blood vessel that carries blood away from the heart. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Artery</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GALLBLADDER" nciodm:ExtCodeID="C12377">
+          <nciodm:CDISCSynonym>Gallbladder</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A pear-shaped organ located under the liver that stores and concentrates bile secreted by the liver. From the gallbladder the bile is delivered through the bile ducts into the intestine thereby aiding the digestion of fat-containing foods. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Gallbladder</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GASTROINTESTINAL SYSTEM" nciodm:ExtCodeID="C12378">
+          <nciodm:CDISCSynonym>Gastrointestinal System</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The system that includes the esophagus, stomach, small and large intestine, anus, liver, biliary tract, and pancreas. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Gastrointestinal System</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LARGE INTESTINE" nciodm:ExtCodeID="C12379">
+          <nciodm:CDISCSynonym>Large Intestine</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A muscular tube that extends from the end of the small intestine to the anus. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Large Intestine</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="APPENDIX" nciodm:ExtCodeID="C12380">
+          <nciodm:CDISCSynonym>Appendix</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Small tissue projection existing as a cecal diverticulum with a questionable history of vestigial versus specialized organ. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Appendix</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="COLON" nciodm:ExtCodeID="C12382">
+          <nciodm:CDISCSynonym>Colon</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The part of the large intestine measured from the cecum to the rectum consisting of ascending, transverse, descending and sigmoid portions. The purpose of the colon is to remove water from digested food prior to excretion. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Colon</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SMALL INTESTINE" nciodm:ExtCodeID="C12386">
+          <nciodm:CDISCSynonym>Small Intestine</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The section of the intestines between the pylorus and cecum. The small intestine is approximately 20 feet long and consists of the duodenum, the jejunum, and the ileum. Its main function is to absorb nutrients from food as the food is transported to the large intestine. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Small Intestine</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ILEUM" nciodm:ExtCodeID="C12387">
+          <nciodm:CDISCSynonym>Ileum</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The final section of the small intestine. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Ileum</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="JEJUNUM" nciodm:ExtCodeID="C12388">
+          <nciodm:CDISCSynonym>Jejunum</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The portion of the small intestine that extends from the duodenum to the ileum. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Jejunum</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ESOPHAGUS" nciodm:ExtCodeID="C12389">
+          <nciodm:CDISCSynonym>Esophagus</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The portion of the digestive canal between the pharynx and stomach. It is about 25 cm long and consists of three parts: the cervical part, from the cricoid cartilage to the thoracic inlet; thoracic part, from thoracic inlet to the diaphragm; and abdominal part, below the diaphragm to the cardiac opening of the stomach. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Esophagus</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="STOMACH" nciodm:ExtCodeID="C12391">
+          <nciodm:CDISCSynonym>Stomach</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An organ located under the diaphragm, between the liver and the spleen as well as between the esophagus and the small intestine. The stomach is the primary organ of food digestion. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Stomach</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LIVER" nciodm:ExtCodeID="C12392">
+          <nciodm:CDISCSynonym>Liver</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A triangular-shaped organ located under the diaphragm in the right hypochondrium. It is the largest internal organ of the body, weighting up to 2 kg. Metabolism and bile secretion are its main functions. It is composed of cells which have the ability to regenerate. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Liver</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PANCREAS" nciodm:ExtCodeID="C12393">
+          <nciodm:CDISCSynonym>Pancreas</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An organ behind the lower part of the stomach that is the shape of a fish and about the size of a hand. It is a compound gland composed of both exocrine and endocrine tissues. The endocrine pancreas makes insulin so that the body can use glucose (sugar) for energy. The exocrine pancreas makes enzymes that help the body digest food. Spread all over the pancreas are areas called the Islets of Langerhans. The cells in these areas each have a special purpose. The alpha cells make glucagon, which raises the level of glucose in the blood; the beta cells make insulin; the delta cells make somatostatin. There are also PP cells and D1 cells, about which little is known. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Pancreas</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="EAR" nciodm:ExtCodeID="C12394">
+          <nciodm:CDISCSynonym>Ear</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A sense organ needed for the detection of sound and for establishing balance. The outer ear consists of the auricle, the ear canal as well as the tympanic membrane. The middle ear is made up of an air-filled cavity behind the tympanic membrane that contains the ossicles (malleus, incus and stapes). The inner ear is made up of the cochlea needed for hearing and the vestibular apparatus required for balance. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Ear</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="THYROID GLAND" nciodm:ExtCodeID="C12400">
+          <nciodm:CDISCSynonym>Thyroid Gland</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An endocrine gland located at the base of the neck that produces and secretes thyroxine and other hormones. Thyroxine is important for metabolic control. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Thyroid Gland</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="EYE" nciodm:ExtCodeID="C12401">
+          <nciodm:CDISCSynonym>Eye</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The organ of sight or vision. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Eye</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="FALLOPIAN TUBE" nciodm:ExtCodeID="C12403">
+          <nciodm:CDISCSynonym>Fallopian Tube</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>One of a pair of tubes that extend from the uterus to each of the ovaries. Following ovulation the egg travels down the fallopian tube to the uterus where fertilization may or may not occur. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Fallopian Tube</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="OVARY" nciodm:ExtCodeID="C12404">
+          <nciodm:CDISCSynonym>Ovary</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>One of the paired female reproductive glands containing the ova or germ cells; the ovary's stroma is a vascular connective tissue containing numbers of ovarian follicles enclosing the ova. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Ovary</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="UTERUS" nciodm:ExtCodeID="C12405">
+          <nciodm:CDISCSynonym>Uterus</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A hollow, thick-walled, muscular organ located within the pelvic cavity of a woman. Within the uterus the fertilized egg implants and the fetus develops during pregnancy. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Uterus</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="VAGINA" nciodm:ExtCodeID="C12407">
+          <nciodm:CDISCSynonym>Vagina</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The female genital canal, extending from the uterus to the vulva. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Vagina</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="VULVA" nciodm:ExtCodeID="C12408">
+          <nciodm:CDISCSynonym>Vulva</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The external, visible part of the female genitalia surrounding the urethral and vaginal opening. The vulva includes the clitoris and inner as well as outer labia. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Vulva</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PENIS" nciodm:ExtCodeID="C12409">
+          <nciodm:CDISCSynonym>Penis</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The male organ of urination and copulation. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Penis</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PROSTATE GLAND" nciodm:ExtCodeID="C12410">
+          <nciodm:CDISCSynonym>Prostate Gland</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The walnut shaped accessory sex gland of the male reproductive system. It is located in the pelvis just below the bladder, surrounding the prostatic part of the urethra. The prostate gland secretes a fluid which is part of the semen. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Prostate Gland</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TESTIS" nciodm:ExtCodeID="C12412">
+          <nciodm:CDISCSynonym>Testis</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Either of the paired male reproductive glands that produce the male germ cells and the male hormones. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Testis</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="URINARY SYSTEM" nciodm:ExtCodeID="C12413">
+          <nciodm:CDISCSynonym>Urinary System</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The organs involved in the creation and excretion of urine. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Urinary System</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BLADDER" nciodm:ExtCodeID="C12414">
+          <nciodm:CDISCSynonym>Bladder</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The distensible sac-like organ that functions as a reservoir of urine, collecting from the kidneys and eliminating via the urethra. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Bladder</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="KIDNEY" nciodm:ExtCodeID="C12415">
+          <nciodm:CDISCSynonym>Kidney</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>One of the two bean-shaped organs located on each side of the spine in the retroperitoneum. The right kidney is located below the liver and the left kidney below the diaphragm. The kidneys filter and secret the metabolic products and minerals from the blood, thus maintaining the homeostasis. On the superior pole of each kidney there is an adrenal gland. Each kidney and adrenal gland is surrounded by fat. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Kidney</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="URETER" nciodm:ExtCodeID="C12416">
+          <nciodm:CDISCSynonym>Ureter</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The thick-walled tube that carries urine from each kidney to the bladder. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Ureter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="URETHRA" nciodm:ExtCodeID="C12417">
+          <nciodm:CDISCSynonym>Urethra</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The tube carrying urine from the bladder to outside of the body. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Urethra</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HEAD" nciodm:ExtCodeID="C12419">
+          <nciodm:CDISCSynonym>Head</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The anterior and superior part of a human or animal bearing the mouth, the brain and sensory organs.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Head</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LARYNX" nciodm:ExtCodeID="C12420">
+          <nciodm:CDISCSynonym>Larynx</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The cartilaginous structure of the respiratory tract between the pharynx and the trachea. It contains elastic vocal cords required for sound production. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Larynx</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ORAL CAVITY" nciodm:ExtCodeID="C12421">
+          <nciodm:CDISCSynonym>Oral Cavity</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The cavity located at the upper end of the alimentary canal, behind the teeth and gums that is bounded on the outside by the lips, above by the hard and soft palates and below by the tongue. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Oral Cavity</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TONGUE" nciodm:ExtCodeID="C12422">
+          <nciodm:CDISCSynonym>Tongue</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The muscular organ located in the floor of the mouth and serving as the principal organ of taste and modification of the voice in speech. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Tongue</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="NASOPHARYNX" nciodm:ExtCodeID="C12423">
+          <nciodm:CDISCSynonym>Nasopharynx</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The part of the pharynx in the back of the throat, at and above the soft palate. The nasopharynx is continuous with the nasal passages. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Nasopharynx</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="NASAL CAVITY" nciodm:ExtCodeID="C12424">
+          <nciodm:CDISCSynonym>Nasal Cavity</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The proximal portion of the respiratory passages on either side of the nasal septum lying between the floor of the cranium and the roof of the mouth and extending from the face to the pharynx. The nasal cavity is lined with ciliated mucosa, extending from the nares to the pharynx. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Nasal Cavity</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PHARYNX" nciodm:ExtCodeID="C12425">
+          <nciodm:CDISCSynonym>Pharynx</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A hollow tube that starts posterior to the mouth and nasal cavity and ends superior to the trachea and esophagus. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Pharynx</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PAROTID GLAND" nciodm:ExtCodeID="C12427">
+          <nciodm:CDISCSynonym>Parotid Gland</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The largest of the three paired salivary glands, located in front of the ear. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Parotid Gland</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TRACHEA" nciodm:ExtCodeID="C12428">
+          <nciodm:CDISCSynonym>Trachea</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The fibrocartilaginous, mucous-lined tube passing from the larynx to the bronchi. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Trachea</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LIMB" nciodm:ExtCodeID="C12429">
+          <nciodm:CDISCSynonym>Limb</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A body region referring to an upper or lower extremity. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Limb</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SPLEEN" nciodm:ExtCodeID="C12432">
+          <nciodm:CDISCSynonym>Spleen</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An organ that is part of the hematopoietic and immune systems. It is composed of the white pulp and the red pulp and is surrounded by a capsule. It is located in the left hypochondriac region. Its functions include lymphocyte production, blood cell storage, and blood cell destruction. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Spleen</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="THYMUS GLAND" nciodm:ExtCodeID="C12433">
+          <nciodm:CDISCSynonym>Thymus Gland</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A bi-lobed organ surrounded by a connective tissue capsule. It is located in the upper anterior portion of the chest, behind the sternum. It is composed predominantly of lymphocytes and fewer epithelial cells. Connective tissue septa separate the lobes into lobules. The lobules contain an outer portion (cortical zone) which is rich in lymphocytes and an inner portion (medullary zone) which is rich in epithelial cells. It is an organ essential for the development of the immune system. Its function is the maturation of the progenitor lymphoid cells to thymocytes and subsequently to mature T-cells. It reaches its greatest weight at puberty and subsequently begins to involute. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Thymus Gland</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BLOOD" nciodm:ExtCodeID="C12434">
+          <nciodm:CDISCSynonym>Blood</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A liquid tissue; its major function is to transport oxygen throughout the body. It also supplies the tissues with nutrients, removes waste products, and contains various components of the immune system defending the body against infection. Several hormones also travel in the blood. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Blood</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MUSCLE TISSUE" nciodm:ExtCodeID="C12435">
+          <nciodm:CDISCSynonym>Muscle Tissue</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Tissue responsible for the body movements and the shape and size changes of interna organs. Muscle tissue is composed of specialized contractile cells. There are two types of muscle tissue recognized: striated and smooth muscle. The striated muscle tissue is further subdivided into skeletal, visceral striated, and cardiac muscle. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Muscle Tissue</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BRAIN" nciodm:ExtCodeID="C12439">
+          <nciodm:CDISCSynonym>Brain</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An organ composed of grey and white matter containing billions of neurons that is the center for intelligence and reasoning. It is protected by the bony cranium. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Brain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MEDULLA OBLONGATA" nciodm:ExtCodeID="C12442">
+          <nciodm:CDISCSynonym>Medulla Oblongata</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The lower portion of the brainstem located between the pons and brainstem. This structure contains several descending and ascending tracts, lower cranial nerve nuclei, a significant proportion of the reticular system of the brainstem and other structures. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Medulla Oblongata</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BASAL GANGLIA" nciodm:ExtCodeID="C12447">
+          <nciodm:CDISCSynonym>Basal Ganglia</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Clusters of neurons comprising the globus pallidus, putamen, caudate, nucleus accumbens, substantia nigra and subthalamic nucleus. They are involved with high level aspects of inhibitory motor activity in coordination with the excitation commands issued from the cerebellum. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Basal Ganglia</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PUTAMEN" nciodm:ExtCodeID="C12452">
+          <nciodm:CDISCSynonym>Putamen</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The largest and most lateral of the basal ganglia lying between the lateral medullary lamina of the globus pallidus and the external capsule. It is part of the neostriatum and forms part of the lentiform nucleus along with the globus pallidus. (MeSH) (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Putamen</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="THALAMUS" nciodm:ExtCodeID="C12459">
+          <nciodm:CDISCSynonym>Thalamus</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An ovoid mass composed predominantly of gray substance and associated laminae of white substance. The thalamus is divided into anterior, medial, and lateral parts. The function of the thalamus is to relay sensory impulses and cerebellar and basal ganglia projections to the cerebral cortex. The thalamus is positioned within the posterior part of the diencephalon forming most of each lateral wall of the third ventricle. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Thalamus</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LUNG" nciodm:ExtCodeID="C12468">
+          <nciodm:CDISCSynonym>Lung</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>One of a pair of viscera occupying the pulmonary cavities of the thorax, the organs of respiration in which aeration of the blood takes place. As a rule, the right lung is slightly larger than the left and is divided into three lobes (an upper, a middle, and a lower or basal), while the left has two lobes (an upper and a lower or basal). Each lung is irregularly conical in shape, presenting a blunt upper extremity (the apex), a concave base following the curve of the diaphragm, an outer convex surface (costal surface), an inner or mediastinal surface (mediastinal surface), a thin and sharp anterior border, and a thick and rounded posterior border. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Lung</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SKIN" nciodm:ExtCodeID="C12470">
+          <nciodm:CDISCSynonym>Skin</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An organ that constitutes the external surface of the body. It consists of the epidermis, dermis, and skin appendages. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Skin</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TYMPANIC MEMBRANE" nciodm:ExtCodeID="C12502">
+          <nciodm:CDISCSynonym>Tympanic Membrane</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A thin membrane that separates the external auditory canal from the middle ear. The movement of the tympanic membrane in response to air pressure changes in the external ear facilitates the transmission of sound energy by causing vibration of the ossicular chain. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Tympanic Membrane</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MASTOID PROCESS" nciodm:ExtCodeID="C12503">
+          <nciodm:CDISCSynonym>Mastoid Process</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A honeycombed section of bone located near the base of the skull, protruding behind the outer ear. It is connected to the middle ear. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Mastoid Process</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ABDOMINAL CAVITY" nciodm:ExtCodeID="C12664">
+          <nciodm:CDISCSynonym>Abdominal Cavity</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The portion of the body that lies between the thorax and the pelvis. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Abdominal Cavity</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ADRENAL GLAND" nciodm:ExtCodeID="C12666">
+          <nciodm:CDISCSynonym>Adrenal Gland</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Suprarenal gland. A flattened, roughly triangular body resting upon the upper end of each kidney; it is one of the ductless glands furnishing internal secretions (epinephrine and norepinephrine from the medulla and steroid hormones from the cortex). (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Adrenal Gland</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AORTA" nciodm:ExtCodeID="C12669">
+          <nciodm:CDISCSynonym>Aorta</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The major arterial trunk that carries oxygenated blood from the left ventricle into the ascending aorta behind the heart, the aortic arch, through the thorax as the descending aorta and through the abdomen as the abdominal aorta; it bifurcates into the left and right common iliac arteries. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Aorta</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AXILLA" nciodm:ExtCodeID="C12674">
+          <nciodm:CDISCSynonym>Axilla</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The underside concavity where the arm and the shoulder are joined. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Axilla</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BILIARY TRACT" nciodm:ExtCodeID="C12678">
+          <nciodm:CDISCSynonym>Biliary Tract</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The duct system that transports bile from its origination by hepatocytes in the liver to the small intestine. It is comprised of the common bile duct that connects the liver and gall bladder to the small intestine and the cystic duct that connects the gall bladder to the common bile duct. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Biliary Tract</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BLOOD VESSEL" nciodm:ExtCodeID="C12679">
+          <nciodm:CDISCSynonym>Blood Vessel</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A tubular structure through which the blood circulates in the body. Blood vessels constitute a network composed of arteries, arterioles, capillaries, venules, and veins. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Blood Vessel</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BRACHIAL ARTERY" nciodm:ExtCodeID="C12681">
+          <nciodm:CDISCSynonym>Brachial Artery</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An artery originating at the axillary artery and branching into the radial and ulnar arteries. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Brachial Artery</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BRACHIAL PLEXUS" nciodm:ExtCodeID="C12682">
+          <nciodm:CDISCSynonym>Brachial Plexus</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A nerve network originating from C5 to T1 that supplies cutaneous and muscular innervation to the arm and hand. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Brachial Plexus</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BRONCHUS" nciodm:ExtCodeID="C12683">
+          <nciodm:CDISCSynonym>Bronchus</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Tubular structure in continuation with the trachea, serving as air passage. It terminates in the lung (terminal bronchiole). (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Bronchus</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CAROTID ARTERY" nciodm:ExtCodeID="C12687">
+          <nciodm:CDISCSynonym>Carotid Artery</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>One of two arteries that supply oxygenated blood to the head and neck; the left common carotid branches from the aorta and the right common carotid from the innominate (brachiocephalic artery). (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Carotid Artery</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CERVICAL VERTEBRA" nciodm:ExtCodeID="C12693">
+          <nciodm:CDISCSynonym>Cervical Vertebra</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Any one of the seven vertebrae that start with C1, connecting the skull to the spine, and ends with C7, which joins the cervical with the thoracic spine. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Cervical Vertebra</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CLAVICLE" nciodm:ExtCodeID="C12695">
+          <nciodm:CDISCSynonym>Clavicle</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>One of a pair of bones linking the scapula and the sternum. The clavicle is part of the pectoral girdle. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Clavicle</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="COCCYX" nciodm:ExtCodeID="C12696">
+          <nciodm:CDISCSynonym>Coccyx</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A small bone located at the bottom of the spine. The coccyx is a result of 3-5 fused rudimentary vertebrae. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Coccyx</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="EPIGLOTTIS" nciodm:ExtCodeID="C12709">
+          <nciodm:CDISCSynonym>Epiglottis</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A small cartilagenous flap-like valve that closes over the larynx during swallowing to prevent food entering the lungs. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Epiglottis</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ETHMOID BONE" nciodm:ExtCodeID="C12711">
+          <nciodm:CDISCSynonym>Ethmoid Bone</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A light and spongy bone that is cubical in shape. This bone is positioned at the anterior part of the cranium, sitting between the two orbits, at the roof of the nose. It consists of four parts: a horizontal or cribriform plate; a perpendicular plate; and two lateral masses or labyrinths. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Ethmoid Bone</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="EYELID" nciodm:ExtCodeID="C12713">
+          <nciodm:CDISCSynonym>Eyelid</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A thin membrane of skin with the purpose of covering and protecting an eye. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Eyelid</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="FEMORAL ARTERY" nciodm:ExtCodeID="C12715">
+          <nciodm:CDISCSynonym>Femoral Artery</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An artery that starts within the inguinal region and extends to the lower extremities. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Femoral Artery</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="FEMORAL VEIN" nciodm:ExtCodeID="C12716">
+          <nciodm:CDISCSynonym>Femoral Vein</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A vein that starts within the inguinal region and extends to the lower extremities. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Femoral Vein</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="FEMUR" nciodm:ExtCodeID="C12717">
+          <nciodm:CDISCSynonym>Femur</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The upper leg bone positioned between the pelvis and the knee. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Femur</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="FIBULA" nciodm:ExtCodeID="C12718">
+          <nciodm:CDISCSynonym>Fibula</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The small, lateral calf bone extending from the knee to the ankle. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Fibula</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GANGLION" nciodm:ExtCodeID="C12719">
+          <nciodm:CDISCSynonym>Ganglion</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A cluster of nervous tissue principally composed of neuronal cell bodies external to the central nervous system (CNS). (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Ganglion</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GLOTTIS" nciodm:ExtCodeID="C12724">
+          <nciodm:CDISCSynonym>Glottis</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The space in which the vocal cords are located. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Glottis</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="INGUINAL REGION" nciodm:ExtCodeID="C12726">
+          <nciodm:CDISCSynonym>Inguinal Region</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The lower region of the anterior abdominal wall located laterally to the pubic region. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Inguinal Region</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HEART" nciodm:ExtCodeID="C12727">
+          <nciodm:CDISCSynonym>Heart</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A hollow muscular organ which receives the blood from the veins and propels it into the arteries. It is divided by a musculomembranous septum into two halves -- right or venous and left or arterial -- each of which consists of a receiving chamber (atrium) and an ejecting chamber (ventricle). (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Heart</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HUMERUS" nciodm:ExtCodeID="C12731">
+          <nciodm:CDISCSynonym>Humerus</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The upper arm bone between the shoulder and elbow. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Humerus</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="INTESTINE" nciodm:ExtCodeID="C12736">
+          <nciodm:CDISCSynonym>Intestine</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The portion of the gastrointestinal tract between the stomach and the anus. It includes the small intestine and large intestine. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Intestine</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LENS" nciodm:ExtCodeID="C12743">
+          <nciodm:CDISCSynonym>Lens</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A biconvex transparent structure of the eye through which light is focused on the retina. The lens sits behind the iris and is supported by the zonule, which connects it to the ciliary body. The lens is an avascular structure. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Lens</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LUMBAR VERTEBRA" nciodm:ExtCodeID="C12744">
+          <nciodm:CDISCSynonym>Lumbar Vertebra</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>One of the five bones situated between the thoracic vertebrae and the sacrum in the lower part of the spine. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Lumbar Vertebra</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LYMPH NODE" nciodm:ExtCodeID="C12745">
+          <nciodm:CDISCSynonym>Lymph Node</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A bean-shaped organ surrounded by a connective tissue capsule. It is part of the lymphatic system and is found through out the body. It is composed predominantly of lymphocytes and its main function is immune protection. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Lymph Node</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MEDIASTINUM" nciodm:ExtCodeID="C12748">
+          <nciodm:CDISCSynonym>Mediastinum</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A group of organs surrounded by loose connective tissue, separating the two pleural sacs, between the sternum anteriorly and the vertebral column posteriorly as well as from the thoracic inlet superiorly to the diaphragm inferiorly. The mediastinum contains the heart and pericardium, the bases of the great vessels, the trachea and bronchi, esophagus, thymus, lymph nodes, thoracic duct, phrenic and vagus nerves, and other structures and tissues. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Mediastinum</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="METATARSAL BONE" nciodm:ExtCodeID="C12752">
+          <nciodm:CDISCSynonym>Metatarsal Bone</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A bone belonging to the middle part of the foot located between toes and ankle. There are 5 metatarsal bones and they are numbered from the medial side. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Metatarsal Bone</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="NOSE" nciodm:ExtCodeID="C12756">
+          <nciodm:CDISCSynonym>Nose</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A structure of special sense serving as an organ of the sense of smell and as an entrance to the respiratory tract. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Nose</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="OPTIC NERVE" nciodm:ExtCodeID="C12761">
+          <nciodm:CDISCSynonym>Optic Nerve</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The second cranial nerve. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Optic Nerve</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PARANASAL SINUS" nciodm:ExtCodeID="C12763">
+          <nciodm:CDISCSynonym>Paranasal Sinus</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An air-filled cavity adjacent to the nasal cavity lined by a mucous membrane and located in the bones of the skull. There are four paranasal sinuses on each side of the face: ethmoid, frontal, maxillary, and sphenoid sinus. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Paranasal Sinus</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PELVIS" nciodm:ExtCodeID="C12767">
+          <nciodm:CDISCSynonym>Pelvis</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The bony, basin-shaped structure formed by the hipbones and the base of the backbone supporting the lower limbs in humans. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Pelvis</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PERIPHERAL NERVE" nciodm:ExtCodeID="C12768">
+          <nciodm:CDISCSynonym>Peripheral Nerve</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Any nerve outside the brain or spinal cord that connects with peripheral receptors or effectors. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Peripheral Nerve</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PERITONEUM" nciodm:ExtCodeID="C12770">
+          <nciodm:CDISCSynonym>Peritoneum</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The tissue that lines the wall of the abdominal cavity, intestine, and mesentery. It consists of the parietal peritoneum that covers the inside of the abdominal wall and the visceral peritoneum that covers the surface of the intestine and mesentery. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Peritoneum</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="RIB" nciodm:ExtCodeID="C12782">
+          <nciodm:CDISCSynonym>Rib</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Any one of the paired bones, 12 on either side, extending from the thoracic vertebrae toward the median line on the ventral aspect of the trunk. The long curved bones which form the rib cage. Generally, ribs 1 to 7 are connected to the sternum' by their costal cartilages and are called true ribs, whereas ribs 8 to 12 are termed false ribs. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Rib</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SCAPULA" nciodm:ExtCodeID="C12783">
+          <nciodm:CDISCSynonym>Scapula</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The flat triangle-shaped bone that connects the humerus with the clavicle in the back of the shoulder. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Scapula</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SCROTUM" nciodm:ExtCodeID="C12785">
+          <nciodm:CDISCSynonym>Scrotum</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The musculocutaneous pouch that encloses the testicles. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Scrotum</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LUNATE BONE" nciodm:ExtCodeID="C12786">
+          <nciodm:CDISCSynonym>Lunate Bone</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The bone in the proximal row of carpal bones that lies between the scaphoid and triquetral bones. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Lunate Bone</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SKULL" nciodm:ExtCodeID="C12789">
+          <nciodm:CDISCSynonym>Skull</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The bones that form the head, made up of the bones of the braincase and face. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Skull</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="STERNUM" nciodm:ExtCodeID="C12793">
+          <nciodm:CDISCSynonym>Sternum</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The long, flat bone connecting with the cartilages of the first seven ribs and the clavicle. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Sternum</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TEMPORAL BONE" nciodm:ExtCodeID="C12797">
+          <nciodm:CDISCSynonym>Temporal Bone</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A large irregular bone situated at the base and side of the skull, connected with the mandible via the temporomandibular joint. The temporal bone consists of the squamous, tympanic and petrous parts. The petrous portion of the temporal bone contains the vestibulocochlear organ of the inner ear. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Temporal Bone</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="THORACIC VERTEBRA" nciodm:ExtCodeID="C12798">
+          <nciodm:CDISCSynonym>Thoracic Vertebra</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>One of 12 vertebrae in the human vertebral column. The thoracic vertebrae are situated between the seventh cervical vertebra down to the first lumbar vertebra. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Thoracic Vertebra</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="THORAX" nciodm:ExtCodeID="C12799">
+          <nciodm:CDISCSynonym>Thorax</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The division of the body lying between the neck and the abdomen. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Thorax</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TIBIA" nciodm:ExtCodeID="C12800">
+          <nciodm:CDISCSynonym>Tibia</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A bone located between the femur and the tarsus, being part of the lower leg. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Tibia</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TONSIL" nciodm:ExtCodeID="C12802">
+          <nciodm:CDISCSynonym>Tonsil</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The two organs situated in the throat on either side of the narrow passage from the mouth to the pharynx. They are composed of lymphoid tissues. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Tonsil</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TROCHLEAR NERVE" nciodm:ExtCodeID="C12808">
+          <nciodm:CDISCSynonym>Trochlear Nerve</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The cranial nerve that controls the superior oblique muscle of the eye. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Trochlear Nerve</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="UVEA" nciodm:ExtCodeID="C12811">
+          <nciodm:CDISCSynonym>Uvea</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The pigmented layer of the eyeball between the tough, white outer coat of the eye and the retina. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Uvea</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="VEIN" nciodm:ExtCodeID="C12814">
+          <nciodm:CDISCSynonym>Vein</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A blood vessel that carries blood towards the heart.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Vein</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="VENA CAVA" nciodm:ExtCodeID="C12817">
+          <nciodm:CDISCSynonym>Vena Cava</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A large vein which returns blood from the head, neck and extremities to the heart. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Vena Cava</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="VOCAL CORD" nciodm:ExtCodeID="C12822">
+          <nciodm:CDISCSynonym>Vocal Cord</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A pair of small bands of muscle that stretch from the thyroid cartilage in front to the arytenoid cartilage in back of the larynx. The vocal cords help prevent food entering the lungs and produce sound through vibration. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Vocal Cord</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="RADIAL ARTERY" nciodm:ExtCodeID="C12838">
+          <nciodm:CDISCSynonym>Radial Artery</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The branch of the brachial artery that passes down the forearm. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Radial Artery</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PLEURAL CAVITY" nciodm:ExtCodeID="C12840">
+          <nciodm:CDISCSynonym>Pleural Cavity</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The cavity lined by the pleura, located in the thorax and contains heart and lungs. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Pleural Cavity</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CORONARY ARTERY" nciodm:ExtCodeID="C12843">
+          <nciodm:CDISCSynonym>Coronary Artery</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A principal artery that originates in the aorta. It supplies blood to the muscular tissue of the heart. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Coronary Artery</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SACRAL VERTEBRA" nciodm:ExtCodeID="C12853">
+          <nciodm:CDISCSynonym>Sacral Vertebra</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>One of the usually five fused vertebrae forming the triangular bone just below the lumbar vertebrae. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Sacral Vertebra</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SCAPHOID BONE" nciodm:ExtCodeID="C12854">
+          <nciodm:CDISCSynonym>Scaphoid Bone</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A nut-shaped bone of the wrist located in the radial site of the hand. It is one of the eight carpal bones. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Scaphoid Bone</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PISIFORM BONE" nciodm:ExtCodeID="C12855">
+          <nciodm:CDISCSynonym>Pisiform Bone</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The medial bone of the proximal row of carpal bones. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Pisiform Bone</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CAPITATE BONE" nciodm:ExtCodeID="C12856">
+          <nciodm:CDISCSynonym>Capitate Bone</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The largest of eight carpal bones, located in the center of the hand. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Capitate Bone</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TRAPEZIAL BONE" nciodm:ExtCodeID="C12857">
+          <nciodm:CDISCSynonym>Trapezial Bone</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A carpal bone on the thumb side of the hand that articulates with the 1st and 2nd metacarpals. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Trapezial Bone</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TRIANGULAR BONE" nciodm:ExtCodeID="C12858">
+          <nciodm:CDISCSynonym>Triangular Bone</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A carpal bone located between the lunate and pisiform bones. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Triangular Bone</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TRAPEZOID BONE" nciodm:ExtCodeID="C12859">
+          <nciodm:CDISCSynonym>Trapezoid Bone</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A carpal bone located between the trapezium and capitate bones. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Trapezoid Bone</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HAMATE BONE" nciodm:ExtCodeID="C12860">
+          <nciodm:CDISCSynonym>Hamate Bone</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The medial bone in the distal row of carpal bones. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hamate Bone</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SUPRACLAVICULAR LYMPH NODE" nciodm:ExtCodeID="C12903">
+          <nciodm:CDISCSynonym>Supraclavicular Lymph Node</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A lymph node which is located above the clavicle. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Supraclavicular Lymph Node</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AXILLARY LYMPH NODE" nciodm:ExtCodeID="C12904">
+          <nciodm:CDISCSynonym>Axillary Lymph Node</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>One of approximately 20-30 lymph nodes in chain formation that traverse the concavity of the underarm to the clavicle. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Axillary Lymph Node</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BREAST" nciodm:ExtCodeID="C12971">
+          <nciodm:CDISCSynonym>Breast</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>One of two hemispheric projections of variable size situated in the subcutaneous layer over the pectoralis major muscle on either side of the chest. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Breast</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="VERTEBRAL COLUMN" nciodm:ExtCodeID="C12998">
+          <nciodm:CDISCSynonym>Vertebral Column</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A series of bones, muscles, tendons, and other tissues reaching from the base of the skull to the tailbone. The vertebral column forms the axis of the skeleton and encloses as well as protects the spinal cord and the fluid surrounding the spinal cord. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Vertebral Column</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PERICARDIUM" nciodm:ExtCodeID="C13005">
+          <nciodm:CDISCSynonym>Pericardium</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A conical membranous sac filled with serous fluid in which the heart as well as the roots of the aorta and other large blood vessels are contained. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Pericardium</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BODY" nciodm:ExtCodeID="C13041">
+          <nciodm:CDISCSynonym>Body</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The entire physical structure of an organism. It is composed of anatomic systems, regions, cavities, and spaces. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Body</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="JOINT" nciodm:ExtCodeID="C13044">
+          <nciodm:CDISCSynonym>Joint</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The connection point between two bones or skeletal elements. The joint may be fixed or movable. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Joint</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LIGAMENT" nciodm:ExtCodeID="C13046">
+          <nciodm:CDISCSynonym>Ligament</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Band of fibrous tissue connecting bone to bone or cartilage to bone thereby supporting or strengthening a joint. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Ligament</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SKELETAL MUSCLE TISSUE" nciodm:ExtCodeID="C13050">
+          <nciodm:CDISCSynonym>Skeletal Muscle Tissue</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Striated muscles that are under voluntary control of the organism. They are connected at either or both ends to a bone and are utilized for locomotion and other movements. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Skeletal Muscle Tissue</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BACK" nciodm:ExtCodeID="C13062">
+          <nciodm:CDISCSynonym>Back</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The dorsal area between the base of the neck and the sacrum. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Back</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="NECK" nciodm:ExtCodeID="C13063">
+          <nciodm:CDISCSynonym>Neck</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The region that connects the head to the rest of the body. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Neck</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="FACE" nciodm:ExtCodeID="C13071">
+          <nciodm:CDISCSynonym>Face</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The anterior portion of the head extending from the forehead to the chin and ear to ear. The facial structures contain the eyes, nose and mouth, cheeks and jaws. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Face</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MUCOSA" nciodm:ExtCodeID="C13166">
+          <nciodm:CDISCSynonym>Mucosa</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Mucous membrane. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Mucosa</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GASTRIC" nciodm:ExtCodeID="C13307">
+          <nciodm:CDISCSynonym>Gastric</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Relating to the stomach. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Gastric</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HEPATIC" nciodm:ExtCodeID="C13308">
+          <nciodm:CDISCSynonym>Hepatic</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Pertaining to, affecting, or associated with the liver. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hepatic</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ANASTOMOSIS" nciodm:ExtCodeID="C15609">
+          <nciodm:CDISCSynonym>Anastomosis</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A natural or surgically-induced connection between tubular structures in the body. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Anastomosis</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SHOULDER" nciodm:ExtCodeID="C25203">
+          <nciodm:CDISCSynonym>Shoulder</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The region of the body between the neck and the upper arm. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Shoulder</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CHEST" nciodm:ExtCodeID="C25389">
+          <nciodm:CDISCSynonym>Chest</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The anterior side of the thorax from the neck to the abdomen. The shape of the chest is often regarded as potential insight into a disease process, as in the case of barrel chest and respiratory dysfunction. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Chest</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HILAR" nciodm:ExtCodeID="C25724">
+          <nciodm:CDISCSynonym>Hilar</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Refers to the area associated with the hilum. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hilar</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CORPUS LUTEUM" nciodm:ExtCodeID="C26465">
+          <nciodm:CDISCSynonym>Corpus Luteum</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A group of cells that remain of the Graafian follicle following ovulation. This structure is composed of endocrine tissue and produces progesterone. This is needed to prepare the uterine lining for implantation by the fertilized egg. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Corpus Luteum</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MAXILLA" nciodm:ExtCodeID="C26470">
+          <nciodm:CDISCSynonym>Maxilla</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The upper jawbone in vertebrates: it is fused to the cranium. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Maxilla</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ACETABULUM" nciodm:ExtCodeID="C32042">
+          <nciodm:CDISCSynonym>Acetabulum</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Two cup shaped areas, one each on the lateral side of the lower pelvis that house the head of the femur to form the ball and socket joint of the hip. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Acetabulum</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ACROMIOCLAVICULAR JOINT" nciodm:ExtCodeID="C32047">
+          <nciodm:CDISCSynonym>Acromioclavicular Joint</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The junction of the upper distal end of the scapula to the distal edge of the collarbone, also known as the acromion and the clavicle. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Acromioclavicular Joint</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ACROMION" nciodm:ExtCodeID="C32048">
+          <nciodm:CDISCSynonym>Acromion</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The upper distal process of the scapula. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Acromion</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ANKLE JOINT" nciodm:ExtCodeID="C32078">
+          <nciodm:CDISCSynonym>Ankle Joint</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Ankle</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A gliding joint between the distal ends of the tibia and fibula and the proximal end of the talus. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Ankle Joint</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AORTIC ARCH" nciodm:ExtCodeID="C32123">
+          <nciodm:CDISCSynonym>Aortic Arch</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The curved section of the aorta between the ascending and the descending tracts. The brachiocephalic, left common carotid and left subclavian arteries branch from the aorta at this section. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Aortic Arch</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ARM" nciodm:ExtCodeID="C32141">
+          <nciodm:CDISCSynonym>Arm</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The portion of the upper extremity between the shoulder and the elbow. For clinical purposes this term is also used to refer to the whole superior limb. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Arm</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BASILIC VEIN" nciodm:ExtCodeID="C32197">
+          <nciodm:CDISCSynonym>Basilic Vein</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>One of the moderately large superficial veins of the forearm that transports blood from the hand and the medial aspect of the forearm to the axillary vein. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Basilic Vein</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="C1 VERTEBRA" nciodm:ExtCodeID="C32239">
+          <nciodm:CDISCSynonym>C1 Vertebra</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The first of the seven cervical vertebrae. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>C1 Vertebra</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="C2 VERTEBRA" nciodm:ExtCodeID="C32240">
+          <nciodm:CDISCSynonym>C2 Vertebra</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The second of the seven cervical vertebrae. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>C2 Vertebra</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="C3 VERTEBRA" nciodm:ExtCodeID="C32241">
+          <nciodm:CDISCSynonym>C3 Vertebra</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The third of the seven cervical vertebrae. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>C3 Vertebra</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="C4 VERTEBRA" nciodm:ExtCodeID="C32242">
+          <nciodm:CDISCSynonym>C4 Vertebra</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The fourth of the seven cervical vertebrae. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>C4 Vertebra</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="C5 VERTEBRA" nciodm:ExtCodeID="C32243">
+          <nciodm:CDISCSynonym>C5 Vertebra</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The fifth of the seven cervical vertebrae. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>C5 Vertebra</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="C6 VERTEBRA" nciodm:ExtCodeID="C32244">
+          <nciodm:CDISCSynonym>C6 Vertebra</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The sixth of the seven cervical vertebrae. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>C6 Vertebra</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="C7 VERTEBRA" nciodm:ExtCodeID="C32245">
+          <nciodm:CDISCSynonym>C7 Vertebra</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The seventh of the seven cervical vertebrae. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>C7 Vertebra</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CANINE TOOTH" nciodm:ExtCodeID="C32258">
+          <nciodm:CDISCSynonym>Canine Tooth</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A single-cusped (pointed) and usually single-rooted tooth located between the incisors and premolars. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Canine Tooth</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CEPHALIC VEIN" nciodm:ExtCodeID="C32286">
+          <nciodm:CDISCSynonym>Cephalic Vein</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>One of five superficial veins of the upper extremity, beginning at the radial aspect of the wrist area, wrapping around the forearm and emptying into the axillary vein. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Cephalic Vein</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CERVICAL LYMPH NODE" nciodm:ExtCodeID="C32298">
+          <nciodm:CDISCSynonym>Cervical Lymph Node</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Any of the lymph nodes located in the neck. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Cervical Lymph Node</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="COCCYGEAL VERTEBRA" nciodm:ExtCodeID="C32334">
+          <nciodm:CDISCSynonym>Coccygeal Vertebra</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Four vertebral segments positioned at the base of the spine that are fused. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Coccygeal Vertebra</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="COSTAL CARTILAGE" nciodm:ExtCodeID="C32391">
+          <nciodm:CDISCSynonym>Costal Cartilage</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The cartilage positioned between the anterior end of the rib and the sternum. Its elasticity allows the ribcage to expand while breathing. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Costal Cartilage</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CUBOID BONE" nciodm:ExtCodeID="C32414">
+          <nciodm:CDISCSynonym>Cuboid Bone</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A bone on the lateral side of the tarsus between the calcaneus and the fourth and fifth metatarsal bones. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Cuboid Bone</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="DORSALIS PEDIS ARTERY" nciodm:ExtCodeID="C32478">
+          <nciodm:CDISCSynonym>Dorsalis Pedis Artery</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An artery of the dorsal surface of the foot, originating from the anterior tibial artery of the lower leg. The following arterial branches originate from the dorsalis pedis artery: the arcuate artery of the foot and deep plantar artery. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Dorsalis Pedis Artery</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ELBOW JOINT" nciodm:ExtCodeID="C32497">
+          <nciodm:CDISCSynonym>Elbow Joint</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A type of hinge joint located between the forearm and upper arm. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Elbow Joint</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ENDOMETRIAL CAVITY" nciodm:ExtCodeID="C32514">
+          <nciodm:CDISCSynonym>Endometrial Cavity</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A space inside the uterus lined by a layer of mucus membranes called the endometrium. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Endometrial Cavity</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="FACET JOINT" nciodm:ExtCodeID="C32577">
+          <nciodm:CDISCSynonym>Facet Joint</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A synovial joint between two adjacent vertebrae. The facet joint links the articular process of one vertebra and the inferior articular process of the adjacent vertebra. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Facet Joint</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="FINGER" nciodm:ExtCodeID="C32608">
+          <nciodm:CDISCSynonym>Finger</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Any of the digits of the hand. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Finger</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="FINGERNAIL" nciodm:ExtCodeID="C32609">
+          <nciodm:CDISCSynonym>Fingernail</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The nail at the end of a finger. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Fingernail</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="FOOT" nciodm:ExtCodeID="C32622">
+          <nciodm:CDISCSynonym>Foot</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The structure found below the ankle joint required for locomotion. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Foot</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="FOREARM" nciodm:ExtCodeID="C32628">
+          <nciodm:CDISCSynonym>Forearm</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The structure on the upper limb, between the elbow and the wrist. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Forearm</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GASTROESOPHAGEAL JUNCTION" nciodm:ExtCodeID="C32668">
+          <nciodm:CDISCSynonym>Gastroesophageal Junction</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The anatomical location where the esophagus joins to the stomach. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Gastroesophageal Junction</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GINGIVA" nciodm:ExtCodeID="C32677">
+          <nciodm:CDISCSynonym>Gingiva</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The soft tissue surrounding the neck of individual teeth as well as covering the alveolar bone. The tissue is fibrous and continuous with the periodontal ligament and mucosal covering. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Gingiva</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GLENOID FOSSA" nciodm:ExtCodeID="C32682">
+          <nciodm:CDISCSynonym>Glenoid Fossa</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The trough in the head of the scapula that receives the head of the humerus to form the shoulder joint. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Glenoid Fossa</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GREAT TROCHANTER" nciodm:ExtCodeID="C32698">
+          <nciodm:CDISCSynonym>Great Trochanter</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A large, irregular, quadrilateral area of bone found at the neck of the femur. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Great Trochanter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HAIR" nciodm:ExtCodeID="C32705">
+          <nciodm:CDISCSynonym>Hair</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The filamentous outgrowth of the epidermis. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hair</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HAND" nciodm:ExtCodeID="C32712">
+          <nciodm:CDISCSynonym>Hand</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The distal portion of the upper extremity. It consists of the carpus, metacarpus, and digits. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hand</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HEAD OF THE HUMERUS" nciodm:ExtCodeID="C32720">
+          <nciodm:CDISCSynonym>Head of the Humerus</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The upper rounded part of the humerus that fits into the glenoid cavity of the scapula. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Head of the Humerus</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HIP JOINT" nciodm:ExtCodeID="C32742">
+          <nciodm:CDISCSynonym>Hip Joint</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A ball-and-socket joint between the head of the femur and the acetabulum. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hip Joint</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HYOID BONE" nciodm:ExtCodeID="C32752">
+          <nciodm:CDISCSynonym>Hyoid Bone</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A U-shaped bone supporting the tongue. This bone is located at the base of the tongue and is suspended from the tips of the styloid processes of the temporal bones by the stylohyoid ligaments. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hyoid Bone</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ILIAC LYMPH NODE" nciodm:ExtCodeID="C32761">
+          <nciodm:CDISCSynonym>Iliac Lymph Node</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>One of the three lymph nodes of the pelvis: the superior gluteal, interior gluteal or sacral. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Iliac Lymph Node</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ILIUM" nciodm:ExtCodeID="C32765">
+          <nciodm:CDISCSynonym>Ilium</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The broad, dorsal, upper, and widest of the three principal bones composing either half of the pelvis. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Ilium</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="INCISOR" nciodm:ExtCodeID="C32769">
+          <nciodm:CDISCSynonym>Incisor</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>One of the teeth in front of the canines in either jaw designed for cutting or gnawing. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Incisor</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="INCUS" nciodm:ExtCodeID="C32770">
+          <nciodm:CDISCSynonym>Incus</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>One of the three bones comprising the middle ear. This anvil-shaped bone is positioned between the malleus and the stapes. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Incus</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="INGUINAL LYMPH NODE" nciodm:ExtCodeID="C32801">
+          <nciodm:CDISCSynonym>Inguinal Lymph Node</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A superficial or deep lymph node located in the inguinal area. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Inguinal Lymph Node</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="INTERPHALANGEAL JOINT OF THE HAND" nciodm:ExtCodeID="C32868">
+          <nciodm:CDISCSynonym>Interphalangeal Joint of the Hand</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The hinge synovial joints between the phalanges of the fingers. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Interphalangeal Joint of the Hand</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ISCHIUM" nciodm:ExtCodeID="C32884">
+          <nciodm:CDISCSynonym>Ischium</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The most posterior and ventral bone making up the pelvis. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Ischium</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="JAW JOINT" nciodm:ExtCodeID="C32888">
+          <nciodm:CDISCSynonym>Jaw Joint</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The joint between the head of the lower mandible and the temporal bone. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Jaw Joint</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="KNEE JOINT" nciodm:ExtCodeID="C32898">
+          <nciodm:CDISCSynonym>Knee Joint</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A joint connecting the lower part of the femur with the upper part of the tibia. The lower part of the femur and the upper part of the tibia are attached to each other by ligaments. Other structures of the knee joint include the upper part of the fibula, located below and parallel to the tibia, and the patella which moves as the knee bends. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Knee Joint</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="L1 VERTEBRA" nciodm:ExtCodeID="C32899">
+          <nciodm:CDISCSynonym>L1 Vertebra</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The first lumbar vertebra counting from the top down. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>L1 Vertebra</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="L2 VERTEBRA" nciodm:ExtCodeID="C32900">
+          <nciodm:CDISCSynonym>L2 Vertebra</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The second lumbar vertebra counting from the top down. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>L2 Vertebra</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="L3 VERTEBRA" nciodm:ExtCodeID="C32901">
+          <nciodm:CDISCSynonym>L3 Vertebra</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The third lumbar vertebra counting from the top down. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>L3 Vertebra</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="L4 VERTEBRA" nciodm:ExtCodeID="C32902">
+          <nciodm:CDISCSynonym>L4 Vertebra</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The fourth lumbar vertebra counting from the top down. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>L4 Vertebra</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="L5 VERTEBRA" nciodm:ExtCodeID="C32903">
+          <nciodm:CDISCSynonym>L5 Vertebra</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The fifth lumbar vertebra counting from the top down. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>L5 Vertebra</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LACRIMAL BONE" nciodm:ExtCodeID="C32906">
+          <nciodm:CDISCSynonym>Lacrimal Bone</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A small rectangular thin plate forming part of the medial orbit wall. It is located posterior to the frontal process of the maxilla and articulates with the inferior nasal concha, ethmoid, frontal, and maxillary bones. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Lacrimal Bone</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LEG" nciodm:ExtCodeID="C32974">
+          <nciodm:CDISCSynonym>Leg</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>One of the two lower extremities in humans used for locomotion and support. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Leg</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LIVER FISSURE" nciodm:ExtCodeID="C32996">
+          <nciodm:CDISCSynonym>Liver Fissure</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A groove on the surface of the liver.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Liver Fissure</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LYMPH NODE HILUM" nciodm:ExtCodeID="C33031">
+          <nciodm:CDISCSynonym>Lymph Node Hilum</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The concave side of the lymph node. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Lymph Node Hilum</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MALLEUS" nciodm:ExtCodeID="C33051">
+          <nciodm:CDISCSynonym>Malleus</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A hammer-shaped bone, part of three interconnected small bones located in the middle ear. It is attached to the inner surface of the tympanic membrane and its function is to transmit sound vibrations. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Malleus</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MEDIASTINAL LYMPH NODE" nciodm:ExtCodeID="C33073">
+          <nciodm:CDISCSynonym>Mediastinal Lymph Node</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A lymph node located in the mediastinum. Mediastinal lymph nodes are arranged in three groups, one on the lateral, another on the medial, and a third on the anterior aspect of the vessels; the third group is, however, sometimes absent. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Mediastinal Lymph Node</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="METATARSOPHALANGEAL JOINT" nciodm:ExtCodeID="C33108">
+          <nciodm:CDISCSynonym>Metatarsophalangeal Joint</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A spheroid joint located between the heads of the metatarsal bone and the base of the proximal phalanx of the toe. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Metatarsophalangeal Joint</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="NAIL" nciodm:ExtCodeID="C33156">
+          <nciodm:CDISCSynonym>Nail</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The cutaneous plate on the dorsal surface of the distal end of a finger or toe. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Nail</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="NASAL BONE" nciodm:ExtCodeID="C33157">
+          <nciodm:CDISCSynonym>Nasal Bone</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>One of two small oblong bones placed side by side at the middle and upper part of the face. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Nasal Bone</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="NASAL SEPTUM" nciodm:ExtCodeID="C33160">
+          <nciodm:CDISCSynonym>Nasal Septum</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The thin wall between the two nasal cavities. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Nasal Septum</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="NAVICULAR BONE" nciodm:ExtCodeID="C33162">
+          <nciodm:CDISCSynonym>Navicular Bone</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An oval-shaped bone of the tarsus found on the medial side of the foot. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Navicular Bone</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="NOSTRIL" nciodm:ExtCodeID="C33178">
+          <nciodm:CDISCSynonym>Nostril</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>One of the two channels of the nose, from the point where they divide to the external opening. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Nostril</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="OLECRANON" nciodm:ExtCodeID="C33200">
+          <nciodm:CDISCSynonym>Olecranon</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A prominence at the proximal end of the ulna. It forms the tip of the elbow. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Olecranon</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="OLFACTORY MUCOSA" nciodm:ExtCodeID="C33205">
+          <nciodm:CDISCSynonym>Olfactory Mucosa</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The part of the nasal mucosa composed of neuroepithelial tissue and mucus-producing Bowman's glands. The mucus moistens the epithelium and helps dissolve odor-containing gases. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Olfactory Mucosa</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PAROTID GLAND LYMPH NODE" nciodm:ExtCodeID="C33278">
+          <nciodm:CDISCSynonym>Parotid Gland Lymph Node</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A lymph node located close to, on, or within the parotid gland. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Parotid Gland Lymph Node</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PATELLA" nciodm:ExtCodeID="C33282">
+          <nciodm:CDISCSynonym>Patella</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A small flat triangular bone in front of the knee that articulates with the femur and protects the knee joint. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Patella</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PELVIC BONE" nciodm:ExtCodeID="C33287">
+          <nciodm:CDISCSynonym>Pelvic Bone</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The caudal portion of the trunk, bounded anteriorly and laterally by the two hip bones incorporating the socket portion of the hip joint for each leg. Posteriorly it is bounded by the sacrum and coccyx. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Pelvic Bone</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PERINEUM" nciodm:ExtCodeID="C33301">
+          <nciodm:CDISCSynonym>Perineum</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area located between the anus and vulva in females, and anus and scrotum in males. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Perineum</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PHARYNGEAL TONSIL" nciodm:ExtCodeID="C33318">
+          <nciodm:CDISCSynonym>Pharyngeal Tonsil</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A fold of lymphatic tissue covered by ciliated epithelium at the very back of the nose, in the roof of the nasopharynx. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Pharyngeal Tonsil</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PORTAL VEIN" nciodm:ExtCodeID="C33343">
+          <nciodm:CDISCSynonym>Portal Vein</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A short thick trunk vein that transports blood containing the absorbed products of digestion from the intestine directly to the liver. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Portal Vein</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PYLORIC SPHINCTER" nciodm:ExtCodeID="C33433">
+          <nciodm:CDISCSynonym>Pyloric Sphincter</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The muscular structure at the distal portion of the stomach, opening into the duodenum. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Pyloric Sphincter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SACROILIAC JOINT" nciodm:ExtCodeID="C33507">
+          <nciodm:CDISCSynonym>Sacroiliac Joint</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The joint located between the sacrum and the ilium. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Sacroiliac Joint</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SACRUM" nciodm:ExtCodeID="C33508">
+          <nciodm:CDISCSynonym>Sacrum</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The triangular bone, made up of 5 fused bones of the spine, located in the lower area of the spine between the fifth lumbar vertebra and the coccyx. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Sacrum</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SHOULDER JOINT" nciodm:ExtCodeID="C33548">
+          <nciodm:CDISCSynonym>Shoulder Joint</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A ball-and-socket joint at the upper end of the humerus, located at the junction of humerus and scapula. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Shoulder Joint</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SINUS" nciodm:ExtCodeID="C33556">
+          <nciodm:CDISCSynonym>Sinus</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A recess, cavity, or channel. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Sinus</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="STERNOCLAVICULAR JOINT" nciodm:ExtCodeID="C33615">
+          <nciodm:CDISCSynonym>Sternoclavicular Joint</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The synovial juncture between the medial end of the clavicle and the anterior segment of the sternum. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Sternoclavicular Joint</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SYNOVIAL FLUID" nciodm:ExtCodeID="C33718">
+          <nciodm:CDISCSynonym>Synovial Fluid</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A viscid fluid secreted by the synovial membrane, serving as a lubricant. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Synovial Fluid</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="T1 VERTEBRA" nciodm:ExtCodeID="C33720">
+          <nciodm:CDISCSynonym>T1 Vertebra</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The first thoracic vertebra counting from the top down. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>T1 Vertebra</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="T10 VERTEBRA" nciodm:ExtCodeID="C33721">
+          <nciodm:CDISCSynonym>T10 Vertebra</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The tenth thoracic vertebra counting from the top down. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>T10 Vertebra</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="T11 VERTEBRA" nciodm:ExtCodeID="C33722">
+          <nciodm:CDISCSynonym>T11 Vertebra</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The eleventh thoracic vertebra counting from the top down. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>T11 Vertebra</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="T12 VERTEBRA" nciodm:ExtCodeID="C33723">
+          <nciodm:CDISCSynonym>T12 Vertebra</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The twelfth thoracic vertebra counting from the top down. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>T12 Vertebra</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="T2 VERTEBRA" nciodm:ExtCodeID="C33724">
+          <nciodm:CDISCSynonym>T2 Vertebra</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The second thoracic vertebra counting from the top down. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>T2 Vertebra</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="T3 VERTEBRA" nciodm:ExtCodeID="C33725">
+          <nciodm:CDISCSynonym>T3 Vertebra</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The third thoracic vertebra counting from the top down. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>T3 Vertebra</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="T4 VERTEBRA" nciodm:ExtCodeID="C33726">
+          <nciodm:CDISCSynonym>T4 Vertebra</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The fourth thoracic vertebra counting from the top down. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>T4 Vertebra</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="T5 VERTEBRA" nciodm:ExtCodeID="C33727">
+          <nciodm:CDISCSynonym>T5 Vertebra</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The fifth thoracic vertebra counting from the top down. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>T5 Vertebra</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="T6 VERTEBRA" nciodm:ExtCodeID="C33728">
+          <nciodm:CDISCSynonym>T6 Vertebra</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The sixth thoracic vertebra counting from the top down. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>T6 Vertebra</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="T7 VERTEBRA" nciodm:ExtCodeID="C33729">
+          <nciodm:CDISCSynonym>T7 Vertebra</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The seventh thoracic vertebra counting from the top down. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>T7 Vertebra</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="T8 VERTEBRA" nciodm:ExtCodeID="C33730">
+          <nciodm:CDISCSynonym>T8 Vertebra</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The eighth thoracic vertebra counting from the top down. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>T8 Vertebra</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="T9 VERTEBRA" nciodm:ExtCodeID="C33731">
+          <nciodm:CDISCSynonym>T9 Vertebra</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The ninth thoracic vertebra counting from the top down. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>T9 Vertebra</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TARSUS BONE" nciodm:ExtCodeID="C33737">
+          <nciodm:CDISCSynonym>Tarsus Bone</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Any one of the seven bones forming the instep of the foot. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Tarsus Bone</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="THIGH" nciodm:ExtCodeID="C33763">
+          <nciodm:CDISCSynonym>Thigh</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A part of the lower limb, located between hip and knee. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Thigh</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TOE" nciodm:ExtCodeID="C33788">
+          <nciodm:CDISCSynonym>Toe</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>One of the terminal digits of the foot. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Toe</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TOENAIL" nciodm:ExtCodeID="C33790">
+          <nciodm:CDISCSynonym>Toenail</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A thin, horny translucent plate covering the end of each toe. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Toenail</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TRAPEZIUS MUSCLE" nciodm:ExtCodeID="C33809">
+          <nciodm:CDISCSynonym>Trapezius Muscle</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>One of a pair of flat, large, triangular muscles that extend from the external occipital protuberance and the medial third of the superior nuchal line of the occipital bone to the middle of the back. The trapezius muscle is involved in moving the shoulder and arm. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Trapezius Muscle</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TROCHANTER" nciodm:ExtCodeID="C33814">
+          <nciodm:CDISCSynonym>Trochanter</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A bony protrusion on the femoral bone to which muscles are attached. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Trochanter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TRUNK" nciodm:ExtCodeID="C33816">
+          <nciodm:CDISCSynonym>Trunk</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The body excluding the head and neck and limbs. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Trunk</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TUNICA INTIMA" nciodm:ExtCodeID="C33820">
+          <nciodm:CDISCSynonym>Tunica Intima</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The inner most layer of the blood vessel wall. The consistency of the intima will vary depending on the type of blood vessel, but will always have an endothelial layer with a basal lamina. It may contain collagen and elastic fibers. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Tunica Intima</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="VOMER" nciodm:ExtCodeID="C33888">
+          <nciodm:CDISCSynonym>Vomer</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A thin, paired or unpaired, trapezoidal bone of the skull located in the floor of the nasal cavity. The vomer forms the posterior and inferior parts of the nasal septum. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Vomer</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="WRIST JOINT" nciodm:ExtCodeID="C33894">
+          <nciodm:CDISCSynonym>Wrist Joint</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A joint between the distal end of the radius and the proximal row of carpal bones. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Wrist Joint</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="XIPHOID PROCESS" nciodm:ExtCodeID="C33895">
+          <nciodm:CDISCSynonym>Xiphoid Process</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The cartilage just below the sternal body. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Xiphoid Process</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GASTROINTESTINAL TRACT" nciodm:ExtCodeID="C34082">
+          <nciodm:CDISCSynonym>Gastrointestinal Tract</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The upper gastrointestinal (GI) tract is comprised of mouth, pharynx, esophagus and stomach while the lower GI tract consists of intestines and anus. The primary function of the GI tract is to ingest, digest, absorb and ultimately excrete food stuff. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Gastrointestinal Tract</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ANUS" nciodm:ExtCodeID="C43362">
+          <nciodm:CDISCSynonym>Anus</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The lower opening of the digestive tract, lying in the cleft between the buttocks, through which fecal matter is extruded. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Anus</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="REGIONAL LYMPH NODE" nciodm:ExtCodeID="C49018">
+          <nciodm:CDISCSynonym>Regional Lymph Node</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A lymph node that drains lymph from a region of interest. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Regional Lymph Node</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="STERNAL MANUBRIUM" nciodm:ExtCodeID="C52730">
+          <nciodm:CDISCSynonym>Sternal Manubrium</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The upper segment of the sternum, quadrangular in shape, as well as wider superiorly and narrower inferiorly. The sternal manubrium articulates with the clavicle and first two ribs. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Sternal Manubrium</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PALATINE BONE" nciodm:ExtCodeID="C52745">
+          <nciodm:CDISCSynonym>Palatine Bone</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An irregularly shaped bone positioned at the back part of the nasal cavity between the maxilla and the pterygoid process of the sphenoid. It forms the posterior part of the hard palate and the lateral wall of the nasal fossa and helps to form the floor of the orbit as well as several adjoining parts. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Palatine Bone</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LEG SKIN" nciodm:ExtCodeID="C52749">
+          <nciodm:CDISCSynonym>Leg Skin</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The skin or integument surrounding the leg. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Leg Skin</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ARM SKIN" nciodm:ExtCodeID="C52754">
+          <nciodm:CDISCSynonym>Arm Skin</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The skin or integument covering the arm. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Arm Skin</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ABDOMINAL SKIN" nciodm:ExtCodeID="C52758">
+          <nciodm:CDISCSynonym>Abdominal Skin</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The skin or integument surrounding the abdomen. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Abdominal Skin</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="RIB 9" nciodm:ExtCodeID="C52759">
+          <nciodm:CDISCSynonym>Rib 9</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The ninth rib counting from the top of the rib cage down. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Rib 9</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="RIB 8" nciodm:ExtCodeID="C52760">
+          <nciodm:CDISCSynonym>Rib 8</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The eighth rib counting from the top of the rib cage down. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Rib 8</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="RIB 7" nciodm:ExtCodeID="C52761">
+          <nciodm:CDISCSynonym>Rib 7</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The seventh rib counting from the top of the rib cage down. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Rib 7</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="RIB 6" nciodm:ExtCodeID="C52762">
+          <nciodm:CDISCSynonym>Rib 6</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The sixth rib counting from the top of the rib cage down. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Rib 6</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="RIB 5" nciodm:ExtCodeID="C52763">
+          <nciodm:CDISCSynonym>Rib 5</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The fifth rib counting from the top of the rib cage down. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Rib 5</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="RIB 4" nciodm:ExtCodeID="C52764">
+          <nciodm:CDISCSynonym>Rib 4</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The fourth rib counting from the top of the rib cage down. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Rib 4</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="RIB 3" nciodm:ExtCodeID="C52765">
+          <nciodm:CDISCSynonym>Rib 3</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The third rib counting from the top of the rib cage down. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Rib 3</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="RIB 2" nciodm:ExtCodeID="C52766">
+          <nciodm:CDISCSynonym>Rib 2</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The second rib counting from the top of the rib cage down. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Rib 2</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="RIB 12" nciodm:ExtCodeID="C52767">
+          <nciodm:CDISCSynonym>Rib 12</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The twelfth rib counting from the top of the rib cage down. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Rib 12</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="RIB 11" nciodm:ExtCodeID="C52768">
+          <nciodm:CDISCSynonym>Rib 11</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The eleventh rib counting from the top of the rib cage down. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Rib 11</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="RIB 10" nciodm:ExtCodeID="C52769">
+          <nciodm:CDISCSynonym>Rib 10</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The tenth rib counting from the top of the rib cage down. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Rib 10</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="RIB 1" nciodm:ExtCodeID="C52770">
+          <nciodm:CDISCSynonym>Rib 1</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The first rib counting from the top of the rib cage down. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Rib 1</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HAND PHALANX" nciodm:ExtCodeID="C52771">
+          <nciodm:CDISCSynonym>Hand Phalanx</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A bone of the hand. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hand Phalanx</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="FOOT PHALANX" nciodm:ExtCodeID="C52772">
+          <nciodm:CDISCSynonym>Foot Phalanx</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A bone of the foot. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Foot Phalanx</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TALUS" nciodm:ExtCodeID="C52799">
+          <nciodm:CDISCSynonym>Talus</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The bone of the foot that connects with the tibia and fibula to form the ankle joint. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Talus</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SCIATIC NERVE" nciodm:ExtCodeID="C52810">
+          <nciodm:CDISCSynonym>Sciatic Nerve</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The longest single nerve that is formed by the merging of the ventral rami of the L4, L5, and S1 in the pelvis and passes down the lower limb where it divides into the common peroneal and tibial nerves. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Sciatic Nerve</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="THROAT" nciodm:ExtCodeID="C54272">
+          <nciodm:CDISCSynonym>Throat</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The narrow passage from the mouth to the cavity at the back of the mouth. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Throat</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="FEMORAL NECK" nciodm:ExtCodeID="C61563">
+          <nciodm:CDISCSynonym>Femoral Neck</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The short, constricted portion of the thigh bone between the femur head and the trochanter. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Femoral Neck</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MALE GENITALIA" nciodm:ExtCodeID="C61599">
+          <nciodm:CDISCSynonym>Male Genitalia</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Male internal and external organs of reproduction.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Male Genitalia</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="FEMALE GENITALIA" nciodm:ExtCodeID="C61600">
+          <nciodm:CDISCSynonym>Female Genitalia</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Female internal and external organs of reproduction.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Female Genitalia</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="UNCINATE PROCESS OF PANCREAS" nciodm:ExtCodeID="C62432">
+          <nciodm:CDISCSynonym>Uncinate Process of Pancreas</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A portion of the pancreas that extends behind the superior mesenteric artery and superior mesenteric vein. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Uncinate Process of Pancreas</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CHEST WALL" nciodm:ExtCodeID="C62484">
+          <nciodm:CDISCSynonym>Chest Wall</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The total system of structures outside the lungs that move as a part of breathing; it includes all structures from the skin to the parietal pleura. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Chest Wall</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="INFRACLAVICULAR LYMPH NODE" nciodm:ExtCodeID="C63705">
+          <nciodm:CDISCSynonym>Infraclavicular Lymph Node</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A lymph node located in the area below the clavicle. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Infraclavicular Lymph Node</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="FACIAL BONE" nciodm:ExtCodeID="C63706">
+          <nciodm:CDISCSynonym>Facial Bone</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Any bone that contributes to the facial structures, except those bones that are part of the braincase. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Facial Bone</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="WAIST" nciodm:ExtCodeID="C64192">
+          <nciodm:CDISCSynonym>Waist</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The abdominal circumference at the navel. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Waist</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HIP" nciodm:ExtCodeID="C64193">
+          <nciodm:CDISCSynonym>Hip</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The lateral prominence of the pelvis from the waist to the thigh. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hip</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CELIAC LYMPH NODE" nciodm:ExtCodeID="C65166">
+          <nciodm:CDISCSynonym>Celiac Lymph Node</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A lymph node at the base of the celiac artery. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Celiac Lymph Node</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TOOTH CANAL" nciodm:ExtCodeID="C66864">
+          <nciodm:CDISCSynonym>Tooth Canal</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The anatomic space in the root of a tooth that contains nerves, blood vessels, and connective tissue. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Tooth Canal</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="EPICONDYLE" nciodm:ExtCodeID="C69300">
+          <nciodm:CDISCSynonym>Epicondyle</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A bone prominence to which ligaments and tendons of the joints are attached. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Epicondyle</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="APPENDICEAL TIP" nciodm:ExtCodeID="C83470">
+          <nciodm:CDISCDefinition>The distal end of the appendix. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Appendeceal Tip</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BASAL GANGLIA" nciodm:ExtCodeID="C12447">
+          <nciodm:CDISCDefinition>Clusters of neurons comprising the globus pallidus, putamen, caudate, nucleus accumbens, substantia nigra and subthalamic nucleus. They are involved with high level aspects of inhibitory motor activity in coordination with the excitation commands issued from the cerebellum. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Basal Ganglia</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BLADDER, DOME" nciodm:ExtCodeID="C12332">
+          <nciodm:CDISCSynonym>Dome of the Bladder</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The upper, convex surface of the bladder. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Dome of the Bladder</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BLADDER, FUNDUS" nciodm:ExtCodeID="C48939">
+          <nciodm:CDISCSynonym>Fundus of the Bladder</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The portion of the bladder that is formed by the posterior wall and is located opposite to the bladder opening. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Bladder Fundus</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BLADDER, NECK" nciodm:ExtCodeID="C12336">
+          <nciodm:CDISCSynonym>Neck of the Bladder</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The inferior portion of the urinary bladder which is formed as the walls of the bladder converge and become contiguous with the proximal urethra. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Bladder Neck</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BLADDER, TRIGONE" nciodm:ExtCodeID="C12331">
+          <nciodm:CDISCSynonym>Trigone of the Bladder</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The triangular area in the bladder mucosa that is formed by the two ureteral orifices and the urethral orifice. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Trigone of Bladder</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BRAIN STEM" nciodm:ExtCodeID="C12441">
+          <nciodm:CDISCDefinition>The part of the brain that connects the cerebral hemispheres with the spinal cord. It consists of the mesencephalon, pons, and medulla oblongata. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Brain Stem</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CALCARINE SULCUS" nciodm:ExtCodeID="C32252">
+          <nciodm:CDISCDefinition>A cerebral fissure that originates near the occipital lobe and terminates below the corpus callosum. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Calcarine Sulcus</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CARDIAC MUSCLE TISSUE" nciodm:ExtCodeID="C12371">
+          <nciodm:CDISCSynonym>Myocardium</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The striated muscle tissue of the heart enveloped by the epicardium and the endocardium. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Myocardium</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CECUM" nciodm:ExtCodeID="C12381">
+          <nciodm:CDISCDefinition>A blind pouch-like commencement of the colon in the right lower quadrant of the abdomen at the end of the small intestine and the start of the large intestine. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Cecum</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CEREBELLUM" nciodm:ExtCodeID="C12445">
+          <nciodm:CDISCDefinition>The portion of the brain located at the base of the skull that is responsible for balance, equilibrium and movement. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Cerebellum</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CEREBRUM" nciodm:ExtCodeID="C12351">
+          <nciodm:CDISCSynonym>Cerebral Hemisphere</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>One half of the cerebrum, the part of the brain that controls muscle functions and also controls speech, thought, emotions, reading, writing, and learning. The right hemisphere controls the muscles on the left side of the body, and the left hemisphere controls the muscles on the right side of the body. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Cerebral Hemisphere</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CHOROID PLEXUS" nciodm:ExtCodeID="C12694">
+          <nciodm:CDISCDefinition>Blood vessels forming villous structures in the third, fourth, and lateral ventricles of the brain. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Choroid Plexus</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="COLON, ASCENDING" nciodm:ExtCodeID="C12265">
+          <nciodm:CDISCSynonym>Ascending Colon</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The first part of the colon (large intestine) that starts in the right lower quadrant of the abdomen and ends at the transverse colon in the right upper quadrant of the abdomen. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Ascending Colon</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="COLON, DESCENDING" nciodm:ExtCodeID="C12268">
+          <nciodm:CDISCSynonym>Descending Colon</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The fourth portion of the large intestine (colon) that communicates with the transverse colon in the left-upper quadrant of the abdomen and the rectum below. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Descending Colon</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="COLON, LEFT" nciodm:ExtCodeID="C33929">
+          <nciodm:CDISCSynonym>Left Colon</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The portion of the large intestine that includes the descending and sigmoid colon. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Left Colon</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="COLON, RIGHT" nciodm:ExtCodeID="C12383">
+          <nciodm:CDISCSynonym>Right Colon</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The proximal segment of the large intestine that is located in the right side of the abdominal cavity. It includes the cecum (with the attached appendix) and the ascending colon. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Right Colon</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="COLON, SIGMOID" nciodm:ExtCodeID="C12384">
+          <nciodm:CDISCSynonym>Sigmoid Colon</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The portion of the colon that connects to the descending colon above and the rectum below. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Sigmoid Colon</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="COLON, TRANSVERSE" nciodm:ExtCodeID="C12385">
+          <nciodm:CDISCSynonym>Transverse Colon</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The third division of the colon (large intestine). It communicates with the ascending colon in the upper right-hand quadrant of the abdomen and the descending colon in the upper left-hand quadrant. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Transverse Colon</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CORONARY ARTERY, ANTERIOR DESCENDING" nciodm:ExtCodeID="C32089">
+          <nciodm:CDISCSynonym>Anterior Descending Coronary Artery</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A left coronary artery branch that descends on the anterior portion of the heart through the anterior interventricular groove. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Anterior Descending Coronary Artery</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CORONARY ARTERY, LEFT" nciodm:ExtCodeID="C12872">
+          <nciodm:CDISCSynonym>Left Coronary Artery</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A coronary artery that arises from the aorta and bifurcates into the left anterior descending artery and the left circumflex artery. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Left Coronary Artery</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CORONARY ARTERY, RIGHT" nciodm:ExtCodeID="C12875">
+          <nciodm:CDISCSynonym>Right Coronary Artery</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A coronary artery that originates above the right coronary cusp and supplies blood predominantly to the right side of the heart. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Right Coronary Artery</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="DUODENUM" nciodm:ExtCodeID="C12263">
+          <nciodm:CDISCDefinition>A jointed tube 25-30 cm long that connects the stomach to the jejunum. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Duodenum</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="EAR, INNER" nciodm:ExtCodeID="C12499">
+          <nciodm:CDISCSynonym>Internal Ear</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The portion of the ear located within the temporal bone that is involved in both hearing and balance and includes the semicircular canals, vestibule, and cochlea. (from American Heritage Dictionary online)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Internal Ear</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="EAR, OUTER" nciodm:ExtCodeID="C12292">
+          <nciodm:CDISCSynonym>External Ear</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The external part of the ear. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>External Ear</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ENDOCARDIUM" nciodm:ExtCodeID="C13004">
+          <nciodm:CDISCDefinition>The layer of endothelial cells and connective tissue lining the chambers of the heart. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Endocardium</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="EPICARDIUM" nciodm:ExtCodeID="C13164">
+          <nciodm:CDISCDefinition>The outer membranous connective tissue layer of the heart tissue. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Epicardium</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="EPIDIDYMIS" nciodm:ExtCodeID="C12328">
+          <nciodm:CDISCDefinition>A crescent-like structure located in the upper and posterior surfaces of the testis. It consists of the efferent ductules and the duct of the epididymis. It facilitates the maturation of sperm that is produced in the testis. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Epididymis</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ESOPHAGUS, ABDOMINAL" nciodm:ExtCodeID="C12252">
+          <nciodm:CDISCSynonym>Abdominal Esophagus</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Clinical esophageal segment composed of smooth muscle. It corresponds to the inferior part of the lower third topographic segment of the esophagus. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Abdominal Esophagus</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ESOPHAGUS, CERVICAL" nciodm:ExtCodeID="C12250">
+          <nciodm:CDISCSynonym>Cervical Esophagus</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Clinical esophageal segment composed of skeletal muscle. It corresponds to the superior part of the upper third topographic segment of the esophagus. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Cervical Esophagus</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ESOPHAGUS, LOWER THIRD" nciodm:ExtCodeID="C12255">
+          <nciodm:CDISCSynonym>Lower Third of the Esophagus</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The lower one third of the esophagus in which the muscle layer is composed of muscle cells predominantly of the smooth type. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Lower Third of the Esophagus</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ESOPHAGUS, MIDDLE THIRD" nciodm:ExtCodeID="C12254">
+          <nciodm:CDISCSynonym>Middle Third of the Esophagus</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The middle one third of the esophagus in which the muscle layer is composed of muscle cells of the striated and smooth types.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Middle Third of the Esophagus</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ESOPHAGUS, THORACIC" nciodm:ExtCodeID="C12251">
+          <nciodm:CDISCSynonym>Thoracic Esophagus</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Clinical esophageal segment composed of smooth muscle. It includes the middle third topographic segment, as well as parts of the upper and lower thirds. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Thoracic Esophagus</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ESOPHAGUS, UPPER THIRD" nciodm:ExtCodeID="C12253">
+          <nciodm:CDISCSynonym>Upper Third of the Esophagus</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The upper one third of esophagus in which the muscle layer is composed of muscle cells of the striated type. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Upper Third of the Esophagus</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="EXTRAHEPATIC BILE DUCT" nciodm:ExtCodeID="C32573">
+          <nciodm:CDISCDefinition>The portion of the biliary tract outside the liver; the common hepatic duct joins the cystic duct to form the common bile duct. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Extrahepatic Bile Duct</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="EYELASH" nciodm:ExtCodeID="C32576">
+          <nciodm:CDISCDefinition>Anyone of the short hairs that grow on the edge of the eyelid. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Eyelash</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="FOREBRAIN" nciodm:ExtCodeID="C40185">
+          <nciodm:CDISCDefinition>The largest part of the brain composed of the cerebral hemispheres, thalamus, hypothalamus, and the limbic system. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Forebrain</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GASTROINTESTINAL TRACT, LOWER" nciodm:ExtCodeID="C33010">
+          <nciodm:CDISCSynonym>Lower Gastrointestinal Tract</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The lower part of the gastrointestinal tract that includes the jejunum and ileum of the small intestine and the large intestine. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Lower Gastrointestinal Tract</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GASTROINTESTINAL TRACT, UPPER" nciodm:ExtCodeID="C33837">
+          <nciodm:CDISCSynonym>Upper Gastrointestinal Tract</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The upper part of the gastrointestinal tract that includes the esophagus, stomach, and duodenum. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Upper Gastrointestinal Tract</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HAIR BULB" nciodm:ExtCodeID="C32706">
+          <nciodm:CDISCDefinition>The lower segment of the hair that circles the dermal papilla and the hair matrix. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hair Bulb</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HAIR FOLLICLE" nciodm:ExtCodeID="C13317">
+          <nciodm:CDISCDefinition>A tube-like invagination of the epidermis from which the hair shaft develops and into which the sebaceous glands open; the follicle is lined by a cellular inner and outer root sheath of epidermal origin and is invested with a fibrous sheath derived from the dermis. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hair Follicle</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HAIR ROOT" nciodm:ExtCodeID="C32711">
+          <nciodm:CDISCDefinition>The portion of the hair that is enclosed within the hair follicle. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hair Root</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HAIR SHAFT" nciodm:ExtCodeID="C33543">
+          <nciodm:CDISCSynonym>Shaft of the Hair</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The segment of the hair that projects above the skin surface. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Shaft of the Hair</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HEART, APEX" nciodm:ExtCodeID="C32126">
+          <nciodm:CDISCSynonym>Apex of the Heart</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The most outer superficial part of the heart which is situated on the left 5th intercostal space. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Apex of the Heart</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HEART, ATRIUM" nciodm:ExtCodeID="C12728">
+          <nciodm:CDISCSynonym>Cardiac Atrium</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The paired upper chambers of the heart. The left atrium receives oxygenated blood from the pulmonary vein and pumps blood into the left ventricle. The right atrium receives venous deoxygenated blood from the entire body via the superior and inferior vena cavae and pumps blood into the right ventricle. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Cardiac Atrium</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HEART, BASE" nciodm:ExtCodeID="C48589">
+          <nciodm:CDISCSynonym>Base of the Heart</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The superior portion of the heart located opposite to the apical portion. It is formed mainly by the left atrium. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Base of the Heart</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HEART, LEFT VENTRICLE" nciodm:ExtCodeID="C12871">
+          <nciodm:CDISCSynonym>Left Ventricle</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The left lower chamber of the heart that receives blood from the left atrium and pumps it through the aorta to the body. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Left Ventricle</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HEART, RIGHT VENTRICLE" nciodm:ExtCodeID="C12870">
+          <nciodm:CDISCSynonym>Right Ventricle</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The lower chamber of the heart located in the right side. It receives blood from the right atrium that is no longer oxygenated and it pumps it to the pulmonary artery. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Right Ventricle</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HEART, SEPTUM" nciodm:ExtCodeID="C49485">
+          <nciodm:CDISCSynonym>Cardiac Septum</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The tissue in the heart that separates the two atria (atrial septum) and the two ventricles (ventricular septum). (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Heart Septum</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HEART, VENTRICLE" nciodm:ExtCodeID="C12730">
+          <nciodm:CDISCSynonym>Cardiac Ventricle</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The lower right and left chambers of the heart. The right pumps venous blood into the lungs and the left pumps oxygenated blood into the systemic arterial circulation. (MeSH)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Cardiac Ventricle</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HIPPOCAMPUS" nciodm:ExtCodeID="C12444">
+          <nciodm:CDISCDefinition>A curved gray matter structure of the temporal lobe lying on the floor of the lateral ventricle of the brain. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hippocampus</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HYPOTHALAMUS" nciodm:ExtCodeID="C12458">
+          <nciodm:CDISCDefinition>The supervisory center in the brain, rich in ganglia, nerve fibers, and synaptic connections. It is composed of several sections called nuclei, each of which controls a specific function.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hypothalamus</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ILEUM, TERMINAL" nciodm:ExtCodeID="C33757">
+          <nciodm:CDISCSynonym>Terminal Ileum</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The most distal section of the ileum that is continuous with the cecum. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Terminal Ileum</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="INTRAHEPATIC BILE DUCT" nciodm:ExtCodeID="C12677">
+          <nciodm:CDISCDefinition>The bile ducts that pass through and drain bile from the liver. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Intrahepatic Bile Duct</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="KIDNEY, CORTEX" nciodm:ExtCodeID="C12739">
+          <nciodm:CDISCSynonym>Renal Cortex</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The outer zone of the KIDNEY, beneath the capsule, consisting of KIDNEY GLOMERULUS; KIDNEY TUBULES, DISTAL; and KIDNEY TUBULES, PROXIMAL. (MSH2001)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Renal Cortex</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="KIDNEY, HILUM" nciodm:ExtCodeID="C32740">
+          <nciodm:CDISCSynonym>Hilar Area of the Kidney</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The concave area of the kidney through which the renal artery enters and the renal vein and ureter exit the organ. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hilar Area of the Kidney</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="KIDNEY, LOWER LOBE" nciodm:ExtCodeID="C93180">
+          <nciodm:CDISCSynonym>Lower Lobe of the Kidney</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The lobe of the kidney located in the lowest portion of the kidney. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Lower Lobe of the Kidney</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="KIDNEY, MEDULLA" nciodm:ExtCodeID="C12740">
+          <nciodm:CDISCSynonym>Renal Medulla</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The internal portion of the kidney, consisting of striated conical masses, the renal pyramids, whose bases are adjacent to the cortex and whose apices form prominent papillae projecting into the lumen of the minor calyces. (MSH2001)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Renal Medulla</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="KIDNEY, UPPER LOBE" nciodm:ExtCodeID="C93179">
+          <nciodm:CDISCSynonym>Upper Lobe of the Kidney</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The lobe of the kidney located in the uppermost region of the kidney. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Upper Lobe of the Kidney</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LESSER TROCHANTER" nciodm:ExtCodeID="C32982">
+          <nciodm:CDISCDefinition>A cone-shaped projection in the shaft of the femur in which the iliopsoas muscle is attached. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Lesser Trochanter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LIMB, LOWER" nciodm:ExtCodeID="C12742">
+          <nciodm:CDISCSynonym>Lower Extremity</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The limb that is composed of the hip, thigh, leg and foot. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Lower Extremity</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LIMB, UPPER" nciodm:ExtCodeID="C12671">
+          <nciodm:CDISCSynonym>Upper Extremity</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The region of the body that includes the arm, the forearm, and hand. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Upper Extremity</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LIP, LOWER" nciodm:ExtCodeID="C12222">
+          <nciodm:CDISCSynonym>External Lower Lip</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The external surface of the lower lip. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>External Lower Lip</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LIP, UPPER" nciodm:ExtCodeID="C12221">
+          <nciodm:CDISCSynonym>External Upper Lip</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The external surface of the upper lip. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>External Upper Lip</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LUNG, HILUM" nciodm:ExtCodeID="C49282">
+          <nciodm:CDISCSynonym>Hilar Area of the Lung</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The wedge-shaped area at the central portion of the lung through which the bronchi, vessels and nerves enter or exit the organ. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hilar Area of the Lung</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LUNG, LEFT" nciodm:ExtCodeID="C32967">
+          <nciodm:CDISCSynonym>Left Lung</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The 2-lobed lung located on the left side of the body. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Left Lung</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LUNG, LEFT LOWER LOBE" nciodm:ExtCodeID="C33020">
+          <nciodm:CDISCSynonym>Lower Lobe of the Left Lung</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The larger lobe of the left lung, situated below and behind the oblique fissure. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Lower Lobe of the Left Lung</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LUNG, LEFT UPPER LOBE" nciodm:ExtCodeID="C33021">
+          <nciodm:CDISCSynonym>Upper Lobe of the Left Lung</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The smaller lobe of the left lung, situated above and in front the oblique fissure, which includes the apex. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Upper Lobe of the Left Lung</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LUNG, RIGHT" nciodm:ExtCodeID="C33483">
+          <nciodm:CDISCSynonym>Right Lung</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The 3-lobed lung located on the right side of the body. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Right Lung</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LUNG, RIGHT LOWER LOBE" nciodm:ExtCodeID="C33022">
+          <nciodm:CDISCSynonym>Lower Lobe of the Right Lung</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The lobe of the right lung situated below the oblique fissure. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Lower Lobe of the Right Lung</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LUNG, RIGHT MIDDLE LOBE" nciodm:ExtCodeID="C12286">
+          <nciodm:CDISCSynonym>Middle Lobe of the Right Lung</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The smallest lobe of the right lung, situated above the oblique fissure and below the horizontal fissure. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Middle Lobe of the Right Lung</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LUNG, RIGHT UPPER LOBE" nciodm:ExtCodeID="C33023">
+          <nciodm:CDISCSynonym>Upper Lobe of the Right Lung</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The lobe of the right lung, situated above the horizontal fissure, which includes the apex. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Upper Lobe of the Right Lung</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MAIN BRONCHUS, LEFT" nciodm:ExtCodeID="C32968">
+          <nciodm:CDISCSynonym>Left Main Bronchus</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>One of the two main bronchi. It is narrower but longer than the right main bronchus and connects to the left lung. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Left Main Bronchus</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MAIN BRONCHUS, RIGHT" nciodm:ExtCodeID="C33486">
+          <nciodm:CDISCSynonym>Right Main Bronchus</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>One of the two main bronchi. It is wider but shorter than the left main bronchus and connects to the right lung. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Right Main Bronchus</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MEDIASTINUM, ANTERIOR" nciodm:ExtCodeID="C32098">
+          <nciodm:CDISCSynonym>Anterior Mediastinum</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area between the lungs; it contains the thymus, some lymph nodes, and vessels and branches of the internal thoracic artery. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Anterior Mediastinum</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MEDIASTINUM, MIDDLE" nciodm:ExtCodeID="C33123">
+          <nciodm:CDISCSynonym>Middle Mediastinum</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The broadest part of the lower portion of the mediastinum. It contains the heart and the great vessels. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Middle Mediastinum</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MEDIASTINUM, POSTERIOR" nciodm:ExtCodeID="C33368">
+          <nciodm:CDISCSynonym>Posterior Mediastinum</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The part of the lower portion of the mediastinum that is located behind the pericardium. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Posterior Mediastinum</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MEDIASTINUM, SUPERIOR" nciodm:ExtCodeID="C33684">
+          <nciodm:CDISCSynonym>Superior Mediastinum</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The part of the mediastinum that is located between the upper part of the sternum in the front and the upper thoracic vertebrae in the back. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Superior Mediastinum</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MEDULLA OBLONGATA" nciodm:ExtCodeID="C12442">
+          <nciodm:CDISCDefinition>The lower portion of the brainstem located between the pons and brainstem. This structure contains several descending and ascending tracts, lower cranial nerve nuclei, a significant proportion of the reticular system of the brainstem and other structures. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Medulla Oblongata</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MIDBRAIN" nciodm:ExtCodeID="C12510">
+          <nciodm:CDISCSynonym>Mesencephalon</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The uppermost portion of the brainstem located between the pons and the diencephalon. The midbrain contains the cerebral peduncles, oculomotor, trochlear and red nuclei, substantia nigra and various other nuclei and tracts. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Mesencephalon</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MUSCLE TISSUE, DISTAL" nciodm:ExtCodeID="C91405">
+          <nciodm:CDISCSynonym>Distal Muscle</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A muscle located away from the trunk of the body. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Distal Muscle</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MUSCLE TISSUE, PROXIMAL" nciodm:ExtCodeID="C91404">
+          <nciodm:CDISCSynonym>Proximal Muscle</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A muscle located close to the trunk of the body. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Proximal Muscle</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="OCCIPITAL LOBE" nciodm:ExtCodeID="C12355">
+          <nciodm:CDISCDefinition>The posterior part of the cerebral hemisphere. (MeSH)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Occipital Lobe</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="OLFACTORY BULB" nciodm:ExtCodeID="C28401">
+          <nciodm:CDISCDefinition>Anatomical structure located in the vertebral forebrain that receives neural input regarding odors that have been detected by cells within the nasal cavity. The axons of olfactory receptor cells extend into the olfactory bulb. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Olfactory Bulb</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PANCREAS, BODY" nciodm:ExtCodeID="C12270">
+          <nciodm:CDISCSynonym>Body of the Pancreas</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The part of the pancreas from the point where it crosses the portal vein to the point where it enters the lienorenal ligament. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Body of the Pancreas</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PANCREAS, ENDOCRINE" nciodm:ExtCodeID="C32509">
+          <nciodm:CDISCSynonym>Endocrine Pancreas</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The pancreatic tissue that contains the islets of Langerhans. It is responsible for the production and secretions of the pancreatic hormones. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Endocrine Pancreas</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PANCREAS, EXOCRINE" nciodm:ExtCodeID="C32546">
+          <nciodm:CDISCSynonym>Exocrine Pancreas</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An enzyme producing region of the pancreatic tissue containing the pancreatic acini and exocrine intralobular ducts which collectively secrete the digestive enzymes into the main pancreatic duct to drain into the duodenal part of the small intestine. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Exocrine Pancreas</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PANCREAS, HEAD" nciodm:ExtCodeID="C12269">
+          <nciodm:CDISCSynonym>Head of the Pancreas</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>That portion of the pancreas lying in the concavity of the duodenum. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Head of the Pancreas</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PANCREAS, TAIL" nciodm:ExtCodeID="C12271">
+          <nciodm:CDISCSynonym>Tail of the Pancreas</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The left extremity of the pancreas within the lienorenal ligament. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Tail of the Pancreas</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PARATHYROID GLAND" nciodm:ExtCodeID="C12765">
+          <nciodm:CDISCDefinition>One of two small paired endocrine glands, superior and inferior, usually found embedded in the connective tissue capsule on the posterior surface of the thyroid gland; these glands secrete parathyroid hormone that regulates the metabolism of calcium and phosphorus. The parenchyma is composed of chief and oxyphilic cells arranged in anastomosing cords. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Parathyroid Gland</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PITUITARY GLAND" nciodm:ExtCodeID="C12399">
+          <nciodm:CDISCDefinition>Pea-sized endocrine gland located at the base of the brain in the pituitary fossa. It produces and secretes hormones such as oxytocin and vasopressin, to regulate the activities of the hypothalamus. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Pituitary Gland</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PROSTATE GLAND, LATERAL LOBE" nciodm:ExtCodeID="C13092">
+          <nciodm:CDISCSynonym>Lateral Lobe of the Prostate</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The prostate gland lobe that is located on the lateral side of the organ. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Lateral Lobe of the Prostate</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PROSTATE GLAND, MIDDLE LOBE" nciodm:ExtCodeID="C13094">
+          <nciodm:CDISCSynonym>Middle Lobe of the Prostate</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The upper, smaller part of the prostate between the ejaculatory ducts and the urethra. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Middle Lobe of the Prostate</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PROSTATE GLAND, POSTERIOR LOBE" nciodm:ExtCodeID="C13093">
+          <nciodm:CDISCSynonym>Posterior Lobe of the Prostate</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The prostate gland lobe that is located on the posterior side of the organ. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Posterior Lobe of the Prostate</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="RADIUS" nciodm:ExtCodeID="C12777">
+          <nciodm:CDISCSynonym>Radius Bone</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The long bone of the forearm that extends from the lateral aspect of the elbow to the thumb-side of the wrist. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Radius Bone</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="RECTUM" nciodm:ExtCodeID="C12390">
+          <nciodm:CDISCDefinition>The terminal portion of the gastrointestinal tract, extending from the rectosigmoid junction to the anal canal. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Rectum</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SCLERA" nciodm:ExtCodeID="C12784">
+          <nciodm:CDISCDefinition>The white, opaque, fibrous, outer tunic of the eyeball, covering it entirely excepting the segment covered anteriorly by the cornea. It is essentially avascular but contains apertures for vessels, lymphatics, and nerves. It receives the tendons of insertion of the extraocular muscles and at the corneoscleral junction contains the canal of Schlemm. (From Cline et al., Dictionary of Visual Science, 4th ed)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Sclera</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SEMINAL VESICLE" nciodm:ExtCodeID="C12787">
+          <nciodm:CDISCDefinition>One of the two paired glands in the male genitourinary system, posterior to the bladder and superior to the prostate gland, that produces fructose-rich seminal fluid which is a component of semen. These glands join the ipsilateral ductus deferens to form the ejaculatory duct. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Seminal Vesicle</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SMOOTH MUSCLE TISSUE" nciodm:ExtCodeID="C12437">
+          <nciodm:CDISCDefinition>Involuntary muscle tissue of the internal organs. It is composed of elongated muscle cells or fibers that are not arranged in a striated pattern and form layers of muscle tissue. The smooth muscle cells contain a contractile apparatus composed of thin and thick filaments and a cytoskeleton composed of intermediate filaments. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Smooth Muscle Tissue</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SOFT PALATE" nciodm:ExtCodeID="C12231">
+          <nciodm:CDISCDefinition>A movable fold suspended from the posterior border of the hard palate. (MeSH)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Soft Palate</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SPLEEN, HILUM" nciodm:ExtCodeID="C33601">
+          <nciodm:CDISCSynonym>Splenic Hilum</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The area of the spleen through which the vessels and nerves enter or exit the organ. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Splenic Hilum</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="STRIATED MUSCLE TISSUE" nciodm:ExtCodeID="C12436">
+          <nciodm:CDISCDefinition>Striated muscles are appendicular and axial muscles typically connected at either or both ends to the bony skeleton of the body. Striated muscle fibers contain a highly organized, contractile cytoskeletal apparatus with a striated microscopic appearance; muscle contraction is typically under voluntary control. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Striated Muscle Tissue</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SUBSTANTIA NIGRA" nciodm:ExtCodeID="C12453">
+          <nciodm:CDISCDefinition>A large cell mass extending forward, over the dorsal surface of the crus cerebri, from the rostral border of the pons into the subthalamic region. It is composed of a dorsal stratum of closely spaced pigmented cells, the pars compacta, and a larger ventral region of widely scattered cells, the pars reticulata. The pars compacta includes numerous cells that project forward to the striatum (caudate nucleus and putamen) and contain dopamine, which acts as the primary neurotransmitter at the synaptic endings. Other, apparently non-dopaminergic cells project to portions of the ventral nucleus of thalamus, the superior colliculus and reticular formation. The nigrostriatal projection is reciprocated by a striatonigral fiber system with multiple neurotransmitters, chief among which is gamma-aminobutyric acid (GABA). The substantia nigra is involved in the metabolic disturbances associated with Parkinson's disease and Huntington's disease. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Substantia Nigra</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TEMPORAL LOBE" nciodm:ExtCodeID="C12353">
+          <nciodm:CDISCDefinition>Lower lateral part of the cerebral hemisphere. (MSH2001)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Temporal Lobe</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="THORACIC CAVITY" nciodm:ExtCodeID="C12905">
+          <nciodm:CDISCDefinition>The cavity in the vertebrate body enclosed by the ribs between the diaphragm and the neck and containing the lungs and heart. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Thoracic Cavity</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="THYROID GLAND ISTHMUS" nciodm:ExtCodeID="C32887">
+          <nciodm:CDISCDefinition>The narrow, central portion of the thyroid gland that crosses the trachea anteriorly and connects the two lobes of the gland. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Thyroid Gland Isthmus</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="THYROID GLAND, LEFT LOBE" nciodm:ExtCodeID="C33491">
+          <nciodm:CDISCSynonym>Right Thyroid Gland Lobe</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The cone-like lobe of the thyroid gland that is located in the right side of the trachea. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Right Thyroid Gland Lobe</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="THYROID GLAND, RIGHT LOBE" nciodm:ExtCodeID="C32973">
+          <nciodm:CDISCSynonym>Left Thyroid Gland Lobe</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The cone-like lobe of the thyroid gland that is located in the left side of the trachea. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Left Thyroid Gland Lobe</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ULNA" nciodm:ExtCodeID="C12809">
+          <nciodm:CDISCSynonym>Ulna Bone</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>One of the bones that comprise the forearm. The largest aspect articulates with the humerus at the elbow joint and the smallest portion of the ulna articulates with the carpal bones in the wrist. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Ulna</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="URETHRA, ANTERIOR" nciodm:ExtCodeID="C61125">
+          <nciodm:CDISCSynonym>Anterior Portion of the Urethra</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The portion of the urethra that extends from the meatus to the membranous urethra. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Anterior Portion of the Urethra</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="URETHRA, PENILE" nciodm:ExtCodeID="C61123">
+          <nciodm:CDISCSynonym>Penile Portion of the Urethra</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The portion of the urethra that spans the corpus spongiosum. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Penile Portion of the Urethra</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="URETHRA, POSTERIOR" nciodm:ExtCodeID="C61126">
+          <nciodm:CDISCSynonym>Posterior Portion of the Urethra</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The portion of the urethra that is located on the posterior aspect of the urogenital diaphragm. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Posterior Portion of the Urethra</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="URETHRA, PROSTATIC" nciodm:ExtCodeID="C13101">
+          <nciodm:CDISCSynonym>Prostatic Urethra</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>That part of the male urethra that passes through the prostate gland. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Prostatic Urethra</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="VAS DEFERENS" nciodm:ExtCodeID="C12813">
+          <nciodm:CDISCDefinition>Duct carrying spermatozoa. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Vas Deferens</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <nciodm:CDISCSubmissionValue>LOC</nciodm:CDISCSubmissionValue>
+        <nciodm:CDISCSynonym>Anatomical Location</nciodm:CDISCSynonym>
+        <nciodm:PreferredTerm>CDISC SDTM Anatomical Location Terminology</nciodm:PreferredTerm>
+      </CodeList>
+      

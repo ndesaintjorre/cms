@@ -1,0 +1,249 @@
+<CodeList xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" OID="CL.C71153.EGTESTCD" Name="ECG Test Code" DataType="text" nciodm:ExtCodeID="C71153" nciodm:CodeListExtensible="Yes">
+        <Description>
+          <TranslatedText xml:lang="en">Terminology codelist used with ECG Tests within CDISC.</TranslatedText>
+        </Description>
+        <EnumeratedItem CodedValue="HRMAX" nciodm:ExtCodeID="C39779">
+          <nciodm:CDISCSynonym>Summary (Max) Heart Rate</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The minimum time between successive cycles of contraction and subsequent relaxation of the heart, usually expressed as beats per minute, obtained from a set of measurements of the heart rate. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Maximum Heart Rate</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PRMEAN" nciodm:ExtCodeID="C62086">
+          <nciodm:CDISCSynonym>Summary (Mean) PR Duration</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The average (mean) duration (time) of the PR interval, obtained from a set of measurements of the PR interval. The PR interval is defined as the time from the beginning of the P wave (representing the onset of atrial depolarization) to the beginning of the R wave (representing the onset of ventricular depolarization). In some cases, a Q wave will precede the R wave, in which case the PR interval is measured from the beginning of the P wave to the beginning of the Q wave. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>EKG Mean PR Duration</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="QRSDUR" nciodm:ExtCodeID="C62087">
+          <nciodm:CDISCSynonym>Summary (Mean) QRS Duration</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The average (mean) duration (time) of the QRS interval, obtained from a set of measurements of the QRS interval. The QRS interval is defined as the time from the beginning of the QRS complex to the end of the QRS complex, representing the time it takes for the ventricles to depolarize. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>EKG Mean QRS Duration</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="QTMEAN" nciodm:ExtCodeID="C62089">
+          <nciodm:CDISCSynonym>Summary (Mean) QT Duration</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The average (mean) duration (time) of the QT interval, obtained from a set of measurements of the QT interval. The QT interval is defined as the time from the beginning of the QRS complex to the end of the T wave, representing the time it takes for the ventricles to depolarize and subsequently repolarize. In some cases, the Q wave will be absent, in which case the QT interval is measured from the beginning of the R wave to the end of the T wave. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>EKG Mean QT Duration</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="RRMEAN" nciodm:ExtCodeID="C62090">
+          <nciodm:CDISCSynonym>Summary (Mean) RR Duration</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The average (mean) duration (time) of the RR interval, obtained from a set of measurements of the RR interval. The RR interval is defined as the time between successive peaks of the R wave and can be used to measure the ventricular rate. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>EKG Mean RR Duration</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="RRMIN" nciodm:ExtCodeID="C62093">
+          <nciodm:CDISCSynonym>Summary (Min) RR Duration</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The minimum duration (time) between successive peaks of R waves in a particular set of RR intervals. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>EKG Minimum RR Duration</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="RRMAX" nciodm:ExtCodeID="C62094">
+          <nciodm:CDISCSynonym>Summary (Max) RR Duration</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The maximum duration (time) between successive peaks of R waves in a particular set of RR intervals. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>EKG Maximum RR Duration</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HRMEAN" nciodm:ExtCodeID="C62095">
+          <nciodm:CDISCSynonym>Summary (Mean) Heart Rate</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The average (mean) number of cycles of contraction and subsequent relaxation of the heart, usually expressed as beats per minute, obtained from a set of measurements of the heart rate. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Mean Heart Rate</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HRMIN" nciodm:ExtCodeID="C62096">
+          <nciodm:CDISCSynonym>Summary (Min) Heart Rate</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The maximum time between successive cycles of contraction and subsequent relaxation of the heart, usually expressed as beats per minute, obtained from a set of measurements of the heart rate. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Minimum Heart Rate</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="QTCB" nciodm:ExtCodeID="C62112">
+          <nciodm:CDISCSynonym>QTcB - Bazett's Correction Formula</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A formula which takes into account the physiologic shortening of the QT interval which occurs as the heart rate increases, permitting comparison of the QT interval across a range of rates. It is mathematically defined as: QTcB = QT/SqRootRR(seconds) and theoretically corrects the QT interval to that which would be observed at a heart rate of 1 cycle per second. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>QTcB-Bazett's Correction Formula</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="QTCF" nciodm:ExtCodeID="C62113">
+          <nciodm:CDISCSynonym>QTcF - Fridericia's Correction Formula</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A formula which takes into account the physiologic shortening of the QT interval which occurs as the heart rate increases, permitting comparison of the QT interval across a range of rates. It is mathematically defined as: QTcF = QT/CubeRootRR(seconds) and theoretically corrects the QT interval to that which would be observed at a heart rate of 1 cycle per second. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>QTcF-Fridericia's Correction Formula</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="QTCLC" nciodm:ExtCodeID="C62114">
+          <nciodm:CDISCSynonym>QTcLC - Linear Correction Formula</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A formula which takes into account the physiologic shortening of the QT interval which occurs as the heart rate increases, permitting comparison of the QT interval across a range of rates. The linear correction formula uses population-based data obtained and validated using a large cohort of subjects. This method theoretically corrects the QT interval to that which would be observed at a heart rate of 1 cycle per second. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>QTcLC-Linear Correction Formula</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="JTMEAN" nciodm:ExtCodeID="C62115">
+          <nciodm:CDISCSynonym>Summary (Mean) JT Interval</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The average (mean) duration (time) of the JT interval, obtained from a set of measurements of the JT interval. The JT interval is defined as the time from the J point (end of ventricular depolarization, the point at which the QRS meets the ST segment) to the end of the T wave (representing the end of ventricular repolarization). (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>EKG Mean JT Duration</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="JTMIN" nciodm:ExtCodeID="C62116">
+          <nciodm:CDISCSynonym>Summary (Min) JT Interval</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The minimum duration (time) of the JT interval, obtained from a set of measurements of the JT interval. The JT interval is defined as the time from the J point (end of ventricular depolarization, the point at which the QRS meets the ST segment) to the end of the T wave (representing the end of ventricular repolarization). (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>EKG Minimum JT Duration</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="JTMAX" nciodm:ExtCodeID="C62117">
+          <nciodm:CDISCSynonym>Summary (Max) JT Interval</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The maximum duration (time) of the JT interval, obtained from a set of measurements of the JT interval. The JT interval is defined as the time from the J point (end of ventricular depolarization, the point at which the QRS meets the ST segment) to the end of the T wave (representing the end of ventricular repolarization). (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>EKG Maximum JT Duration</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="JTCB" nciodm:ExtCodeID="C62118">
+          <nciodm:CDISCSynonym>JTcB - Bazett's Correction Formula</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A formula which takes into account the physiologic shortening of the JT interval which occurs as the heart rate increases, permitting comparison of the JT interval across a range of rates. It is mathematically defined as: JTcB = JT/SqRootRR(seconds) and theoretically corrects the JT interval to that which would be observed at a heart rate of 1 cycle per second. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>JTcB-Bazett's Correction Formula</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="JTCF" nciodm:ExtCodeID="C62119">
+          <nciodm:CDISCSynonym>JTcF - Fridericia's Correction Formula</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A formula which takes into account the physiologic shortening of the JT interval which occurs as the heart rate increases, permitting comparison of the JT interval across a range of rates. It is mathematically defined as: JTcF = JT/CubeRootRR(seconds) and theoretically corrects the JT interval to that which would be observed at a heart rate of 1 cycle per second. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>JTcF-Fridericia's Correction Formula</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="JTCLC" nciodm:ExtCodeID="C62120">
+          <nciodm:CDISCSynonym>JTcLC - Linear Correction Formula</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A formula which takes into account the physiologic shortening of the JT interval which occurs as the heart rate increases, permitting comparison of the JT interval across a range of rates. The linear correction formula uses population-based data obtained and validated using a large cohort of subjects. Using this method, the corrected JT interval is independent of the ventricular rate. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>JTcLC-Linear Correction Formula</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PAXIS" nciodm:ExtCodeID="C62121">
+          <nciodm:CDISCSynonym>Summary (Mean) P Axis</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The mean (average) direction (range -180 degrees to 180 degrees) of the electrical potential generated by atrial depolarization in a particular plane (usually the frontal plane). (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>EKG Mean P Axis</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PWAVEDUR" nciodm:ExtCodeID="C62123">
+          <nciodm:CDISCSynonym>Summary (Mean) P Wave Duration</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The average (mean) duration (time) from the onset of atrial depolarization to the completion of atrial depolarization (length of the P wave), obtained from a set of measurements of the time from beginning to end of atrial depolarization. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>EKG Mean P Wave Duration</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PWAVEHT" nciodm:ExtCodeID="C62124">
+          <nciodm:CDISCSynonym>Summary (Mean) P Wave Height</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The average (mean) height (usually measured in mm) of the maximum deflection from baseline of the P wave (representing atrial depolarization), obtained from a set of measurements of the P wave, from a single lead or set of leads. Typically this measurement is obtained by analysis of Lead II. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>EKG Mean P Wave Height</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PRMIN" nciodm:ExtCodeID="C62125">
+          <nciodm:CDISCSynonym>Summary (Min) PR Duration</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The minimum duration (time) of the PR interval, obtained from a set of measurements of the PR interval. The PR interval is defined as the time from the beginning of the P wave (representing the onset of atrial depolarization) to the beginning of the R wave (representing the onset of ventricular depolarization). In some cases, a Q wave will precede the R wave, in which case the PR interval is measured from the beginning of the P wave to the beginning of the Q wave. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>EKG Minimum PR Duration</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PRMAX" nciodm:ExtCodeID="C62131">
+          <nciodm:CDISCSynonym>Summary (Max) PR Duration</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The maximum duration (time) of the PR interval, obtained from a set of measurements of the PR interval. The PR interval is defined as the time from the beginning of the P wave (representing the onset of atrial depolarization) to the beginning of the R wave (representing the onset of ventricular depolarization). In some cases, a Q wave will precede the R wave, in which case the PR interval is measured from the beginning of the P wave to the beginning of the Q wave. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>EKG Maximum PR Duration</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="QRSAXIS" nciodm:ExtCodeID="C62132">
+          <nciodm:CDISCSynonym>Summary (Mean) QRS Axis</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The mean (average) direction of the electrical potential generated by ventricular depolarization. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Mean QRS Axis</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="QTMIN" nciodm:ExtCodeID="C62133">
+          <nciodm:CDISCSynonym>Summary (Min) QT Duration</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The minimum duration (time) of the QT interval, obtained from a set of measurements of the QT interval. The QT interval is defined as the time from the beginning of the QRS complex to the end of the T wave, representing the time it takes for the ventricles to depolarize and subsequently repolarize. In some cases, the Q wave will be absent, in which case the QT interval is measured from the beginning of the R wave to the end of the T wave. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Minimum QT Duration</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="QTMAX" nciodm:ExtCodeID="C62135">
+          <nciodm:CDISCSynonym>Summary (Max) QT Duration</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The maximum duration (time) of the QT interval, obtained from a set of measurements of the QT interval. The QT interval is defined as the time from the beginning of the QRS complex to the end of the T wave, representing the time it takes for the ventricles to depolarize and subsequently repolarize. In some cases, the Q wave will be absent, in which case the QT interval is measured from the beginning of the R wave to the end of the T wave. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>EKG Maximum QT Duration</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="RWAVEAMP" nciodm:ExtCodeID="C62136">
+          <nciodm:CDISCSynonym>Summary (Mean) R Wave Amplitude</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The average (mean) amplitude (usually in mm) of the R wave, obtained from a set of measurements of the R wave, in a particular lead or set of leads. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>EKG Mean R Wave Amplitude</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SWAVEAMP" nciodm:ExtCodeID="C62137">
+          <nciodm:CDISCSynonym>Summary (Mean) S Wave Amplitude</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The average (mean) amplitude (usually in mm) of the S wave, obtained from a set of measurements of the S wave, in a particular lead or set of leads. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>EKG Mean S Wave Amplitude</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="RSAMP" nciodm:ExtCodeID="C62144">
+          <nciodm:CDISCSynonym>Summary (Mean) R+S Amplitude</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The average (mean) amplitude (usually in mm) of the summation of the R and S waves, obtained from a set of measurements of the R and S waves, in a particular lead or set of leads. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>EKG Mean R+S Amplitude</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="STSEGDUR" nciodm:ExtCodeID="C62145">
+          <nciodm:CDISCSynonym>Summary (Mean) ST Segment Duration</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The duration (time) of the ST segment, measured from the J point at the end of the QRS complex to the beginning of the T wave. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>EKG Mean ST Segment Duration</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TAXIS" nciodm:ExtCodeID="C62146">
+          <nciodm:CDISCSynonym>Summary (Mean) T Wave Axis</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The mean (average) direction of the electrical potential generated by ventricular repolarization. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>EKG Mean T Wave Axis</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TWAVEDUR" nciodm:ExtCodeID="C62147">
+          <nciodm:CDISCSynonym>Summary (Mean) T Wave Duration</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The average (mean) duration (time) from the onset of ventricular repolarization to the completion of ventricular repolarization (length of the T wave), obtained from a set of measurements of the time from beginning to end of ventricular repolarization. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>EKG Mean T Wave Duration</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TWAVAREA" nciodm:ExtCodeID="C62148">
+          <nciodm:CDISCSynonym>Summary (Mean) T Wave Area</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The average (mean) area under the curve of the deflection from baseline of the T wave (representing ventricular repolarization), obtained from a set of measurements of the T wave, from a single lead or set of leads. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>EKG Mean T Wave Area</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TWAVEHT" nciodm:ExtCodeID="C62149">
+          <nciodm:CDISCSynonym>Summary (Mean) T Wave Height</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The average (mean) height (usually measured in mm) of the maximum deflection from baseline of the T wave (representing ventricular repolarization), obtained from a set of measurements of the T wave, from a single lead or set of leads. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>EKG Mean T Wave Height</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="VRMEAN" nciodm:ExtCodeID="C62152">
+          <nciodm:CDISCSynonym>Summary (Mean) Ventricular Rate</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The average (mean) number of cycles of contraction and subsequent relaxation of the ventricles, usually expressed as beats per minute, obtained from a set of measurements of the ventricular rate. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Mean Ventricular Heart Rate</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="VRMIN" nciodm:ExtCodeID="C62153">
+          <nciodm:CDISCSynonym>Summary (Min) Ventricular Rate</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The minimum time between successive cycles of contraction and subsequent relaxation of the ventricles, usually expressed as beats per minute, obtained from a set of measurements of the ventricular rate. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Minimum Ventricular Heart Rate</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="VRMAX" nciodm:ExtCodeID="C62154">
+          <nciodm:CDISCSynonym>Summary (Max) Ventricular Rate</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The maximum time between successive cycles of contraction and subsequent relaxation of the ventricles, usually expressed as beats per minute, obtained from a set of measurements of the ventricular rate. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Maximum Ventricular Heart Rate</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="STDVMEAN" nciodm:ExtCodeID="C62155">
+          <nciodm:CDISCSynonym>Summary (Mean) ST Deviation</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The average (mean) deviation (distance from baseline, positive or negative, usually measured in mm) of the ST segment, obtained from a set of measurements of the deviation of the ST segment. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>EKG Mean ST Deviation</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="STDVMIN" nciodm:ExtCodeID="C62156">
+          <nciodm:CDISCSynonym>Summary (Min) ST Deviation</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The minimum deviation (distance from baseline, positive or negative, usually measured in mm) of the ST segment, obtained from a set of measurements of the deviation of the ST segment. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>EKG Minimum ST Deviation</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="STDVMAX" nciodm:ExtCodeID="C62157">
+          <nciodm:CDISCSynonym>Summary (Max) ST Deviation</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The maximum deviation (distance from baseline, positive or negative, usually measured in mm) of the ST segment, obtained from a set of measurements of the deviation of the ST segment. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>EKG Maximum ST Deviation</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="STELMEAN" nciodm:ExtCodeID="C62158">
+          <nciodm:CDISCSynonym>Summary (Mean) ST Elevation</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The average (mean) elevation (positive deflection from baseline, usually measured in mm) of the ST segment, obtained from a set of measurements of the elevation of the ST segment. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>EKG Mean ST Segment Elevation</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="STELMIN" nciodm:ExtCodeID="C62159">
+          <nciodm:CDISCSynonym>Summary (Min) ST Elevation</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The minimum elevation (positive deflection from baseline, usually measured in mm) of the ST segment, obtained from a set of measurements of the elevation of the ST segment. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>EKG Minimum ST Segment Elevation</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="STELMAX" nciodm:ExtCodeID="C62160">
+          <nciodm:CDISCSynonym>Summary (Max) ST Elevation</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The maximum elevation (positive deflection from baseline, usually measured in mm) of the ST segment, obtained from a set of measurements of the elevation of the ST segment. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>EKG Maximum ST Segment Elevation</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="STDPMEAN" nciodm:ExtCodeID="C62161">
+          <nciodm:CDISCSynonym>Summary (Mean) ST Depression</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The average (mean) depression (negative deflection from baseline, usually measured in mm) of the ST segment, obtained from a set of measurements of the depression of the ST segment. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>EKG Mean ST Segment Depression</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="STDPMIN" nciodm:ExtCodeID="C62162">
+          <nciodm:CDISCSynonym>Summary (Min) ST Depression</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The minimum depression (negative deflection from baseline, usually measured in mm) of the ST segment, obtained from a set of measurements of the depression of the ST segment. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>EKG Minimum ST Segment Depression</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="STDPMAX" nciodm:ExtCodeID="C62163">
+          <nciodm:CDISCSynonym>Summary (Max) ST Depression</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The maximum depression (negative deflection from baseline, usually measured in mm) of the ST segment, obtained from a set of measurements of the depression of the ST segment. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>EKG Maximum ST Segment Depression</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="QTCV" nciodm:ExtCodeID="C90442">
+          <nciodm:CDISCSynonym>QTcV - Van de Water's Correction Formula</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A mathematic formula defined as: QTcV = QT-0.087[(60/Heart Rate)-1](seconds). It permits comparison of the QT interval across a range of rates, while accounting for the progressive shortening of the QT interval which occurs as the heart rate increases. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>QTcV Van de Water's Correction Formula</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="INTP" nciodm:ExtCodeID="C41255">
+          <nciodm:CDISCSynonym>Interpretation</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An act or process of elucidation; explication, or explanation of the meaning of the event or thing via the assignment of objects from the domain to the constants of a formal language, truth-values to the proposition symbols, truth-functions to the connectives, other functions to the function symbols, and extensions to the predicates, if any. The assignments are result of human logic application and are not native to the symbols of the formal language.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Interpretation</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <nciodm:CDISCSubmissionValue>EGTESTCD</nciodm:CDISCSubmissionValue>
+        <nciodm:CDISCSynonym>ECG Test Code</nciodm:CDISCSynonym>
+        <nciodm:PreferredTerm>CDISC SDTM ECG Test Terminology by Code</nciodm:PreferredTerm>
+      </CodeList>
+      

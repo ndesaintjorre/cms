@@ -1,0 +1,79 @@
+<CodeList xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" OID="CL.C66770.VSRESU" Name="Units for Vital Signs Results" DataType="text" nciodm:ExtCodeID="C66770" nciodm:CodeListExtensible="Yes">
+        <Description>
+          <TranslatedText xml:lang="en">The unit used to record and describe the result of a test investigating a vital sign. (NCI)</TranslatedText>
+        </Description>
+        <EnumeratedItem CodedValue="%" nciodm:ExtCodeID="C25613">
+          <nciodm:CDISCSynonym>Percentage</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A fraction or ratio with 100 understood as the denominator. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Percentage</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BEATS/MIN" nciodm:ExtCodeID="C49673">
+          <nciodm:CDISCSynonym>Beats per Minute</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The number of heartbeats measured per minute time. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Beats per Minute</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BREATHS/MIN" nciodm:ExtCodeID="C49674">
+          <nciodm:CDISCSynonym>Breaths per Minute</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The number of breaths (inhalation and exhalation) taken per minute time. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Breaths per Minute</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="C" nciodm:ExtCodeID="C42559">
+          <nciodm:CDISCSynonym>Degree Celsius</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A unit of temperature of the temperature scale designed so that the freezing point of water is 0 degrees and the boiling point is 100 degrees at standard atmospheric pressure. The current official definition of the Celsius sets 0.01 C to be at the triple point of water and a degree to be 1/273.16 of the difference in temperature between the triple point of water and absolute zero. One degree Celsius represents the same temperature difference as one Kelvin. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Degree Celsius</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="cm" nciodm:ExtCodeID="C49668">
+          <nciodm:CDISCSynonym>Centimeter</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A basic unit of length in the former CGS version of metric system, equal to one hundredth of a meter or approximately 0.393 700 787 inch. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Centimeter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="F" nciodm:ExtCodeID="C44277">
+          <nciodm:CDISCSynonym>Degree Fahrenheit</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The Fahrenheit temperature scale is named after the German physicist Gabriel Fahrenheit (1686-1736), who proposed it in 1724. In this scale, the freezing point of water is 32 degrees Fahrenheit and the boiling point is 212 degrees, placing the boiling and melting points of water 180 degrees apart. In this scale a degree Fahrenheit is 5/9ths of a Kelvin (or of a degree Celsius), and minus 40 degrees Fahrenheit is equal to minus 40 degrees Celsius. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Degree Fahrenheit</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="g" nciodm:ExtCodeID="C48155">
+          <nciodm:CDISCSynonym>Gram</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A metric unit of mass equal to one one thousandth of a kilogram. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Gram</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="IN" nciodm:ExtCodeID="C48500">
+          <nciodm:CDISCSynonym>Inch</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A traditional unit of length equal to 2.54 centimeters. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Inch</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="kg" nciodm:ExtCodeID="C28252">
+          <nciodm:CDISCSynonym>Kilogram</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The basic SI unit of mass. It is defined as the mass of an international prototype in the form of a platinum-iridium cylinder kept at Sevres in France. It is the only basic unit still defined in terms of a material object, and also the only one with a prefix [kilo] already in place. A kilogram is equal to 1,000 grams and 2.204 622 6 pounds. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Kilogram</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="kg/m2" nciodm:ExtCodeID="C49671">
+          <nciodm:CDISCSynonym>Kilogram Per Square Meter</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The SI derived unit of spread rate of a substance by mass, used also as a measure of area density. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Kilogram Per Square Meter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LB" nciodm:ExtCodeID="C48531">
+          <nciodm:CDISCSynonym>Pound</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A traditional unit of mass. By international agreement, one avoirdupois pound is equal to exactly 0.453 592 37 kilogram, 16 ounces, or 1.215 28 troy pounds. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Pound</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="m2" nciodm:ExtCodeID="C42569">
+          <nciodm:CDISCSynonym>Square Meter</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The SI unit of area measurement equal to a square whose sides are one meter long. Square meter is equal to 10,000 square centimeters; 0.01 ares; 1.196 square yards; 10.76 square feet; 1550 square inches. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Square Meter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="mmHg" nciodm:ExtCodeID="C49670">
+          <nciodm:CDISCSynonym>Millimeter of Mercury</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A unit of pressure equal to 0.001316 atmosphere and equal to the pressure indicated by one millimeter rise of mercury in a barometer at the Earth's surface. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Millimeter of Mercury</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ohm" nciodm:ExtCodeID="C42554">
+          <nciodm:CDISCSynonym>ohm</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A unit of electrical resistance equal to the resistance between two points on a conductor when a potential difference of one volt between them produces a current of one Ampere. Ohm is also used to measure impedance and reactance for complex resistance. A measurement in ohms is the reciprocal of a measurement in Siemens. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Ohm</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <nciodm:CDISCSubmissionValue>VSRESU</nciodm:CDISCSubmissionValue>
+        <nciodm:CDISCSynonym>Units for Vital Signs Results</nciodm:CDISCSynonym>
+        <nciodm:PreferredTerm>CDISC SDTM Unit for Vital Sign Result Terminology</nciodm:PreferredTerm>
+      </CodeList>
+      

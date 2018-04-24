@@ -1,0 +1,44 @@
+<CodeList xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" OID="CL.C74559.SCCD" Name="Subject Characteristic Code" DataType="text" nciodm:ExtCodeID="C74559" nciodm:CodeListExtensible="Yes">
+        <Description>
+          <TranslatedText xml:lang="en">A unique code representing each Subject Characteristic.</TranslatedText>
+        </Description>
+        <EnumeratedItem CodedValue="EDLEVEL" nciodm:ExtCodeID="C17953">
+          <nciodm:CDISCSynonym>Education Level</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Years of education that a person has completed.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Education Level</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MARISTAT" nciodm:ExtCodeID="C25188">
+          <nciodm:CDISCSynonym>Marital Status</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A demographic parameter indicating a person's current conjugal status.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Marital Status</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="EMPJOB" nciodm:ExtCodeID="C25193">
+          <nciodm:CDISCSynonym>Employee Job</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A code specifying the job performed by the employee for the employer. For example, accountant, programmer analyst, patient care associate, staff nurse, etc.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Occupation</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SKINCLAS" nciodm:ExtCodeID="C74563">
+          <nciodm:CDISCSynonym>Skin Classification</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A classification system used to categorize the sensitivity of a subject's skin to sunlight.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Fitzpatrick Classification Scale</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SKINTYP" nciodm:ExtCodeID="C74580">
+          <nciodm:CDISCSynonym>Skin Type</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A distinctive characteristic of the skin marked by the amount of sebum secreted by sebaceous glands.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Skin Type</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="JOBCLAS" nciodm:ExtCodeID="C74565">
+          <nciodm:CDISCSynonym>Employee Job Class</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A code qualifying the employment in various ways, such as, full-time vs. part time, etc.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Employee Job Class</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SALTYP" nciodm:ExtCodeID="C74566">
+          <nciodm:CDISCSynonym>Employee Salary Type</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A code specifying the method used by the employer to compute the employee's salary or wages. For example, hourly, annual, or commission.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Employee Salary Type</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <nciodm:CDISCSubmissionValue>SCCD</nciodm:CDISCSubmissionValue>
+        <nciodm:CDISCSynonym>Subject Characteristic Code</nciodm:CDISCSynonym>
+        <nciodm:PreferredTerm>CDISC SDTM Subject Characteristic Code Terminology</nciodm:PreferredTerm>
+      </CodeList>
+      

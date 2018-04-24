@@ -1,0 +1,21 @@
+<CodeList xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" OID="CL.C74561.SKINTYP" Name="Skin Type" DataType="text" nciodm:ExtCodeID="C74561" nciodm:CodeListExtensible="Yes">
+        <Description>
+          <TranslatedText xml:lang="en">A distinctive characteristic of the skin marked by the amount of sebum secreted by sebaceous glands.</TranslatedText>
+        </Description>
+        <EnumeratedItem CodedValue="OILY" nciodm:ExtCodeID="C74591">
+          <nciodm:CDISCDefinition>The pores of the skin are generally large and visible with a coarse or thick texture. It has a tendency to look dull and greasy and feels oily to the touch.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Oily Skin</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="DRY" nciodm:ExtCodeID="C74592">
+          <nciodm:CDISCDefinition>The pores are generally fine with a papery thin texture that feels dry to the touch. Usually flaky and dull looking.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Dry Skin</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="NORMAL" nciodm:ExtCodeID="C74593">
+          <nciodm:CDISCDefinition>The pores are visible but not large. The texture is neither fine or thick and it neither feels dry or oily to the touch.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Normal Skin</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <nciodm:CDISCSubmissionValue>SKINTYP</nciodm:CDISCSubmissionValue>
+        <nciodm:CDISCSynonym>Skin Type</nciodm:CDISCSynonym>
+        <nciodm:PreferredTerm>CDISC SDTM Skin Type Terminology</nciodm:PreferredTerm>
+      </CodeList>
+      

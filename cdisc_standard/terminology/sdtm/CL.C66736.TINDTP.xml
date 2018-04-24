@@ -1,0 +1,29 @@
+<CodeList xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" OID="CL.C66736.TINDTP" Name="Trial Indication Type" DataType="text" nciodm:ExtCodeID="C66736" nciodm:CodeListExtensible="Yes">
+        <Description>
+          <TranslatedText xml:lang="en">The name of a code list that contains terms to define the type of trial, e.g. cure or prevention. (NCI)</TranslatedText>
+        </Description>
+        <EnumeratedItem CodedValue="CURE" nciodm:ExtCodeID="C49654">
+          <nciodm:CDISCDefinition>A type of study protocol designed to evaluate intervention(s) aimed to cure a disease or condition. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Cure Study</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="DIAGNOSIS" nciodm:ExtCodeID="C49653">
+          <nciodm:CDISCDefinition>A type of study protocol designed to evaluate intervention(s) aimed at identifying a disease or condition. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Diagnosis Study</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MITIGATION" nciodm:ExtCodeID="C49655">
+          <nciodm:CDISCDefinition>A type of study designed to identify actions necessary to eliminate or reduce the risk to human life or well-being as a result of a particular medication or treatment regimen. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Adverse Effect Mitigation Study</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PREVENTION" nciodm:ExtCodeID="C49657">
+          <nciodm:CDISCDefinition>A type of study designed to identify actions necessary to permanently eliminate or reduce the long-term risk to human life as a result of a particular medication or treatment regimen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Prevention Study</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TREATMENT" nciodm:ExtCodeID="C49656">
+          <nciodm:CDISCDefinition>A type of study protocol designed to evaluate intervention(s) for treatment of disease, syndrome or condition.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Treatment Study</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <nciodm:CDISCSubmissionValue>TINDTP</nciodm:CDISCSubmissionValue>
+        <nciodm:CDISCSynonym>Trial Indication Type</nciodm:CDISCSynonym>
+        <nciodm:PreferredTerm>CDISC SDTM Trial Indication Type Terminology</nciodm:PreferredTerm>
+      </CodeList>
+      

@@ -1,0 +1,61 @@
+<CodeList xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" OID="CL.C96777.MEDEVAL" Name="Medical Evaluator" DataType="text" nciodm:ExtCodeID="C96777" nciodm:CodeListExtensible="Yes">
+        <Description>
+          <TranslatedText xml:lang="en">The individual responsible for the medical assessment.</TranslatedText>
+        </Description>
+        <EnumeratedItem CodedValue="NEUROLOGIST" nciodm:ExtCodeID="C17721">
+          <nciodm:CDISCDefinition>A physician who specializes in diagnosing and treating diseases and disorders of the nervous system.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Neurologist</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="NEUROLOGIST 1" nciodm:ExtCodeID="C96692">
+          <nciodm:CDISCDefinition>A neurologist performing the assessment that is given the designation of one.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Neurologist 1</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="NEUROLOGIST 2" nciodm:ExtCodeID="C96606">
+          <nciodm:CDISCDefinition>A neurologist performing the assessment that is given the designation of two.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Neurologist 2</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ONCOLOGIST" nciodm:ExtCodeID="C17821">
+          <nciodm:CDISCDefinition>A physician who specializes in diagnosing and treating cancer. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Oncologist</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ONCOLOGIST 1" nciodm:ExtCodeID="C96611">
+          <nciodm:CDISCDefinition>An oncologist performing the assessment that is given the designation of one.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Oncologist 1</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ONCOLOGIST 2" nciodm:ExtCodeID="C96612">
+          <nciodm:CDISCDefinition>An oncologist performing the assessment that is given the designation of two.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Oncologist 2</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="RADIOLOGIST" nciodm:ExtCodeID="C17824">
+          <nciodm:CDISCDefinition>A physician who specializes in the diagnostic and/or therapeutic uses of radiation. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Radiologist</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="RADIOLOGIST 1" nciodm:ExtCodeID="C94530">
+          <nciodm:CDISCDefinition>A radiologist performing the assessment that is given the designation of one.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Radiologist 1</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="RADIOLOGIST 2" nciodm:ExtCodeID="C94531">
+          <nciodm:CDISCDefinition>A radiologist performing the assessment that is given the designation of two.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Radiologist 2</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="READER" nciodm:ExtCodeID="C28747">
+          <nciodm:CDISCDefinition>An individual who takes non-quantifiable data and provides quantifiable assessments for that data.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Reader</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="READER 1" nciodm:ExtCodeID="C94532">
+          <nciodm:CDISCDefinition>A reader performing the assessment that is given the designation of one.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Reader 1</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="READER 2" nciodm:ExtCodeID="C94533">
+          <nciodm:CDISCDefinition>A reader performing the assessment that is given the designation of two.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Reader 2</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ADJUDICATOR" nciodm:ExtCodeID="C96561">
+          <nciodm:CDISCDefinition>An individual that presides over and arbitrates between individuals or organizations.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Adjudicator</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <nciodm:CDISCSubmissionValue>MEDEVAL</nciodm:CDISCSubmissionValue>
+        <nciodm:CDISCSynonym>Medical Evaluator</nciodm:CDISCSynonym>
+        <nciodm:PreferredTerm>CDISC SDTM Medical Evaluator Terminology</nciodm:PreferredTerm>
+      </CodeList>
+      
