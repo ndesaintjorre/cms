@@ -39,7 +39,6 @@
         </EnumeratedItem>
         <nciodm:CDISCSubmissionValue>DICTNAM</nciodm:CDISCSubmissionValue>
         <nciodm:CDISCSynonym>Dictionary Name</nciodm:CDISCSynonym>
-        <nciodm:CDISCSynonym>Name of Dictionary</nciodm:CDISCSynonym>
         <nciodm:PreferredTerm>CDISC SDTM Dictionary Name Terminology</nciodm:PreferredTerm>
       </CodeList>
       

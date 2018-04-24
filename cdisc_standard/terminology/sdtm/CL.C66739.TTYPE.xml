@@ -31,8 +31,16 @@
           <nciodm:PreferredTerm>Pharmacokinetic Study</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="SAFETY" nciodm:ExtCodeID="C49667">
-          <nciodm:CDISCDefinition>A study of the relative safety of treatment of a disease. Usually this is a Phase I or II trial. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>A studythat assessesthemedical risks to a subject. Safety is usually assessed by examining a wide range of clinical parameters, includingadverse events, vital signs, physical exam, laboratory tests.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Safety Study</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="FOOD EFFECT" nciodm:ExtCodeID="C98729">
+          <nciodm:CDISCDefinition>Studies that are conducted to assess the effect of food on the rate and extent of absorption of a drug, either compared to a fasted state or to a reference drug.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Food Effect Study</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TOLERABILITY" nciodm:ExtCodeID="C98791">
+          <nciodm:CDISCDefinition>A type of safety study thatassesses the degree to which overt adverse effects can be toleratedby the subject.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Tolerability Study</nciodm:PreferredTerm>
         </EnumeratedItem>
         <nciodm:CDISCSubmissionValue>TTYPE</nciodm:CDISCSubmissionValue>
         <nciodm:CDISCSynonym>Trial Type</nciodm:CDISCSynonym>

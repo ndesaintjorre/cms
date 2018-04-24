@@ -203,7 +203,6 @@
           <nciodm:PreferredTerm>Trial Arms Domain</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="TE" nciodm:ExtCodeID="C49619">
-          <nciodm:CDISCSynonym>TE</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>Trial Elements</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>The trial elements table describes the element code that is unique for each element, the element description, and the rules for starting and ending an element.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Trial Elements Domain</nciodm:PreferredTerm>
@@ -298,7 +297,7 @@
           <nciodm:CDISCDefinition>This domain captures information of any palpable masses examined during the experimental phase.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Palpable Masses Domain</nciodm:PreferredTerm>
         </EnumeratedItem>
-        <EnumeratedItem CodedValue="ST" nciodm:ExtCodeID="C95099">
+        <EnumeratedItem CodedValue="SJ" nciodm:ExtCodeID="C95099">
           <nciodm:CDISCSynonym>Subject Stages</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>The Subject Stages domain captures subject level non-treatment related blocks of time known as stages, such as Gestation, Lactation and Premating.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Subject Stages Domain</nciodm:PreferredTerm>

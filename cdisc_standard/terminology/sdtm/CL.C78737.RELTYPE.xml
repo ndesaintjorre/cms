@@ -7,6 +7,8 @@
           <nciodm:PreferredTerm>One</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="MANY" nciodm:ExtCodeID="C78728">
+          <nciodm:CDISCSynonym>Many</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Several</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>More than one. (NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Many</nciodm:PreferredTerm>
         </EnumeratedItem>

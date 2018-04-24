@@ -23,12 +23,14 @@
         <EnumeratedItem CodedValue="4" nciodm:ExtCodeID="C41337">
           <nciodm:CDISCSynonym>Grade 4</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>4</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>LIFE THREATENING</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>An adverse event, and/or its immediate sequelae, which is associated with an imminent risk of death or which is associated with physical or mental disabilities that affect or limit the ability of a person to perform activities of daily living (eating, ambulation, toileting, etc.) See NCI Common Terminology Criteria for Adverse Events.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Life Threatening or Disabling Adverse Event</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="5" nciodm:ExtCodeID="C48275">
           <nciodm:CDISCSynonym>Grade 5</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>5</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>FATAL</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>The termination of life as a result of an adverse event. (NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Death Related to Adverse Event</nciodm:PreferredTerm>
         </EnumeratedItem>

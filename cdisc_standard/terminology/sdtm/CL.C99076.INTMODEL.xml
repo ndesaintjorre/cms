@@ -1,0 +1,25 @@
+<CodeList xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" OID="CL.C99076.INTMODEL" Name="Intervention Model" DataType="text" nciodm:ExtCodeID="C99076" nciodm:CodeListExtensible="Yes">
+        <Description>
+          <TranslatedText xml:lang="en">The trial design developed to compare treatment groups.</TranslatedText>
+        </Description>
+        <EnumeratedItem CodedValue="CROSS-OVER" nciodm:ExtCodeID="C82637">
+          <nciodm:CDISCDefinition>Participants receive one of two or more alternative intervention(s) during the initial epoch of the study and receive other intervention(s) during the subsequent epoch(s) of the study.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Crossover Study</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="FACTORIAL" nciodm:ExtCodeID="C82638">
+          <nciodm:CDISCDefinition>Two or more interventions, each alone and in combination, are evaluated in parallel against a control group.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Factorial Study</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PARALLEL" nciodm:ExtCodeID="C82639">
+          <nciodm:CDISCDefinition>Participants are assigned to one of two or more arms in parallel for the duration of the study.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Parallel Study</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SINGLE GROUP" nciodm:ExtCodeID="C82640">
+          <nciodm:CDISCDefinition>Single arm study.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Single Group Study</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <nciodm:CDISCSubmissionValue>INTMODEL</nciodm:CDISCSubmissionValue>
+        <nciodm:CDISCSynonym>Intervention Model</nciodm:CDISCSynonym>
+        <nciodm:PreferredTerm>CDISC SDTM Intervention Model Terminology</nciodm:PreferredTerm>
+      </CodeList>
+      

@@ -39,6 +39,10 @@
           <nciodm:CDISCDefinition>Solid dosage form, usually in the shape of a square or rectangle. (NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Block Dosage Form</nciodm:PreferredTerm>
         </EnumeratedItem>
+        <EnumeratedItem CodedValue="CAPLET" nciodm:ExtCodeID="C97197">
+          <nciodm:CDISCDefinition>A solid dosage form in which a tablet has been compacted into capsule shape.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Caplet Dosage Form</nciodm:PreferredTerm>
+        </EnumeratedItem>
         <EnumeratedItem CodedValue="CAPSULE" nciodm:ExtCodeID="C25158">
           <nciodm:CDISCSynonym>cap</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>A solid pharmaceutical dosage form that contains medicinal agent within either a hard or soft soluble container or shell, usually used for the oral administration of medicine. The shells are made of a suitable form of gelatin or other substance. (NCI)</nciodm:CDISCDefinition>

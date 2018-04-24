@@ -1,0 +1,36 @@
+<CodeList xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" OID="CL.C99075.PORTOT" Name="Portion/Totality" DataType="text" nciodm:ExtCodeID="C99075" nciodm:CodeListExtensible="Yes">
+        <Description>
+          <TranslatedText xml:lang="en">Qualifier for anatomical location or specimen further detailing the portion or totality, which means arrangement of, or apportioning of an entity.</TranslatedText>
+        </Description>
+        <EnumeratedItem CodedValue="ALL" nciodm:ExtCodeID="C64916">
+          <nciodm:CDISCDefinition>Being or representing the total number of individual entities.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>All</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ENTIRE" nciodm:ExtCodeID="C25326">
+          <nciodm:CDISCSynonym>Whole</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Being or representing the complete extent of a single entity.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Whole</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MULTIPLE" nciodm:ExtCodeID="C78728">
+          <nciodm:CDISCSynonym>Many</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Several</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>More than one. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Many</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PARTIAL" nciodm:ExtCodeID="C25378">
+          <nciodm:CDISCDefinition>Being or representing an incomplete extent of a single entity.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Partial</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SEGMENT" nciodm:ExtCodeID="C45312">
+          <nciodm:CDISCDefinition>One of the parts into which something is divided.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Segment</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SINGLE" nciodm:ExtCodeID="C48440">
+          <nciodm:CDISCDefinition>One.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Single</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <nciodm:CDISCSubmissionValue>PORTOT</nciodm:CDISCSubmissionValue>
+        <nciodm:CDISCSynonym>Portion/Totality</nciodm:CDISCSynonym>
+        <nciodm:PreferredTerm>CDISC SDTM Portion/Totality Terminology</nciodm:PreferredTerm>
+      </CodeList>
+      

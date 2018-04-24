@@ -204,13 +204,15 @@
           <nciodm:CDISCDefinition>A unit of both speed (scalar) and velocity (vector), defined as the distance of one meter travelled per unit time equal to one second.(NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Meter Per Second</nciodm:PreferredTerm>
         </EnumeratedItem>
-        <EnumeratedItem CodedValue="kg/m3" nciodm:ExtCodeID="C42576">
-          <nciodm:CDISCSynonym>Kilogram per Cubic Meter</nciodm:CDISCSynonym>
+        <EnumeratedItem CodedValue="g/L" nciodm:ExtCodeID="C42576">
           <nciodm:CDISCSynonym>g/L</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>Gram per Liter</nciodm:CDISCSynonym>
-          <nciodm:CDISCSynonym>ug/uL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>kg/m3</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Kilogram per Cubic Metre</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>Microgram per Microliter</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>Milligram per Milliliter</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ug/uL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mg/mL</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>A unit of mass concentration defined as the concentration of one kilogram of a substance per unit volume of the mixture equal to one cubic meter, or the concentration of one milligram of a substance per unit volume of the mixture equal to one milliliter, or one gram of a substance per one liter of the mixture. It is also a unit of mass density (volumic mass) defined as the density of substance which mass equal to one milligram occupies the volume one milliliter.(NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Kilogram per Cubic Meter</nciodm:PreferredTerm>
         </EnumeratedItem>
@@ -426,6 +428,7 @@
         </EnumeratedItem>
         <EnumeratedItem CodedValue="PACKAGE" nciodm:ExtCodeID="C48520">
           <nciodm:CDISCSynonym>Package Dosing Unit</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Pack Dosing Unit</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>A dosing measurement based on the package unit.(NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Package Dosing Unit</nciodm:PreferredTerm>
         </EnumeratedItem>
@@ -618,6 +621,9 @@
           <nciodm:CDISCSynonym>Micromole per Milliliter</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>mol/m3</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>Mole per Cubic Meter</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mcmol/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mmol/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>nmol/uL</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>A unit of concentration (molarity unit) equal to one thousandth of a mole (10E-3 mole) of solute per one liter of solution.(NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Millimole per Liter</nciodm:PreferredTerm>
         </EnumeratedItem>
@@ -650,15 +656,21 @@
           <nciodm:CDISCSynonym>Kilogram per Liter</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>g/mL</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>Gram per Milliliter</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>gram/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>kg/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mg/uL</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>A unit of mass concentration defined as the concentration of one kilogram of a substance in unit volume of the mixture equal to one liter. The concept also refers to the unit of mass density (volumic mass) defined as the density of substance which mass equal to one kilogram occupies the volume one liter.(NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Kilogram per Liter</nciodm:PreferredTerm>
         </EnumeratedItem>
-        <EnumeratedItem CodedValue="g/m3" nciodm:ExtCodeID="C64572">
+        <EnumeratedItem CodedValue="mg/L" nciodm:ExtCodeID="C64572">
+          <nciodm:CDISCSynonym>g/m3</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>Gram per Cubic Meter</nciodm:CDISCSynonym>
-          <nciodm:CDISCSynonym>ug/mL</nciodm:CDISCSynonym>
-          <nciodm:CDISCSynonym>Microgram per Milliliter</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>mg/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Microgram per Milliliter</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>Milligram per Liter</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mcg/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ng/uL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ug/mL</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>A unit of mass concentration equal to the concentration of one gram of a substance per unit volume of the mixture equal to one cubic meter. The concept also refers to the metric unit of mass density (volumic mass) defined as the density of substance which mass equal to one gram occupies the volume one cubic meter.(NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Microgram per Milliliter</nciodm:PreferredTerm>
         </EnumeratedItem>
@@ -669,6 +681,7 @@
         </EnumeratedItem>
         <EnumeratedItem CodedValue="g/dL" nciodm:ExtCodeID="C64783">
           <nciodm:CDISCSynonym>Gram per Deciliter</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>g%</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>A unit of mass concentration defined as the concentration of one gram of a substance per unit volume of the mixture equal to one deciliter (100 milliliters). The concept also refers to the metric unit of mass density (volumic mass) defined as the density of substance which mass equal to one gram occupies the volume one deciliter.(NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Gram per Deciliter</nciodm:PreferredTerm>
         </EnumeratedItem>
@@ -714,6 +727,7 @@
         </EnumeratedItem>
         <EnumeratedItem CodedValue="mg/dL" nciodm:ExtCodeID="C67015">
           <nciodm:CDISCSynonym>Milligram per Deciliter</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mg%</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>A unit of mass concentration defined as the concentration of one milligram of a substance in unit volume of the mixture equal to one cubic deciliter or 100 cubic centimeters. It is also a unit of mass density (volumic mass) defined as the density of substance which mass equal to one milligram occupies the volume one cubic deciliter or 100 cubic centimeters.(NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Milligram per Deciliter</nciodm:PreferredTerm>
         </EnumeratedItem>
@@ -748,11 +762,12 @@
           <nciodm:PreferredTerm>Gram per Square Meter</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="ug/L" nciodm:ExtCodeID="C67306">
-          <nciodm:CDISCSynonym>Microgram per Liter</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>mg/m3</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Microgram per Liter</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>Milligram per Cubic Meter</nciodm:CDISCSynonym>
-          <nciodm:CDISCSynonym>ng/mL</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>Nanogram per Milliliter</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ug/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ng/mL</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>mcg/L</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>A unit of mass concentration defined as the concentration of one microgram of a substance per unit volume of the mixture equal to one liter. The concept also refers to the unit of mass density (volumic mass) defined as the density of substance which mass equal to one microgram occupies the volume one liter.(NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Microgram per Liter</nciodm:PreferredTerm>
@@ -772,7 +787,7 @@
           <nciodm:CDISCDefinition>A unit of mass concentration defined as the concentration of one nanogram of a substance in unit volume of the mixture equal to one deciliter. The concept also refers to the unit of mass density (volumic mass) defined as the density of substance which mass equal to one nanogram occupies the volume one deciliter.(NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Nanogram per Deciliter</nciodm:PreferredTerm>
         </EnumeratedItem>
-        <EnumeratedItem CodedValue="ug/m3" nciodm:ExtCodeID="C67327">
+        <EnumeratedItem CodedValue="ng/L" nciodm:ExtCodeID="C67327">
           <nciodm:CDISCSynonym>ug/m3</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>Microgram per Cubic Meter</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>ng/L</nciodm:CDISCSynonym>
@@ -795,9 +810,10 @@
           <nciodm:CDISCDefinition>A unit of pressure equivalent to 6.894757 kilopascals, or 703.0696 kilograms per square meter, or 51.71507 millimeters of mercury.(NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Pound per Square Inch</nciodm:PreferredTerm>
         </EnumeratedItem>
-        <EnumeratedItem CodedValue="million IU" nciodm:ExtCodeID="C67335">
+        <EnumeratedItem CodedValue="10^6 IU" nciodm:ExtCodeID="C67335">
           <nciodm:CDISCSynonym>Million International Units</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>A unit of biological activity equal to one million international units.(NCI)</nciodm:CDISCDefinition>
+          <nciodm:CDISCSynonym>Million IU</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A unit of biological activity equal to 10 to the sixth power international units.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Million International Units</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="nCi" nciodm:ExtCodeID="C67352">
@@ -841,8 +857,10 @@
           <nciodm:PreferredTerm>Microgram per Hour</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="ug/kg" nciodm:ExtCodeID="C67396">
-          <nciodm:CDISCSynonym>Microgram per Kilogram</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>mcg/kg</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Microgram per Kilogram</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ng/g</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ug/k</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>A unit of a mass fraction expressed as a number of micrograms of substance per kilogram of mixture. The unit is also used as a dose calculation unit.(NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Microgram per Kilogram</nciodm:PreferredTerm>
         </EnumeratedItem>
@@ -1002,19 +1020,22 @@
           <nciodm:CDISCDefinition>A unit of amount of substance content (molality unit) defined as one mole of solute per one milligram of solvent.(NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Mole per Milligram</nciodm:PreferredTerm>
         </EnumeratedItem>
-        <EnumeratedItem CodedValue="thousand CFU" nciodm:ExtCodeID="C68895">
+        <EnumeratedItem CodedValue="10^3 CFU" nciodm:ExtCodeID="C68895">
           <nciodm:CDISCSynonym>Thousand Colony Forming Units</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>A unit of measurement of viable bacterial numbers equal to 10E3 colony forming units.(NCI)</nciodm:CDISCDefinition>
+          <nciodm:CDISCSynonym>Thousand CFU</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A unit of measurement of viable bacterial numbers equal to 10 to the third power colony forming units.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Thousand Colony Forming Units</nciodm:PreferredTerm>
         </EnumeratedItem>
-        <EnumeratedItem CodedValue="million CFU" nciodm:ExtCodeID="C68896">
+        <EnumeratedItem CodedValue="10^6 CFU" nciodm:ExtCodeID="C68896">
           <nciodm:CDISCSynonym>Million Colony Forming Units</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>A unit of measurement of viable bacterial numbers equal to 10E6 colony forming units.(NCI)</nciodm:CDISCDefinition>
+          <nciodm:CDISCSynonym>Million CFU</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A unit of measurement of viable bacterial numbers equal to 10 to the sixth power colony forming units.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Million Colony Forming Units</nciodm:PreferredTerm>
         </EnumeratedItem>
-        <EnumeratedItem CodedValue="billion CFU" nciodm:ExtCodeID="C68897">
+        <EnumeratedItem CodedValue="10^9 CFU" nciodm:ExtCodeID="C68897">
           <nciodm:CDISCSynonym>Billion Colony Forming Units</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>A unit of measurement of viable bacterial numbers equal to 10E9 colony forming units.(NCI)</nciodm:CDISCDefinition>
+          <nciodm:CDISCSynonym>Billion CFU</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A unit of measurement of viable bacterial numbers equal to 10 to the ninth power colony forming units.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Billion Colony Forming Units</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="CFU/g" nciodm:ExtCodeID="C68898">
@@ -1022,19 +1043,22 @@
           <nciodm:CDISCDefinition>A unit of measurement of viable bacterial organisms in a unit mass of substance of interest defined as the number of colony forming units in one gram of substance.(NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Colony Forming Unit per Gram</nciodm:PreferredTerm>
         </EnumeratedItem>
-        <EnumeratedItem CodedValue="thousand CFU/g" nciodm:ExtCodeID="C68899">
+        <EnumeratedItem CodedValue="10^ 3 CFU/g" nciodm:ExtCodeID="C68899">
           <nciodm:CDISCSynonym>Thousand Colony Forming Units per Gram</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>A unit of measurement of viable bacterial organisms in a unit mass of substance of interest defined as the number of thousand colony forming units (10E3CFU) in one gram of substance.(NCI)</nciodm:CDISCDefinition>
+          <nciodm:CDISCSynonym>Thousand CFU/g</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A unit of measurement of viable bacterial organisms in a unit mass of substance of interest defined as the number of 10 to the third power colony forming units in one gram of substance.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Thousand Colony Forming Units per Gram</nciodm:PreferredTerm>
         </EnumeratedItem>
-        <EnumeratedItem CodedValue="million CFU/g" nciodm:ExtCodeID="C68900">
+        <EnumeratedItem CodedValue="10^6 CFU/g" nciodm:ExtCodeID="C68900">
           <nciodm:CDISCSynonym>Million Colony Forming Units per Gram</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>A unit of measurement of viable bacterial organisms in a unit mass of substance of interest defined as the number of million colony forming units (10E6CFU) in one gram of substance.(NCI)</nciodm:CDISCDefinition>
+          <nciodm:CDISCSynonym>Million CFU/g</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A unit of measurement of viable bacterial organisms in a unit mass of substance of interest defined as the number of 10 to the sixth power colony forming units in one gram of substance.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Million Colony Forming Units per Gram</nciodm:PreferredTerm>
         </EnumeratedItem>
-        <EnumeratedItem CodedValue="billion CFU/g" nciodm:ExtCodeID="C68901">
+        <EnumeratedItem CodedValue="10^9 CFU/g" nciodm:ExtCodeID="C68901">
           <nciodm:CDISCSynonym>Billion Colony Forming Units per Gram</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>A unit of measurement of viable bacterial organisms in a unit mass of substance of interest defined as the number of billion colony forming units (10E9CFU) in one gram of substance.(NCI)</nciodm:CDISCDefinition>
+          <nciodm:CDISCSynonym>Billion CFU/g</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A unit of measurement of viable bacterial organisms in a unit mass of substance of interest defined as the number of 10 to the ninth power colony forming units in one gram of substance.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Billion Colony Forming Units per Gram</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="CFU/mL" nciodm:ExtCodeID="C68902">
@@ -1042,19 +1066,22 @@
           <nciodm:CDISCDefinition>A unit of measurement of viable bacterial organisms in a unit volume of substance of interest defined as the number of colony forming units in one milliliter of substance.(NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Colony Forming Unit per Milliliter</nciodm:PreferredTerm>
         </EnumeratedItem>
-        <EnumeratedItem CodedValue="thousand CFU/mL" nciodm:ExtCodeID="C68903">
+        <EnumeratedItem CodedValue="10^3 CFU/mL" nciodm:ExtCodeID="C68903">
           <nciodm:CDISCSynonym>Thousand Colony Forming Units per Milliliter</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>A unit of measurement of viable bacterial organisms in a unit volume of substance of interest defined as the number of thousand colony forming units (10E3CFU) in one milliliter of substance.(NCI)</nciodm:CDISCDefinition>
+          <nciodm:CDISCSynonym>Thousand CFU/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A unit of measurement of viable bacterial organisms in a unit volume of substance of interest defined as the number of 10 to the third power colony forming units in one milliliter of substance.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Thousand Colony Forming Units per Milliliter</nciodm:PreferredTerm>
         </EnumeratedItem>
-        <EnumeratedItem CodedValue="million CFU/mL" nciodm:ExtCodeID="C68904">
+        <EnumeratedItem CodedValue="10^6 CFU/mL" nciodm:ExtCodeID="C68904">
           <nciodm:CDISCSynonym>Million Colony Forming Units per Milliliter</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>A unit of measurement of viable bacterial organisms in a unit volume of substance of interest defined as the number of million colony forming units (10E6CFU) in one milliliter of substance.(NCI)</nciodm:CDISCDefinition>
+          <nciodm:CDISCSynonym>Million CFU/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A unit of measurement of viable bacterial organisms in a unit volume of substance of interest defined as the number of 10 to the sixth power colony forming units in one milliliter of substance.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Million Colony Forming Units per Milliliter</nciodm:PreferredTerm>
         </EnumeratedItem>
-        <EnumeratedItem CodedValue="billion CFU/mL" nciodm:ExtCodeID="C68905">
+        <EnumeratedItem CodedValue="10^9 CFU/mL" nciodm:ExtCodeID="C68905">
           <nciodm:CDISCSynonym>Billion Colony Forming Units per Milliliter</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>A unit of measurement of viable bacterial organisms in a unit volume of substance of interest defined as the number of billion colony forming units (10E9CFU) in one milliliter of substance.(NCI)</nciodm:CDISCDefinition>
+          <nciodm:CDISCSynonym>Billion CFU/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A unit of measurement of viable bacterial organisms in a unit volume of substance of interest defined as the number of 10 to the ninth power colony forming units in one milliliter of substance.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Billion Colony Forming Units per Milliliter</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="Gauss" nciodm:ExtCodeID="C68915">
@@ -1480,59 +1507,67 @@
           <nciodm:CDISCDefinition>A unit of arbitrary substance concentration (biologic activity concentration) defined as the concentration of one hundred international units per one milliliter of system volume.(NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>100 International Units per Milliliter</nciodm:PreferredTerm>
         </EnumeratedItem>
-        <EnumeratedItem CodedValue="thousand organisms" nciodm:ExtCodeID="C71187">
+        <EnumeratedItem CodedValue="10^3 Organisms" nciodm:ExtCodeID="C71187">
           <nciodm:CDISCSynonym>Thousand Organisms</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>A unit of measure of quantity of organisms expressed in thousands.(NCI)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>A unit of measure of quantity of organisms expressed in 10 to the third power of organisms.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Thousand Organisms</nciodm:PreferredTerm>
         </EnumeratedItem>
-        <EnumeratedItem CodedValue="million organisms" nciodm:ExtCodeID="C71188">
+        <EnumeratedItem CodedValue="10^6 organisms" nciodm:ExtCodeID="C71188">
           <nciodm:CDISCSynonym>Million Organisms</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>A unit of measure of quantity of organisms expressed in millions.(NCI)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>A unit of measure of quantity of organisms expressed in 10 to the sixth power of organisms.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Million Organisms</nciodm:PreferredTerm>
         </EnumeratedItem>
-        <EnumeratedItem CodedValue="billion organisms" nciodm:ExtCodeID="C71189">
+        <EnumeratedItem CodedValue="10^9 organisms" nciodm:ExtCodeID="C71189">
           <nciodm:CDISCSynonym>Billion Organisms</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>A unit of measure of quantity of organisms expressed in billions.(NCI)</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>A unit of measure of quantity of organisms expressed in 10 to the ninth power of organisms.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Billion Organisms</nciodm:PreferredTerm>
         </EnumeratedItem>
-        <EnumeratedItem CodedValue="thousand organisms/g" nciodm:ExtCodeID="C71190">
+        <EnumeratedItem CodedValue="10^3 organisms/g" nciodm:ExtCodeID="C71190">
           <nciodm:CDISCSynonym>Thousand Organisms per Gram</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>A unit of measure of organism content expressed in thousands of organisms per unit of mass equal to one gram.(NCI)</nciodm:CDISCDefinition>
+          <nciodm:CDISCSynonym>Thousand Organisms/g</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A unit of measure of organism content expressed in 10 to the third power of organisms per unit of mass equal to one gram.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Thousand Organisms per Gram</nciodm:PreferredTerm>
         </EnumeratedItem>
-        <EnumeratedItem CodedValue="million organisms/g" nciodm:ExtCodeID="C71191">
+        <EnumeratedItem CodedValue="10^6 organisms/g" nciodm:ExtCodeID="C71191">
           <nciodm:CDISCSynonym>Million Organisms per Gram</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>A unit of measure of organism content expressed in millions of organisms per unit of mass equal to one gram.(NCI)</nciodm:CDISCDefinition>
+          <nciodm:CDISCSynonym>Million Organisms/g</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A unit of measure of organism content expressed in 10 to the sixth power of organisms per unit of mass equal to one gram.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Million Organisms per Gram</nciodm:PreferredTerm>
         </EnumeratedItem>
-        <EnumeratedItem CodedValue="billion organisms/g" nciodm:ExtCodeID="C71192">
+        <EnumeratedItem CodedValue="10^9 organisms/g" nciodm:ExtCodeID="C71192">
           <nciodm:CDISCSynonym>Billion Organisms per Gram</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>A unit of measure of organism content expressed in billions of organisms per unit of mass equal to one gram.(NCI)</nciodm:CDISCDefinition>
+          <nciodm:CDISCSynonym>Billion Organisms/g</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A unit of measure of organism content expressed in 10 to the ninth power of organisms per unit of mass equal to one gram.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Billion Organisms per Gram</nciodm:PreferredTerm>
         </EnumeratedItem>
-        <EnumeratedItem CodedValue="million organisms/mg" nciodm:ExtCodeID="C71193">
+        <EnumeratedItem CodedValue="10^6 organisms/mg" nciodm:ExtCodeID="C71193">
           <nciodm:CDISCSynonym>Million Organisms per Milligram</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>A unit of measure of organism content expressed in millions of organisms per unit of mass equal to one milligram.(NCI)</nciodm:CDISCDefinition>
+          <nciodm:CDISCSynonym>Million Organisms/mg</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A unit of measure of organism content expressed in 10 to the sixth power of organisms per unit of mass equal to one milligram.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Million Organisms per Milligram</nciodm:PreferredTerm>
         </EnumeratedItem>
-        <EnumeratedItem CodedValue="billion organisms/mg" nciodm:ExtCodeID="C71194">
+        <EnumeratedItem CodedValue="10^9 organisms/mg" nciodm:ExtCodeID="C71194">
           <nciodm:CDISCSynonym>Billion Organisms per Milligram</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>A unit of measure of organism content expressed in billions of organisms per unit of mass equal to one milligram.(NCI)</nciodm:CDISCDefinition>
+          <nciodm:CDISCSynonym>Billion Organisms/mg</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A unit of measure of organism content expressed in 10 to the ninth power of organisms per unit of mass equal to one milligram.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Billion Organisms per Milligram</nciodm:PreferredTerm>
         </EnumeratedItem>
-        <EnumeratedItem CodedValue="thousand organisms/mL" nciodm:ExtCodeID="C71195">
+        <EnumeratedItem CodedValue="10^3 organisms/mL" nciodm:ExtCodeID="C71195">
           <nciodm:CDISCSynonym>Thousand Organisms per Milliliter</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>A unit of measure of organism concentration expressed in thousands of organisms per unit of volume equal to one milliliter.(NCI)</nciodm:CDISCDefinition>
+          <nciodm:CDISCSynonym>Thousand Organisms/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A unit of measure of organism concentration expressed in 10 to the third power of organisms per unit of volume equal to one milliliter.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Thousand Organisms per Milliliter</nciodm:PreferredTerm>
         </EnumeratedItem>
-        <EnumeratedItem CodedValue="million organisms/mL" nciodm:ExtCodeID="C71196">
+        <EnumeratedItem CodedValue="10^6 organisms/mL" nciodm:ExtCodeID="C71196">
           <nciodm:CDISCSynonym>Million Organisms per Milliliter</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>A unit of measure of organism concentration expressed in millions of organisms per unit of volume equal to one milliliter.(NCI)</nciodm:CDISCDefinition>
+          <nciodm:CDISCSynonym>Million Organisms/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A unit of measure of organism concentration expressed in 10 to the sixth power of organisms per unit of volume equal to one milliliter.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Million Organisms per Milliliter</nciodm:PreferredTerm>
         </EnumeratedItem>
-        <EnumeratedItem CodedValue="billion organisms/mL" nciodm:ExtCodeID="C71197">
+        <EnumeratedItem CodedValue="10^9 organisms/mL" nciodm:ExtCodeID="C71197">
           <nciodm:CDISCSynonym>Billion Organisms per Milliliter</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>A unit of measure of organism concentration expressed in billions of organisms per unit of volume equal to one milliliter.(NCI)</nciodm:CDISCDefinition>
+          <nciodm:CDISCSynonym>Billion Organisms/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A unit of measure of organism concentration expressed in 10 to the ninth power of organisms per unit of volume equal to one milliliter.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Billion Organisms per Milliliter</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="PFU/dose" nciodm:ExtCodeID="C71198">
@@ -1680,6 +1715,7 @@
           <nciodm:PreferredTerm>/uL</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="/wk" nciodm:ExtCodeID="C67069">
+          <nciodm:CDISCSynonym>Every week</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>Per Week</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>Every week. (NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Weekly</nciodm:PreferredTerm>
@@ -1810,7 +1846,8 @@
           <nciodm:CDISCDefinition>A dose calculation unit expressed in liter(s) per kilogram. (NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>L/kg</nciodm:PreferredTerm>
         </EnumeratedItem>
-        <EnumeratedItem CodedValue="m3" nciodm:ExtCodeID="C68858">
+        <EnumeratedItem CodedValue="scm" nciodm:ExtCodeID="C68858">
+          <nciodm:CDISCSynonym>m3</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>Standard Cubic Meter</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>A unit used in physical chemistry to express the amount of substance of an ideal gas in one cubic meter at standard conditions: temperature 273.15 K and pressure of one atmosphere (101.325 kilopascals).(NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>m3</nciodm:PreferredTerm>
@@ -1937,6 +1974,12 @@
         </EnumeratedItem>
         <EnumeratedItem CodedValue="mL/g/day" nciodm:ExtCodeID="C73755">
           <nciodm:CDISCSynonym>Milliliter per Gram per Day</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/g/day</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>uL/mg/day</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/day/kg</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/day/g</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>uL/day/mg</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>L/kg/d</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>Liters per kilogram per day.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Milliliter per Gram per Day</nciodm:PreferredTerm>
         </EnumeratedItem>
@@ -1967,6 +2010,10 @@
         </EnumeratedItem>
         <EnumeratedItem CodedValue="mL/kg/min" nciodm:ExtCodeID="C73760">
           <nciodm:CDISCSynonym>Milliliter per Kilogram per Minute</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>uL/g/min</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/min/kg</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>uL/min/g</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mL/kg/min</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>Milliliters per kilogram per minute.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>mL/kg/min</nciodm:PreferredTerm>
         </EnumeratedItem>
@@ -2167,11 +2214,16 @@
         </EnumeratedItem>
         <EnumeratedItem CodedValue="uIU/mL" nciodm:ExtCodeID="C67405">
           <nciodm:CDISCSynonym>Micro-International Unit per milliliter</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mIU/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mcIU/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>uIU/mL</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>Microinternational units per milliliter.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>uIU/mL</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="uL" nciodm:ExtCodeID="C48153">
+          <nciodm:CDISCSynonym>mcL</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>Microliter</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mm3</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>A unit of volume accepted for use with the SI and equal to one millionth of a liter (10E-6 liter).(NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>uL</nciodm:PreferredTerm>
         </EnumeratedItem>
@@ -2204,6 +2256,92 @@
           <nciodm:CDISCSynonym>Microsecond</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>A unit of time equal to one millionth of a second. (NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>usec</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="10^12/L" nciodm:ExtCodeID="C67308">
+          <nciodm:CDISCSynonym>10^6/uL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A unit of measurement equal to 10 to the twelfth power of the number of entities per unit of volume equal to one liter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Million per Microliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="10^3 DNA copies/mL" nciodm:ExtCodeID="C98788">
+          <nciodm:CDISCDefinition>A unit of measurement equal to 10 to the third power of the number of deoxyribonucleic acid (DNA) copies per unit of volume equal to one milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Thousand DNA Copies per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="10^3 RNA copies/mL" nciodm:ExtCodeID="C98790">
+          <nciodm:CDISCDefinition>A unit of measurement equal to 10 to the third power of the number of ribonucleic acid (RNA) copies per unit of volume equal to one milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Thousand RNA Copies per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="10^3/hpf" nciodm:ExtCodeID="C98789">
+          <nciodm:CDISCDefinition>A unit of measurement equal to 10 to the third power of the number of entities per unit of area equal to one high powered field.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Thousand per High Powered Field</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="10^4/hpf" nciodm:ExtCodeID="C98787">
+          <nciodm:CDISCDefinition>A unit of measurement equal to 10 to the fourth power of the number of entities per unit of area equal to one high powered field.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Ten Thousand per High Powered Field</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="10^5/hpf" nciodm:ExtCodeID="C98743">
+          <nciodm:CDISCDefinition>A unit of measurement equal to 10 to the fifth power of the number of entities per unit of area equal to one high powered field.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hundred Thousand per High Powered Field</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="10^6 DNA copies/mL" nciodm:ExtCodeID="C98756">
+          <nciodm:CDISCDefinition>A unit of measurement equal to 10 to the sixth power of the number of deoxyribonucleic acid (DNA) copies per unit of volume equal to one milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Million DNA Copies per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="10^6 IU/mL" nciodm:ExtCodeID="C98757">
+          <nciodm:CDISCDefinition>A unit of measurement equal to 10 to the sixth power of the number of international units of an entity per unit of volume equal to one milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Million International Units per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="10^6 RNA copies/mL" nciodm:ExtCodeID="C98760">
+          <nciodm:CDISCDefinition>A unit of measurement equal to 10 to the sixth power of the number of ribonucleic acid (RNA) copies per unit of volume equal to one milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Million RNA Copies per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="10^6/g" nciodm:ExtCodeID="C98758">
+          <nciodm:CDISCDefinition>A unit of measurement equal to 10 to the sixth power of the number of entities per unit of mass equal to one gram.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Million per Gram</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="10^6/hpf" nciodm:ExtCodeID="C98759">
+          <nciodm:CDISCDefinition>A unit of measurement equal to 10 to the sixth power of the number of entities per unit of area equal to one high powered field.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Million per High Powered Field</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="10^6/L" nciodm:ExtCodeID="C67452">
+          <nciodm:CDISCSynonym>10^3/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A unit of measurement equal to 10 to the sixth power of the number of entities per unit of volume equal to one liter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Thousand per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="10^7/L" nciodm:ExtCodeID="C98786">
+          <nciodm:CDISCSynonym>10^6/dL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A unit of measurement equal to 10 to the seventh power of the number of entities per unit of volume equal to one liter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Ten Million per Liter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="10^9/L" nciodm:ExtCodeID="C67255">
+          <nciodm:CDISCSynonym>10^3/uL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>10^3/mm3</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A unit of measurement equal to 10 to the ninth power of the number of entities per unit of volume equal to one liter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Billion per Liter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="cm H2O" nciodm:ExtCodeID="C91060">
+          <nciodm:CDISCDefinition>A unit of pressure defined by a column of water with a height of one centimeter, frequently used to measure central venous pressure, intracranial pressure, and for pressures during mechanical ventilation.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Centimeters of Water</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="DNA copies/mL" nciodm:ExtCodeID="C98719">
+          <nciodm:CDISCSynonym>DNA Copies per Milliliter</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The unit of concentration of deoxyribonucleic acid (DNA) copies expressed as a number of copies in unit volume equal to one milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>DNA Copies per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="L/h" nciodm:ExtCodeID="C69160">
+          <nciodm:CDISCDefinition>Liters per hour.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Liter per Hour</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="mL/cm H2O" nciodm:ExtCodeID="C98755">
+          <nciodm:CDISCDefinition>A unit of pressure expressed in milliliter(s) per centimeter of water. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Milliliter per Centimeter of Water</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PACK" nciodm:ExtCodeID="C62653">
+          <nciodm:CDISCDefinition>A number of individual items packaged as a unit.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Pack</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="RATIO" nciodm:ExtCodeID="C44256">
+          <nciodm:CDISCDefinition>A unit of measurement for the quotient of the amount of one entity to another.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Ratio</nciodm:PreferredTerm>
         </EnumeratedItem>
         <nciodm:CDISCSubmissionValue>UNIT</nciodm:CDISCSubmissionValue>
         <nciodm:CDISCSynonym>Unit</nciodm:CDISCSynonym>

@@ -1,0 +1,37 @@
+<CodeList xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" OID="CL.C99073.LAT" Name="Laterality" DataType="text" nciodm:ExtCodeID="C99073" nciodm:CodeListExtensible="Yes">
+        <Description>
+          <TranslatedText xml:lang="en">CDISC terminology for anatomical location or specimen further detailing the side(s) of interest.</TranslatedText>
+        </Description>
+        <EnumeratedItem CodedValue="BILATERAL" nciodm:ExtCodeID="C13332">
+          <nciodm:CDISCDefinition>Affecting both sides of the body, or a pair of organs.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Bilateral</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CONTRALATERAL" nciodm:ExtCodeID="C25307">
+          <nciodm:CDISCDefinition>Having to do with the opposite side of the body, in relation to a pre-existing reference point.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Contralateral</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="IPSILATERAL" nciodm:ExtCodeID="C25308">
+          <nciodm:CDISCDefinition>Having to do with the same side of the body, in relation to a pre-existing reference point.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Ipsilateral</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LATERAL" nciodm:ExtCodeID="C25230">
+          <nciodm:CDISCDefinition>Situated at or extending to the side.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Lateral</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LEFT" nciodm:ExtCodeID="C25229">
+          <nciodm:CDISCDefinition>Being or located on or directed toward the side of the body to the west when facing north.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Left</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="RIGHT" nciodm:ExtCodeID="C25228">
+          <nciodm:CDISCDefinition>Being or located on or directed toward the side of the body to the east when facing north.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Right</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="UNILATERAL" nciodm:ExtCodeID="C68598">
+          <nciodm:CDISCDefinition>Affecting one side of the body or one of a pair of organs.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Unilateral</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <nciodm:CDISCSubmissionValue>LAT</nciodm:CDISCSubmissionValue>
+        <nciodm:CDISCSynonym>Laterality</nciodm:CDISCSynonym>
+        <nciodm:PreferredTerm>CDISC SDTM Laterality Terminology</nciodm:PreferredTerm>
+      </CodeList>
+      

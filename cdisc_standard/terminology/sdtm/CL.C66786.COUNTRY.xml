@@ -478,7 +478,6 @@
           <nciodm:PreferredTerm>Guyana</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="HKG" nciodm:ExtCodeID="C16695">
-          <nciodm:CDISCSynonym>HKG</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>HONG KONG</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>A special administrative region of China, bordering the South China Sea and China. (NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Hong Kong</nciodm:PreferredTerm>
@@ -573,7 +572,7 @@
           <nciodm:CDISCDefinition>A country in Eastern Asia, occupying an island chain between the North Pacific Ocean and the Sea of Japan, east of the Korean Peninsula. (NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Japan</nciodm:PreferredTerm>
         </EnumeratedItem>
-        <EnumeratedItem CodedValue="JRE" nciodm:ExtCodeID="C64374">
+        <EnumeratedItem CodedValue="JEY" nciodm:ExtCodeID="C64374">
           <nciodm:CDISCSynonym>JERSEY</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>Jersey and the other Channel Islands represent the last remnants of the medieval Dukedom of Normandy that held sway in both France and England. Jersey is a British crown dependency, but is not part of the UK. (NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Jersey</nciodm:PreferredTerm>
@@ -958,7 +957,7 @@
           <nciodm:CDISCDefinition>A country in the Middle East, bordering the Persian Gulf and the Red Sea, north of Yemen. (NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Saudi Arabia</nciodm:PreferredTerm>
         </EnumeratedItem>
-        <EnumeratedItem CodedValue="SCG" nciodm:ExtCodeID="C64377">
+        <EnumeratedItem CodedValue="SRB" nciodm:ExtCodeID="C64377">
           <nciodm:CDISCSynonym>SERBIA</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>A republic in Southeastern Europe, bordering the Adriatic Sea, between Albania and Bosnia and Herzegovina. Formerly part of Serbia and Montenegro (Federation Republic of Yugoslavia). (NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Serbia</nciodm:PreferredTerm>

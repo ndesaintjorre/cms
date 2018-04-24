@@ -5,6 +5,7 @@
         <EnumeratedItem CodedValue="FATAL" nciodm:ExtCodeID="C48275">
           <nciodm:CDISCSynonym>Grade 5</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>5</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>FATAL</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>The termination of life as a result of an adverse event. (NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Death Related to Adverse Event</nciodm:PreferredTerm>
         </EnumeratedItem>

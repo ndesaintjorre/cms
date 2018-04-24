@@ -226,6 +226,7 @@
         </EnumeratedItem>
         <EnumeratedItem CodedValue="QS" nciodm:ExtCodeID="C67069">
           <nciodm:CDISCSynonym>Every week</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Per Week</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>Every week. (NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Weekly</nciodm:PreferredTerm>
         </EnumeratedItem>
@@ -263,6 +264,92 @@
           <nciodm:CDISCSynonym>Ad Libitum</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>As much as desired.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>As Much as Desired</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="1 TIME PER WEEK" nciodm:ExtCodeID="C64526">
+          <nciodm:CDISCSynonym>One Time Per Week</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>One time per week. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Once Weekly</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="2 TIMES PER YEAR" nciodm:ExtCodeID="C98861">
+          <nciodm:CDISCSynonym>2 Times Per Year</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Two times per year. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Two Times Yearly</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="3 TIMES PER MONTH" nciodm:ExtCodeID="C98859">
+          <nciodm:CDISCSynonym>3 Times Per Month</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Three times per month. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Three Times Monthly</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="3 TIMES PER YEAR" nciodm:ExtCodeID="C98860">
+          <nciodm:CDISCSynonym>3 Times Per Year</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Three times per year. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Three Times Yearly</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="4 TIMES PER MONTH" nciodm:ExtCodeID="C98852">
+          <nciodm:CDISCSynonym>4 Times Per Month</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Four times per month. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Four Times Monthly</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="4 TIMES PER YEAR" nciodm:ExtCodeID="C98853">
+          <nciodm:CDISCSynonym>4 Times Per Year</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Four times per year. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Four Times Yearly</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="5 TIMES PER DAY" nciodm:ExtCodeID="C98849">
+          <nciodm:CDISCSynonym>5 Times Daily</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Five times per day. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Five Times Daily</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="5 TIMES PER MONTH" nciodm:ExtCodeID="C98850">
+          <nciodm:CDISCSynonym>5 Times Per Month</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Five times per month. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Five Times Monthly</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="5 TIMES PER WEEK" nciodm:ExtCodeID="C85552">
+          <nciodm:CDISCSynonym>5 Times Per Week</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Five times per week. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Five Times Weekly</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="5 TIMES PER YEAR" nciodm:ExtCodeID="C98851">
+          <nciodm:CDISCSynonym>5 Times Per Year</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Five times per year. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Five Times Yearly</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="6 TIMES PER DAY" nciodm:ExtCodeID="C98855">
+          <nciodm:CDISCSynonym>6 Times Daily</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Six times per day. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Six Times Daily</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="6 TIMES PER MONTH" nciodm:ExtCodeID="C98856">
+          <nciodm:CDISCSynonym>6 Times Per Month</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Six times per month. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Six Times Monthly</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="6 TIMES PER WEEK" nciodm:ExtCodeID="C98857">
+          <nciodm:CDISCSynonym>6 Times Per Week</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Six times per week. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Six Times Weekly</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="6 TIMES PER YEAR" nciodm:ExtCodeID="C98858">
+          <nciodm:CDISCSynonym>6 Times Per Year</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Six times per year. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Six Times Yearly</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="7 TIMES PER WEEK" nciodm:ExtCodeID="C98854">
+          <nciodm:CDISCSynonym>7 Times Per Week</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Seven times per week. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Seven Times Weekly</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PA" nciodm:ExtCodeID="C74924">
+          <nciodm:CDISCSynonym>Per Annum</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Per Year</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A frequency rate of occurrences of something within a period of time equal to three hundred sixty-five days.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Per Year</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="Q6S" nciodm:ExtCodeID="C89788">
+          <nciodm:CDISCSynonym>Every 6 Weeks</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Every six weeks. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Every Six Weeks</nciodm:PreferredTerm>
         </EnumeratedItem>
         <nciodm:CDISCSubmissionValue>FREQ</nciodm:CDISCSubmissionValue>
         <nciodm:CDISCSynonym>Frequency</nciodm:CDISCSynonym>

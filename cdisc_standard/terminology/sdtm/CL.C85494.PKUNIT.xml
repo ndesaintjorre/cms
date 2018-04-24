@@ -133,8 +133,12 @@
           <nciodm:PreferredTerm>Gram per Minute</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="g/mL" nciodm:ExtCodeID="C64566">
-          <nciodm:CDISCSynonym>Gram per Milliliter</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>Kilogram per Liter</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>g/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Gram per Milliliter</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>gram/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>kg/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mg/uL</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>A unit of mass concentration defined as the concentration of one kilogram of a substance in unit volume of the mixture equal to one liter. The concept also refers to the unit of mass density (volumic mass) defined as the density of substance which mass equal to one kilogram occupies the volume one liter.(NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Kilogram per Liter</nciodm:PreferredTerm>
         </EnumeratedItem>
@@ -508,6 +512,7 @@
           <nciodm:PreferredTerm>Liter per Hour</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="L/kg/day" nciodm:ExtCodeID="C73755">
+          <nciodm:CDISCSynonym>Milliliter per Gram per Day</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>mL/g/day</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>uL/mg/day</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>L/day/kg</nciodm:CDISCSynonym>
@@ -875,6 +880,7 @@
           <nciodm:CDISCSynonym>Microgram per Microliter</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>Milligram per Milliliter</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>ug/uL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mg/mL</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>A unit of mass concentration defined as the concentration of one kilogram of a substance per unit volume of the mixture equal to one cubic meter, or the concentration of one milligram of a substance per unit volume of the mixture equal to one milliliter, or one gram of a substance per one liter of the mixture. It is also a unit of mass density (volumic mass) defined as the density of substance which mass equal to one milligram occupies the volume one milliliter.(NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Kilogram per Cubic Meter</nciodm:PreferredTerm>
         </EnumeratedItem>
@@ -1016,14 +1022,17 @@
           <nciodm:PreferredTerm>Milliliter per Hour</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="mL/kg/day" nciodm:ExtCodeID="C73758">
+          <nciodm:CDISCSynonym>Milliliter per Kilogram per Day</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>Milliliters per kilogram per day.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Milliliter per Kilogram per Day</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="mL/kg/h" nciodm:ExtCodeID="C73759">
+          <nciodm:CDISCSynonym>Milliliter per Kilogram per Hour</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>Milliliters per kilogram per hour.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Milliliter per Kilogram per Hour</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="mL/kg/min" nciodm:ExtCodeID="C73760">
+          <nciodm:CDISCSynonym>Milliliter per Kilogram per Minute</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>uL/g/min</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>mL/min/kg</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>uL/min/g</nciodm:CDISCSynonym>
@@ -1077,6 +1086,7 @@
           <nciodm:PreferredTerm>Milliliter per Mole per Second</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="mL/s" nciodm:ExtCodeID="C69073">
+          <nciodm:CDISCSynonym>mL/sec</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>Milliliters per second.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Milliliter per Second</nciodm:PreferredTerm>
         </EnumeratedItem>
@@ -1168,6 +1178,8 @@
           <nciodm:CDISCSynonym>Milligram per Cubic Meter</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>Nanogram per Milliliter</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>ug/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ng/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mcg/L</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>A unit of mass concentration defined as the concentration of one microgram of a substance per unit volume of the mixture equal to one liter. The concept also refers to the unit of mass density (volumic mass) defined as the density of substance which mass equal to one microgram occupies the volume one liter.(NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Microgram per Liter</nciodm:PreferredTerm>
         </EnumeratedItem>
@@ -1282,8 +1294,10 @@
           <nciodm:PreferredTerm>Picogram per Hour</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="pg/mg" nciodm:ExtCodeID="C67396">
-          <nciodm:CDISCSynonym>ug/kg</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mcg/kg</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>Microgram per Kilogram</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ng/g</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ug/k</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>A unit of a mass fraction expressed as a number of micrograms of substance per kilogram of mixture. The unit is also used as a dose calculation unit.(NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Microgram per Kilogram</nciodm:PreferredTerm>
         </EnumeratedItem>
@@ -1470,6 +1484,7 @@
         </EnumeratedItem>
         <EnumeratedItem CodedValue="ug/h" nciodm:ExtCodeID="C67394">
           <nciodm:CDISCSynonym>Micrograms per Hour</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mcg/h</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>A unit of mass flow rate equivalent to the rate at which one millionth of a gram of matter travels to a given object or space over a period of time equal to one hour.(NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Microgram per Hour</nciodm:PreferredTerm>
         </EnumeratedItem>
@@ -1490,6 +1505,9 @@
           <nciodm:CDISCSynonym>mg/L</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>Microgram per Milliliter</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>Milligram per Liter</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mcg/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ng/uL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ug/mL</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>A unit of mass concentration equal to the concentration of one gram of a substance per unit volume of the mixture equal to one cubic meter. The concept also refers to the metric unit of mass density (volumic mass) defined as the density of substance which mass equal to one gram occupies the volume one cubic meter.(NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Microgram per Milliliter</nciodm:PreferredTerm>
         </EnumeratedItem>
@@ -1507,6 +1525,7 @@
           <nciodm:PreferredTerm>Microgram per Second</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="uIU/mL" nciodm:ExtCodeID="C67405">
+          <nciodm:CDISCSynonym>Micro-International Unit per milliliter</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>mIU/L</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>mcIU/mL</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>uIU/mL</nciodm:CDISCSynonym>
@@ -1515,6 +1534,8 @@
         </EnumeratedItem>
         <EnumeratedItem CodedValue="uL" nciodm:ExtCodeID="C48153">
           <nciodm:CDISCSynonym>mcL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Microliter</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mm3</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>A unit of volume accepted for use with the SI and equal to one millionth of a liter (10E-6 liter).(NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Microliter</nciodm:PreferredTerm>
         </EnumeratedItem>
@@ -1537,11 +1558,14 @@
           <nciodm:PreferredTerm>Micromole per Minute</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="umol/mL" nciodm:ExtCodeID="C64387">
-          <nciodm:CDISCSynonym>Micromole per Milliliter</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>Millimole per Liter</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>umol/mL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Micromole per Milliliter</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>mol/m3</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>Mole per Cubic Meter</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>mcmol/mL</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>mmol/L</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>nmol/uL</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>A unit of concentration (molarity unit) equal to one thousandth of a mole (10E-3 mole) of solute per one liter of solution.(NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Millimole per Liter</nciodm:PreferredTerm>
         </EnumeratedItem>

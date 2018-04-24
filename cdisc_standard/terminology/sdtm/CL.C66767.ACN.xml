@@ -24,6 +24,7 @@
         </EnumeratedItem>
         <EnumeratedItem CodedValue="NOT APPLICABLE" nciodm:ExtCodeID="C48660">
           <nciodm:CDISCSynonym>NA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Not Applicable</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>Determination of a value is not relevant in the current context. (NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Not Applicable</nciodm:PreferredTerm>
         </EnumeratedItem>

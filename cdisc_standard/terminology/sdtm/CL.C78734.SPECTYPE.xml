@@ -7,6 +7,7 @@
           <nciodm:PreferredTerm>Adipose Tissue</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="AMNIOTIC FLUID" nciodm:ExtCodeID="C13188">
+          <nciodm:CDISCSynonym>Aqua Amnii</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>The fluid within the amniotic cavity which surrounds and protects the developing embryo. (NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Amniotic Fluid</nciodm:PreferredTerm>
         </EnumeratedItem>
@@ -47,6 +48,7 @@
           <nciodm:PreferredTerm>Stone</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="CEREBROSPINAL FLUID" nciodm:ExtCodeID="C12692">
+          <nciodm:CDISCSynonym>CSF</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>The fluid that is contained within the brain ventricles, the subarachnoid space and the central canal of the spinal cord. (NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Cerebrospinal Fluid</nciodm:PreferredTerm>
         </EnumeratedItem>
@@ -59,6 +61,7 @@
           <nciodm:PreferredTerm>Colostrum</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="EMESIS" nciodm:ExtCodeID="C77666">
+          <nciodm:CDISCSynonym>Emesis</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>Vomit</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>Stomach contents that have returned to the mouth or are ejected beyond the mouth. (NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Vomitus</nciodm:PreferredTerm>
@@ -134,6 +137,7 @@
           <nciodm:PreferredTerm>Seminal Fluid</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="SERUM" nciodm:ExtCodeID="C13325">
+          <nciodm:CDISCSynonym>Sera</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>The clear portion of the blood that remains after the removal of the blood cells and the clotting proteins. (NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Serum</nciodm:PreferredTerm>
         </EnumeratedItem>

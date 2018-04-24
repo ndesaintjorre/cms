@@ -1,0 +1,2019 @@
+<CodeList xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" OID="CL.C88025.NEOPLASM" Name="Neoplasm Type" DataType="text" nciodm:ExtCodeID="C88025" nciodm:CodeListExtensible="Yes">
+        <Description>
+          <TranslatedText xml:lang="en">The terminology that includes concepts relevant to benign or malignant tissue growth.</TranslatedText>
+        </Description>
+        <EnumeratedItem CodedValue="ADAMANTINOMA, MALIGNANT" nciodm:ExtCodeID="C7644">
+          <nciodm:CDISCSynonym>ADAMANTINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A low-grade malignant neoplasm composed of epithelial cells and a spindle cell osteo-fibrous proliferation.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Adamantinoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ADENOACANTHOMA, MALIGNANT" nciodm:ExtCodeID="C4200">
+          <nciodm:CDISCSynonym>ADENOACANTHOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neoplasm arising from glandular cells that includes focal or extensive areas of squamous metaplasia.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Adenocarcinoma with Squamous Metaplasia</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ADENOCARCINOMA, CLEAR CELL, MALIGNANT" nciodm:ExtCodeID="C3766">
+          <nciodm:CDISCSynonym>CLEAR CELL CARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MESONEPHROID CLEAR CELL ADENOCARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MESONEPHROID CLEAR CELL CARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neoplasm comprising glandular epithelial clear cells.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Clear Cell Adenocarcinoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ADENOCARCINOMA, ENDOMETRIAL, MALIGNANT" nciodm:ExtCodeID="C7359">
+          <nciodm:CDISCSynonym>ADENOCARCINOMA OF ENDOMETRIUM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ADENOCARCINOMA OF THE ENDOMETRIUM</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant glandular neoplasm of the uterine lining.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Endometrial Adenocarcinoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ADENOCARCINOMA, MALIGNANT" nciodm:ExtCodeID="C2852">
+          <nciodm:CDISCDefinition>A malignant neoplasm arising from glandular cells.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Adenocarcinoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ADENOCARCINOMA, MUCINOUS, MALIGNANT" nciodm:ExtCodeID="C26712">
+          <nciodm:CDISCSynonym>GELATINOUS ADENOCARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MUCOID ADENOCARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MUCINOUS CARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MUCOUS</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ADENOCARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>COLLOID ADENOCARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>COLLOID CARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MUCOID CARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MUCOUS CARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>GELATINOUS CARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An adenocarcinoma comprising neoplastic glandular cells containing intracytoplasmic mucin.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Mucinous Adenocarcinoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ADENOCARCINOMA, PAPILLARY, MALIGNANT" nciodm:ExtCodeID="C2853">
+          <nciodm:CDISCDefinition>An adenocarcinoma with papillary growth pattern.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Papillary Adenocarcinoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ADENOCARCINOMA, SEBACEOUS, MALIGNANT" nciodm:ExtCodeID="C40310">
+          <nciodm:CDISCSynonym>CARCINOMA OF SEBACEOUS GLAND</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>CARCINOMA OF THE SEBACEOUS GLAND</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>SEBACEOUS GLAND CARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An adenocarcinoma with sebaceous differentiation.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Sebaceous Carcinoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ADENOFIBROMA, BENIGN" nciodm:ExtCodeID="C8984">
+          <nciodm:CDISCSynonym>BENIGN MIXED MUELLERIAN TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Benign mixed neoplasm comprised of epithelial/glandular and mesenchymal structures.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Adenofibroma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ADENOLIPOMA, BENIGN" nciodm:ExtCodeID="C4159">
+          <nciodm:CDISCDefinition>Benign mixed neoplasm comprised of epithelial/glandular and lipomatous structures.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Lipoadenoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ADENOMA, ACINAR CELL, BENIGN" nciodm:ExtCodeID="C4196">
+          <nciodm:CDISCSynonym>ACINIC CELL ADENOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ACINAR ADENOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign glandular epithelial neoplasm comprising secretory cells forming acinar patterns.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Acinar Cell Adenoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ADENOMA, ADNEXAL, BENIGN" nciodm:ExtCodeID="C7580">
+          <nciodm:CDISCSynonym>ADENOMA OF ADNEXA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ADENOMA OF SKIN APPENDAGE</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ADNEXAL ADENOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign glandular epithelial neoplasm comprising secretory cells forming acinar patterns.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Skin Appendage Adenoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ADENOMA, ADRENOCORTICAL , BENIGN" nciodm:ExtCodeID="C9003">
+          <nciodm:CDISCSynonym>CORTICAL CELL ADENOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ADRENAL CORTICAL ADENOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ADRENOCORTICAL ADENOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BENIGN ADRENAL ADENOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BENIGN ADENOMA OF THE ADRENAL GLAND</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ADENOMA OF THE ADRENAL GLAND</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ADRENAL ADENOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ADENOMA OF ADRENAL GLAND</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ADENOMA OF THE ADRENAL CORTEX</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BENIGN ADRENAL GLAND ADENOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BENIGN ADENOMA OF ADRENAL GLAND</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ADENOMA OF ADRENAL CORTEX</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ADRENAL GLAND ADENOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign neoplasm arising from any of the adrenal cortical layers.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Adrenal Cortex Adenoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ADENOMA, ANTERIOR LOBE PITUITARY GLAND, BENIGN" nciodm:ExtCodeID="C3329">
+          <nciodm:CDISCSynonym>ADENOMA OF PITUITARY GLAND</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ADENOMA OF PITUITARY</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ADENOMA OF THE PITUITARY GLAND</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ADENOMA OF THE PITUITARY</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>PITUITARY ADENOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign neoplasm of the anterior lobe of the pituitary gland.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Pituitary Gland Adenoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ADENOMA, BASAL CELL, BENIGN" nciodm:ExtCodeID="C5950">
+          <nciodm:CDISCSynonym>BASAL CELL ADENOMA OF SALIVARY GLAND</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BASAL CELL ADENOMA OF THE SALIVARY GLAND</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BASAL CELL ADENOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BENIGN BASAL CELL TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign epithelial neoplasm characterized by the presence of/arising from basal cells.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Salivary Gland Basal Cell Adenoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ADENOMA, BENIGN" nciodm:ExtCodeID="C2855">
+          <nciodm:CDISCDefinition>A benign neoplasm arising from epithelium.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Adenoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ADENOMA, BRONCHIAL, BENIGN" nciodm:ExtCodeID="C3494">
+          <nciodm:CDISCDefinition>A benign neoplasia of the lung, arising from bronchial epithelium.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Lung Papillary Adenoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ADENOMA, BRONCHIOLOALVEOLAR, BENIGN" nciodm:ExtCodeID="C4140">
+          <nciodm:CDISCSynonym>ADENOMA OF THE ALVEOLI</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ADENOMA OF ALVEOLI</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign lung neoplasm arising from the alveolar/bronchiolar epithelium.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Alveolar Adenoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ADENOMA, C-CELL, BENIGN" nciodm:ExtCodeID="C46101">
+          <nciodm:CDISCSynonym>PARAFOLLICULAR CELL ADENOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign neoplasm arising from C-cells of the thyroid gland.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Neoplastic C-Cell Hyperplasia</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ADENOMA, CERUMINOUS GLAND, BENIGN" nciodm:ExtCodeID="C6088">
+          <nciodm:CDISCSynonym>CERUMINOUS ADENOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>CERUMINOUS ADENOMA OF EXTERNAL AUDITORY CANAL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>CERUMINOUS ADENOMA OF THE EXTERNAL AUDITORY CANAL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>CERUMINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign epithelial neoplasm derived from ceruminous glands in the external auditory canal.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>External Auditory Canal Ceruminous Adenoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ADENOMA, CLEAR CELL, BENIGN" nciodm:ExtCodeID="C4151">
+          <nciodm:CDISCDefinition>A benign neoplasm comprising glands containing epithelial clear cells.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Clear Cell Adenoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ADENOMA, FOLLICULAR CELL, BENIGN" nciodm:ExtCodeID="C3502">
+          <nciodm:CDISCSynonym>ADENOMA OF THE THYROID GLAND</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>THYROID ADENOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>FOLLICULAR ADENOMA OF THE THYROID</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>THYROID FOLLICULAR ADENOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ADENOMA OF THYROID</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ADENOMA OF THYROID GLAND</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>FOLLICULAR ADENOMA OF THE THYROID GLAND</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>FOLLICULAR ADENOMA OF THYROID GLAND</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ADENOMA OF THE THYROID</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>FOLLICULAR ADENOMA OF THYROID</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>THYROID GLAND ADENOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>FOLLICULAR ADENOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign neoplasm arising from follicular cells of the thyroid gland.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Thyroid Gland Follicular Adenoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ADENOMA, HEPATOCELLULAR, BENIGN" nciodm:ExtCodeID="C3758">
+          <nciodm:CDISCSynonym>ADENOMA OF THE LIVER CELLS</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>LIVER CELL ADENOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>HCA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ADENOMA OF LIVER CELLS</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign epithelial neoplasm arising from hepatocytes.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hepatocellular Adenoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ADENOMA, HEPATOCHOLANGIOCELLULAR, BENIGN" nciodm:ExtCodeID="C7126">
+          <nciodm:CDISCDefinition>A benign neoplasm arising from the intrahepatic bile duct.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Intrahepatic Bile Duct Adenoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ADENOMA, ISLET CELL, BENIGN" nciodm:ExtCodeID="C65184">
+          <nciodm:CDISCSynonym>ISLET CELL ADENOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign neoplasm arising from the islet cells of the pancreas.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Islet Cell Adenoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ADENOMA, LIGHT CELL, BENIGN" nciodm:ExtCodeID="C46119">
+          <nciodm:CDISCDefinition>A benign epithelial neoplasm of the thyroid gland comprising follicular cells with cytoplasmic clearing.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Thyroid Gland Clear Cell Follicular Adenoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ADENOMA, MUCINOUS, BENIGN" nciodm:ExtCodeID="C2973">
+          <nciodm:CDISCSynonym>PSEUDOMUCINOUS CYSTADENOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MUCINOUS CYSTOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MUCINOUS ADENOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign, cystic epithelial neoplasm comprising cells containing intracytoplasmic mucin.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Mucinous Cystadenoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ADENOMA, PAPILLARY, BENIGN" nciodm:ExtCodeID="C79951">
+          <nciodm:CDISCDefinition>A benign epithelial neoplasm characterized by the presence of papillary epithelial patterns.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Papillary Adenoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ADENOMA, PARS DISTALIS, BENIGN" nciodm:ExtCodeID="C60490">
+          <nciodm:CDISCSynonym>Rat Pars Distalis Adenoma</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign epithelial neoplasm arising from the pars distalis of the anterior pituitary gland.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Rat Pars Distalis Adenoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ADENOMA, PARS INTERMEDIA, BENIGN" nciodm:ExtCodeID="C60493">
+          <nciodm:CDISCSynonym>Rat Pars Intermedia Adenoma</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign epithelial neoplasm arising from the pars intermedia of the anterior pituitary gland.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Rat Pars Intermedia Adenoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ADENOMA, PITUITARY GLAND, BENIGN" nciodm:ExtCodeID="C98723">
+          <nciodm:CDISCDefinition>A benign neoplasm of the pituitary gland.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Experimental Organism Pituitary Gland Adenoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ADENOMA, RENAL CELL, BENIGN" nciodm:ExtCodeID="C8383">
+          <nciodm:CDISCSynonym>RENAL TUBULE ADENOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign neoplasm arising from the renal cortex.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Renal Adenoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ADENOMA, RETE TESTIS, BENIGN" nciodm:ExtCodeID="C39956">
+          <nciodm:CDISCDefinition>A benign epithelial neoplasm arising from the rete testis.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Rete Testis Adenoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ADENOMA, SEBACEOUS, BENIGN" nciodm:ExtCodeID="C4174">
+          <nciodm:CDISCSynonym>SEBACEOUS GLAND ADENOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ADENOMA OF THE SEBACEOUS GLAND</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ADENOMA OF SEBACEOUS GLAND</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>SKIN APPENDAGE SEBACEOUS ADENOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign neoplasm arising from sebaceous glands.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Sebaceous Adenoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ADENOMA, SERTOLIFORM TUBULAR, BENIGN" nciodm:ExtCodeID="C92180">
+          <nciodm:CDISCSynonym>Rat Sertoliform Tubular Adenoma</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign tubular adenoma with Sertoli cell differentiation.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Rat Sertoliform Tubular Adenoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ADENOMA, SWEAT GLAND, BENIGN" nciodm:ExtCodeID="C7560">
+          <nciodm:CDISCSynonym>ADENOMA OF THE SWEAT GLAND</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ADENOMA OF SWEAT GLAND</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign epithelias neoplasm arising from sweat glands.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Sweat Gland Adenoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ADENOMA, TUBULAR CELL, BENIGN" nciodm:ExtCodeID="C4133">
+          <nciodm:CDISCDefinition>A benign neoplasm arising from glandular epithelium, characterized by a tubular architectural pattern.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Tubular Adenoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ADENOMA, TUBULOSTROMAL, BENIGN" nciodm:ExtCodeID="C79953">
+          <nciodm:CDISCDefinition>A benign ovarian epithelial neoplasm characterized by the presence of tubular structures and interstitial stroma.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Tubulostromal Adenoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ADENOMA, YOLK SAC, BENIGN" nciodm:ExtCodeID="C84357">
+          <nciodm:CDISCDefinition>A benign epithelial neoplasm arising from the yolk sac.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Yolk Sac Adenoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ADENOMA, ZYMBAL'S GLAND" nciodm:ExtCodeID="C98800">
+          <nciodm:CDISCDefinition>A benign neoplasm of the rodent Zymbal's gland with sebaceous and/or squamous differentiation.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Zymbal's Gland Adenoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ADENOMYOMA, BENIGN" nciodm:ExtCodeID="C3726">
+          <nciodm:CDISCDefinition>A benign neoplasm characterized by the presence of a glandular and a mesenchymal component.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Adenomyoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ADRENAL TUMOR, SUBCAPSULAR, BENIGN" nciodm:ExtCodeID="C83488">
+          <nciodm:CDISCSynonym>SUBCAPSULAR SINGLE CELL ADENOMA, ADRENAL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign neoplasm located beneath the adrenal capsule.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Benign Subcapsular Adrenal Tumor</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ADRENAL TUMOR, SUBCAPSULAR, MALIGNANT" nciodm:ExtCodeID="C83489">
+          <nciodm:CDISCSynonym>SUBCAPSULAR SINGLE CELL CARCINOMA, ADRENAL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neoplasm located beneath the adrenal capsule.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Malignant Subcapsular Adrenal Tumor</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ADRENAL TUMOR, SUBCAPSULAR, UNDETERMINED" nciodm:ExtCodeID="C82973">
+          <nciodm:CDISCSynonym>SUBCAPSULAR CELL TUMOR, ADRENAL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>SUBCAPSULAR CELL TUMOR, ADRENAL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A neoplasm located beneath the adrenal capsule in which the malignancy status has not been established.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Subcapsular Adrenal Tumor</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ADRENOCORTICAL NEOPLASM, UNDETERMINED" nciodm:ExtCodeID="C2858">
+          <nciodm:CDISCSynonym>ADRENAL CORTEX TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ADRENOCORTICAL NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ADRENOCORTICAL TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A neoplasm of the adrenal cortex in which the malignancy status has not been established.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Adrenal Cortex Neoplasm</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AMELOBLASTOMA, BENIGN" nciodm:ExtCodeID="C7111">
+          <nciodm:CDISCDefinition>A benign odontogenic neoplasm arising from the epithelial component of the embryonic tooth.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Benign Ameloblastoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AMELOBLASTOMA, MALIGNANT" nciodm:ExtCodeID="C54297">
+          <nciodm:CDISCSynonym>MALIGNANT AMELOBLASTOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant odontogenic neoplasm arising from the epithelial component of the embryonic tooth.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Metastasizing Ameloblastoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AMELOBLASTOMA, UNDETERMINED" nciodm:ExtCodeID="C4313">
+          <nciodm:CDISCDefinition>A odontogenic neoplasm arising from the epithelial component of the embryonic tooth of undetermined malignancy status.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Ameloblastoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ANGIOFIBROMA, BENIGN" nciodm:ExtCodeID="C3799">
+          <nciodm:CDISCSynonym>FIBROANGIOMA, BENIGN</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>FIBROUS PAPULE</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>TELANGIECTATIC FIBROMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ANGIOFIBROMATOUS HYPERPLASIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign, morphologic variant of fibroma characterized by the presence of numerous dilated vascular channels.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Angiofibroma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ANGIOLIPOMA, BENIGN" nciodm:ExtCodeID="C3733">
+          <nciodm:CDISCSynonym>ANGIOLIPOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A lipoma characterized by prominent vascularization.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Angiolipoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ASTROCYTOMA, ANAPLASTIC , MALIGNANT" nciodm:ExtCodeID="C9477">
+          <nciodm:CDISCSynonym>GRADE III ASTROCYTIC TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>GRADE III ASTROCYTOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>GRADE III ASTROCYTIC NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT ASTROCYTOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neoplasm of the brain or spinal cord originating from astrocytes, exhibiting poor differentiation (anaplasia).</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Anaplastic Astrocytoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ASTROCYTOMA, PILOCYTIC, BENIGN" nciodm:ExtCodeID="C4047">
+          <nciodm:CDISCSynonym>GRADE I ASTROCYTIC NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>GRADE I ASTROCYTOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>GRADE I ASTROCYTIC TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign neoplasm of the brain or spinal cord arising from astrocytes associated with single or multiple cysts.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Pilocytic Astrocytoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ASTROCYTOMA, UNDETERMINED" nciodm:ExtCodeID="C60781">
+          <nciodm:CDISCSynonym>ASTROCYTOMA, DIFFUSE</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A neoplasm of the brain or spinal cord exhibiting astrocytic differentiation, but in which the malignancy status has not been established.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Astrocytoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BASOSQUAMOUS TUMOR, BENIGN" nciodm:ExtCodeID="C4614">
+          <nciodm:CDISCSynonym>CUTANEOUS PAPILLOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>PAPILLOMA OF SKIN</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>PAPILLOMA OF THE SKIN</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign papillary neoplasm of the skin.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Skin Papilloma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BASOSQUAMOUS TUMOR, MALIGNANT" nciodm:ExtCodeID="C2922">
+          <nciodm:CDISCSynonym>BASOSQUAMOUS CARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>SKIN MIXED BASAL AND SQUAMOUS CELL CARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BASOSQUAMOUS CELL CARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A basal cell carcinoma (skin neoplasm) which displays squamous differentiation.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Skin Basosquamous Cell Carcinoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CARCINOID TUMOR, ATYPICAL, MALIGNANT" nciodm:ExtCodeID="C72074">
+          <nciodm:CDISCSynonym>MALIGNANT CARCINOID TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neuroendocrine neoplasm arising from enterochromaffin cells in the gastrointestinal tract and (less common) in the bronchi exhibiting atypia.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Atypical Carcinoid Tumor</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CARCINOID TUMOR, UNDETERMINED" nciodm:ExtCodeID="C2915">
+          <nciodm:CDISCSynonym>CARCINOID</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>WELL-DIFFERENTIATED ENDOCRINE NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>CARCINOID NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A neuroendocrine neoplasm arising from enterochromaffin cells in the gastrointestinal tract and (less common) the bronchi with undetermined malignancy status.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Carcinoid Tumor</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CARCINOMA, ACIDOPHIL, MALIGNANT" nciodm:ExtCodeID="C4147">
+          <nciodm:CDISCSynonym>EOSINOPHIL CARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ACIDOPHIL ADENOCARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ACIDOPHIL CARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>EOSINOPHIL ADENOMCARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant epithelial neoplasm of the anterior pituitary gland in which the neoplastic cells stain positive with acidic dyes.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Pituitary Gland Acidophil Carcinoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CARCINOMA, ACINAR CELL, MALIGNANT" nciodm:ExtCodeID="C3768">
+          <nciodm:CDISCSynonym>ACINAR ADENOCARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ACINIC CELL ADENOCARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ACINAR CARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ACINAR CELL ADENOCARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ACINIC CELL CARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant glandular epithelial neoplasm comprising secretory cells forming acinar patterns.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Acinar Cell Carcinoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CARCINOMA, ADENOSQUAMOUS, MALIGNANT" nciodm:ExtCodeID="C3727">
+          <nciodm:CDISCSynonym>MIXED ADENOCARCINOMA AND SQUAMOUS CARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MIXED ADENOCARCINOMA AND EPIDERMOID CELL CARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MIXED ADENOCARCINOMA AND SQUAMOUS CELL CARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MIXED ADENOCARCINOMA AND EPIDERMOID CARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An epithelial neoplasm composed of malignant glandular and malignant squamous cells.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Adenosquamous Carcinoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CARCINOMA, ADNEXAL, MALIGNANT" nciodm:ExtCodeID="C3775">
+          <nciodm:CDISCSynonym>SKIN APPENDAGE CARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>CARCINOMA OF ADNEXA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>CARCINOMA OF SKIN APPENDAGE</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant epithelial neoplasm arising from sebaceous or sweat glands or from hair follicles.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Adnexal Carcinoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CARCINOMA, ADRENOCORTICAL, MALIGNANT" nciodm:ExtCodeID="C9325">
+          <nciodm:CDISCSynonym>CORTICAL CELL CARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ADENOCARCINOMA, ADRENOCORTICAL, MALIGNANT</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ADRENAL CORTEX ADENOCARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ADRENAL CORTEX CANCER</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ADRENAL CORTICAL ADENOCARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ADRENAL CORTICAL CARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ADRENOCORTICAL CARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant epithelial neoplasm arising from adrenal cortical cells.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Adrenal Cortex Carcinoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CARCINOMA, BASAL CELL, MALIGNANT" nciodm:ExtCodeID="C2921">
+          <nciodm:CDISCSynonym>BASAL CELL EPITHELIOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BASAL CELL CANCER</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BASAL CELL CARCINOMA OF SKIN</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BASAL CELL CARCINOMA OF THE SKIN</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BASAL CELL CARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BASAL CELL EPITHELIOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BASAL CELL SKIN CARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BASILOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BCC</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>RODENT ULCER</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant epithelial neoplasm arising from basal cells of the epidermis and pilosebaceous unit of skin [the dermis].</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Skin Basal Cell Carcinoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CARCINOMA, BRONCHIAL, MALIGNANT" nciodm:ExtCodeID="C35875">
+          <nciodm:CDISCDefinition>A malignant neoplasia of the lung, arising from bronchial epithelium.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Bronchogenic Carcinoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CARCINOMA, BRONCHIOLOALVEOLAR, MALIGNANT" nciodm:ExtCodeID="C2923">
+          <nciodm:CDISCSynonym>BRONCHIOALVEOLAR ADENOCARCINOMA OF LUNG</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BRONCHIOLO-ALVEOLAR LUNG CARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BRONCHIOLOALVEOLAR ADENOCARCINOMA OF LUNG</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BRONCHIOLOALVEOLAR LUNG ADENOCARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BAC</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BRONCHIOLO-ALVEOLAR CARCINOMA OF LUNG</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BRONCHIOLO-ALVEOLAR CARCINOMA OF THE LUNG</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BRONCHIOALVEOLAR LUNG CARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BRONCHIOLOALVEOLAR ADENOCARCINOMA OF THE LUNG</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BRONCHIOALVEOLAR ADENOCARCINOMA OF THE LUNG</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant lung neoplasm originating from the alveolar/bronchiolar epithelium.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Bronchioloalveolar Carcinoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CARCINOMA, C-CELL, MALIGNANT" nciodm:ExtCodeID="C3879">
+          <nciodm:CDISCSynonym>PARAFOLLICULAR CELL CARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>C CELL CARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MEDULLARY CARCINOMA OF THYROID GLAND</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>THYROID GLAND NEUROENDOCRINE CARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MEDULLARY CARCINOMA OF THE THYROID GLAND</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MEDULLARY THYROID CANCER</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>PARAFOLLICULAR CELL CARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MEDULLARY THYROID CARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MEDULLARY CARCINOMA OF THYROID</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MEDULLARY CARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MTC</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MEDULLARY CARCINOMA OF THE THYROID</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MEDULLARY THYROID GLAND CARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>THYROID MEDULLARY CARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A neuroendocrine malignant epithelial neoplasm arising from C-cells of the thyroid gland.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Thyroid Gland Medullary Carcinoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CARCINOMA, CERUMINOUS GLAND, MALIGNANT" nciodm:ExtCodeID="C4176">
+          <nciodm:CDISCDefinition>A malignant neoplasm derived from ceruminous glands in the external auditory canal.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Ceruminous Adenocarcinoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CARCINOMA, CHOROID PLEXUS, MALIGNANT" nciodm:ExtCodeID="C4715">
+          <nciodm:CDISCSynonym>CHOROID PLEXUS CANCER</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>CARCINOMA OF THE CHOROID PLEXUS</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>CARCINOMA OF CHOROID PLEXUS</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>CANCER OF THE CHOROID PLEXUS</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>CANCER OF CHOROID PLEXUS</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ANAPLASTIC CHOROID PLEXUS PAPILLOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neoplasm arising from the choroid plexus of the brain.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Choroid Plexus Carcinoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CARCINOMA, EMBRYONAL, MALIGNANT" nciodm:ExtCodeID="C3752">
+          <nciodm:CDISCSynonym>CARCINOMA, EMBRYONAL, MALIGNANT</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A non-seminomatous malignant germ cell neoplasm of the testis or ovary.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Embryonal Carcinoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CARCINOMA, ENDOMETRIAL, MALIGNANT" nciodm:ExtCodeID="C7558">
+          <nciodm:CDISCSynonym>CARCINOMA OF ENDOMETRIUM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>CARCINOMA OF THE ENDOMETRIUM</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant epithelial neoplasm arising from the lining of the uterine body cavity.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Endometrial Carcinoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CARCINOMA, FOLLICULAR CELL, MALIGNANT" nciodm:ExtCodeID="C8054">
+          <nciodm:CDISCSynonym>FOLLICULAR THYROID CANCER</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>WELL-DIFFERENTIATED FOLLICULAR CARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>FOLLICULAR ADENOCARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>FOLLICULAR CANCER OF THE THYROID</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>FOLLICULAR CARCINOMA OF THE THYROID GLAND</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>WELL-DIFFERENTIATED FOLLICULAR ADENOCARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>FOLLICULAR CARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>FOLLICULAR CARCINOMA OF THYROID GLAND</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>FOLLICULAR CANCER OF THYROID</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>FOLLICULAR THYROID CARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>THYROID FOLLICULAR CARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>FOLLICULAR CARCINOMA OF THE THYROID</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>FOLLICULAR CANCER OF THYROID GLAND</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>FOLLICULAR CANCER OF THE THYROID GLAND</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>FOLLICULAR CARCINOMA OF THYROID</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>FOLLICULAR THYROID GLAND CARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neoplasia arising from follicular cells of the thyroid gland.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Thyroid Gland Follicular Carcinoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CARCINOMA, HEPATOCELLULAR, MALIGNANT" nciodm:ExtCodeID="C3099">
+          <nciodm:CDISCSynonym>CARCINOMA OF LIVER CELLS</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>PRIMARY CARCINOMA OF THE LIVER CELLS</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>LIVER CELL CARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>HEPATOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>CARCINOMA OF THE LIVER CELLS</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>PRIMARY CARCINOMA OF LIVER CELLS</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>HCC</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neoplasm arising from hepatocytes.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hepatocellular Carcinoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CARCINOMA, HEPATOCHOLANGIOCELLULAR, MALIGNANT" nciodm:ExtCodeID="C3828">
+          <nciodm:CDISCDefinition>A malignant neoplasm of the liver containing unequivocal elements of both hepatocellular and cholangiocarcinoma intimately admixed.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Combined Hepatocellular Carcinoma and Cholangiocarcinoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CARCINOMA, IN SITU, MALIGNANT" nciodm:ExtCodeID="C2917">
+          <nciodm:CDISCSynonym>EPITHELIAL TUMOR, IN SITU, MALIGNANT</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>INTRAEPITHELIAL CARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>NON-INVASIVE CARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>CIS</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant epithelial neoplasm confined to the epithelial layer and without evidence of further tissue invasion.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Carcinoma In Situ</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CARCINOMA, ISLET CELL, MALIGNANT" nciodm:ExtCodeID="C3770">
+          <nciodm:CDISCSynonym>PANCREATIC NEUROENDOCRINE CARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT PANCREATIC ENDOCRINE TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT ISLET CELL TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ISLET CELL CANCER</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ISLET CELL CARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant endocrine neoplasm arising from islets of Langerhans of the pancreas.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Pancreatic Neuroendocrine Carcinoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CARCINOMA, MALIGNANT" nciodm:ExtCodeID="C2916">
+          <nciodm:CDISCSynonym>EPITHELIOMA MALIGNANT</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>EPITHELIAL CARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT EPITHELIAL NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT EPITHELIAL TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT EPITHELIOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant epithelial neoplasm.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Carcinoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CARCINOMA, MIXED, ACINAR-ISLET CELL, MALIGNANT" nciodm:ExtCodeID="C6878">
+          <nciodm:CDISCDefinition>A malignant pancreatic neoplasm characterized by the presence of a mixture of acinar and islet cell elements.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Mixed Acinar-Neuroendocrine Carcinoma of the Pancreas</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CARCINOMA, NEUROENDOCRINE CELL, MALIGNANT" nciodm:ExtCodeID="C3773">
+          <nciodm:CDISCSynonym>NEURAL CREST TUMOR, MALIGNANT</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>NEUROENDOCRINE TUMOR, MALIGNANT</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>NEUROENDOCRINE CELL CARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>NEUROENDOCRINE CARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neuroendocrine neoplasm comprising cells containing secretory granules.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Neuroendocrine Carcinoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CARCINOMA, PARS DISTALIS, MALIGNANT" nciodm:ExtCodeID="C60491">
+          <nciodm:CDISCSynonym>Rat Pars Distalis Carcinoma</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant epithelial neoplasm arising from the pars distalis of the pituitary gland.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Rat Pars Distalis Carcinoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CARCINOMA, PARS INTERMEDIA, MALIGNANT" nciodm:ExtCodeID="C92183">
+          <nciodm:CDISCSynonym>Rat Pars Intermedia Carcinoma</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant epithelial neoplasm arising from the pars intermedia of the pituitary gland.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Rat Pars Intermedia Carcinoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CARCINOMA, RENAL CELL, MALIGNANT" nciodm:ExtCodeID="C9385">
+          <nciodm:CDISCSynonym>ADENOCARCINOMA OF THE KIDNEY</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>RENAL CELL CANCER</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>KIDNEY ADENOCARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>RCC</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>RENAL CELL CARCINOMA, STAGE UNSPECIFIED</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>RENAL CELL ADENOCARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ADENOCARCINOMA OF KIDNEY</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neoplasm arising from renal parenchyma.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Renal Cell Carcinoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CARCINOMA, RENAL, TUBULAR, MALIGNANT" nciodm:ExtCodeID="C39807">
+          <nciodm:CDISCSynonym>RENAL TUBULE CARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MUCINOUS TUBULAR AND SPINDLE CELL CARCINOMA OF THE KIDNEY</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neoplasm of the kidney, characterized by the presence of tubules.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Mucinous Tubular and Spindle Cell Carcinoma of the Kidney</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CARCINOMA, SPINDLE CELL, MALIGNANT" nciodm:ExtCodeID="C27004">
+          <nciodm:CDISCSynonym>PSEUDOSARCOMATOUS CARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>SPINDLE CELL CARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant epithelial neoplasm characterized by the presence of spindle cells.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Sarcomatoid Carcinoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CARCINOMA, SQUAMOUS CELL, IN SITU, MALIGNANT" nciodm:ExtCodeID="C27093">
+          <nciodm:CDISCSynonym>EPIDERMOID CELL CARCINOMA IN SITU</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>EPIDERMOID CARCINOMA IN SITU</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>GRADE III SQUAMOUS INTRAEPITHELIAL NEOPLASIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>INTRAEPITHELIAL SQUAMOUS CELL CARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>SQUAMOUS CELL CARCINOMA IN SITU</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>GRADE 3 SQUAMOUS INTRAEPITHELIAL NEOPLASIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>SQUAMOUS CARCINOMA IN SITU</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant epithelial neoplasm confined to the squamous epithelium, without invasion of underlying tissues.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Stage 0 Squamous Cell Carcinoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CARCINOMA, SQUAMOUS CELL, MALIGNANT" nciodm:ExtCodeID="C2929">
+          <nciodm:CDISCSynonym>MALIGNANT EPIDERMOID CELL NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>SQUAMOUS CARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>EPIDERMOID CARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT SQUAMOUS CELL TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>SQUAMOUS CELL EPITHELIOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>EPIDERMOID CELL CANCER</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT SQUAMOUS CELL NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT EPIDERMOID CELL TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>SQUAMOUS CELL CANCER</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neoplasm arising from squamous epithelial cells.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Squamous Cell Carcinoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CARCINOMA, SWEAT GLAND, MALIGNANT" nciodm:ExtCodeID="C6938">
+          <nciodm:CDISCSynonym>CARCINOMA OF SWEAT GLAND</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>CARCINOMA OF THE SWEAT GLAND</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neoplasm arising from sweat glands.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Sweat Gland Carcinoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CARCINOMA, TRANSITIONAL CELL, MALIGNANT" nciodm:ExtCodeID="C2930">
+          <nciodm:CDISCSynonym>TRANSITIONAL CARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neoplasm arising from transitional epithelium, usually affecting the urinary bladder, ureter, or renal pelvis.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Transitional Cell Carcinoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CARCINOMA, TUBULAR CELL, MALIGNANT" nciodm:ExtCodeID="C65192">
+          <nciodm:CDISCDefinition>A malignant glandular neoplasm exhibiting tubular structures.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Tubular Adenocarcinoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CARCINOMA, TUBULOSTROMAL, MALIGNANT" nciodm:ExtCodeID="C80356">
+          <nciodm:CDISCDefinition>A malignant epithelial neoplasm of the ovary with tubular and stromal neoplastic components.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Tubulostromal Adenocarcinoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CARCINOMA, UNDIFFERENTIATED, MALIGNANT" nciodm:ExtCodeID="C3692">
+          <nciodm:CDISCSynonym>ANAPLASTIC CARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>CARCINOMA, UNDIFFERENTIATED</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant epithelial neoplasm exhibiting poor differentiation (anaplasia).</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Undifferentiated Carcinoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CARCINOMA, ZYMBAL'S GLAND" nciodm:ExtCodeID="C98801">
+          <nciodm:CDISCDefinition>A malignant neoplasm of the rodent Zymbal's gland with sebaceous and/or squamous differentiation.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Zymbal's Gland Carcinoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CARCINOSARCOMA, MALIGNANT" nciodm:ExtCodeID="C34448">
+          <nciodm:CDISCDefinition>A malignant neoplasm comprising a mixture of carcinomatous and sarcomatous elements.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Carcinosarcoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CHEMODECTOMA, BENIGN" nciodm:ExtCodeID="C79950">
+          <nciodm:CDISCSynonym>BENIGN CHEMODECTOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign neoplasm of the chemoreceptor system (e.g. carotid body, glomus jugulare, glomus vagale).</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Benign Carotid Body Paraganglioma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CHEMODECTOMA, MALIGNANT" nciodm:ExtCodeID="C3574">
+          <nciodm:CDISCSynonym>MALIGNANT TUMOR OF THE CAROTID BODY</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT CAROTID BODY TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT NEOPLASM OF THE CAROTID BODY</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT NEOPLASM OF CAROTID BODY</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT CAROTID BODY NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT TUMOR OF CAROTID BODY</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neoplasm of the chemoreceptor system (e.g. carotid body, glomus jugulare, glomus vagale).</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Malignant Carotid Body Paraganglioma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CHEMODECTOMA, UNDETERMINED" nciodm:ExtCodeID="C2932">
+          <nciodm:CDISCSynonym>PARAGANGLIOMA OF CAROTID BODY</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>CHEMODECTOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>PARAGANGLIOMA OF THE CAROTID BODY</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>TUMOR OF THE CAROTID BODY</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>CAROTID BODY TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>CAROTID BODY CHEMODECTOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>TUMOR OF CAROTID BODY</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A neoplasm of the chemoreceptor system (e.g. carotid body, glomus jugulare, glomus vagale) for which the malignancy status has not be established.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Carotid Body Paraganglioma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CHOLANGIOCARCINOMA, INTRAHEPATIC, MALIGNANT" nciodm:ExtCodeID="C35417">
+          <nciodm:CDISCSynonym>PERIPHERAL CHOLANGIOCARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>INTRAHEPATIC CARCINOMA OF BILE DUCT</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>INTRAHEPATIC CARCINOMA OF THE BILE DUCT</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>INTRAHEPATIC BILE DUCT CARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>HEPATOCHOLANGIOCELLULAR CARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neoplasm of the liver arising from/comprising cells resembling those of bile ducts.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Intrahepatic Cholangiocarcinoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CHOLANGIOCARCINOMA, MALIGNANT" nciodm:ExtCodeID="C4436">
+          <nciodm:CDISCSynonym>CHOLANGIOCELLULAR CARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neoplasm arising from/comprising cells resembling those of bile ducts.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Cholangiocarcinoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CHOLANGIOMA, BENIGN" nciodm:ExtCodeID="C2942">
+          <nciodm:CDISCSynonym>HEPATOCHOLANGIOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>CHOLANGIOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ADENOMA OF BILE DUCT</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ADENOMA OF THE BILE DUCT</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>CHOLANGIOADENOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>CHOLANGIOFIBROMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>HEPATOCHOLANGIOCELLULAR ADENOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign neoplasm arising from/comprising cells resembling those of bile ducts.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Bile Duct Adenoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CHONDROMA, BENIGN" nciodm:ExtCodeID="C53459">
+          <nciodm:CDISCDefinition>A benign, well circumscribed neoplasm arising from the hyaline cartilage in soft tissue or bone. It is characterized by the presence of chondrocytes.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Chondroma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CHONDROSARCOMA, MALIGNANT" nciodm:ExtCodeID="C2946">
+          <nciodm:CDISCDefinition>A malignant mesenchymal neoplasm arising from cartilage-forming tissues.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Chondrosarcoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CHORDOMA, MALIGNANT" nciodm:ExtCodeID="C2947">
+          <nciodm:CDISCDefinition>A malignant bone neoplasm arising from the remnants of the fetal notochord.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Chordoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CHORIOCARCINOMA, MALIGNANT" nciodm:ExtCodeID="C2948">
+          <nciodm:CDISCSynonym>CHORIOEPITHELIOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>CHORIOEPITHELIOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neoplasm arising from placental trophoblast cells. They generally arise in the uterus.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Choriocarcinoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CRANIOPHARYNGIOMA, BENIGN" nciodm:ExtCodeID="C2964">
+          <nciodm:CDISCSynonym>NEOPLASM OF RATHKE'S POUCH</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>TUMOR OF RATHKE'S POUCH</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>RATHKE POUCH TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>RATHKE POUCH NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>RATHKE'S POUCH TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>RATHKE'S POUCH NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>CYSTOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign epithelial neoplasm of the sellar region, presumably derived from Rathke pouch epithelium.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Craniopharyngioma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CRANIOPHARYNGIOMA, MALIGNANT" nciodm:ExtCodeID="C79949">
+          <nciodm:CDISCSynonym>CARCINOMA ARISING FROM CRANIOPHARYNGIOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant epithelial neoplasm of the sellar region, presumably derived from Rathke pouch epithelium.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Carcinoma Arising from Craniopharyngioma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CYSTADENOCARCINOMA, MALIGNANT" nciodm:ExtCodeID="C2971">
+          <nciodm:CDISCDefinition>A malignant cystic epithelial neoplasm arising from glandular epithelium.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Cystadenocarcinoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CYSTADENOCARCINOMA, PAPILLARY, MALIGNANT" nciodm:ExtCodeID="C3777">
+          <nciodm:CDISCDefinition>A malignant cystic epithelial neoplasm arising from glandular epithelium exhibiting papillary structures.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Papillary Cystadenocarcinoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CYSTADENOMA, BENIGN" nciodm:ExtCodeID="C2972">
+          <nciodm:CDISCSynonym>CYSTOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign cystic epithelial neoplasm arising from glandular epithelium.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Cystadenoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CYSTADENOMA, PAPILLARY, BENIGN" nciodm:ExtCodeID="C2974">
+          <nciodm:CDISCDefinition>A benign cystic epithelial neoplasm arising from glandular epithelium exhibiting papillary structures.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Papillary Cystadenoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="DECIDUOMA, MALIGNANT" nciodm:ExtCodeID="C3555">
+          <nciodm:CDISCSynonym>MALIGNANT PLACENTAL TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT PLACENTAL NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT NEOPLASM OF PLACENTA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT TUMOR OF THE PLACENTA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT NEOPLASM OF THE PLACENTA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT TUMOR OF PLACENTA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT PLACENTAL TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neoplasm arising from decidua (placental) cells.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Malignant Placental Neoplasm</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="DECIDUOMA, UNDETERMINED" nciodm:ExtCodeID="C4858">
+          <nciodm:CDISCSynonym>DECIDUOMA NOS</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>PLACENTA NEOPLASMS</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>PLACENTA TUMORS</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>PLACENTA TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>TUMOR OF PLACENTA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>TUMOR OF THE PLACENTA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>PLACENTAL TUMORS</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>PLACENTAL TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>NEOPLASM OF THE PLACENTA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>PLACENTA NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>NEOPLASM OF PLACENTA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A neoplasm arising from decidua (placental) cells in which the malignancy status has not been established.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Placental Neoplasm</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="DERMOID CYST, BENIGN" nciodm:ExtCodeID="C9011">
+          <nciodm:CDISCSynonym>BENIGN CYSTIC TERATOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>DERMOID</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MATURE CYSTIC TERATOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign neoplasm comprised of a cyst, lined by mature epidermis-like tissue with dermal appendages.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Dermoid Cyst</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="DYSGERMINOMA, MALIGNANT" nciodm:ExtCodeID="C2996">
+          <nciodm:CDISCDefinition>A malignant germ cell neoplasm characterized by the presence of a monotonous primitive germ cell population, primarily in the ovary.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Dysgerminoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="EPENDYMOMA, ANAPLASTIC , MALIGNANT" nciodm:ExtCodeID="C4049">
+          <nciodm:CDISCSynonym>WHO GRADE III EPENDYMAL TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>UNDIFFERENTIATED EPENDYMAL NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT EPENDYMOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>UNDIFFERENTIATED EPENDYMAL TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>UNDIFFERENTIATED EPENDYMOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ANAPLASTIC EPENDYMAL NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ANAPLASTIC EPENDYMAL TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>WHO GRADE III EPENDYMAL NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neoplasm of ependymal origin with anaplastic cellular morphology.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Anaplastic Ependymoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="EPENDYMOMA, UNDETERMINED" nciodm:ExtCodeID="C3017">
+          <nciodm:CDISCSynonym>WHO GRADE II EPENDYMAL TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>WHO GRADE II EPENDYMAL NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A neoplasm of ependymal origin, for which the malignancy status has not been established.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Ependymoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="EPITHELIOMA, BENIGN" nciodm:ExtCodeID="C4092">
+          <nciodm:CDISCSynonym>BENIGN EPITHELIAL TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BENIGN EPITHELIOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BENIGN NEOPLASM OF EPITHELIUM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BENIGN TUMOR OF THE EPITHELIUM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BENIGN NEOPLASM OF THE EPITHELIUM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BENIGN TUMOR OF EPITHELIUM</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign neoplasm arising from epithelial cells of the skin.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Benign Epithelial Neoplasm</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="EPITHELIOMA, CYSTIC KERATINIZING, BENIGN" nciodm:ExtCodeID="C80349">
+          <nciodm:CDISCDefinition>A benign cystic epithelial neoplasm featuring a central keratin mass surrounded by squamous epithelium.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Cystic Keratinizing Epithelioma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="EPITHELIOMA, NON-KERATINIZING, BENIGN" nciodm:ExtCodeID="C84356">
+          <nciodm:CDISCDefinition>A benign cystic epithelial neoplasm characterized by the absence of keratin production.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Non-Keratinizing Epithelioma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="FIBROADENOCARCINOMA, MALIGNANT" nciodm:ExtCodeID="C2928">
+          <nciodm:CDISCSynonym>ADENOCARCINOMA WITH PRODUCTIVE FIBROSIS</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>FIBROCARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>SCIRRHOUS CARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neoplasm originating from glandular cells with a fibrous or fibroblastic component.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Scirrhous Adenocarcinoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="FIBROADENOMA, BENIGN" nciodm:ExtCodeID="C3744">
+          <nciodm:CDISCSynonym>FIBROADENOMA OF BREAST</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BREAST FIBROADENOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>FIBROADENOMA OF THE BREAST</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign neoplasm originating from glandular cells with a fibrous or fibroblastic component.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Fibroadenoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="FIBROLIPOMA, BENIGN" nciodm:ExtCodeID="C4249">
+          <nciodm:CDISCDefinition>A benign neoplasm comprising mature adipocytes, characterized by areas of abundant fibrous tissue.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Fibrolipoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="FIBROMA, BENIGN" nciodm:ExtCodeID="C3041">
+          <nciodm:CDISCDefinition>A benign neoplasm arising from fibrous tissue.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Fibroma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="FIBROMA, ODONTOGENIC, BENIGN" nciodm:ExtCodeID="C4314">
+          <nciodm:CDISCSynonym>CENTRAL ODONTOGENIC FIBROMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign intraosseous neoplasm arising from tooth-forming tissues in the mandible and maxilla, characterized by the presence of islands of odontogenic epithelium.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Odontogenic Fibroma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="FIBROMA, OSSIFYING, BENIGN" nciodm:ExtCodeID="C8422">
+          <nciodm:CDISCSynonym>OSSIFYING FIBROMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>CEMENTIFYING FIBROMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>CEMENTO-OSSIFYING FIBROMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign fibrous neoplasm characterized by a mineralized component (woven bone, lamellar bone, or cementum-like material).</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Ossifying Fibroma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="FIBROMYXOMA, BENIGN" nciodm:ExtCodeID="C66760">
+          <nciodm:CDISCSynonym>FIBROMYXOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign soft-tissue neoplasm of uncertain lineage, characterized by the presence of neoplastic spindle-shaped to round cells and a fibromyxoid stroma.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Fibromyxoid Neoplasm</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="FIBROPAPILLOMA, BENIGN" nciodm:ExtCodeID="C3337">
+          <nciodm:CDISCDefinition>A benign polypoid tumor comprising fibrous tissue and epithelium.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Fibroepithelial Polyp</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="FIBROSARCOMA, MALIGNANT" nciodm:ExtCodeID="C3043">
+          <nciodm:CDISCDefinition>A malignant mesenchymal neoplasm of the soft tissue and bone.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Fibrosarcoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GANGLIOGLIOMA, UNDETERMINED" nciodm:ExtCodeID="C3788">
+          <nciodm:CDISCDefinition>A neuroepithelial neoplasm comprised of neoplastic ganglion cells and neoplastic glial cells, in which the malignancy status has not been established.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Ganglioglioma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GANGLIONEUROBLASTOMA, MALIGNANT" nciodm:ExtCodeID="C3790">
+          <nciodm:CDISCDefinition>A malignant neoplasm characterized by the presence of neuroblastic and ganglion cells and a stroma with Schwannian differentiation.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Ganglioneuroblastoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GANGLIONEUROMA, BENIGN" nciodm:ExtCodeID="C3049">
+          <nciodm:CDISCDefinition>A benign neoplasm characterized by the presence of ganglion cells and spindle cell proliferation, located primarily in the brain, ganglia, or adrenal medulla.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Ganglioneuroma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GIANT CELL TUMOR, BENIGN" nciodm:ExtCodeID="C27477">
+          <nciodm:CDISCSynonym>OSTEOCLASTOMA, BENIGN</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BENIGN BONE GIANT CELL TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign neoplasm of bone comprised of giant cells (osteoclast-like) and mononuclear cells.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Benign Giant Cell Tumor of Bone</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GIANT CELL TUMOR, MALIGNANT" nciodm:ExtCodeID="C4090">
+          <nciodm:CDISCSynonym>MALIGNANT GIANT CELL TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neoplasm of bone comprised of giant cells (osteoclast-like) and mononuclear cells.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Malignant Giant Cell Neoplasm</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GIANT CELL TUMOR, UNDETERMINED" nciodm:ExtCodeID="C3055">
+          <nciodm:CDISCSynonym>TUMOR OF GIANT CELL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>TUMOR OF THE GIANT CELL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A neoplasm of bone comprised of giant cells (osteoclast-like) and mononuclear cells, for which the malignancy status has not been established.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Giant Cell Tumor</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GLIOMA, MALIGNANT" nciodm:ExtCodeID="C4822">
+          <nciodm:CDISCSynonym>MALIGNANT NEUROGLIAL NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT GLIAL NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT NEUROGLIAL TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT GLIAL TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neuroglial neoplasm. The term can apply to several primary neoplasm of the brain and spinal cord, including astrocytoma and oligodendroglioma in addition to others.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Malignant Glioma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GLIOMA, MIXED, MALIGNANT" nciodm:ExtCodeID="C3903">
+          <nciodm:CDISCSynonym>GLIOMA, MIXED</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MIXED NEUROGLIAL TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MIXED NEUROGLIAL NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MIXED GLIAL TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MIXED GLIAL NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neoplasm comprising two or more glial cell types (e.g., astrocytes, ependymal cells, oligodendrocytes).</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Mixed Glioma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GRANULAR CELL TUMOR, BENIGN" nciodm:ExtCodeID="C3252">
+          <nciodm:CDISCSynonym>BENIGN GRANULAR CELL TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BENIGN GRANULAR CELL NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BENIGN GRANULAR CELL MYOBLASTOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MYOBLASTOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign neoplasm, comprised of large cells with cytoplasmatic granules, occurring in various organs/tissues.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Benign Granular Cell Tumor</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GRANULAR CELL TUMOR, MALIGNANT" nciodm:ExtCodeID="C4336">
+          <nciodm:CDISCSynonym>MYOBLASTOMA, MALIGNANT</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT GRANULAR CELL NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT GRANULAR CELL MYOBLASTOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neoplasm, comprised of large cells with cytoplasmatic granules, occurring in various organs/tissues.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Malignant Granular Cell Tumor</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GRANULOSA CELL TUMOR, MALIGNANT" nciodm:ExtCodeID="C4205">
+          <nciodm:CDISCSynonym>GRANULOSA CELL NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neoplasm of the ovary, originating from granulosa cells.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Malignant Granulosa Cell Tumor</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GRANULOSA CELL TUMOR, UNDETERMINED" nciodm:ExtCodeID="C3070">
+          <nciodm:CDISCSynonym>GRANULOSA CELL NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A neoplasm of the ovary (or testis), originating from granulosa cells for which the malignancy status has not been established.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Granulosa Cell Tumor</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HAIR FOLLICLE NEOPLASM, BENIGN" nciodm:ExtCodeID="C27520">
+          <nciodm:CDISCSynonym>BENIGN FOLLICULAR NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BENIGN FOLLICULAR TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BENIGN HAIR FOLLICLE TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign neoplasm that arises from the hair follicle.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Benign Hair Follicle Neoplasm</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HAIR FOLLICLE NEOPLASM, MALIGNANT" nciodm:ExtCodeID="C43310">
+          <nciodm:CDISCSynonym>MALIGNANT HAIR FOLLICLE TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neoplasm that arises from the hair follicle.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Malignant Hair Follicle Neoplasm</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HAIR FOLLICLE NEOPLASM, UNDETERMINED" nciodm:ExtCodeID="C7367">
+          <nciodm:CDISCSynonym>HAIR FOLLICLE TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>HAIR MATRIX NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>HAIR MATRIX TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>NEOPLASM OF HAIR FOLLICLE</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>NEOPLASM OF THE HAIR FOLLICLE</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A neoplasm that arises from the hair follicle, for which the malignancy status has not been established.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hair Follicle Neoplasm</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HAMARTOMA, BENIGN" nciodm:ExtCodeID="C3075">
+          <nciodm:CDISCDefinition>A benign and excessive tumor-like growth of mature cells and normal tissues which grow in a disorganized pattern.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hamartoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HAMARTOMA, LIPOMATOUS, BENIGN" nciodm:ExtCodeID="C40426">
+          <nciodm:CDISCDefinition>A benign hamartomatous tumor composed predominantly of adipose tissue.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Lipomatous Hamartoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HEMANGIOMA, BENIGN" nciodm:ExtCodeID="C3085">
+          <nciodm:CDISCSynonym>ANGIOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BENIGN ANGIOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BENIGN HEMANGIOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign vascular neoplasm characterized by the formation of capillary-sized or cavernous vascular channels.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hemangioma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HEMANGIOPERICYTOMA, BENIGN" nciodm:ExtCodeID="C4300">
+          <nciodm:CDISCDefinition>A benign neoplasm originating from vascular pericytes (cells in the periphery of vessels).</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Benign Hemangiopericytoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HEMANGIOPERICYTOMA, MALIGNANT" nciodm:ExtCodeID="C4301">
+          <nciodm:CDISCSynonym>MALIGNANT HEMANGIOPERICYTOMA NOS</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neoplasm originating from vascular pericytes (cells in the periphery of vessels).</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Malignant Hemangiopericytoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HEMANGIOPERICYTOMA, UNDETERMINED" nciodm:ExtCodeID="C3087">
+          <nciodm:CDISCDefinition>A neoplasm originating from vascular pericytes (cells in the periphery of vessels), for which the malignancy status has not been established.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hemangiopericytoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HEMANGIOSARCOMA, MALIGNANT" nciodm:ExtCodeID="C3088">
+          <nciodm:CDISCSynonym>HEMANGIOSARCOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant vascular neoplasm arising from endothelial cells.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Angiosarcoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HEPATOBLASTOMA, MALIGNANT" nciodm:ExtCodeID="C3728">
+          <nciodm:CDISCSynonym>HBL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>PEDIATRIC EMBRYONAL HEPATOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>PEDIATRIC HEPATOBLASTOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant liver neoplasm composed of immature hepatocytic elements.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hepatoblastoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HIBERNOMA, BENIGN" nciodm:ExtCodeID="C3702">
+          <nciodm:CDISCSynonym>BROWN FAT NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>FETAL FAT CELL LIPOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BROWN FAT TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign neoplasm of the brown adipose tissue.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hibernoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HISTIOCYTOMA, BENIGN" nciodm:ExtCodeID="C98708">
+          <nciodm:CDISCDefinition>A benign dermal neoplasm comprising of round cells, resembling histiocytes. The tumor commonly occurs in young dogs and may regress spontaneously.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Benign Histiocytoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HISTIOCYTOMA, FIBROUS, BENIGN" nciodm:ExtCodeID="C3739">
+          <nciodm:CDISCSynonym>FIBROUS HISTIOCYTOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign neoplasm composed of a fibroblastic and a histiocytic component.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Benign Fibrous Histiocytoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HISTIOCYTOMA, FIBROUS, MALIGNANT" nciodm:ExtCodeID="C4247">
+          <nciodm:CDISCSynonym>MALIGNANT FIBROUS HISTIOCYTOMA OF THE SOFT TISSUE AND BONE</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>FIBROXANTHOSARCOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT FIBROXANTHOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MFH</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT FIBROUS HISTIOCYTOMA OF SOFT TISSUE AND BONE</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neoplasm composed of a fibroblastic and a histiocytic component.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Malignant Fibrous Histiocytoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HISTIOCYTOMA, FIBROUS, UNDETERMINED" nciodm:ExtCodeID="C8402">
+          <nciodm:CDISCSynonym>FIBROHISTIOCYTIC TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A neoplasm composed of a fibroblastic and a histiocytic component, for which the malignancy status has not been established.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Fibrohistiocytic Neoplasm</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HISTIOCYTOMA, UNDETERMINED" nciodm:ExtCodeID="C35765">
+          <nciodm:CDISCDefinition>A neoplasm composed of histiocytic cells, for which the malignancy status has not been established.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Histiocytoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ITO CELL TUMOR, BENIGN" nciodm:ExtCodeID="C80351">
+          <nciodm:CDISCSynonym>BENIGN SPONGIOTIC PERICYTOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign neoplasm of the liver composed of hepatic stellate cells (Ito cells).</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Benign Ito Cell Tumor</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ITO CELL TUMOR, MALIGNANT" nciodm:ExtCodeID="C80352">
+          <nciodm:CDISCSynonym>MALIGNANT SPONGIOTIC PERICYTOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neoplasm of the liver composed of hepatic stellate cells (Ito cells).</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Malignant Ito Cell Tumor</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="KERATOACANTHOMA, UNDETERMINED" nciodm:ExtCodeID="C3146">
+          <nciodm:CDISCDefinition>An epithelial skin neoplasm, composed of squamous cells, for which the malignancy status has not been established.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Keratoacanthoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LEIOMYOBLASTOMA, BENIGN" nciodm:ExtCodeID="C81854">
+          <nciodm:CDISCDefinition>A benign neoplasm of the gastro-intestinal tract, originating from smooth muscle cells.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Benign Epithelioid Cell Type Gastrointestinal Stromal Tumor</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LEIOMYOBLASTOMA, MALIGNANT" nciodm:ExtCodeID="C81855">
+          <nciodm:CDISCDefinition>A malignant neoplasm of the gastro-intestinal tract, originating from smooth muscle cells.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Malignant Epithelioid Cell Type Gastrointestinal Stromal Tumor</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LEIOMYOBLASTOMA, UNDETERMINED" nciodm:ExtCodeID="C3486">
+          <nciodm:CDISCSynonym>LEIOMYOBLASTOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>EPITHELIOID CELL TYPE GIST</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>STOUT'S LEIOMYOBLASTOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A neoplasm of the gastro-intestinal tract, originating from smooth muscle cells, for which the malignancy status has not been established.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Epithelioid Cell Type Gastrointestinal Stromal Tumor</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LEIOMYOMA, BENIGN" nciodm:ExtCodeID="C3157">
+          <nciodm:CDISCSynonym>LEIOMYOMATOUS NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>LEIOMYOMATOUS TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>FIBROID NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>FIBROID TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>FIBROID</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign neoplasm, originating from smooth muscle cells.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Leiomyoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LEIOMYOSARCOMA, MALIGNANT" nciodm:ExtCodeID="C3158">
+          <nciodm:CDISCSynonym>LEIOMYOSARCOMAS</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neoplasm, originating from smooth muscle cells.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Leiomyosarcoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LEUKEMIA, ACUTE ERYTHROID, MALIGNANT" nciodm:ExtCodeID="C8923">
+          <nciodm:CDISCSynonym>DIGUGLIELMO'S DISEASE</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>DIGUGLIELMO'S SYNDROMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ERYTHROBLASTIC LEUKEMIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ACUTE ERYTHROBLASTIC LEUKEMIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>DI GUGLIELMO'S DISEASE</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>M6 ACUTE MYELOID LEUKEMIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>DI GUGLIELMO DISEASE</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>FAB M6</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A progressive, proliferative disease of blood cells, originating from immature erythroid cells.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Acute Erythroid Leukemia</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LEUKEMIA, ACUTE LYMPHOBLASTIC, MALIGNANT" nciodm:ExtCodeID="C3167">
+          <nciodm:CDISCSynonym>LYMPHOBLASTIC LEUKEMIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ALL - ACUTE LYMPHOCYTIC LEUKEMIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ACUTE LYMPHOID LEUKEMIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>PRECURSOR CELL LYMPHOBLASTIC LEUKEMIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ALL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>PRECURSOR LYMPHOBLASIC LEUKEMIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ACUTE LYMPHOGENOUS LEUKEMIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ACUTE LYMPHOCYTIC LEUKEMIAS</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ACUTE LYMPHOCYTIC LEUKAEMIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A progressive, proliferative disease of blood cells, originating from immature lymphoid cells.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Acute Lymphoblastic Leukemia</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LEUKEMIA, ACUTE MEGAKARYOCYTIC, MALIGNANT" nciodm:ExtCodeID="C3170">
+          <nciodm:CDISCSynonym>ACUTE MEGAKARYOCYTIC LEUKEMIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ACUTE MEGAKARYOBLASTIC LEUKEMIA (FAB TYPE M7)</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>FAB M7</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ACUTE M7 MYELOID LEUKEMIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A progressive, proliferative disease of blood cells, originating from immature megakaryocytes.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Acute Megakaryoblastic Leukemia</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LEUKEMIA, ACUTE MONOCYTIC, MALIGNANT" nciodm:ExtCodeID="C4861">
+          <nciodm:CDISCSynonym>ACUTE MONOCYTIC LEUKEMIA (FAB M5B)</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MONOCYTIC LEUKEMIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A progressive, proliferative disease of blood cells, originating from immature monocytes.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Acute Monocytic Leukemia</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LEUKEMIA, GRANULOCYTIC, MALIGNANT" nciodm:ExtCodeID="C3172">
+          <nciodm:CDISCSynonym>LEUKEMIA GRANULOCYTIC</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>LEUKEMIA MYELOID</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>NON-LYMPHOBLASTIC LEUKEMIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MYELOCYTIC LEUKEMIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>NON-LYMPHOCYTIC LEUKEMIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MYELOGENOUS LEUKEMIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A progressive, proliferative disease of blood cells, originating from immature granulocytes.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Myeloid Leukemia</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LEUKEMIA, LARGE GRANULAR LYMPHOCYTIC, MALIGNANT" nciodm:ExtCodeID="C4664">
+          <nciodm:CDISCSynonym>T-GAMMA LYMPHOPROLIFERATIVE DISORDER</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>LARGE CELL GRANULAR LYMPHOID LEUKEMIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>T-CELL LARGE GRANULAR LYMPHOCYTIC LEUKEMIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>LGLL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>TGAMMA LARGE GRANULAR LYMPHOCYTE LEUKEMIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>T GAMMA LYMPHOPROLIFERATIVE DISORDER</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>LARGE GRANULAR LYMPHOCYTOSIS</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>LARGE GRANULAR LYMPHOCYTIC LEUKEMIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>LARGE CELL GRANULAR LYMPHOGENOUS LEUKEMIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A progressive, proliferative disease of blood cells which are large and granular, originating from lymphoid cells.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>T-Cell Large Granular Lymphocyte Leukemia</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LEUKEMIA, LYMPHOCYTIC, MALIGNANT" nciodm:ExtCodeID="C7539">
+          <nciodm:CDISCSynonym>LYMPHOGENOUS LEUKEMIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>LYMPHOCYTIC LEUKEMIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A progressive, proliferative disease of blood cells, originating from lymphoid cells.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Lymphoid Leukemia</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LEUKEMIA, MALIGNANT" nciodm:ExtCodeID="C3161">
+          <nciodm:CDISCSynonym>LEUKEMIA NOS</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>LEUKEMIAS, GENERAL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>LEUKEMIAS</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BLOOD (LEUKEMIA)</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A progressive, proliferative disease of blood cells, originating from myeloid or lymphoid stem cells.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Leukemia</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LEYDIG CELL TUMOR, BENIGN" nciodm:ExtCodeID="C4212">
+          <nciodm:CDISCSynonym>ADENOMA, INTERSTITIAL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BENIGN INTERSTITIAL CELL NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BENIGN INTERSTITIAL CELL TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BENIGN LEYDIG CELL NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign neoplasm of the testis originating from interstitial (Leydig) cells.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Benign Leydig Cell Tumor</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LEYDIG CELL TUMOR, MALIGNANT" nciodm:ExtCodeID="C4213">
+          <nciodm:CDISCSynonym>MALIGNANT INTERSTITIAL CELL TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT LEYDIG CELL NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT INTERSTITIAL CELL NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neoplasm of the testis originating from interstitial (Leydig) cells.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Malignant Leydig Cell Tumor</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LEYDIG CELL TUMOR, UNDETERMINED" nciodm:ExtCodeID="C3188">
+          <nciodm:CDISCSynonym>LEYDIG CELL TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>LEYDIG CELL NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>INTERSTITIAL CELL NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>INTERSTITIAL CELL TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A neoplasm of the testis originating from interstitial (Leydig) cells, for which the malignancy status has not been established.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Leydig Cell Tumor</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LIPOMA, BENIGN" nciodm:ExtCodeID="C3192">
+          <nciodm:CDISCDefinition>A benign neoplasm composed of adipose tissue.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Lipoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LIPOSARCOMA, MALIGNANT" nciodm:ExtCodeID="C3194">
+          <nciodm:CDISCSynonym>MALIGNANT HIBERNOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neoplasm composed of adipose tissue.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Liposarcoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LUTEOMA, BENIGN" nciodm:ExtCodeID="C3202">
+          <nciodm:CDISCSynonym>LUTEOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>LUTEINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>LUTEAL CELL TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>LUTEAL CELL NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>OVARIAN STROMA LUTEOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign neoplasm of the ovary, composed of leuteinized granulosa-theca cells.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Ovarian Stromal Luteoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LYMPHANGIOMA, BENIGN" nciodm:ExtCodeID="C8965">
+          <nciodm:CDISCDefinition>A benign neoplasm arising from the lymphatics.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Lymphangioma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LYMPHANGIOSARCOMA, MALIGNANT" nciodm:ExtCodeID="C3205">
+          <nciodm:CDISCSynonym>MALIGNANT LYMPHANGIOENDOTHELIOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>LYMPHANGIOENDOTHELIAL SARCOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neoplasm arising from the endothelial cells of the lymphatic vessels.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Lymphangiosarcoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LYMPHOMA, FOLLICULAR, MALIGNANT" nciodm:ExtCodeID="C3209">
+          <nciodm:CDISCSynonym>LYMPHOMA, FOLLICULAR CENTRE CELL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>FOLLICULAR CENTRE CELL LYMPHOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>FOLLICLE CENTER LYMPHOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>FOLLICULAR NON-HODGKIN LYMPHOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>FOLLICULAR NON-HODGKIN'S LYMPHOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A neoplasm of lymphoid cells which has at least a partial follicular pattern.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Follicular Lymphoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LYMPHOMA, HISTIOCYTIC, MALIGNANT" nciodm:ExtCodeID="C35382">
+          <nciodm:CDISCSynonym>LYMPHOMA, LARGE CELL, MALIGNANT</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neoplasm of large lymphocytes, which resemble histiocytes.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>True Histiocytic Lymphoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LYMPHOMA, IMMUNOBLASTIC, MALIGNANT" nciodm:ExtCodeID="C3461">
+          <nciodm:CDISCSynonym>LYMPHOMA, LYMPHOCYTIC, MALIGNANT</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neoplasm composed of immunoblasts (large B cells).</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Immunoblastic Lymphoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LYMPHOMA, LYMPHOBLASTIC, MALIGNANT" nciodm:ExtCodeID="C9360">
+          <nciodm:CDISCSynonym>PRECURSOR CELL LYMPHOBLASTIC LYMPHOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>PRECURSOR LYMPHOBLASTIC LYMPHOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neoplasm composed of lymphoblasts (lymphoid precursor cells).</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Lymphoblastic Lymphoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LYMPHOMA, LYMPHOPLASMACYTIC, MALIGNANT" nciodm:ExtCodeID="C3212">
+          <nciodm:CDISCSynonym>LYMPHOMA, PLASMACYTIC</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>IMMUNOCYTOMA, LYMPHOPLASMACYTIC TYPE</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>LYMPHOPLASMACYTOID LYMPHOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neoplasm composed of lymphocytes (B-cells), lymphoplasmacytoid cells, and plasma cells.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Lymphoplasmacytic Lymphoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LYMPHOMA, MALIGNANT" nciodm:ExtCodeID="C3208">
+          <nciodm:CDISCSynonym>LYMPHOMA, PLEOMORPHIC, MALIGNANT</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>LYMPHOMA (HODGKIN AND NON-HODGKIN)</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>LYMPHOMA (HODGKIN'S AND NON-HODGKIN'S)</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT LYMPHOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neoplasm composed of lymphocytes of B- or T/NK-cell phenotype.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Lymphoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LYMPHOMA, MIXED, MALIGNANT" nciodm:ExtCodeID="C3463">
+          <nciodm:CDISCSynonym>DIFFUSE MIXED LARGE AND SMALL CELL LYMPHOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neoplasm composed of a mixed lymphocyte population.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Diffuse Mixed Cell Lymphoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LYMPHOMA, SMALL LYMPHOCYTIC, MALIGNANT" nciodm:ExtCodeID="C7540">
+          <nciodm:CDISCSynonym>SMALL B-CELL LYMPHOCYTIC LYMPHOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>SLL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>B-CELL SMALL LYMPHOCYTIC LYMPHOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neoplasm composed of small lymphocytes.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Small Lymphocytic Lymphoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LYMPHOSARCOMA, MALIGNANT" nciodm:ExtCodeID="C26919">
+          <nciodm:CDISCDefinition>An antiquated term referring to a malignant lymphoma that is diffused and composed of small and large lymphocytes.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Lymphosarcoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MAST CELL TUMOR, BENIGN" nciodm:ExtCodeID="C3217">
+          <nciodm:CDISCDefinition>A benign neoplasm composed of mast cells.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Benign Mastocytoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MAST CELL TUMOR, MALIGNANT" nciodm:ExtCodeID="C8991">
+          <nciodm:CDISCDefinition>A malignant neoplasm composed of mast cells.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Malignant Mastocytosis</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MAST CELL TUMOR, UNDETERMINED" nciodm:ExtCodeID="C9295">
+          <nciodm:CDISCSynonym>MAST CELL PROLIFERATIVE DISEASE</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>TUMOR OF MAST CELLS</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>NEOPLASM OF MAST CELLS</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MASTOCYTOSIS</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>NEOPLASM OF THE MAST CELLS</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MAST CELL TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>TUMOR OF THE MAST CELLS</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A neoplasm composed of mast cells, for which the malignancy status has not been determined.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Mast Cell Neoplasm</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MEDULLOBLASTOMA, MALIGNANT" nciodm:ExtCodeID="C3222">
+          <nciodm:CDISCSynonym>MEDULLOBLASTOMAS</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant, invasive embryonal neoplasm arising from the cerebellum.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Medulloblastoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MELANOCYTOMA, BENIGN" nciodm:ExtCodeID="C98709">
+          <nciodm:CDISCDefinition>A benign neoplasm or hamartoma composed of melanocytes.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Benign Melanocytoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MELANOMA, AMELANOTIC, MALIGNANT" nciodm:ExtCodeID="C3802">
+          <nciodm:CDISCDefinition>A malignant neoplasm composed of melanocytes, which lack melanin.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Amelanotic Melanoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MELANOMA, MALIGNANT" nciodm:ExtCodeID="C3224">
+          <nciodm:CDISCSynonym>MALIGNANT MELANOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neoplasm composed of melanocytes.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Melanoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MELANOMA, UVEAL, MALIGNANT" nciodm:ExtCodeID="C7712">
+          <nciodm:CDISCSynonym>MELANOMA OF UVEA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MELANOMA OF THE UVEA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>INTRAOCULAR MELANOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neoplasm of the uvea composed of melanocytes.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Uveal Melanoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MENINGIOMA, ANAPLASTIC, MALIGNANT" nciodm:ExtCodeID="C4051">
+          <nciodm:CDISCSynonym>ANAPLASTIC MENINGIOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT MENINGIOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MENINGIOMA, MALIGNANT</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neoplasm of the meninges, exhibiting poor differentiation (anaplasia).</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Anaplastic (Malignant) Meningioma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MENINGIOMA, BENIGN" nciodm:ExtCodeID="C4055">
+          <nciodm:CDISCSynonym>MENINGIOMA, BENIGN</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign neoplasm of the meninges.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Benign Meningioma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MENINGIOMA, MALIGNANT" nciodm:ExtCodeID="C38938">
+          <nciodm:CDISCSynonym>GRADE III MENINGIOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>GRADE 3 MENINGIOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>WHO GRADE III MENINGIOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neoplasm of the meninges.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Grade III Meningioma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MENINGIOMA, UNDETERMINED" nciodm:ExtCodeID="C3230">
+          <nciodm:CDISCDefinition>A neoplasm of the meninges, for which the status of malignancy has not been determined.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Meningioma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MESENCHYMAL TUMOR, BENIGN" nciodm:ExtCodeID="C4267">
+          <nciodm:CDISCSynonym>BENIGN CONNECTIVE AND SOFT TISSUE NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BENIGN CONNECTIVE AND SOFT TISSUE TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BENIGN MESENCHYMAL CELL NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BENIGN NEOPLASM OF THE SOFT TISSUE AND BONE</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BENIGN TUMOR OF THE SOFT TISSUE AND BONE</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign soft-tissue neoplasm comprising two or more non-fibroblastic mesenchymal lines of differentiation.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Benign Mesenchymoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MESOTHELIOMA, BENIGN" nciodm:ExtCodeID="C3762">
+          <nciodm:CDISCSynonym>ADENOMATOID TUMOR, BENIGN</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BENIGN MESOTHELIOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MESOTHELIOMA, BENIGN</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BENIGN NEOPLASM OF MESOTHELIUM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BENIGN MESOTHELIAL NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BENIGN TUMOR OF MESOTHELIUM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BENIGN MESOTHELIAL TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BENIGN LOCALIZED EPITHELIAL MESOTHELIOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BENIGN TUMOR OF THE MESOTHELIUM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BENIGN NEOPLASM OF THE MESOTHELIUM</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign neoplasm arising from mesothelial cells.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Adenomatoid Tumor</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MESOTHELIOMA, MALIGNANT" nciodm:ExtCodeID="C4456">
+          <nciodm:CDISCSynonym>MALIGNANT TUMOR OF MESOTHELIUM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT NEOPLASM OF THE MESOTHELIUM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT MESOTHELIAL TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT NEOPLASM OF MESOTHELIUM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT MESOTHELIAL NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT TUMOR OF THE MESOTHELIUM</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neoplasm originating from mesothelial cells of the pleura or peritoneum.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Malignant Mesothelioma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MESOTHELIOMA, UNDETERMINED" nciodm:ExtCodeID="C3234">
+          <nciodm:CDISCDefinition>A neoplasm originating from mesothelial cells of the pleura or peritoneum, for which the malignancy status has not been established.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Mesothelioma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MIXED GLIOMA, BENIGN" nciodm:ExtCodeID="C4050">
+          <nciodm:CDISCDefinition>A benign neoplasm of the central nervous system with an astrocytic and oligodendrocytic component.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Oligoastrocytoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MIXED TUMOR, BENIGN" nciodm:ExtCodeID="C8602">
+          <nciodm:CDISCDefinition>A benign neoplasm composed of epithelial and/or myoepithelial cells and a mesenchymal component.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Pleomorphic Adenoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MIXED TUMOR, MALIGNANT" nciodm:ExtCodeID="C3729">
+          <nciodm:CDISCSynonym>MALIGNANT MIXED TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neoplasm composed of epithelial and/or myoepithelial cells and a mesenchymal component. A general term for which the transformed cell types have not been specified.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Malignant Mixed Neoplasm</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MIXED TUMOR, UNDETERMINED" nciodm:ExtCodeID="C6930">
+          <nciodm:CDISCSynonym>TUMOR, MIXED</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MIXED TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A neoplasm composed of an epithelial component and/or a mesenchymal component, for which the malignancy status has not been established. A general term for which the transformed cell types have not been specified.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Mixed Neoplasm</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MUELLERIAN TUMOR, MIXED, MALIGNANT" nciodm:ExtCodeID="C8975">
+          <nciodm:CDISCSynonym>MALIGNANT MIXED MESODERMAL TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT MIXED MULLERIAN TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MMMT</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neoplasm of the female reproductive system (mostly uterus and ovaries) originating from the Muellerian ducts and composed of carcinomatous and sarcomatous elements.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Malignant Mixed Mesodermal (Mullerian) Tumor</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MYELOLIPOMA, BENIGN" nciodm:ExtCodeID="C3736">
+          <nciodm:CDISCSynonym>MYELIPOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign tumor of the adrenal gland composed of adipocytes and hematopoietic/lymphoid cells.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Adrenal Gland Myelolipoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MYELOMA, PLASMA CELL, MALIGNANT" nciodm:ExtCodeID="C3242">
+          <nciodm:CDISCSynonym>MYELOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MULTIPLE MYELOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neoplasm of the bone marrow composed of plasma cells.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Plasma Cell Myeloma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MYOEPITHELIOMA, BENIGN" nciodm:ExtCodeID="C7442">
+          <nciodm:CDISCDefinition>A benign neoplasm composed of myoepithelial cells.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Benign Myoepithelioma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MYOEPITHELIOMA, MALIGNANT" nciodm:ExtCodeID="C7596">
+          <nciodm:CDISCSynonym>MYOEPITHELIAL CARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT MYOEPITHELIOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neoplasm composed of myoepithelial cells.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Malignant Myoepithelioma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MYXOMA, BENIGN" nciodm:ExtCodeID="C6577">
+          <nciodm:CDISCDefinition>A benign soft tissue neoplasm with a myxoid stroma formation.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Myxoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MYXOSARCOMA, MALIGNANT" nciodm:ExtCodeID="C3255">
+          <nciodm:CDISCDefinition>A malignant soft tissue neoplasm with a myxoid stroma formation.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Myxosarcoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="NEOPLASM, BASAL CELL, BENIGN" nciodm:ExtCodeID="C4743">
+          <nciodm:CDISCSynonym>BENIGN BASAL CELL TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign neoplasm composed of basal cells.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Benign Basal Cell Neoplasm</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="NEOPLASM, BASAL CELL, MALIGNANT" nciodm:ExtCodeID="C7586">
+          <nciodm:CDISCDefinition>A malignant neoplasm composed of basal cells.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Malignant Basal Cell Neoplasm</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="NEOPLASM, BENIGN" nciodm:ExtCodeID="C3677">
+          <nciodm:CDISCSynonym>BENIGN TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BENIGN UNCLASSIFIABLE TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A general term used to describe autonomous growth of tissue where the originating cell type has not been characterized. The term benign indicates the absence of morphologic features associated with malignancy (for instance severe atypia, nuclear pleomorphism, tumor cell necrosis, and abnormal mitoses).</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Benign Neoplasm</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="NEOPLASM, MALIGNANT" nciodm:ExtCodeID="C9305">
+          <nciodm:CDISCSynonym>MALIGNANCY</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>CA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>CANCER</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A general term for autonomous tissue growth exhibiting morphologic features of malignancy (e.g. severe atypia, nuclear pleomorphism, tumor cell necrosis, abnormal mitoses, tissue invasiveness) and for which the transformed cell type has not been specifically identified.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Malignant Neoplasm</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="NEOPLASM, UNDETERMINED" nciodm:ExtCodeID="C3262">
+          <nciodm:CDISCDefinition>A general term for autonomous tissue growth in which the malignancy status has not been established and for which the transformed cell type has not been specifically identified.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Neoplasm</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="NEPHROBLASTOMA, MALIGNANT" nciodm:ExtCodeID="C40407">
+          <nciodm:CDISCSynonym>EMBRYONAL NEPHROMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>NEPHROBLASTOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>WILMS TUMOR OF THE KIDNEY</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>RENAL WILMS' TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>WILMS' TUMOR OF THE KIDNEY</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant embryonal neoplasm of the kidney.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Renal Wilms Tumor</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="NEURAL CREST TUMOR, UNDETERMINED" nciodm:ExtCodeID="C3809">
+          <nciodm:CDISCSynonym>NEUROENDOCRINE TUMOR NOS</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>NEUROENDOCRINE TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A neoplasm composed of cells of neuroendocrine origin for which the malignancy status has not been established.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Neuroendocrine Neoplasm</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="NEUROBLASTOMA, MALIGNANT" nciodm:ExtCodeID="C3270">
+          <nciodm:CDISCSynonym>NEUROBLASTOMA (SCHWANNIAN STROMA-POOR)</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neoplasm composed of neuroblastic cells.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Neuroblastoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="NEUROBLASTOMA, OLFACTORY, MALIGNANT" nciodm:ExtCodeID="C3789">
+          <nciodm:CDISCSynonym>ESTHESIONEUROBLASTOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>OLFACTORY ESTHESIONEUROBLASTOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ESTHESIONEUROBLASTOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ESTHESIONEUROEPITHELIOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>OLFACTORY NEUROEPITHELIOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neoplasm of the olfactory receptor cells, composed of neuroblastic cells.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Olfactory Neuroblastoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="NEUROFIBROMA, BENIGN" nciodm:ExtCodeID="C3272">
+          <nciodm:CDISCDefinition>An intraneural or extraneural neoplasm arising from nerve tissues and neural sheaths, composed of perineurial-like fibroblasts and Schwann cells.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Neurofibroma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="NEUROGLIAL TUMOR, UNDETERMINED" nciodm:ExtCodeID="C3059">
+          <nciodm:CDISCSynonym>GLIOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>NEOPLASM OF THE NEUROGLIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>NEUROGLIAL NEOPLASMS</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>TUMOR OF THE NEUROGLIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>TUMORS OF NEUROGLIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>TUMOR OF NEUROGLIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>NEOPLASMS OF NEUROGLIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>GLIAL NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>GLIAL TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>GLIOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>NEOPLASM OF NEUROGLIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>NEUROGLIAL NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A neoplasm of the central nervous system composed of glial cells (astrocytes, oligodendrocytes, ependymal cells), for which the malignancy status has not been determined.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Neuroglial Tumor</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ODONTOGENIC TUMOR, BENIGN" nciodm:ExtCodeID="C4306">
+          <nciodm:CDISCSynonym>BENIGN ODONTOGENIC TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign neoplasm arising from tooth-forming tissues.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Benign Odontogenic Neoplasm</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ODONTOGENIC TUMOR, UNDETERMINED" nciodm:ExtCodeID="C3286">
+          <nciodm:CDISCSynonym>ODONTOMA, UNDETERMINED</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ODONTOGENIC TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A neoplasm arising from tooth-forming tissues, for which the malignancy status has not been established.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Odontogenic Neoplasm</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ODONTOMA, AMELOBLASTIC, BENIGN" nciodm:ExtCodeID="C3710">
+          <nciodm:CDISCSynonym>AMELOBLASTIC FIBROODONTOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>FIBROAMELOBLASTIC ODONTOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign neoplasm arising from tooth-forming tissues with-enamel organ differentiation (but without enamel formation).</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Ameloblastic Fibro-Odontoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ODONTOMA, AMELOBLASTIC, MALIGNANT" nciodm:ExtCodeID="C7492">
+          <nciodm:CDISCDefinition>A malignant neoplasm arising from tooth-forming tissues with-enamel organ differentiation (but without enamel formation).</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Ameloblastic Carcinoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ODONTOMA, BENIGN" nciodm:ExtCodeID="C3287">
+          <nciodm:CDISCSynonym>FIBROODONTOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>FIBRO-ODONTOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign neoplasm of tooth origin.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Odontoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ODONTOMA, MALIGNANT" nciodm:ExtCodeID="C4812">
+          <nciodm:CDISCSynonym>ODONTOGENIC CARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT ODONTOGENIC TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ODONTOGENIC CARCINOSARCOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neoplasm of tooth origin.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Malignant Odontogenic Neoplasm</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="OLIGODENDROGLIOMA, ANAPLASTIC, MALIGNANT" nciodm:ExtCodeID="C4326">
+          <nciodm:CDISCSynonym>WHO GRADE III OLIGODENDROGLIAL NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>OLIGODENDROGLIOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT OLIGODENDROGLIOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>WHO GRADE III OLIGODENDROGLIAL TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>UNDIFFERENTIATED OLIGODENDROGLIOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neoplasm of the central nervous system arising from oligodendrocytes, exhibiting poor differentiation (anaplasia).</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Anaplastic Oligodendroglioma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="OLIGODENDROGLIOMA, UNDETERMINED" nciodm:ExtCodeID="C3288">
+          <nciodm:CDISCSynonym>WELL DIFFERENTIATED OLIGODENDROGLIOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>WELL DIFFERENTIATED OLIGODENDROGLIAL TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>WHO GRADE II OLIGODENDROGLIAL TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>WHO GRADE II OLIGODENDROGLIAL NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A neoplasm of the central nervous system arising from oligodendrocytes, for which the malignancy status has not been determined.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Oligodendroglioma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ONCOCYTOMA, BENIGN" nciodm:ExtCodeID="C7072">
+          <nciodm:CDISCSynonym>ONCOCYTOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ONCOCYTIC TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign neoplasm composed of large cells with abundant eosinophilic granular cytoplasm (oncocytes).</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Oncocytic Neoplasm</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ONCOCYTOMA, MALIGNANT" nciodm:ExtCodeID="C3679">
+          <nciodm:CDISCSynonym>HURTHLE CELL CARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>HURTHLE CELL ADENOCARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ONCOCYTIC ADENOCARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ONCOCYTIC CARCINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neoplasm composed of large epithelial cells with abundant granular eosinophilic cytoplasm (oncocytes).</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Oxyphilic Adenocarcinoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="OSTEOBLASTOMA, BENIGN" nciodm:ExtCodeID="C3294">
+          <nciodm:CDISCSynonym>GIANT OSTEOID OSTEOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>OSSIFYING GIANT CELL TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign neoplasm of bone, characterized by the formation of osteoid tissue and large osteoblast-like cells.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Osteoblastoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="OSTEOCHONDROMA, BENIGN" nciodm:ExtCodeID="C3295">
+          <nciodm:CDISCDefinition>A benign cartiliginous neoplasm arising from the metaphysis of bone.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Osteochondroma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="OSTEOCHONDROSARCOMA, MALIGNANT" nciodm:ExtCodeID="C7155">
+          <nciodm:CDISCSynonym>PRIMARY CHONDROSARCOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>CONVENTIONAL CHONDROSARCOMA OF BONE</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>PRIMARY CHONDROSARCOMA OF THE BONE</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>PRIMARY CHONDROSARCOMA OF BONE</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>PRIMARY BONE CHONDROSARCOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant cartiliginous neoplasm of bone.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Conventional Chondrosarcoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="OSTEOCLASTOMA, MALIGNANT" nciodm:ExtCodeID="C4304">
+          <nciodm:CDISCSynonym>GIANT CELL SARCOMA OF THE BONE</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>GIANT CELL SARCOMA OF BONE</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>GIANT CELL BONE SARCOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>DEDIFFERENTIATED GIANT CELL TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neoplasm of bone comprised of osteoclast-like giant cells and mononuclear cells.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Malignant Giant Cell Tumor of Bone</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="OSTEOCLASTOMA, UNDETERMINED" nciodm:ExtCodeID="C3738">
+          <nciodm:CDISCSynonym>GIANT CELL NEOPLASM OF BONE</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BONE GIANT CELL TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BONE GIANT CELL NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A neoplasm of bone comprised of osteoclast-like giant cells and mononuclear cells, for which the malignancy status has not been established.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Giant Cell Tumor of Bone</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="OSTEOFIBROMA, BENIGN" nciodm:ExtCodeID="C3740">
+          <nciodm:CDISCSynonym>OSTEOFIBROMA, BONE</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>DESMOID TUMOR OF BONE</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>DESMOPLASTIC FIBROMA OF BONE</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>DESMOPLASTIC FIBROMA OF THE BONE</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>DESMOPLASTIC FIBROMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>OSSEOUS DESMOPLASTIC FIBROMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign neoplasm characterized by osteolysis and the presence of a rich collagenous stroma and spindle cells.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Bone Desmoplastic Fibroma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="OSTEOMA, BENIGN" nciodm:ExtCodeID="C3296">
+          <nciodm:CDISCDefinition>A benign well-differentiated neoplasm of bone.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Osteoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="OSTEOSARCOMA, EXTRASKELETAL, MALIGNANT" nciodm:ExtCodeID="C8810">
+          <nciodm:CDISCSynonym>OSSIFYING SARCOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>EXTRAOSSEOUS OSTEOSARCOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>EXTRASKELETAL OSTEOGENIC SARCOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>SOFT TISSUE OSTEOSARCOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant bone-forming neoplasm, arising in tissue other than bone.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Extraskeletal Osteosarcoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="OSTEOSARCOMA, MALIGNANT" nciodm:ExtCodeID="C9145">
+          <nciodm:CDISCSynonym>OSTEOGENIC SARCOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>OSTEOGENIC SARCOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neoplasm usually arising from bone.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Osteosarcoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="OVARIAN SEX CORD-STROMAL TUMOR, BENIGN" nciodm:ExtCodeID="C6803">
+          <nciodm:CDISCSynonym>SEX CORD STROMAL TUMOR, BENIGN</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BENIGN SEX CORD-STROMAL NEOPLASM OF THE OVARY</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BENIGN SEX CORD-STROMAL TUMOR OF THE OVARY</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BENIGN OVARIAN SEX CORD-STROMAL NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BENIGN SEX CORD-STROMAL TUMOR OF OVARY</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BENIGN SEX CORD-STROMAL NEOPLASM OF OVARY</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign neoplasm of the ovary, originating from the sex-cord stroma.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Benign Ovarian Sex Cord-Stromal Tumor</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PAPILLOMA, BENIGN" nciodm:ExtCodeID="C7440">
+          <nciodm:CDISCDefinition>A benign epithelial neoplasm that projects above the surrounding epithelial surface.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Papilloma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PAPILLOMA, CHOROID PLEXUS, BENIGN" nciodm:ExtCodeID="C3698">
+          <nciodm:CDISCSynonym>PAPILLOMA OF CHOROID PLEXUS</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>PAPILLOMA OF THE CHOROID PLEXUS</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign neoplasm of the choroid plexus of the central nervous system.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Choroid Plexus Papilloma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PAPILLOMA, SQUAMOUS CELL, BENIGN" nciodm:ExtCodeID="C3712">
+          <nciodm:CDISCSynonym>EPIDERMOID PAPILLOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>EPIDERMOID CELL PAPILLOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>KERATOTIC PAPILLOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>SQUAMOUS CELL PAPILLOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign epithelial neoplasm characterized by a papillary growth pattern and a proliferation of neoplastic squamous cells.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Squamous Papilloma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PAPILLOMA, TRANSITIONAL CELL, BENIGN" nciodm:ExtCodeID="C4115">
+          <nciodm:CDISCSynonym>TRANSITIONAL PAPILLOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign papillary neoplasm composed of transitional cells.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Transitional Cell Papilloma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PARAGANGLIOMA, BENIGN" nciodm:ExtCodeID="C48314">
+          <nciodm:CDISCSynonym>NEURAL CREST TUMOR, BENIGN</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>NEUROENDOCRINE TUMOR, BENIGN</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BENIGN PARAGANGLIONIC NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BENIGN NEUROENDOCRINE CELL TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign neoplasm arising from paraganglia located along nerves composed of neoplastic neuroectodermal chromaffin cells.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Benign Paraganglioma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PARAGANGLIOMA, MALIGNANT" nciodm:ExtCodeID="C8559">
+          <nciodm:CDISCSynonym>MALIGNANT TUMOR OF THE PARAGANGLION</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT TUMOR OF PARAGANGLION</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT PARAGANGLIONIC NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT PARAGANGLIONIC TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT NEOPLASM OF PARAGANGLION</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT PARAGANGLION NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT PARAGANGLION TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>PARAGANGLION NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT NEOPLASM OF THE PARAGANGLION</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neoplasm arising from paraganglia located along nerves composed of neoplastic neuroectodermal chromaffin cells.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Malignant Paraganglioma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PARAGANGLIOMA, UNDETERMINED" nciodm:ExtCodeID="C3308">
+          <nciodm:CDISCSynonym>PARAGANGLION NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>NEOPLASM OF PARAGANGLION</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>TUMOR OF THE PARAGANGLION</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>PARAGANGLION TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>TUMOR OF PARAGANGLION</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>PARAGANGLIONIC NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>PARAGANGLIONIC TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>NEOPLASM OF THE PARAGANGLION</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A neoplasm arising from paraganglia located along nerves composed of neoplastic neuroectodermal chromaffin cells, for which the malignancy status has not been established.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Paraganglioma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PERIPHERAL NERVE SHEATH TUMOR, MALIGNANT" nciodm:ExtCodeID="C3798">
+          <nciodm:CDISCSynonym>MALIGNANT NEURILEMMOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT SCHWANNOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>NEUROFIBROSARCOMA, MALIGNANT</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT NEOPLASM OF PERIPHERAL NERVE SHEATH</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT NEOPLASM OF THE PERIPHERAL NERVE SHEATH</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT NEURILEMMOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT NEURILEMOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT PERIPHERAL NERVE SHEATH NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT PERIPHERAL NERVE SHEATH TUMOUR</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT TUMOR OF PERIPHERAL NERVE SHEATH</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT TUMOR OF THE PERIPHERAL NERVE SHEATH</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MPNST</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neoplasm, originating from the sheaths of the peripheral nerve.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Malignant Peripheral Nerve Sheath Tumor</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PHEOCHROMOCYTOMA, BENIGN" nciodm:ExtCodeID="C48305">
+          <nciodm:CDISCDefinition>A benign neoplasm of the adrenal gland medulla.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Benign Adrenal Gland Pheochromocytoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PHEOCHROMOCYTOMA, COMPLEX, BENIGN" nciodm:ExtCodeID="C92181">
+          <nciodm:CDISCDefinition>A benign neoplasm of the adrenal gland medulla, composed of medullary and neuroectodermal components.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Benign Adrenal Gland Composite Pheochromocytoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PHEOCHROMOCYTOMA, COMPLEX, UNDETERMINED" nciodm:ExtCodeID="C48306">
+          <nciodm:CDISCDefinition>A neoplasm of the adrenal gland medulla, composed of medullary and neuroectodermal components, for which the malignancy status has not been established.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Adrenal Gland Composite Pheochromocytoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PHEOCHROMOCYTOMA, COMPLEX,MALIGNANT" nciodm:ExtCodeID="C92184">
+          <nciodm:CDISCDefinition>A malignant neoplasm of the adrenal gland medulla, composed of medullary and neuroectodermal components.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Malignant Adrenal Gland Composite Pheochromocytoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PHEOCHROMOCYTOMA, MALIGNANT" nciodm:ExtCodeID="C4220">
+          <nciodm:CDISCSynonym>MALIGNANT PHEOCHROMOCYTOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT ADRENAL MEDULLARY PHEOCHROMOCYTOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT ADRENAL PHEOCHROMOCYTOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT ADRENAL GLAND PARAGANGLIOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT ADRENAL GLAND CHROMAFFINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT ADRENAL GLAND CHROMAFFIN NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT ADRENAL GLAND CHROMAFFIN TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT ADRENAL GLAND CHROMAFFIN PARAGANGLIOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>PHEOCHROMOBLASTOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT ADRENAL MEDULLARY PARAGANGLIOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neoplasm of the adrenal gland medulla.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Malignant Adrenal Gland Pheochromocytoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PHEOCHROMOCYTOMA, UNDETERMINED" nciodm:ExtCodeID="C3326">
+          <nciodm:CDISCSynonym>ADRENAL PHEOCHROMOCYTOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>CHROMAFFIN PARAGANGLIOMA OF THE ADRENAL GLAND</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>INTRAADRENAL PARAGANGLIOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ADRENAL MEDULLARY PARAGANGLIOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ADRENAL GLAND PARAGANGLIOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ADRENAL MEDULLARY PHEOCHROMOCYTOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>PCC</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ADRENAL GLAND CHROMAFFIN PARAGANGLIOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>PHAEOCHROMOCYTOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ADRENAL GLAND CHROMAFFINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>PHEOCHROMOCYTOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A neoplasm of the adrenal gland medulla, for which the malignancy status has not been established.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Adrenal Gland Pheochromocytoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PILOMATRIXOMA, BENIGN" nciodm:ExtCodeID="C7368">
+          <nciodm:CDISCSynonym>BENIGN PILOMATRICOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>PILOMATRIXOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>CALCIFYING EPITHERLIOMA OF MALHERBE</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BENIGN PILOMATRIXOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BENIGN HAIR FOLLICLE NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign adnexal neoplasm arising from hair-bearing skin surfaces.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Pilomatricoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PINEOBLASTOMA, MALIGNANT" nciodm:ExtCodeID="C9344">
+          <nciodm:CDISCSynonym>PINEAL GLAND PNET</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>PINEAL GLAND PRIMITIVE NEUROECTODERMAL NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>PINEAL GLAND PRIMITIVE NEUROECTODERMAL TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>PINEAL PNET</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>PINEAL PRIMITIVE NEUROECTODERMAL NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>PINEAL PRIMITIVE NEUROECTODERMAL TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>PNET OF PINEAL GLAND</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>PNET OF THE PINEAL GLAND</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>PRIMITIVE NEUROECTODERMAL NEOPLASM OF PINEAL GLAND</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>PRIMITIVE NEUROECTODERMAL NEOPLASM OF THE PINEAL GLAND</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>PRIMITIVE NEUROECTODERMAL TUMOR OF PINEAL GLAND</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>PRIMITIVE NEUROECTODERMAL TUMOR OF THE PINEAL GLAND</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A poorly differentiated malignant embryonal neoplasm arising from the pineal region of the brain.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Pineoblastoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PINEOCYTOMA, BENIGN" nciodm:ExtCodeID="C6966">
+          <nciodm:CDISCSynonym>PINEALOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BENIGN PINEALOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign neoplasm of the brain arising from the pineal gland.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Pineocytoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PITUICYTOMA, BENIGN" nciodm:ExtCodeID="C7157">
+          <nciodm:CDISCSynonym>POSTERIOR PITUITARY TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>POSTERIOR PITUITARY GLAND TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>NEUROHYPOPHYSIS NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>NEUROHYPOPHYSIS TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>POSTERIOR PITUITARY NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A neoplasm arising from the posterior lobe of the pituitary gland.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Posterior Pituitary Gland Neoplasm</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PLASMA CELL TUMOR, MALIGNANT" nciodm:ExtCodeID="C4665">
+          <nciodm:CDISCSynonym>PLASMACYTIC TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>PLASMA CELL DYSCRASIA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>PLASMACYTIC TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>PLASMA CELL TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>PLASMACYTIC NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neoplasm composed of plasma cells.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Plasma Cell Neoplasm</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="POLYP, ADENOMATOUS, UNDETERMINED" nciodm:ExtCodeID="C3764">
+          <nciodm:CDISCSynonym>POLYPOID ADENOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A neoplasm, originating from glandular epithelium, exhibiting polypoid growth, for which the malignancy status has not been determined.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Adenomatous Polyp</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="POLYP, ENDOMETRIAL STROMAL, BENIGN" nciodm:ExtCodeID="C6433">
+          <nciodm:CDISCSynonym>POLYP, STROMAL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>POLYP OF THE ENDOMETRIUM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ENDOMETRIAL STROMAL POLYP</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>POLYP OF ENDOMETRIUM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ADENOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ENDOMETRIAL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>GLANDULAR ENDOMETRIAL POLYP</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ENDOMETRIAL ADENOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign polypoid neoplasm of the endometrium projecting into the endometrial cavity.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Endometrial Polyp</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="POLYP, INFLAMMATORY, BENIGN" nciodm:ExtCodeID="C5680">
+          <nciodm:CDISCSynonym>INFLAMMATORY POLYP OF THE LARGE BOWEL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>LARGE BOWEL INFLAMMATORY POLYP</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>INFLAMMATORY POLY OF LARGE BOWEL</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A non-neoplastic inflammatory polypoid lesion in the colon and rectum.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Colorectal Inflammatory Polyp</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="POLYP, UNDETERMINED" nciodm:ExtCodeID="C3340">
+          <nciodm:CDISCDefinition>A protruding growth attached to the underlying tissue by a broad base or a thin stalk, which can be either inflammatory, hamartomatous, or neoplastic.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Polyp</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="POLYP, VAGINAL, BENIGN" nciodm:ExtCodeID="C3664">
+          <nciodm:CDISCSynonym>POLYP OF THE VAGINA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>POLYP OF VAGINA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign polypoid growth arising from the vaginal wall.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Vaginal Polyp</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="RETICULOSIS, MALIGNANT" nciodm:ExtCodeID="C4684">
+          <nciodm:CDISCSynonym>ANGIOCENTRIC T-CELL LYMPHOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant lymphoid neoplasm composed of EBV-positive NK/T cells arranged in an angiocentric pattern.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Nasal Type Extranodal NK/T-Cell Lymphoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="RETINOBLASTOMA, MALIGNANT" nciodm:ExtCodeID="C7541">
+          <nciodm:CDISCSynonym>RB</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neoplasm originating in the nuclear layer of the retina.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Retinoblastoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="RHABDOMYOMA, BENIGN" nciodm:ExtCodeID="C3358">
+          <nciodm:CDISCDefinition>A benign neoplasm arising from skeletal muscle, characterized by the presence of rhabdomyoblasts.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Rhabdomyoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="RHABDOMYOSARCOMA, MALIGNANT" nciodm:ExtCodeID="C3359">
+          <nciodm:CDISCDefinition>A malignant mesenchymal neoplasm arising from skeletal muscle.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Rhabdomyosarcoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SARCOMA, GRANULOCYTIC, MALIGNANT" nciodm:ExtCodeID="C35815">
+          <nciodm:CDISCDefinition>A malignant neoplasm composed of myeloblasts, neutrophils and neutrophil precursors.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Granulocytic Sarcoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SARCOMA, HISTIOCYTIC, MALIGNANT" nciodm:ExtCodeID="C27349">
+          <nciodm:CDISCDefinition>A malignant neoplasm composed of cells resembling histiocytes.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Histiocytic Sarcoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SARCOMA, LEPTOMENINGEAL, MALIGNANT" nciodm:ExtCodeID="C8312">
+          <nciodm:CDISCSynonym>SARCOMA, MENINGEAL</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>SARCOMA OF LEPTOMENINGES</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>SARCOMA OF THE LEPTOMENINGES</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant mesenchymal neoplasm arising from the leptomeninges.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Leptomeningeal Sarcoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SARCOMA, MALIGNANT" nciodm:ExtCodeID="C9118">
+          <nciodm:CDISCSynonym>SARCOMA OF SOFT TISSUE AND BONE</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>SARCOMA OF THE SOFT TISSUE AND BONE</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>SARCOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MESENCHYMAL TUMOR, MALIGNANT</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant mesenchymal neoplasm. A general term for which the transformed cell type has not been specified.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Sarcoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SARCOMA, MYELOID, MALIGNANT" nciodm:ExtCodeID="C3520">
+          <nciodm:CDISCSynonym>CHLOROMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>EXTRAMEDULLARY MYELOID TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neoplasm composed of myeloblasts or immature myeloid cells. It occurs in extramedullary sites or the bone.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Myeloid Sarcoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SARCOMA, SYNOVIAL, MALIGNANT" nciodm:ExtCodeID="C3400">
+          <nciodm:CDISCSynonym>SS</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neoplasm that usually arises in the synovial membranes of the joints and the synovial cells of the tendons and bursae.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Synovial Sarcoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SCHWANNOMA, BENIGN" nciodm:ExtCodeID="C3269">
+          <nciodm:CDISCSynonym>NEURILEMMOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>SCHWANNOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>NEURINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>SCHWANNOMA (WHO GRADE I)</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign neoplasm of the peripheral nervous system composed of well-differentiated Schwann cells.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Schwannoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SEMINOMA, MALIGNANT" nciodm:ExtCodeID="C9309">
+          <nciodm:CDISCSynonym>SEMINOMA, PURE</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>SEMINOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant germ cell neoplasm of the testis.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Seminoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SERTOLI CELL TUMOR, BENIGN" nciodm:ExtCodeID="C67012">
+          <nciodm:CDISCSynonym>ARRHENOBLASTOMA, BENIGN</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BENIGN ANDROBLASTOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign neoplasm of the testis or ovary, originating from Sertoli cells.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Benign Sertoli Cell Tumor</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SERTOLI CELL TUMOR, MALIGNANT" nciodm:ExtCodeID="C67006">
+          <nciodm:CDISCSynonym>ARRHENOBLASTOMA, MALIGNANT</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT ANDROBLASTOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neoplasm of the testis or ovary, originating from Sertoli cells.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Malignant Sertoli Cell Tumor</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SERTOLI CELL TUMOR, UNDETERMINED" nciodm:ExtCodeID="C98794">
+          <nciodm:CDISCDefinition>An ovarian neoplasm comprising Sertoli cells in which the malignancy status has not been established.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Undetermined Sertoli Cell Tumor</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="STROMAL NEPHROMA, MALIGNANT" nciodm:ExtCodeID="C6569">
+          <nciodm:CDISCSynonym>CMN</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MESOBLASTIC NEPHROMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A congenital malignant neoplasm of the kidney characterized by the presence of fibroblastic cells.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Congenital Mesoblastic Nephroma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="STROMAL SARCOMA, ENDOMETRIAL, MALIGNANT" nciodm:ExtCodeID="C8973">
+          <nciodm:CDISCSynonym>ESS</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant, mesenchymal tumor of the uterine stroma.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Endometrial Stromal Sarcoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="STROMAL SARCOMA, MALIGNANT" nciodm:ExtCodeID="C6926">
+          <nciodm:CDISCSynonym>STROMAL TUMOR, MALIGNANT</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neoplasm characterized by the presence of atypical mesenchymal-stromal cells.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Stromal Sarcoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="STROMAL TUMOR, BENIGN" nciodm:ExtCodeID="C66772">
+          <nciodm:CDISCDefinition>A benign neoplasm composed of mesenchymal stromal cells.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Benign Stromal Tumor</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="STROMAL TUMOR, GONADAL, MALIGNANT" nciodm:ExtCodeID="C67561">
+          <nciodm:CDISCSynonym>SEX CORD STROMAL TUMOR, MALIGNANT</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant neoplasm originating from the gonadal sex cord stroma.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Malignant Sex Cord-Stromal Tumor</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="STROMAL TUMOR, GONADAL, UNDETERMINED" nciodm:ExtCodeID="C3794">
+          <nciodm:CDISCSynonym>SEX CORD-STROMAL TUMOR, UNDETERMINED</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>SEX CORD-STROMAL NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A neoplasm originating from the gonadal sex cord stroma, for which the status of malignancy has not been determined.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Sex Cord-Stromal Tumor</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SUBEPENDYMOMA, BENIGN" nciodm:ExtCodeID="C3795">
+          <nciodm:CDISCSynonym>WHO GRADE I EPENDYMAL TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>WHO GRADE I EPENDYMAL NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>SUBEPENDYMAL GLIOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign neoplasm of the brain localized in the vicinity of a ventricular wall and is composed of glial tumor cell clusters embedded in an abundant fibrillary matrix with frequent microcystic changes.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Subependymoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SYNOVIOMA, BENIGN" nciodm:ExtCodeID="C3829">
+          <nciodm:CDISCSynonym>BENIGN NEOPLASM OF SYNOVIUM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BENIGN SYNOVIOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BENIGN NEOPLASM OF THE SYNOVIUM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BENIGN TUMOR OF THE SYNOVIUM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BENIGN TUMOR OF SYNOVIUM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BENIGN SYNOVIAL TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign neoplasm arising from the synovial membrane.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Benign Synovial Neoplasm</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TERATOMA, BENIGN" nciodm:ExtCodeID="C67107">
+          <nciodm:CDISCDefinition>A benign germ-cell neoplasm derived from pluripotent cells and consisting of components from one or more of the three germ-cell layers.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Benign Teratoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TERATOMA, MALIGNANT" nciodm:ExtCodeID="C4286">
+          <nciodm:CDISCSynonym>IMMATURE TERATOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant germ-cell neoplasm derived from pluripotent cells and consisting of components from one or more of the three germ-cell layers.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Immature Teratoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TERATOMA, UNDETERMINED" nciodm:ExtCodeID="C3403">
+          <nciodm:CDISCDefinition>A germ-cell neoplasm derived from pluripotent cells and consisting of components from one or more of the three germ-cell layers, for which the malignancy status has not been established.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Teratoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="THECOMA, BENIGN" nciodm:ExtCodeID="C5219">
+          <nciodm:CDISCSynonym>THECAL CELL TUMOR, BENIGN</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BENIGN THECAL CELL NEOPLASM OF THE OVARY</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BENIGN OVARIAN THECAL CELL TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BENIGN OVARIAN THECAL CELL NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BENIGN THECAL CELL TUMOR OF THE OVARY</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BENIGN THECAL CELL TUMOR OF OVARY</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BENIGN THECOMA OF THE OVARY</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BENIGN THECOMA OF OVARY</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>BENIGN THECAL CELL NEOPLASM OF OVARY</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign sex-cord neoplasm of the ovary, originating from theca cells.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Benign Ovarian Thecoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="THECOMA, OVARIAN, MALIGNANT" nciodm:ExtCodeID="C6929">
+          <nciodm:CDISCSynonym>THECOMA, MALIGNANT</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT THECOMA OF THE OVARY</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT THECAL CELL NEOPLASM OF THE OVARY</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT THECAL CELL NEOPLASM OF OVARY</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT OVARIAN THECAL CELL NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT THECAL CELL TUMOR OF THE OVARY</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT THECOMA OF OVARY</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT OVARIAN THECAL CELL TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>MALIGNANT THECAL CELL TUMOR OF OVARY</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A malignant sex-cord neoplasm of the ovary, originating from theca cells.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Malignant Ovarian Thecoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="THYMOMA, BENIGN" nciodm:ExtCodeID="C66746">
+          <nciodm:CDISCDefinition>A benign neoplasm of the thymus, originating from epithelial thymus cells.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Benign Thymoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="THYMOMA, MALIGNANT" nciodm:ExtCodeID="C7612">
+          <nciodm:CDISCDefinition>A malignant neoplasm of the thymus, originating from epithelial thymus cells.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Malignant Thymoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="THYMOMA, UNDETERMINED" nciodm:ExtCodeID="C3411">
+          <nciodm:CDISCDefinition>A neoplasm of the thymus, originating from epithelial thymus cells, for which the malignancy status has not been established.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Thymoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TRICHOEPITHELIOMA, BENIGN" nciodm:ExtCodeID="C27132">
+          <nciodm:CDISCSynonym>BROOKE'S TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>TRICHOGENIC TRICHOBLASTOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>TRICHOGENIC ADNEXAL TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>TRICHOEPITHELIOMA</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A benign hair follicle neoplasm with trichoblastic differentiation.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Trichoblastoma</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="YOLK SAC TUMOR, MALIGNANT" nciodm:ExtCodeID="C3011">
+          <nciodm:CDISCSynonym>ENDODERMAL SINUS TUMOR</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>YOLK SAC TUMOR SITE UNSPECIFIED</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>YOLK SAC NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ENDODERMAL SINUS NEOPLASM</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A non-seminomatous malignant germ cell tumor composed of primitive germ cells and which produce an eosinophilic substance (alpha-fetoprotein).</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Yolk Sac Tumor</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <nciodm:CDISCSubmissionValue>NEOPLASM</nciodm:CDISCSubmissionValue>
+        <nciodm:CDISCSynonym>Neoplasm Type</nciodm:CDISCSynonym>
+        <nciodm:PreferredTerm>CDISC SEND Tumor Findings Results Terminology</nciodm:PreferredTerm>
+      </CodeList>
+      

@@ -68,7 +68,7 @@
           <nciodm:PreferredTerm>Millimeter of Mercury</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="ohm" nciodm:ExtCodeID="C42554">
-          <nciodm:CDISCSynonym>ohm</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>Ohm</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>A unit of electrical resistance equal to the resistance between two points on a conductor when a potential difference of one volt between them produces a current of one Ampere. Ohm is also used to measure impedance and reactance for complex resistance. A measurement in ohms is the reciprocal of a measurement in Siemens. (NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Ohm</nciodm:PreferredTerm>
         </EnumeratedItem>

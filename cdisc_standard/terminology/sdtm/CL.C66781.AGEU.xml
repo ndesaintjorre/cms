@@ -1,6 +1,6 @@
 <CodeList xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" OID="CL.C66781.AGEU" Name="Age Unit" DataType="text" nciodm:ExtCodeID="C66781" nciodm:CodeListExtensible="No">
         <Description>
-          <TranslatedText xml:lang="en">Those units of time that are routinely used to express the age of a person. (NCI)</TranslatedText>
+          <TranslatedText xml:lang="en">Those units of time that are routinely used to express the age of a subject.</TranslatedText>
         </Description>
         <EnumeratedItem CodedValue="DAYS" nciodm:ExtCodeID="C25301">
           <nciodm:CDISCDefinition>The time for Earth to make a complete rotation on its axis; ordinarily divided into twenty-four hours. This also refers to a specific day. (NCI)</nciodm:CDISCDefinition>

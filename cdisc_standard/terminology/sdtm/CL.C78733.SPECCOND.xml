@@ -23,6 +23,7 @@
           <nciodm:PreferredTerm>Refrigerated Specimen</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="ROOM TEMPERATURE" nciodm:ExtCodeID="C70719">
+          <nciodm:CDISCSynonym>Ambient Temperature</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>Specimen at Room Temperature</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>A specimen that has been subjected to and adjusted to the average ambient temperature of a room, usually considered to be around 20 degrees C (68 degrees F). (NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Specimen at Room Temperature</nciodm:PreferredTerm>
@@ -41,6 +42,11 @@
           <nciodm:CDISCSynonym>Autolized Specimen</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>A specimen that has undergone autolysis, or self-digestion by the specimen's own digestive enzymes. (NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Autolized Specimen</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ICTERIC" nciodm:ExtCodeID="C98744">
+          <nciodm:CDISCSynonym>Icteric Specimen</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A specimen that exhibits a yellowish pigmentation due to jaundice. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Icteric Specimen</nciodm:PreferredTerm>
         </EnumeratedItem>
         <nciodm:CDISCSubmissionValue>SPECCOND</nciodm:CDISCSubmissionValue>
         <nciodm:CDISCSynonym>Specimen Condition</nciodm:CDISCSynonym>

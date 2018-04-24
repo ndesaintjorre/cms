@@ -1,0 +1,125 @@
+<CodeList xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" OID="CL.C99074.DIR" Name="Directionality" DataType="text" nciodm:ExtCodeID="C99074" nciodm:CodeListExtensible="Yes">
+        <Description>
+          <TranslatedText xml:lang="en">CDISC terminology for anatomical location or specimen further detailing directionality.</TranslatedText>
+        </Description>
+        <EnumeratedItem CodedValue="ANTERIOR" nciodm:ExtCodeID="C25231">
+          <nciodm:CDISCDefinition>Denoting the front portion of the body or a structure.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Anterior</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="APICAL" nciodm:ExtCodeID="C25423">
+          <nciodm:CDISCDefinition>Relating to or located at the apex.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Apical</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BASAL" nciodm:ExtCodeID="C90067">
+          <nciodm:CDISCDefinition>Relating to or located at the lowest portion of a structure.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Basal</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CAUDAL" nciodm:ExtCodeID="C73851">
+          <nciodm:CDISCDefinition>Toward the tail in a body.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Caudal</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CENTRAL" nciodm:ExtCodeID="C25445">
+          <nciodm:CDISCDefinition>A point or area that is approximately central within some larger region or structure. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Center</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CRANIAL" nciodm:ExtCodeID="C37936">
+          <nciodm:CDISCDefinition>Toward the head in a body.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Cranial</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="DEEP" nciodm:ExtCodeID="C25240">
+          <nciodm:CDISCDefinition>Extending relatively far inward. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Deep</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="DISTAL" nciodm:ExtCodeID="C25237">
+          <nciodm:CDISCDefinition>Situated farthest from a point of reference.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Distal</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="DORSAL" nciodm:ExtCodeID="C45874">
+          <nciodm:CDISCDefinition>Pertaining to the back or upper surface of the body.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Dorsal</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="DORSOLATERAL" nciodm:ExtCodeID="C90376">
+          <nciodm:CDISCDefinition>Toward the back and side of a body.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Dorsolateral</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="FORE" nciodm:ExtCodeID="C90386">
+          <nciodm:CDISCDefinition>Of or involving the front of a main body. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Fore</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HIND" nciodm:ExtCodeID="C90393">
+          <nciodm:CDISCDefinition>Of or involving the back of a main body. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hind</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="INFERIOR" nciodm:ExtCodeID="C25353">
+          <nciodm:CDISCDefinition>Pertaining to a point below a given reference point.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Inferior</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="INNER" nciodm:ExtCodeID="C37980">
+          <nciodm:CDISCDefinition>Inside or closer to the inside of the body or object. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Inner</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="INTERMEDIATE" nciodm:ExtCodeID="C73705">
+          <nciodm:CDISCDefinition>Located between two points or extremes.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Intermediate</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LOWER" nciodm:ExtCodeID="C25309">
+          <nciodm:CDISCDefinition>The bottom one of two. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Lower</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MEDIAL" nciodm:ExtCodeID="C25232">
+          <nciodm:CDISCDefinition>Toward the middle or in a limb toward the median plane.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Medial</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="OUTER" nciodm:ExtCodeID="C38166">
+          <nciodm:CDISCDefinition>Being on or toward the outside of the body or object. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Outer</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PERIPHERAL" nciodm:ExtCodeID="C25233">
+          <nciodm:CDISCDefinition>On or near an edge or constituting an outer boundary; the outer area. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Peripheral</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="POSTERIOR" nciodm:ExtCodeID="C25622">
+          <nciodm:CDISCDefinition>Denoting the back portion of the body or a structure.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Posterior</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PROXIMAL" nciodm:ExtCodeID="C25236">
+          <nciodm:CDISCDefinition>Situated nearest to a point of reference.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Proximal</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="ROSTRAL" nciodm:ExtCodeID="C94393">
+          <nciodm:CDISCDefinition>Toward the muzzle in the head.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Rostral</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SUPERFICIAL" nciodm:ExtCodeID="C25239">
+          <nciodm:CDISCDefinition>Of or pertaining to the exterior surface. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Superficial</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SUPERIOR" nciodm:ExtCodeID="C25235">
+          <nciodm:CDISCDefinition>Pertaining to a point above a given reference point.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Superior</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SURFACE" nciodm:ExtCodeID="C25245">
+          <nciodm:CDISCDefinition>The extended two-dimensional outer layer or area of a three-dimensional object. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Surface</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TIP" nciodm:ExtCodeID="C90069">
+          <nciodm:CDISCDefinition>The pointed end of a structure.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Tip</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="UPPER" nciodm:ExtCodeID="C25355">
+          <nciodm:CDISCDefinition>The top one of two.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Upper</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="VENTRAL" nciodm:ExtCodeID="C45875">
+          <nciodm:CDISCDefinition>Pertaining to the front or lower surface of the body.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Ventral</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="VENTROLATERAL" nciodm:ExtCodeID="C98798">
+          <nciodm:CDISCDefinition>Of or pertaining to the front and side of a main body. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Ventrolateral</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <nciodm:CDISCSubmissionValue>DIR</nciodm:CDISCSubmissionValue>
+        <nciodm:CDISCSynonym>Directionality</nciodm:CDISCSynonym>
+        <nciodm:PreferredTerm>CDISC SDTM Directionality Terminology</nciodm:PreferredTerm>
+      </CodeList>
+      

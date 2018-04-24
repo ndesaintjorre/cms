@@ -16,7 +16,6 @@
         </EnumeratedItem>
         <nciodm:CDISCSubmissionValue>TCNTRL</nciodm:CDISCSubmissionValue>
         <nciodm:CDISCSynonym>Control Type</nciodm:CDISCSynonym>
-        <nciodm:CDISCSynonym>Type of Control</nciodm:CDISCSynonym>
         <nciodm:PreferredTerm>CDISC SDTM Control Type Terminology</nciodm:PreferredTerm>
       </CodeList>
       

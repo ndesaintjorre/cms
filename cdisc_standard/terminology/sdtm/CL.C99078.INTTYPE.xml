@@ -1,0 +1,45 @@
+<CodeList xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" OID="CL.C99078.INTTYPE" Name="Intervention Type" DataType="text" nciodm:ExtCodeID="C99078" nciodm:CodeListExtensible="No">
+        <Description>
+          <TranslatedText xml:lang="en">The kind of product or procedure studied in a trial.</TranslatedText>
+        </Description>
+        <EnumeratedItem CodedValue="DIETARY SUPPLEMENT" nciodm:ExtCodeID="C1505">
+          <nciodm:CDISCDefinition>Oral preparations containing dietary ingredient(s) intended to supplement the diet. Dietary ingredients include vitamins, minerals, herbs, amino acids, extracts and metabolites.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Nutritional Supplement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BEHAVIORAL THERAPY" nciodm:ExtCodeID="C15184">
+          <nciodm:CDISCDefinition>A technique used to change subjects' behavior, for example, psychotherapy, lifestyle counseling or hypnosis.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Behavioral Intervention</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BIOLOGIC" nciodm:ExtCodeID="C307">
+          <nciodm:CDISCDefinition>A substance made from living organisms or things they produce, for example: virus, therapeutic serum, toxin, antitoxin, vaccine, blood, blood component or derivative, allergenic product, or analogous product.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Biological Agent</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="DEVICE" nciodm:ExtCodeID="C16830">
+          <nciodm:CDISCDefinition>An instrument, apparatus, implement, machine, contrivance, implant, in vitro reagent, or other similar or related article, including any component, part, or accessory, which is recognized in the official National Formulary, or the United States Pharmacopeia, or any supplement to them, intended for use in the diagnosis of disease or other conditions, or in the cure, mitigation, treatment, or prevention of disease, in man or other animals, or intended to affect the structure or any function of the body of man or other animals, and which does not achieve its primary intended purposes through chemical action within or on the body of man or other animals and which is not dependent upon being metabolized for the achievement of its primary intended purposes. (FDA)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Medical Device</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="DRUG" nciodm:ExtCodeID="C1909">
+          <nciodm:CDISCDefinition>An active natural, synthetic or semi-synthetic ingredient including endogenous body substance that is intended to furnish pharmacological activity or other direct effect in the diagnosis, cure, mitigation, treatment, or prevention of disease or to affect the structure or any function of the human body, but does not include intermediates used in the synthesis of such ingredient (21 CFR 314.3(b)).</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Pharmacologic Substance</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GENETIC" nciodm:ExtCodeID="C15238">
+          <nciodm:CDISCDefinition>Application of genetic material into cells in order to correct an inherited or acquired disease.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Gene Therapy</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="OTHER" nciodm:ExtCodeID="C17649">
+          <nciodm:CDISCDefinition>Different than the one(s) previously specified or mentioned. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Other</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PROCEDURE" nciodm:ExtCodeID="C98769">
+          <nciodm:CDISCDefinition>A treatment procedure performed by manual and/or instrumental means, for example: surgery, lithotripsy, or external manipulation.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Physical Medical Procedure</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="RADIATION" nciodm:ExtCodeID="C15313">
+          <nciodm:CDISCDefinition>Treatment of a disease by means of exposure of the target or the whole body to radiation.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Radiation Therapy</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <nciodm:CDISCSubmissionValue>INTTYPE</nciodm:CDISCSubmissionValue>
+        <nciodm:CDISCSynonym>Intervention Type</nciodm:CDISCSynonym>
+        <nciodm:PreferredTerm>CDISC SDTM Intervention Type Terminology</nciodm:PreferredTerm>
+      </CodeList>
+      

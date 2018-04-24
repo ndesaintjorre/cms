@@ -1,0 +1,29 @@
+<CodeList xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" OID="CL.C99079.EPOCH" Name="Epoch" DataType="text" nciodm:ExtCodeID="C99079" nciodm:CodeListExtensible="Yes">
+        <Description>
+          <TranslatedText xml:lang="en">The name of the EPOCH.</TranslatedText>
+        </Description>
+        <EnumeratedItem CodedValue="FOLLOW-UP" nciodm:ExtCodeID="C99158">
+          <nciodm:CDISCDefinition>A period in a clinical study during which information about the health status of an individual is obtained after study procedures and treatments have concluded.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Clinical Study Follow-up</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="RUN-IN" nciodm:ExtCodeID="C98779">
+          <nciodm:CDISCDefinition>A period in a clinical study that occurs before the commencement of the primary clinical study investigation, during which subjects may be assessed for suitability in the clinical study, withdrawn from existing therapy, trained in study methodology or evaluated for any other protocol-specified reason.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Run-in Period</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SCREENING" nciodm:ExtCodeID="C48262">
+          <nciodm:CDISCDefinition>A period in a clinical study during which subjects are evaluated for participation in the study.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Trial Screening</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TREATMENT" nciodm:ExtCodeID="C49236">
+          <nciodm:CDISCDefinition>A period in a clinical study during which subjects receive therapeutic treatment.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Therapeutic Procedure</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="WASHOUT" nciodm:ExtCodeID="C42872">
+          <nciodm:CDISCDefinition>A period of time during a clinical study when a participant is taken off of a study drug or other medication in order to eliminate the effects of the treatment.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Washout Period</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <nciodm:CDISCSubmissionValue>EPOCH</nciodm:CDISCSubmissionValue>
+        <nciodm:CDISCSynonym>Epoch</nciodm:CDISCSynonym>
+        <nciodm:PreferredTerm>CDISC SDTM Epoch Terminology</nciodm:PreferredTerm>
+      </CodeList>
+      

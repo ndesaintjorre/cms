@@ -73,9 +73,25 @@
           <nciodm:PreferredTerm>Sagittal Abdominal Diameter</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="KNEEHEEL" nciodm:ExtCodeID="C84372">
+          <nciodm:CDISCSynonym>Knee to Heel Length</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>Lower Leg Length</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>A measurement of the length of the lower leg from the top of the knee to the bottom of the heel. This measurement may be taken with a knemometer or calipers. (NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Knee to Heel Length Measurement</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HDCIRC" nciodm:ExtCodeID="C81255">
+          <nciodm:CDISCSynonym>Head Circumference</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A circumferential measurement of the head at the widest point, which is traditionally above the eyebrows.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Head Circumference</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SSSKNF" nciodm:ExtCodeID="C98785">
+          <nciodm:CDISCSynonym>Subscapular Skinfold Thickness</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the thickness of a pinch of skin situated below or on the underside of the scapula. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Subscapular Skinfold Thickness</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TRSKNF" nciodm:ExtCodeID="C98793">
+          <nciodm:CDISCSynonym>Triceps Skinfold Thickness</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A measurement of the thickness of a pinch of skin on the triceps. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Triceps Skinfold Thickness</nciodm:PreferredTerm>
         </EnumeratedItem>
         <nciodm:CDISCSubmissionValue>VSTESTCD</nciodm:CDISCSubmissionValue>
         <nciodm:CDISCSynonym>Vital Signs Test Code</nciodm:CDISCSynonym>
