@@ -3,6 +3,7 @@
           <TranslatedText xml:lang="en">The role that the individual or entity plays with respect to a specific situation or person.</TranslatedText>
         </Description>
         <EnumeratedItem CodedValue="CAREGIVER" nciodm:ExtCodeID="C17445">
+          <nciodm:CDISCSynonym>Caregiver</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>The primary person in charge of the care of a patient, usually a family member or a designated health care professional. (NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Caregiver</nciodm:PreferredTerm>
         </EnumeratedItem>
@@ -50,10 +51,12 @@
           <nciodm:PreferredTerm>Study Subject</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="SPOUSE" nciodm:ExtCodeID="C62649">
+          <nciodm:CDISCSynonym>Spouse</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>A person's partner in marriage. (NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Spouse</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="DOMESTIC PARTNER" nciodm:ExtCodeID="C53262">
+          <nciodm:CDISCSynonym>Domestic Partner</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>A person who is a member of an unmarried couple, including same sex couples living together in longstanding relationships, that are registered or unregistered. (NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Domestic Partnership</nciodm:PreferredTerm>
         </EnumeratedItem>

@@ -93,6 +93,31 @@
           <nciodm:CDISCDefinition>A measurement of the thickness of a pinch of skin on the triceps. (NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Triceps Skinfold Thickness</nciodm:PreferredTerm>
         </EnumeratedItem>
+        <EnumeratedItem CodedValue="FARMCIR" nciodm:ExtCodeID="C100946">
+          <nciodm:CDISCSynonym>Forearm Circumference</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The distance around an individual's forearm.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Forearm Circumference</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="HIPCIR" nciodm:ExtCodeID="C100947">
+          <nciodm:CDISCSynonym>Hip Circumference</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The distance around an individual's pelvic area or hips.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Hip Circumference</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="LBM" nciodm:ExtCodeID="C71258">
+          <nciodm:CDISCSynonym>Lean Body Mass</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The weight of all organs and tissue in an individual less the weight of the individual's body fat.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Lean Body Mass</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PULSEPR" nciodm:ExtCodeID="C100945">
+          <nciodm:CDISCSynonym>Pulse Pressure</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The change in systolic to diastolic pressure which produces a pulse.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Pulse Pressure</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="WSTCIR" nciodm:ExtCodeID="C100948">
+          <nciodm:CDISCSynonym>Waist Circumference</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The distance around an individual's midsection or waist.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Waist Circumference</nciodm:PreferredTerm>
+        </EnumeratedItem>
         <nciodm:CDISCSubmissionValue>VSTESTCD</nciodm:CDISCSubmissionValue>
         <nciodm:CDISCSynonym>Vital Signs Test Code</nciodm:CDISCSynonym>
         <nciodm:PreferredTerm>CDISC SDTM Vital Sign Terminology by Code</nciodm:PreferredTerm>

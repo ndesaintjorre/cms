@@ -1,0 +1,244 @@
+<CodeList xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:nciodm="http://ncicb.nci.nih.gov/xml/odm/EVS/CDISC" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" OID="CL.C100130.RELSUB" Name="Relationship to Subject" DataType="text" nciodm:ExtCodeID="C100130" nciodm:CodeListExtensible="Yes">
+        <Description>
+          <TranslatedText xml:lang="en">The relationship of a person to a study subject.</TranslatedText>
+        </Description>
+        <EnumeratedItem CodedValue="AUNT, BIOLOGICAL" nciodm:ExtCodeID="C96569">
+          <nciodm:CDISCSynonym>Biological Aunt</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A female relative who is a sibling of either of the biological parents, and who share a common ancestor. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Biological Aunt</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AUNT, BIOLOGICAL MATERNAL" nciodm:ExtCodeID="C96575">
+          <nciodm:CDISCSynonym>Biological Maternal Aunt</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A female relative who is a sibling of the biological mother, and who both share a common ancestor. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Biological Maternal Aunt</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="AUNT, BIOLOGICAL PATERNAL" nciodm:ExtCodeID="C96581">
+          <nciodm:CDISCSynonym>Biological Paternal Aunt</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A female relative who is a sibling of the biological father, and who both share a common ancestor. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Biological Paternal Aunt</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BROTHER, BIOLOGICAL" nciodm:ExtCodeID="C96570">
+          <nciodm:CDISCSynonym>Biological Brother</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A male who shares with his sibling the genetic makeup inherited from one or both of their shared biological parents.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Biological Brother</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BROTHER, BIOLOGICAL MATERNAL HALF" nciodm:ExtCodeID="C96656">
+          <nciodm:CDISCSynonym>Half-brother with Mother as Common Parent</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A male who shares with his sibling the genetic makeup inherited from only the biological mother.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Half-brother with Mother as Common Parent</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BROTHER, BIOLOGICAL PATERNAL HALF" nciodm:ExtCodeID="C96655">
+          <nciodm:CDISCSynonym>Half-brother with Father as Common Parent</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A male who shares with his sibling the genetic makeup inherited from only the biological father.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Half-brother with Father as Common Parent</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="BROTHER, HALF" nciodm:ExtCodeID="C71402">
+          <nciodm:CDISCSynonym>Half Brother</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A male who shares with his sibling the genetic makeup inherited from only one of the biological parents.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Half Brother</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CAREGIVER" nciodm:ExtCodeID="C17445">
+          <nciodm:CDISCSynonym>Caregiver</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The primary person in charge of the care of a patient, usually a family member or a designated health care professional. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Caregiver</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CHILD, BIOLOGICAL" nciodm:ExtCodeID="C100807">
+          <nciodm:CDISCSynonym>Biological Child</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A son or daughter with genetic makeup inherited from the parent.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Biological Child</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="CLINICIAN" nciodm:ExtCodeID="C85499">
+          <nciodm:CDISCSynonym>Clinician</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An individual, such as a physician, nurse practitioner or other health care professional, who takes responsibility for a subject's care.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Clinician</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="COUSIN, BIOLOGICAL" nciodm:ExtCodeID="C96571">
+          <nciodm:CDISCSynonym>Biological Cousin</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A relative who is the offspring of a sibling of either of the biological parents, and who share a common ancestor. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Biological Cousin</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="COUSIN, BIOLOGICAL MATERNAL" nciodm:ExtCodeID="C96576">
+          <nciodm:CDISCSynonym>Biological Maternal Cousin</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A relative who is the offspring of a sibling of the biological mother and share a common ancestor.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Biological Maternal Cousin</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="COUSIN, BIOLOGICAL PATERNAL" nciodm:ExtCodeID="C96582">
+          <nciodm:CDISCSynonym>Biological Paternal Cousin</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A relative who is the offspring of a sibling of the biological father and share a common ancestor.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Biological Paternal Cousin</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="DOMESTIC PARTNER" nciodm:ExtCodeID="C53262">
+          <nciodm:CDISCSynonym>Domestic Partner</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Person declares that a domestic partnership relationship exists. (HL7)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Domestic Partnership</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="DONOR" nciodm:ExtCodeID="C48284">
+          <nciodm:CDISCSynonym>Donor</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>One that contributes something. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Donor</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="DONOR, ORGAN" nciodm:ExtCodeID="C100810">
+          <nciodm:CDISCSynonym>Organ Donor</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Someone from whom an organ is removed for transplantation or other purpose.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Organ Donor</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="DONOR, TISSUE" nciodm:ExtCodeID="C25168">
+          <nciodm:CDISCSynonym>Tissue Donor</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Someone from whom tissue is removed for transplantation or other purpose.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Tissue Donor</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="FAMILY MEMBER" nciodm:ExtCodeID="C41256">
+          <nciodm:CDISCSynonym>Family Member</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Any of the individuals who are descended from a common progenitor, related by marriage or other legal tie.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Family Member</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="FATHER, BIOLOGICAL" nciodm:ExtCodeID="C96572">
+          <nciodm:CDISCSynonym>Biological Father</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A male who contributes to the genetic makeup of his offspring through the fertilization of an ovum by his sperm. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Biological Father</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GRANDCHILD, BIOLOGICAL" nciodm:ExtCodeID="C100805">
+          <nciodm:CDISCSynonym>Biological Grandchild</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A biological child of an individual's biological child.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Biological Grandchild</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GRANDFATHER, BIOLOGICAL" nciodm:ExtCodeID="C96573">
+          <nciodm:CDISCSynonym>Biological Grandfather</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A male relative who is the biological father of either the biological mother or the biological father. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Biological Grandfather</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GRANDFATHER, BIOLOGICAL MATERNAL" nciodm:ExtCodeID="C96577">
+          <nciodm:CDISCSynonym>Biological Maternal Grandfather</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A male relative who is the biological father of the biological mother. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Biological Maternal Grandfather</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GRANDFATHER, BIOLOGICAL PATERNAL" nciodm:ExtCodeID="C96583">
+          <nciodm:CDISCSynonym>Biological Paternal Grandfather</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A male relative who is the biological father of the biological father. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Biological Paternal Grandfather</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GRANDMOTHER, BIOLOGICAL" nciodm:ExtCodeID="C96574">
+          <nciodm:CDISCSynonym>Biological Grandmother</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A female relative who is the biological mother of either the biological mother or the biological father. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Biological Grandmother</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GRANDMOTHER, BIOLOGICAL MATERNAL" nciodm:ExtCodeID="C96578">
+          <nciodm:CDISCSynonym>Biological Maternal Grandmother</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A female relative who is the biological mother of the biological mother. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Biological Maternal Grandmother</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GRANDMOTHER, BIOLOGICAL PATERNAL" nciodm:ExtCodeID="C96584">
+          <nciodm:CDISCSynonym>Biological Paternal Grandmother</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A female relative who is the biological mother of the biological father. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Biological Paternal Grandmother</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="GRANDPARENT, BIOLOGICAL" nciodm:ExtCodeID="C100806">
+          <nciodm:CDISCSynonym>Biological Grandparent</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A biological parent of the biological father or biological mother.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Biological Grandparent</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="MOTHER, BIOLOGICAL" nciodm:ExtCodeID="C96580">
+          <nciodm:CDISCSynonym>Biological Mother</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A female who contributes to the genetic makeup of her offspring from the fertilization of her ovum. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Biological Mother</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="NURSE" nciodm:ExtCodeID="C20821">
+          <nciodm:CDISCSynonym>Nurse</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A professional healthcare provider who has graduated from a nursing program.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Nurse</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PREGNANCY PARTNER" nciodm:ExtCodeID="C100811">
+          <nciodm:CDISCSynonym>Pregnancy Partner</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>An individual who provides support to a pregnant individual.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Pregnancy Partner</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="RELATIVE, FIRST DEGREE" nciodm:ExtCodeID="C21481">
+          <nciodm:CDISCSynonym>First Degree Relative</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Any individual related biologically or legally to another individual and considered immediate family as in the case of a spouse, parent, sibling or child.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>First Degree Relative</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="RELATIVE, SECOND DEGREE" nciodm:ExtCodeID="C19811">
+          <nciodm:CDISCSynonym>Second Degree Relative</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Any individual related biologically or legally to another individual and considered one degree removed from the immediate family as in the case of in-laws, grandparents, aunts and uncles.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Second Degree Relative</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="RELATIVE, THIRD DEGREE" nciodm:ExtCodeID="C100808">
+          <nciodm:CDISCSynonym>Third Degree Relative</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Any individual related biologically or legally to another individual and considered two degrees removed from the immediate family as in the case of cousins.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Third Degree Relative</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SEXUAL PARTNER" nciodm:ExtCodeID="C100812">
+          <nciodm:CDISCSynonym>Sexual Partner</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A person with whom one has had sexual relations.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Sexual Partner</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SIBLING, BIOLOGICAL" nciodm:ExtCodeID="C100809">
+          <nciodm:CDISCSynonym>Biological Sibling</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A person's brother or sister with whom they share a genetic makeup inherited from their shared biological parents.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Biological Sibling</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SISTER, BIOLOGICAL" nciodm:ExtCodeID="C96586">
+          <nciodm:CDISCSynonym>Biological Sister</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A female who shares with her sibling the genetic makeup inherited from one or both of their shared biological parents.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Biological Sister</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SISTER, BIOLOGICAL MATERNAL HALF" nciodm:ExtCodeID="C96658">
+          <nciodm:CDISCSynonym>Half-sister with Mother as Common Parent</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A female who shares with her sibling the genetic makeup inherited from only the biological mother.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Half-sister with Mother as Common Parent</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SISTER, BIOLOGICAL PATERNAL HALF" nciodm:ExtCodeID="C96657">
+          <nciodm:CDISCSynonym>Half-sister with Father as Common Parent</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A female who shares with her sibling the genetic makeup inherited from only the biological father.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Half-sister with Father as Common Parent</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SISTER, HALF" nciodm:ExtCodeID="C71403">
+          <nciodm:CDISCSynonym>Half Sister</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A female who shares with her sibling the genetic makeup inherited from only one of the biological parents.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Half Sister</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SPOUSE" nciodm:ExtCodeID="C62649">
+          <nciodm:CDISCSynonym>Spouse</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A person's partner in marriage. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Spouse</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TECHNICIAN" nciodm:ExtCodeID="C63861">
+          <nciodm:CDISCSynonym>Technician</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A person skilled in the performance of the technical or procedural aspects of a profession. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Technician</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TWIN" nciodm:ExtCodeID="C73427">
+          <nciodm:CDISCSynonym>Twin</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Either of two offspring born from the same pregnancy. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Twin</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TWIN, DIZYGOTIC" nciodm:ExtCodeID="C73428">
+          <nciodm:CDISCSynonym>Dizygotic Twin</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Either of the two offspring resulting from two separately fertilized ovums during the same pregnancy.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Fraternal Twin</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="TWIN, MONOZYGOTIC" nciodm:ExtCodeID="C73429">
+          <nciodm:CDISCSynonym>Monozygotic Twin</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Either of the two offspring resulting from a shared ovum. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Identical Twin</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="UNCLE, BIOLOGICAL" nciodm:ExtCodeID="C96587">
+          <nciodm:CDISCSynonym>Biological Uncle</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A male relative who is a sibling of either of the biological parents, and who share a common ancestor. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Biological Uncle</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="UNCLE, BIOLOGICAL MATERNAL" nciodm:ExtCodeID="C96579">
+          <nciodm:CDISCSynonym>Biological Maternal Uncle</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A male relative who is a sibling of the biological mother, and who both share a common ancestor. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Biological Maternal Uncle</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="UNCLE, BIOLOGICAL PATERNAL" nciodm:ExtCodeID="C96585">
+          <nciodm:CDISCSynonym>Biological Paternal Uncle</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A male relative who is a sibling of the biological father, and who both share a common ancestor. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Biological Paternal Uncle</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <nciodm:CDISCSubmissionValue>RELSUB</nciodm:CDISCSubmissionValue>
+        <nciodm:CDISCSynonym>Relationship to Subject</nciodm:CDISCSynonym>
+        <nciodm:PreferredTerm>CDISC SDTM Relationship to Subject Terminology</nciodm:PreferredTerm>
+      </CodeList>
+    

@@ -1297,7 +1297,7 @@
           <nciodm:CDISCSynonym>mcg/kg</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>Microgram per Kilogram</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>ng/g</nciodm:CDISCSynonym>
-          <nciodm:CDISCSynonym>ug/k</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ug/kg</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>A unit of a mass fraction expressed as a number of micrograms of substance per kilogram of mixture. The unit is also used as a dose calculation unit.(NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Microgram per Kilogram</nciodm:PreferredTerm>
         </EnumeratedItem>

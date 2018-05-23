@@ -31,7 +31,7 @@
           <nciodm:PreferredTerm>Pharmacokinetic Study</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="SAFETY" nciodm:ExtCodeID="C49667">
-          <nciodm:CDISCDefinition>A studythat assessesthemedical risks to a subject. Safety is usually assessed by examining a wide range of clinical parameters, includingadverse events, vital signs, physical exam, laboratory tests.</nciodm:CDISCDefinition>
+          <nciodm:CDISCDefinition>A study that assesses the medical risks to a subject. Safety is usually assessed by examining a wide range of clinical parameters, including adverse events, vital signs, physical exam, laboratory tests.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Safety Study</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="FOOD EFFECT" nciodm:ExtCodeID="C98729">

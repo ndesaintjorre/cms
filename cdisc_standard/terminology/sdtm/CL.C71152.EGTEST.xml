@@ -242,6 +242,16 @@
           <nciodm:CDISCDefinition>An act or process of elucidation; explication, or explanation of the meaning of the event or thing via the assignment of objects from the domain to the constants of a formal language, truth-values to the proposition symbols, truth-functions to the connectives, other functions to the function symbols, and extensions to the predicates, if any. The assignments are result of human logic application and are not native to the symbols of the formal language.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Interpretation</nciodm:PreferredTerm>
         </EnumeratedItem>
+        <EnumeratedItem CodedValue="QRS Duration Ventricular Paced" nciodm:ExtCodeID="C100390">
+          <nciodm:CDISCSynonym>QRS Duration Ventricular Paced</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The average (mean) duration (time) of the QRS interval, obtained from a set of measurements of the QRS interval while the ventricle rhythm is controlled by an electrical impulse from a mechanical cardiac pacemaker. The QRS interval is defined as the time from the beginning of the QRS complex to the end of the QRS complex, representing the time it takes for the ventricles to depolarize.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>EKG Mean QRS Duration Ventricular Paced</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="QT Interval, Corrected" nciodm:ExtCodeID="C100391">
+          <nciodm:CDISCSynonym>QT Interval, Corrected</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>The time interval between the start of the Q wave and the end of the T wave in the cardiac cycle as corrected with a non-specified correction formula.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Corrected QT Interval</nciodm:PreferredTerm>
+        </EnumeratedItem>
         <nciodm:CDISCSubmissionValue>EGTEST</nciodm:CDISCSubmissionValue>
         <nciodm:CDISCSynonym>ECG Test Name</nciodm:CDISCSynonym>
         <nciodm:PreferredTerm>CDISC SDTM ECG Test Name Terminology</nciodm:PreferredTerm>

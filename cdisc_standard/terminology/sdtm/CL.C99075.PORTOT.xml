@@ -11,7 +11,7 @@
           <nciodm:CDISCDefinition>Being or representing the complete extent of a single entity.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Whole</nciodm:PreferredTerm>
         </EnumeratedItem>
-        <EnumeratedItem CodedValue="MULTIPLE" nciodm:ExtCodeID="C78728">
+        <EnumeratedItem CodedValue="MULTIPLE" nciodm:ExtCodeID="C17648">
           <nciodm:CDISCSynonym>Many</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>Several</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>More than one. (NCI)</nciodm:CDISCDefinition>

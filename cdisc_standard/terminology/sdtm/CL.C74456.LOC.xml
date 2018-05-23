@@ -2066,12 +2066,12 @@
           <nciodm:CDISCDefinition>The narrow, central portion of the thyroid gland that crosses the trachea anteriorly and connects the two lobes of the gland. (NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Thyroid Gland Isthmus</nciodm:PreferredTerm>
         </EnumeratedItem>
-        <EnumeratedItem CodedValue="THYROID GLAND, LEFT LOBE" nciodm:ExtCodeID="C33491">
+        <EnumeratedItem CodedValue="THYROID GLAND, RIGHT LOBE" nciodm:ExtCodeID="C33491">
           <nciodm:CDISCSynonym>Right Thyroid Gland Lobe</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>The cone-like lobe of the thyroid gland that is located in the right side of the trachea. (NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Right Thyroid Gland Lobe</nciodm:PreferredTerm>
         </EnumeratedItem>
-        <EnumeratedItem CodedValue="THYROID GLAND, RIGHT LOBE" nciodm:ExtCodeID="C32973">
+        <EnumeratedItem CodedValue="THYROID GLAND, LEFT LOBE" nciodm:ExtCodeID="C32973">
           <nciodm:CDISCSynonym>Left Thyroid Gland Lobe</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>The cone-like lobe of the thyroid gland that is located in the left side of the trachea. (NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Left Thyroid Gland Lobe</nciodm:PreferredTerm>

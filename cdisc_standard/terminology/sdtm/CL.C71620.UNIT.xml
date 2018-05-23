@@ -560,7 +560,7 @@
           <nciodm:CDISCDefinition>A unit of concentration (molarity unit) equal to one mole of solute in one liter of solution.(NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Mole per Liter</nciodm:PreferredTerm>
         </EnumeratedItem>
-        <EnumeratedItem CodedValue="% (v/v)" nciodm:ExtCodeID="C48571">
+        <EnumeratedItem CodedValue="%(v/v)" nciodm:ExtCodeID="C48571">
           <nciodm:CDISCSynonym>Percent Volume per Volume</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>A percent ratio of volume to volume, defined by the equation: [volume of solute (in ml)/ volume of solution (in ml)](100), typically used for admixtures of solutions.(NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Percent Volume per Volume</nciodm:PreferredTerm>
@@ -860,7 +860,7 @@
           <nciodm:CDISCSynonym>mcg/kg</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>Microgram per Kilogram</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>ng/g</nciodm:CDISCSynonym>
-          <nciodm:CDISCSynonym>ug/k</nciodm:CDISCSynonym>
+          <nciodm:CDISCSynonym>ug/kg</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>A unit of a mass fraction expressed as a number of micrograms of substance per kilogram of mixture. The unit is also used as a dose calculation unit.(NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Microgram per Kilogram</nciodm:PreferredTerm>
         </EnumeratedItem>
@@ -1043,7 +1043,7 @@
           <nciodm:CDISCDefinition>A unit of measurement of viable bacterial organisms in a unit mass of substance of interest defined as the number of colony forming units in one gram of substance.(NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Colony Forming Unit per Gram</nciodm:PreferredTerm>
         </EnumeratedItem>
-        <EnumeratedItem CodedValue="10^ 3 CFU/g" nciodm:ExtCodeID="C68899">
+        <EnumeratedItem CodedValue="10^3 CFU/g" nciodm:ExtCodeID="C68899">
           <nciodm:CDISCSynonym>Thousand Colony Forming Units per Gram</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>Thousand CFU/g</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>A unit of measurement of viable bacterial organisms in a unit mass of substance of interest defined as the number of 10 to the third power colony forming units in one gram of substance.</nciodm:CDISCDefinition>
@@ -1507,7 +1507,7 @@
           <nciodm:CDISCDefinition>A unit of arbitrary substance concentration (biologic activity concentration) defined as the concentration of one hundred international units per one milliliter of system volume.(NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>100 International Units per Milliliter</nciodm:PreferredTerm>
         </EnumeratedItem>
-        <EnumeratedItem CodedValue="10^3 Organisms" nciodm:ExtCodeID="C71187">
+        <EnumeratedItem CodedValue="10^3 organisms" nciodm:ExtCodeID="C71187">
           <nciodm:CDISCSynonym>Thousand Organisms</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>A unit of measure of quantity of organisms expressed in 10 to the third power of organisms.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Thousand Organisms</nciodm:PreferredTerm>
@@ -1665,6 +1665,7 @@
           <nciodm:PreferredTerm>Pack Year</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="U/L" nciodm:ExtCodeID="C67456">
+          <nciodm:CDISCSynonym>mU/mL</nciodm:CDISCSynonym>
           <nciodm:CDISCSynonym>Unit per Liter</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>An arbitrary unit of substance concentration equal to the concentration at which one liter of mixture contains one unit of a substance. (NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Unit per Liter</nciodm:PreferredTerm>
@@ -2342,6 +2343,36 @@
         <EnumeratedItem CodedValue="RATIO" nciodm:ExtCodeID="C44256">
           <nciodm:CDISCDefinition>A unit of measurement for the quotient of the amount of one entity to another.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Ratio</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="10^3 copies/mL" nciodm:ExtCodeID="C100897">
+          <nciodm:CDISCDefinition>The unit of concentration expressed as the number of 10 to the third power copies in unit volume equal to one milliliter. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Thousand Copies per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="10^6 copies/mL" nciodm:ExtCodeID="C100898">
+          <nciodm:CDISCDefinition>The unit of concentration expressed as the number of 10 to the sixth power copies in unit volume equal to one milliliter. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Million Copies per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="copies/mL" nciodm:ExtCodeID="C100900">
+          <nciodm:CDISCDefinition>A unit of concentration expressed as a number of copies per unit volume equal to one milliliter.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Copies per Milliliter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="DIOPTER" nciodm:ExtCodeID="C100899">
+          <nciodm:CDISCSynonym>Diopter</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>A unit of measurement of the optical power of a curved mirror or lens represented by the inverse of the focal length in meters.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Diopter</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="L/s" nciodm:ExtCodeID="C67390">
+          <nciodm:CDISCSynonym>L/sec</nciodm:CDISCSynonym>
+          <nciodm:CDISCDefinition>Liters per second.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Liter per second</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="mL/min/1.73m2" nciodm:ExtCodeID="C67412">
+          <nciodm:CDISCDefinition>A metric unit of volumetric flow rate defined as the rate at which one milliliter of matter travels during the period of time equal to one minute per 1.73 meters squared of body surface area.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Milliliter per Minute per 1.73 m2 of Body Surface Area</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="mU/L" nciodm:ExtCodeID="C67408">
+          <nciodm:CDISCDefinition>An arbitrary unit of substance concentration equal to the concentration at which one liter of mixture contains one thousandth of a unit of a substance.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Microunit per Milliliter</nciodm:PreferredTerm>
         </EnumeratedItem>
         <nciodm:CDISCSubmissionValue>UNIT</nciodm:CDISCSubmissionValue>
         <nciodm:CDISCSynonym>Unit</nciodm:CDISCSynonym>

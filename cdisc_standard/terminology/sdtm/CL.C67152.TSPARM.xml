@@ -142,16 +142,6 @@
           <nciodm:CDISCDefinition>The investigational product under study.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Protocol Agent</nciodm:PreferredTerm>
         </EnumeratedItem>
-        <EnumeratedItem CodedValue="Ratio for Randomization" nciodm:ExtCodeID="C92431">
-          <nciodm:CDISCSynonym>Ratio for Randomization</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>The relative proportion of trial subjects between treatment or control groups.</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>Randomization Ratio</nciodm:PreferredTerm>
-        </EnumeratedItem>
-        <EnumeratedItem CodedValue="Stratification for Randomization" nciodm:ExtCodeID="C16153">
-          <nciodm:CDISCSynonym>Stratification for Randomization</nciodm:CDISCSynonym>
-          <nciodm:CDISCDefinition>Selected pre-treatment factors by which patients are segregated to assure balance of these factors before randomization to the intervention arms of a clinical protocol.</nciodm:CDISCDefinition>
-          <nciodm:PreferredTerm>Stratification Factors</nciodm:PreferredTerm>
-        </EnumeratedItem>
         <EnumeratedItem CodedValue="Actual Number of Subjects" nciodm:ExtCodeID="C98703">
           <nciodm:CDISCSynonym>Actual Number of Subjects</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>Actual number of subjects enrolled; may include subjects who were not randomized.</nciodm:CDISCDefinition>

@@ -35,6 +35,7 @@
           <nciodm:PreferredTerm>Polygamous</nciodm:PreferredTerm>
         </EnumeratedItem>
         <EnumeratedItem CodedValue="DOMESTIC PARTNER" nciodm:ExtCodeID="C53262">
+          <nciodm:CDISCSynonym>Domestic Partner</nciodm:CDISCSynonym>
           <nciodm:CDISCDefinition>Person declares that a domestic partnership relationship exists. (HL7)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Domestic Partnership</nciodm:PreferredTerm>
         </EnumeratedItem>

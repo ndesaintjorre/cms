@@ -376,7 +376,7 @@
           <nciodm:CDISCDefinition>An emulsion, liquid (1) dosage form. This dosage form is generally for external application to the skin (2). Note 1: A liquid is pourable; it flows and conforms to its container at room temperature. It displays Newtonian or pseudoplastic flow behavior. Note 2: Previously the definition of a lotion was: The term lotion has been used to categorize many topical suspensions, solutions, and emulsions intended for application to the skin. The current definition of a lotion is restricted to an emulsion. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Lotion Dosage Form</nciodm:PreferredTerm>
         </EnumeratedItem>
-        <EnumeratedItem CodedValue="LOTION. AUGMENTED" nciodm:ExtCodeID="C60957">
+        <EnumeratedItem CodedValue="LOTION, AUGMENTED" nciodm:ExtCodeID="C60957">
           <nciodm:CDISCDefinition>A lotion dosage form that enhances drug delivery. Augmentation does not refer to the strength of the drug in the dosage form. NOTE: CDER has decided to refrain from expanding the use of this dosage form due to difficulties in setting specific criteria that must be met to be considered augmented. (FDA)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Augmented Lotion Dosage Form</nciodm:PreferredTerm>
         </EnumeratedItem>

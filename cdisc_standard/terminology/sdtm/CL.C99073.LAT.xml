@@ -26,7 +26,7 @@
           <nciodm:CDISCDefinition>Being or located on or directed toward the side of the body to the east when facing north.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Right</nciodm:PreferredTerm>
         </EnumeratedItem>
-        <EnumeratedItem CodedValue="UNILATERAL" nciodm:ExtCodeID="C68598">
+        <EnumeratedItem CodedValue="UNILATERAL" nciodm:ExtCodeID="C28012">
           <nciodm:CDISCDefinition>Affecting one side of the body or one of a pair of organs.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Unilateral</nciodm:PreferredTerm>
         </EnumeratedItem>

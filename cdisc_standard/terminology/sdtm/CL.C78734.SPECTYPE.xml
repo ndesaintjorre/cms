@@ -175,6 +175,18 @@
           <nciodm:CDISCDefinition>Deoxygenated blood containing urea and other waste products which is transported through the venous system to the heart and lungs. The exception is blood within the pulmonary vein which is oxygenated and travels from the lungs to the left atrium of the heart. (NCI)</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Venous Blood</nciodm:PreferredTerm>
         </EnumeratedItem>
+        <EnumeratedItem CodedValue="PLEURAL FLUID" nciodm:ExtCodeID="C77613">
+          <nciodm:CDISCDefinition>The fluid that is abnormally collected in the pleural cavity. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Pleural Fluid</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="PROSTATIC FLUID" nciodm:ExtCodeID="C100896">
+          <nciodm:CDISCDefinition>A slightly alkaline, white fluid secreted from the prostate and is a constituent of semen.</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Prostatic Fluid</nciodm:PreferredTerm>
+        </EnumeratedItem>
+        <EnumeratedItem CodedValue="SYNOVIAL FLUID" nciodm:ExtCodeID="C33718">
+          <nciodm:CDISCDefinition>A viscid fluid secreted by the synovial membrane, serving as a lubricant. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Synovial Fluid</nciodm:PreferredTerm>
+        </EnumeratedItem>
         <nciodm:CDISCSubmissionValue>SPECTYPE</nciodm:CDISCSubmissionValue>
         <nciodm:CDISCSynonym>Specimen Type</nciodm:CDISCSynonym>
         <nciodm:PreferredTerm>CDISC SDTM Specimen Type Terminology</nciodm:PreferredTerm>
