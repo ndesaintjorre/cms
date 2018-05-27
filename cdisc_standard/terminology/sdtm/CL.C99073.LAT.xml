@@ -30,8 +30,11 @@
           <nciodm:CDISCDefinition>Affecting one side of the body or one of a pair of organs.</nciodm:CDISCDefinition>
           <nciodm:PreferredTerm>Unilateral</nciodm:PreferredTerm>
         </EnumeratedItem>
+        <EnumeratedItem CodedValue="BOTH" nciodm:ExtCodeID="C49636">
+          <nciodm:CDISCDefinition>One and the other; relating to or being two in conjunction. (NCI)</nciodm:CDISCDefinition>
+          <nciodm:PreferredTerm>Both</nciodm:PreferredTerm>
+        </EnumeratedItem>
         <nciodm:CDISCSubmissionValue>LAT</nciodm:CDISCSubmissionValue>
         <nciodm:CDISCSynonym>Laterality</nciodm:CDISCSynonym>
         <nciodm:PreferredTerm>CDISC SDTM Laterality Terminology</nciodm:PreferredTerm>
-      </CodeList>
-      
+</CodeList>
